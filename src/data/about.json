@@ -1,0 +1,143 @@
+{
+  "title": "About Us - Ba-Suka Energy",
+  "metaDescription": "Ba-Suka (meaning 'women's home' in Mooré) builds Burkina Faso's first smart electricity network — 100% solar, women-managed infrastructure built for the Sahel.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Who We Are | Advanced Electricity Infrastructure",
+      "heading": "About Us",
+      "body": "Ba-Suka (meaning 'women's home' in Mooré) builds Burkina Faso's first smart electricity network. We deliver affordable, sustainable power through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes where grid access fails. Led by Carolyn Wright, our 100% solar, women-managed infrastructure is grid-independent and built specifically for the rugged Sahel environment.",
+      "image": "/assets/about-hero.jpg",
+      "ctas": [
+        {
+          "label": "Discover Story →",
+          "href": "/impact/"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "heading": "Year 3 Targets",
+      "items": [
+        {
+          "value": "1,000+",
+          "label": "Women Trained"
+        },
+        {
+          "value": "100%",
+          "label": "Solar Powered"
+        },
+        {
+          "value": "$10M+",
+          "label": "Local Economic Activity"
+        },
+        {
+          "value": "1,200t",
+          "label": "Tonnes CO₂ Avoided"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "eyebrow": "About Ba-Suka | Advanced Electricity Infrastructure",
+      "heading": "Burkina Faso's First Smart Electricity Network",
+      "body": "Ba-Suka (meaning 'women's home' in Mooré) builds Burkina Faso's first smart electricity network. We deliver affordable, sustainable power through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes where grid access fails. Led by Carolyn Wright, our 100% solar, women-managed infrastructure is grid-independent and built for the Sahel.",
+      "image": "/assets/about-portrait.png",
+      "ctas": [
+        {
+          "label": "How It Works →",
+          "href": "/how-it-works/"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "The Ba-Suka Legacy",
+      "heading": "Our Mission",
+      "body": "Ba-Suka Energy delivers affordable, sustainable electricity through smart, portable, swappable batteries — powering electric mobility, businesses, and homes across Burkina Faso and West Africa."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Our Vision | Burkina Faso's First Smart Electricity Network",
+      "heading": "Our Vision",
+      "body": "Ba-Suka Energy will build an advanced, smart, customer-driven electricity network powered by renewable energy — delivering reliable clean power where grid access fails."
+    },
+    {
+      "type": "cards",
+      "heading": "Core Values",
+      "items": [
+        {
+          "title": "Accessible → Women-Led Infrastructure",
+          "body": "Managed by certified Yennenga Warriors to build deep community trust and ensure operational excellence. We provide affordable electricity via pay-per-swap SIRA™ access.",
+          "iconImage": "/assets/icon-user-group.png"
+        },
+        {
+          "title": "Reliable → Smart Electricity Network",
+          "body": "99%+ uptime where national grids fail. Our network uses SIRA™ batteries optimized by IoT and solar redundancy to power mobility, businesses, and homes.",
+          "iconImage": "/assets/icon-energy.png"
+        },
+        {
+          "title": "Renewable → 100% Solar-Charged",
+          "body": "Grid-independent Swap & Glow™ stations running on 100% clean rooftop power. We displace imported fuels while ensuring a sustainable second-life strategy for all batteries.",
+          "iconImage": "/assets/icon-green-energy.png"
+        },
+        {
+          "title": "Professional → The 'Yennenga' Legacy",
+          "body": "Rooted in the spirit of Burkina Faso's legendary warrior-princess. We drive local economic growth by empowering women as professional infrastructure leaders through the Ba-Suka Academy.",
+          "iconImage": "/assets/icon-care.png"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Quick Links",
+      "heading": "Quick Links",
+      "items": [
+        {
+          "title": "Ba-Suka Academy",
+          "body": "Professional training for the women who run our stations.",
+          "button": {
+            "label": "Visit the Academy",
+            "href": "/academy/"
+          }
+        },
+        {
+          "title": "Partnership",
+          "body": "Build Africa's clean-energy infrastructure with us.",
+          "button": {
+            "label": "Become a Partner",
+            "href": "/partners/"
+          }
+        },
+        {
+          "title": "How it works",
+          "body": "Grid-independent power, delivered in 60 seconds.",
+          "button": {
+            "label": "See the Process",
+            "href": "/how-it-works/"
+          }
+        },
+        {
+          "title": "Impact",
+          "body": "IoT-verified impact data, ready for your ESG portfolio.",
+          "button": {
+            "label": "View Impact",
+            "href": "/impact/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Be Part of the Impact",
+      "heading": "We are currently seeking infrastructure funds and climate partners who value transparent, IoT-verified impact data",
+      "body": "Ba-Suka Energy is more than a mobility provider; we are a data-driven infrastructure network. By joining our September 2026 launch, you are investing in a verified ecosystem targeting 1,200 tonnes of CO₂ avoidance and $10M in local economic activity by Year 3. Our SIRA™ smart batteries provide real-time, blockchain-ready metrics on energy throughput and carbon displacement, ensuring your ESG investments deliver measurable, high-fidelity results in the Sahel.",
+      "ctas": [
+        {
+          "label": "Partner With Us",
+          "href": "/partners/"
+        }
+      ]
+    }
+  ]
+}
