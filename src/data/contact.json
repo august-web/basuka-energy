@@ -1,0 +1,51 @@
+{
+  "title": "Contact us - Basuka Energy",
+  "metaDescription": "Contact Us Home Contact Us Connect with us Feel Free To Connect with us For Fast and Trusted Assistance ! Reach out to Ba-Suka Energy for inquiries, partnerships, or support. Our team responds quickly and provides clear guidance. You can call or email. We look forward to connecting with you. Location Address : Ouagadougou, Burkina […]",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Connect with us",
+      "heading": "Contact Us",
+      "breadcrumb": [
+        "Home",
+        "Contact Us"
+      ],
+      "heading2": "Feel Free To Connect with us For Fast and Trusted Assistance !",
+      "body": "Reach out to Ba-Suka Energy for inquiries, partnerships, or support. Our team responds quickly and provides clear guidance. You can call or email. We look forward to connecting with you."
+    },
+    {
+      "type": "contact",
+      "items": [
+        {
+          "label": "Location Address :",
+          "value": "Ouagadougou, Burkina Faso"
+        },
+        {
+          "label": "Phone Numbers :",
+          "value": "+(+62) 1919-2020"
+        },
+        {
+          "label": "Email Address :",
+          "value": "info@basukaenergy.com"
+        }
+      ],
+      "mapEmbed": "https://maps.google.com/maps?q=Ouagadougou%2C%20Burkina%20Faso&t=m&z=10&output=embed&iwloc=near"
+    },
+    {
+      "type": "contact",
+      "eyebrow": "CONTACT US",
+      "heading": "Send Your Message",
+      "body": "Our team is ready to answer all your questions.",
+      "items": [
+        {
+          "label": "Burkina Faso Office",
+          "value": "Ouagadougou, Burkina Faso"
+        },
+        {
+          "label": "USA Office",
+          "value": "PO Box 117560, Carrollton, Texas, USA 75011"
+        }
+      ]
+    }
+  ]
+}
