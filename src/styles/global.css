@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #58a80a;
+  --color-brand-green-dark: #417d08;
+  --color-brand-cream: #fcde9e;
+  --color-brand-cream-light: #fdf3dd;
+  --color-brand-navy: #001d39;
+  --color-brand-navy-light: #0b2d4d;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-slate-700 antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-brand-navy;
+    text-wrap: balance;
+  }
+}
+
+/* CSS-only scroll reveal — content stays visible without JS
+   (the inline script in Page.astro sets .js on <html>) */
+@media (prefers-reduced-motion: no-preference) {
+  html.js .reveal {
+    opacity: 0;
+    transform: translateY(1.25rem);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  html.js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@layer components {
+  .prose-basuka p + p {
+    @apply mt-4;
+  }
+}
