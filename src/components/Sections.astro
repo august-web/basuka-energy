@@ -1,0 +1,381 @@
+---
+// Renders a page's section list (from src/data/*.json) by dispatching on `type`.
+interface Cta {
+  label: string;
+  href: string;
+}
+interface Section {
+  type: string;
+  eyebrow?: string;
+  heading?: string;
+  intro?: string;
+  body?: string | string[];
+  image?: string;
+  items?: any[];
+  ctas?: Cta[];
+  images?: string[];
+  mapEmbed?: string;
+  variant?: string;
+}
+interface Props {
+  sections: Section[];
+}
+const { sections } = Astro.props;
+
+const paragraphs = (body: Section['body']) =>
+  Array.isArray(body) ? body : body ? [body] : [];
+// Multi-line bodies are bullet lists; single paragraphs stay prose.
+const listItems = (item: any) =>
+  typeof item?.body === 'string' && item.body.includes('\n')
+    ? item.body.split('\n').filter(Boolean).map((b: string) => b.replace(/^[→•·\-*\s.]+/, '').trim()).filter(Boolean)
+    : null;
+---
+
+{
+  sections.map((section, idx) => {
+    const tinted = idx % 2 === 1;
+    switch (section.type) {
+      case 'hero':
+        return (
+          <section class="relative overflow-hidden bg-brand-navy">
+            <div class="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full bg-brand-green/20 blur-3xl" aria-hidden="true" />
+            <div class="pointer-events-none absolute -right-32 -bottom-32 h-80 w-80 rounded-full bg-brand-cream/10 blur-3xl" aria-hidden="true" />
+            <div class="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
+              <div>
+                {section.eyebrow && (
+                  <p class="mb-4 inline-block rounded-full bg-brand-green/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-cream">
+                    {section.eyebrow}
+                  </p>
+                )}
+                <h1 class="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+                  {section.heading}
+                </h1>
+                {paragraphs(section.body).map((p) => (
+                  <p class="mt-6 max-w-xl text-lg leading-8 text-slate-300">{p}</p>
+                ))}
+                {section.chips && (
+                  <ul class="mt-6 flex flex-wrap gap-2">
+                    {section.chips.map((chip: string) => (
+                      <li class="rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm font-medium text-brand-cream">{chip}</li>
+                    ))}
+                  </ul>
+                )}
+                {section.ctas && section.ctas.length > 0 && (
+                  <div class="mt-8 flex flex-wrap gap-3">
+                    {section.ctas.map((cta, i) => (
+                      <a
+                        href={cta.href}
+                        class:list={[
+                          'rounded-full px-6 py-3 text-sm font-semibold transition',
+                          i === 0
+                            ? 'bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
+                            : 'border border-white/25 text-white hover:border-brand-cream hover:text-brand-cream',
+                        ]}
+                      >
+                        {cta.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {section.image && (
+                <div class="relative">
+                  <div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-green/30 to-brand-cream/20 blur-2xl" aria-hidden="true" />
+                  <img
+                    src={section.image}
+                    alt={section.heading ?? 'Ba-Suka Energy'}
+                    class="relative w-full rounded-3xl shadow-2xl ring-1 ring-white/10"
+                    loading="eager"
+                  />
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
+      case 'cards':
+        return (
+          <section class:list={['py-20 lg:py-24', tinted ? 'bg-brand-cream-light/60' : 'bg-white']}>
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              {section.eyebrow && (
+                <p class="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-brand-green">{section.eyebrow}</p>
+              )}
+              {section.heading && (
+                <h2 class="mx-auto max-w-3xl text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>
+              )}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">{section.intro}</p>}
+              <div class:list={['mt-12 grid gap-6', section.items && section.items.length > 4 ? 'sm:grid-cols-2 lg:grid-cols-3' : section.items && section.items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : 'md:grid-cols-3']}>
+                {section.items?.map((item, i) => {
+                  const bullets = listItems(item);
+                  return (
+                    <div class="reveal group relative overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+                      <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-cream transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
+                      {item.iconImage && (
+                        <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-brand-green/10">
+                          <img src={item.iconImage} alt="" class="h-9 w-9 object-contain" loading="lazy" />
+                        </div>
+                      )}
+                      {item.image && (
+                        <img src={item.image} alt={item.title ?? ''} class="mb-5 aspect-[4/3] w-full rounded-xl object-cover" loading="lazy" />
+                      )}
+                      {!item.iconImage && !item.image && item.title && (
+                        <p class="font-display text-4xl font-bold text-brand-green/20">{String(i + 1).padStart(2, '0')}</p>
+                      )}
+                      {item.title && <h3 class="mt-4 text-xl font-semibold">{item.title}</h3>}
+                      {item.tag && <p class="mt-2 text-xs font-semibold uppercase tracking-widest text-brand-green">{item.tag}</p>}
+                      {bullets ? (
+                        <ul class="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+                          {bullets.map((b) => (
+                            <li class="flex gap-2.5">
+                              <svg class="mt-0.5 h-4 w-4 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.8 3.8 6.8-6.8a1 1 0 0 1 1.4 0z" clip-rule="evenodd" />
+                              </svg>
+                              <span>{b}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <div class="prose-basuka mt-3 text-sm leading-6 text-slate-600">
+                          {paragraphs(item.body).map((p) => (
+                            <p>{p}</p>
+                          ))}
+                        </div>
+                      )}
+                      {item.button && (
+                        <a
+                          href={item.button.href ?? '/contact-us/'}
+                          class="mt-5 inline-block rounded-full bg-brand-green px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-green-dark"
+                        >
+                          {item.button.label}
+                        </a>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+              {section.ctas && (
+                <div class="mt-10 text-center">
+                  {section.ctas.map((cta) => (
+                    <a href={cta.href} class="inline-block rounded-full bg-brand-green px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark">
+                      {cta.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
+      case 'steps':
+        return (
+          <section class="bg-brand-cream-light py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              {section.eyebrow && (
+                <p class="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-brand-green">{section.eyebrow}</p>
+              )}
+              {section.heading && <h2 class="text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">{section.intro}</p>}
+              <ol class="relative mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div class="pointer-events-none absolute top-10 right-8 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green/10 via-brand-green/40 to-brand-green/10 lg:block" aria-hidden="true" />
+                {section.items?.map((item, i) => (
+                  <li class="reveal relative rounded-2xl bg-white p-8 shadow-sm ring-1 ring-black/5">
+                    <span class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-green font-display text-lg font-bold text-white shadow-md shadow-brand-green/30">
+                      {item.number ?? String(i + 1).padStart(2, '0')}
+                    </span>
+                    <h3 class="mt-5 text-lg font-semibold">{item.title}</h3>
+                    <div class="prose-basuka mt-3 text-sm leading-6 text-slate-600">
+                      {paragraphs(item.body).map((p) => (
+                        <p>{p}</p>
+                      ))}
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </section>
+        );
+
+      case 'stats':
+        return (
+          <section class="bg-brand-navy py-16 lg:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              {section.eyebrow && (
+                <p class="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-brand-cream">{section.eyebrow}</p>
+              )}
+              {section.heading && <h2 class="text-center text-3xl font-bold text-white sm:text-4xl">{section.heading}</h2>}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-300">{section.intro}</p>}
+              <dl class="mt-10 grid gap-8 sm:grid-cols-3">
+                {section.items?.map((item) => {
+                  const [head, ...rest] = (item.label ?? '').split(' — ');
+                  return (
+                    <div class="rounded-2xl bg-white/5 p-6 text-center ring-1 ring-white/10">
+                      <dt class="sr-only">{head}</dt>
+                      <dd class="font-display text-4xl font-bold text-brand-cream sm:text-5xl">{item.value}</dd>
+                      <dd class="mt-2 text-sm font-semibold uppercase tracking-wide text-slate-200">{head}</dd>
+                      {rest.length > 0 && <dd class="mt-2 text-xs leading-5 text-slate-400">{rest.join(' — ')}</dd>}
+                    </div>
+                  );
+                })}
+              </dl>
+            </div>
+          </section>
+        );
+
+      case 'faq':
+        return (
+          <section class="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8">
+            {section.heading && <h2 class="text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+            <div class="mt-10 space-y-4">
+              {section.items?.map((item) => (
+                <details class="group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-md">
+                  <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-brand-navy">
+                    {item.q}
+                    <svg class="h-5 w-5 shrink-0 text-brand-green transition-transform group-open:rotate-45" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path d="M10 4a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H5a1 1 0 1 1 0-2h4V5a1 1 0 0 1 1-1z" />
+                    </svg>
+                  </summary>
+                  <div class="prose-basuka mt-4 text-sm leading-6 text-slate-600">
+                    {paragraphs(item.a).map((p) => (
+                      <p>{p}</p>
+                    ))}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+        );
+
+      case 'cta':
+        return (
+          <section class="bg-brand-green py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+              {section.eyebrow && <p class="text-xs font-semibold uppercase tracking-widest text-brand-cream">{section.eyebrow}</p>}
+              {section.heading && <h2 class="mx-auto mt-3 max-w-3xl text-3xl font-bold text-white sm:text-4xl">{section.heading}</h2>}
+              {paragraphs(section.body).map((p) => (
+                <p class="mx-auto mt-4 max-w-3xl text-lg leading-8 text-white/90">{p}</p>
+              ))}
+              {section.ctas && (
+                <div class="mt-8 flex flex-wrap justify-center gap-3">
+                  {section.ctas.map((cta, i) => (
+                    <a
+                      href={cta.href}
+                      class:list={[
+                        'rounded-full px-6 py-3 text-sm font-semibold transition',
+                        i === 0 ? 'bg-white text-brand-green-dark hover:bg-brand-cream' : 'border border-white/40 text-white hover:bg-white/10',
+                      ]}
+                    >
+                      {cta.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+              {section.items && (
+                <div class="mt-12 grid gap-6 text-left sm:grid-cols-2 lg:grid-cols-3">
+                  {section.items.map((item) => (
+                    <div class="rounded-2xl bg-white/10 p-6 backdrop-blur">
+                      {item.title && <h3 class="text-lg font-semibold text-white">{item.title}</h3>}
+                      {item.body && <p class="mt-2 text-sm leading-6 text-white/85">{item.body}</p>}
+                      {item.button && (
+                        <a
+                          href={item.button.href}
+                          class="mt-4 inline-block rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-brand-green-dark transition hover:bg-brand-cream"
+                        >
+                          {item.button.label}
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        );
+
+      case 'logos':
+        return (
+          <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+            {section.heading && <h2 class="text-center text-2xl font-bold">{section.heading}</h2>}
+            <div class="mt-10 flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
+              {section.images?.map((src) => (
+                <img src={src} alt="Partner logo" class="h-14 w-auto object-contain opacity-80 grayscale transition hover:opacity-100 hover:grayscale-0" loading="lazy" />
+              ))}
+            </div>
+          </section>
+        );
+
+      case 'contact':
+        return (
+          <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+            {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+            <div class="mt-10 grid gap-10 lg:grid-cols-2">
+              <dl class="space-y-6">
+                {section.items?.map((item) => (
+                  <div>
+                    <dt class="text-xs font-semibold uppercase tracking-widest text-brand-green">{item.label}</dt>
+                    <dd class="mt-1 text-lg font-medium text-brand-navy">{item.value}</dd>
+                  </div>
+                ))}
+              </dl>
+              {section.mapEmbed && (
+                <iframe
+                  src={section.mapEmbed}
+                  class="h-80 w-full rounded-2xl border-0 shadow-sm"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="Map — Ouagadougou, Burkina Faso"
+                  allowfullscreen
+                />
+              )}
+            </div>
+          </section>
+        );
+
+      case 'image':
+        return (
+          <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+            <div class:list={['grid items-center gap-10 lg:grid-cols-2 lg:gap-16', section.variant === 'flip' ? 'lg:[&>div:first-child]:order-2' : '']}>
+              <div>
+                {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+                <div class="prose-basuka mt-5 text-lg leading-8 text-slate-600">
+                  {paragraphs(section.body).map((p) => (
+                    <p>{p}</p>
+                  ))}
+                </div>
+                {section.ctas && (
+                  <div class="mt-8 flex flex-wrap gap-3">
+                    {section.ctas.map((cta, i) => (
+                      <a
+                        href={cta.href}
+                        class:list={[
+                          'rounded-full px-6 py-3 text-sm font-semibold transition',
+                          i === 0 ? 'bg-brand-green text-white hover:bg-brand-green-dark' : 'border border-brand-green/40 text-brand-green-dark hover:bg-brand-green/10',
+                        ]}
+                      >
+                        {cta.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {section.image && (
+                <img src={section.image} alt={section.heading ?? ''} class="w-full rounded-3xl shadow-lg" loading="lazy" />
+              )}
+            </div>
+          </section>
+        );
+
+      default:
+        return (
+          <section class="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+            {section.eyebrow && <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-brand-green">{section.eyebrow}</p>}
+            {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+            <div class="prose-basuka mt-5 text-lg leading-8 text-slate-600">
+              {paragraphs(section.body).map((p) => (
+                <p>{p}</p>
+              ))}
+            </div>
+          </section>
+        );
+    }
+  })
+}
