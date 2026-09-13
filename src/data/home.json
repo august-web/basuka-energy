@@ -5,7 +5,7 @@
     {
       "type": "hero",
       "eyebrow": "Burkina Faso's Smart Electricity Network",
-      "heading": "Affordable Electricity Through Smart, Swappable SIRA™ Batteries",
+      "heading": "Affordable Electricity Through Smart, Swappable *SIRA™* Batteries",
       "body": "Ba-Suka Energy delivers instant, sustainable power for mobility, businesses, and backup — using 100% solar-powered Swap & Glow™ stations operated by professional women.",
       "image": "/assets/home-hero.webp",
       "chips": [
@@ -23,6 +23,18 @@
           "label": "How It Works",
           "href": "/how-it-works/"
         }
+      ]
+    },
+    {
+      "type": "marquee",
+      "items": [
+        "SIRA™ swaps in under 60 seconds",
+        "100% solar-powered stations",
+        "Women-led infrastructure",
+        "Pay-per-swap — no ownership cost",
+        "Built for the Sahel",
+        "IoT-verified impact",
+        "September 2026 launch — Ouagadougou"
       ]
     },
     {
@@ -69,7 +81,7 @@
     {
       "type": "cards",
       "eyebrow": "The Problem",
-      "heading": "Why Burkina Faso Needs a Smart Electricity Network",
+      "heading": "Why Burkina Faso Needs a *Smart Electricity Network*",
       "intro": "The energy gap in West Africa is real and urgent. Ba-Suka solves the three interconnected barriers which prevent electric mobility adoption — making clean electricity accessible where it matters most.",
       "items": [
         {
@@ -89,7 +101,7 @@
     {
       "type": "cards",
       "eyebrow": "The Solution",
-      "heading": "The Ba-Suka Advantage",
+      "heading": "The Ba-Suka *Advantage*",
       "intro": "Six unmatched advantages that power Africa's clean energy transition",
       "items": [
         {
@@ -121,7 +133,7 @@
     {
       "type": "cards",
       "eyebrow": "Year 3 Targets",
-      "heading": "Built to Create Lasting Impact",
+      "heading": "Built to Create *Lasting Impact*",
       "intro": "Three pillars of impact: People, Planet, and Profit",
       "items": [
         {
@@ -159,7 +171,7 @@
     {
       "type": "steps",
       "eyebrow": "How It Works",
-      "heading": "Burkina Faso's Smart Electricity Network",
+      "heading": "Burkina Faso's *Smart Electricity Network*",
       "intro": "Ba-Suka Energy delivers affordable, sustainable power through smart, swappable SIRA™ batteries. Our 100% solar, grid-independent infrastructure is built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
       "items": [
         {
@@ -185,9 +197,14 @@
       ]
     },
     {
+      "type": "quote",
+      "body": "Positioning women as professional energy leaders to build deep community trust and operational excellence across Burkina Faso's first smart electricity network.",
+      "citation": "The Yennenga Vision — Ba-Suka Energy"
+    },
+    {
       "type": "cta",
       "eyebrow": "Ready to Power the Infrastructure Network?",
-      "heading": "Join us in building Africa's first smart electricity network",
+      "heading": "Join us in building *Africa's first* smart electricity network",
       "items": [
         {
           "title": "Riders",

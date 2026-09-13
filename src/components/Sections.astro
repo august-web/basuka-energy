@@ -1,5 +1,6 @@
 ---
 // Renders a page's section list (from src/data/*.json) by dispatching on `type`.
+// In headings, *words* are rendered in the serif accent style for editorial emphasis.
 interface Cta {
   label: string;
   href: string;
@@ -16,6 +17,8 @@ interface Section {
   images?: string[];
   mapEmbed?: string;
   variant?: string;
+  chips?: string[];
+  citation?: string;
 }
 interface Props {
   sections: Section[];
@@ -29,6 +32,11 @@ const listItems = (item: any) =>
   typeof item?.body === 'string' && item.body.includes('\n')
     ? item.body.split('\n').filter(Boolean).map((b: string) => b.replace(/^[→•·\-*\s.]+/, '').trim()).filter(Boolean)
     : null;
+// Split "word *accent* rest" on asterisks -> fragments for accent styling
+const accentify = (text?: string) =>
+  (text ?? '').split(/\*(.+?)\*/g).map((part, i) => ({ text: part, accent: i % 2 === 1 }));
+let eyebrowCounter = 0;
+const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 ---
 
 {
@@ -40,15 +48,19 @@ const listItems = (item: any) =>
           <section class="relative overflow-hidden bg-brand-navy">
             <div class="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full bg-brand-green/20 blur-3xl" aria-hidden="true" />
             <div class="pointer-events-none absolute -right-32 -bottom-32 h-80 w-80 rounded-full bg-brand-cream/10 blur-3xl" aria-hidden="true" />
+            <div class="pointer-events-none absolute inset-0 opacity-[0.06]" style="background-image: radial-gradient(#fcde9e 1px, transparent 1px); background-size: 26px 26px;" aria-hidden="true" />
             <div class="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
               <div>
                 {section.eyebrow && (
-                  <p class="mb-4 inline-block rounded-full bg-brand-green/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-cream">
+                  <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-brand-cream/30 bg-brand-green/15 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-cream">
+                    <span class="inline-block h-1.5 w-1.5 rounded-full bg-brand-cream" aria-hidden="true" />
                     {section.eyebrow}
                   </p>
                 )}
-                <h1 class="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-                  {section.heading}
+                <h1 class="text-4xl font-bold leading-[1.05] text-white sm:text-6xl lg:text-[4.25rem]">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-brand-cream">{part.text}</span> : part.text
+                  )}
                 </h1>
                 {paragraphs(section.body).map((p) => (
                   <p class="mt-6 max-w-xl text-lg leading-8 text-slate-300">{p}</p>
@@ -61,18 +73,19 @@ const listItems = (item: any) =>
                   </ul>
                 )}
                 {section.ctas && section.ctas.length > 0 && (
-                  <div class="mt-8 flex flex-wrap gap-3">
+                  <div class="mt-9 flex flex-wrap gap-3">
                     {section.ctas.map((cta, i) => (
                       <a
                         href={cta.href}
                         class:list={[
-                          'rounded-full px-6 py-3 text-sm font-semibold transition',
+                          'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
                           i === 0
                             ? 'bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
                             : 'border border-white/25 text-white hover:border-brand-cream hover:text-brand-cream',
                         ]}
                       >
                         {cta.label}
+                        <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
                       </a>
                     ))}
                   </div>
@@ -84,7 +97,7 @@ const listItems = (item: any) =>
                   <img
                     src={section.image}
                     alt={section.heading ?? 'Ba-Suka Energy'}
-                    class="relative w-full rounded-3xl shadow-2xl ring-1 ring-white/10"
+                    class="relative w-full rotate-1 rounded-3xl shadow-2xl ring-1 ring-white/10 transition duration-500 hover:rotate-0"
                     loading="eager"
                   />
                 </div>
@@ -93,22 +106,67 @@ const listItems = (item: any) =>
           </section>
         );
 
+      case 'marquee':
+        return (
+          <section class="weave-strip-container border-y border-brand-navy/10 bg-brand-cream py-4">
+            <div class="marquee" aria-hidden="true">
+              <div class="marquee-track">
+                {[0, 1].map((copy) => (
+                  <ul class="flex shrink-0 items-center gap-10 pr-10 text-sm font-bold uppercase tracking-[0.18em] text-brand-navy">
+                    {section.items?.map((item: any) => (
+                      <li class="flex items-center gap-10 whitespace-nowrap">
+                        {item}
+                        <svg class="h-3.5 w-3.5 text-brand-green" viewBox="0 0 20 20" fill="currentColor"><path d="M10 0l2.4 7.6L20 10l-7.6 2.4L10 20l-2.4-7.6L0 10l7.6-2.4z" /></svg>
+                      </li>
+                    ))}
+                  </ul>
+                ))}
+              </div>
+            </div>
+            <p class="sr-only">{section.items?.join(' · ')}</p>
+          </section>
+        );
+
+      case 'quote':
+        return (
+          <section class="bg-brand-paper py-20 lg:py-28">
+            <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+              <svg class="mx-auto h-10 w-10 text-brand-green" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M9.6 4C6 6 3.5 9.4 3.5 13.9c0 3.4 2 5.6 4.7 5.6 2.4 0 4.2-1.8 4.2-4.1 0-2.2-1.6-3.8-3.7-3.8-.4 0-1 .1-1.1.2.4-2.3 2.3-4.7 4.3-5.9L9.6 4zm10 0c-3.6 2-6.1 5.4-6.1 9.9 0 3.4 2 5.6 4.7 5.6 2.4 0 4.2-1.8 4.2-4.1 0-2.2-1.6-3.8-3.7-3.8-.4 0-1 .1-1.1.2.4-2.3 2.3-4.7 4.3-5.9L19.6 4z" />
+              </svg>
+              <blockquote class="accent-serif mt-6 text-2xl leading-snug text-brand-navy sm:text-3xl lg:text-4xl">
+                {section.body}
+              </blockquote>
+              {section.citation && (
+                <p class="mt-6 text-xs font-bold uppercase tracking-[0.2em] text-brand-green-dark">{section.citation}</p>
+              )}
+            </div>
+          </section>
+        );
+
       case 'cards':
         return (
-          <section class:list={['py-20 lg:py-24', tinted ? 'bg-brand-cream-light/60' : 'bg-white']}>
+          <section class:list={['py-20 lg:py-24', tinted ? 'bg-brand-cream-light/70' : 'bg-white']}>
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
-                <p class="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-brand-green">{section.eyebrow}</p>
+                <p class="eyebrow-rule mb-3 justify-center">
+                  <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                  {section.eyebrow}
+                </p>
               )}
               {section.heading && (
-                <h2 class="mx-auto max-w-3xl text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>
+                <h2 class="mx-auto max-w-3xl text-center text-3xl font-bold sm:text-4xl lg:text-[2.75rem] lg:leading-[1.15]">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                  )}
+                </h2>
               )}
-              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">{section.intro}</p>}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">{section.intro}</p>}
               <div class:list={['mt-12 grid gap-6', section.items && section.items.length > 4 ? 'sm:grid-cols-2 lg:grid-cols-3' : section.items && section.items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : 'md:grid-cols-3']}>
                 {section.items?.map((item, i) => {
                   const bullets = listItems(item);
                   return (
-                    <div class="reveal group relative overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+                    <div class="reveal group relative overflow-hidden rounded-2xl border border-brand-navy/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-brand-green/30 hover:shadow-xl hover:shadow-brand-navy/5">
                       <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-cream transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
                       {item.iconImage && (
                         <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-brand-green/10">
@@ -119,7 +177,7 @@ const listItems = (item: any) =>
                         <img src={item.image} alt={item.title ?? ''} class="mb-5 aspect-[4/3] w-full rounded-xl object-cover" loading="lazy" />
                       )}
                       {!item.iconImage && !item.image && item.title && (
-                        <p class="font-display text-4xl font-bold text-brand-green/20">{String(i + 1).padStart(2, '0')}</p>
+                        <p class="ghost-numeral text-5xl">{String(i + 1).padStart(2, '0')}</p>
                       )}
                       {item.title && <h3 class="mt-4 text-xl font-semibold">{item.title}</h3>}
                       {item.tag && <p class="mt-2 text-xs font-semibold uppercase tracking-widest text-brand-green">{item.tag}</p>}
@@ -144,9 +202,9 @@ const listItems = (item: any) =>
                       {item.button && (
                         <a
                           href={item.button.href ?? '/contact-us/'}
-                          class="mt-5 inline-block rounded-full bg-brand-green px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-green-dark"
+                          class="link-sweep mt-5 inline-block text-sm font-bold text-brand-green-dark"
                         >
-                          {item.button.label}
+                          {item.button.label} →
                         </a>
                       )}
                     </div>
@@ -156,8 +214,9 @@ const listItems = (item: any) =>
               {section.ctas && (
                 <div class="mt-10 text-center">
                   {section.ctas.map((cta) => (
-                    <a href={cta.href} class="inline-block rounded-full bg-brand-green px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark">
+                    <a href={cta.href} class="group inline-flex items-center gap-2 rounded-full bg-brand-green px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark">
                       {cta.label}
+                      <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
                     </a>
                   ))}
                 </div>
@@ -171,14 +230,17 @@ const listItems = (item: any) =>
           <section class="bg-brand-cream-light py-20 lg:py-24">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
-                <p class="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-brand-green">{section.eyebrow}</p>
+                <p class="eyebrow-rule mb-3 justify-center">
+                  <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                  {section.eyebrow}
+                </p>
               )}
               {section.heading && <h2 class="text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
               {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">{section.intro}</p>}
               <ol class="relative mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <div class="pointer-events-none absolute top-10 right-8 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green/10 via-brand-green/40 to-brand-green/10 lg:block" aria-hidden="true" />
                 {section.items?.map((item, i) => (
-                  <li class="reveal relative rounded-2xl bg-white p-8 shadow-sm ring-1 ring-black/5">
+                  <li class="reveal relative rounded-2xl bg-white p-8 shadow-sm ring-1 ring-brand-navy/5">
                     <span class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-green font-display text-lg font-bold text-white shadow-md shadow-brand-green/30">
                       {item.number ?? String(i + 1).padStart(2, '0')}
                     </span>
@@ -197,20 +259,33 @@ const listItems = (item: any) =>
 
       case 'stats':
         return (
-          <section class="bg-brand-navy py-16 lg:py-20">
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <section class="relative overflow-hidden bg-brand-navy py-16 lg:py-20">
+            <div class="pointer-events-none absolute inset-0 opacity-[0.05]" style="background-image: radial-gradient(#fcde9e 1px, transparent 1px); background-size: 26px 26px;" aria-hidden="true" />
+            <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
-                <p class="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-brand-cream">{section.eyebrow}</p>
+                <p class="mb-3 flex items-center justify-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">
+                  <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                  {section.eyebrow}
+                </p>
               )}
               {section.heading && <h2 class="text-center text-3xl font-bold text-white sm:text-4xl">{section.heading}</h2>}
               {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-300">{section.intro}</p>}
-              <dl class="mt-10 grid gap-8 sm:grid-cols-3">
+              <dl class="mt-10 grid gap-6 sm:grid-cols-3">
                 {section.items?.map((item) => {
                   const [head, ...rest] = (item.label ?? '').split(' — ');
+                  const m = String(item.value).match(/^([^\d]*)([\d,.]+)(.*)$/);
                   return (
-                    <div class="rounded-2xl bg-white/5 p-6 text-center ring-1 ring-white/10">
+                    <div class="reveal rounded-2xl bg-white/5 p-6 text-center ring-1 ring-white/10 backdrop-blur">
                       <dt class="sr-only">{head}</dt>
-                      <dd class="font-display text-4xl font-bold text-brand-cream sm:text-5xl">{item.value}</dd>
+                      <dd class="font-display text-4xl font-bold text-brand-cream sm:text-5xl">
+                        {m ? (
+                          <>
+                            {m[1]}
+                            <span class="count-up" data-target={m[2].replace(/,/g, '')} data-decimals={m[2].includes('.') ? 1 : 0}>{m[2]}</span>
+                            {m[3]}
+                          </>
+                        ) : item.value}
+                      </dd>
                       <dd class="mt-2 text-sm font-semibold uppercase tracking-wide text-slate-200">{head}</dd>
                       {rest.length > 0 && <dd class="mt-2 text-xs leading-5 text-slate-400">{rest.join(' — ')}</dd>}
                     </div>
@@ -227,7 +302,7 @@ const listItems = (item: any) =>
             {section.heading && <h2 class="text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
             <div class="mt-10 space-y-4">
               {section.items?.map((item) => (
-                <details class="group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-md">
+                <details class="group rounded-2xl border border-brand-navy/10 bg-white p-6 open:border-brand-green/30 open:shadow-lg open:shadow-brand-navy/5">
                   <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-brand-navy">
                     {item.q}
                     <svg class="h-5 w-5 shrink-0 text-brand-green transition-transform group-open:rotate-45" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -247,10 +322,17 @@ const listItems = (item: any) =>
 
       case 'cta':
         return (
-          <section class="bg-brand-green py-20 lg:py-24">
-            <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-              {section.eyebrow && <p class="text-xs font-semibold uppercase tracking-widest text-brand-cream">{section.eyebrow}</p>}
-              {section.heading && <h2 class="mx-auto mt-3 max-w-3xl text-3xl font-bold text-white sm:text-4xl">{section.heading}</h2>}
+          <section class="relative overflow-hidden bg-brand-green py-20 lg:py-24">
+            <div class="pointer-events-none absolute inset-0 opacity-10" style="background-image: radial-gradient(#001d39 1.5px, transparent 1.5px); background-size: 24px 24px;" aria-hidden="true" />
+            <div class="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+              {section.eyebrow && <p class="text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">{section.eyebrow}</p>}
+              {section.heading && (
+                <h2 class="mx-auto mt-3 max-w-3xl text-3xl font-bold text-white sm:text-4xl lg:text-[2.75rem] lg:leading-[1.15]">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-brand-cream">{part.text}</span> : part.text
+                  )}
+                </h2>
+              )}
               {paragraphs(section.body).map((p) => (
                 <p class="mx-auto mt-4 max-w-3xl text-lg leading-8 text-white/90">{p}</p>
               ))}
@@ -260,11 +342,12 @@ const listItems = (item: any) =>
                     <a
                       href={cta.href}
                       class:list={[
-                        'rounded-full px-6 py-3 text-sm font-semibold transition',
+                        'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
                         i === 0 ? 'bg-white text-brand-green-dark hover:bg-brand-cream' : 'border border-white/40 text-white hover:bg-white/10',
                       ]}
                     >
                       {cta.label}
+                      <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
                     </a>
                   ))}
                 </div>
@@ -272,15 +355,15 @@ const listItems = (item: any) =>
               {section.items && (
                 <div class="mt-12 grid gap-6 text-left sm:grid-cols-2 lg:grid-cols-3">
                   {section.items.map((item) => (
-                    <div class="rounded-2xl bg-white/10 p-6 backdrop-blur">
+                    <div class="rounded-2xl bg-white/10 p-6 ring-1 ring-white/15 backdrop-blur transition hover:bg-white/15">
                       {item.title && <h3 class="text-lg font-semibold text-white">{item.title}</h3>}
                       {item.body && <p class="mt-2 text-sm leading-6 text-white/85">{item.body}</p>}
                       {item.button && (
                         <a
-                          href={item.button.href}
-                          class="mt-4 inline-block rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-brand-green-dark transition hover:bg-brand-cream"
+                          href={item.button.href ?? '/contact-us/'}
+                          class="link-sweep mt-4 inline-block text-sm font-bold text-white"
                         >
-                          {item.button.label}
+                          {item.button.label} →
                         </a>
                       )}
                     </div>
@@ -294,10 +377,10 @@ const listItems = (item: any) =>
       case 'logos':
         return (
           <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-            {section.heading && <h2 class="text-center text-2xl font-bold">{section.heading}</h2>}
+            {section.heading && <h2 class="text-center text-sm font-bold uppercase tracking-[0.2em] text-slate-500">{section.heading}</h2>}
             <div class="mt-10 flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
               {section.images?.map((src) => (
-                <img src={src} alt="Partner logo" class="h-14 w-auto object-contain opacity-80 grayscale transition hover:opacity-100 hover:grayscale-0" loading="lazy" />
+                <img src={src} alt="Partner logo" class="h-14 w-auto object-contain opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0" loading="lazy" />
               ))}
             </div>
           </section>
@@ -311,15 +394,15 @@ const listItems = (item: any) =>
               <dl class="space-y-6">
                 {section.items?.map((item) => (
                   <div>
-                    <dt class="text-xs font-semibold uppercase tracking-widest text-brand-green">{item.label}</dt>
-                    <dd class="mt-1 text-lg font-medium text-brand-navy">{item.value}</dd>
+                    <dt class="eyebrow-rule">{item.label}</dt>
+                    <dd class="mt-2 text-lg font-medium text-brand-navy">{item.value}</dd>
                   </div>
                 ))}
               </dl>
               {section.mapEmbed && (
                 <iframe
                   src={section.mapEmbed}
-                  class="h-80 w-full rounded-2xl border-0 shadow-sm"
+                  class="h-80 w-full rounded-2xl border-0 shadow-lg shadow-brand-navy/10"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                   title="Map — Ouagadougou, Burkina Faso"
@@ -335,7 +418,19 @@ const listItems = (item: any) =>
           <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
             <div class:list={['grid items-center gap-10 lg:grid-cols-2 lg:gap-16', section.variant === 'flip' ? 'lg:[&>div:first-child]:order-2' : '']}>
               <div>
-                {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+                {section.eyebrow && (
+                  <p class="eyebrow-rule mb-3">
+                    <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                    {section.eyebrow}
+                  </p>
+                )}
+                {section.heading && (
+                  <h2 class="text-3xl font-bold sm:text-4xl">
+                    {accentify(section.heading).map((part) =>
+                      part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                    )}
+                  </h2>
+                )}
                 <div class="prose-basuka mt-5 text-lg leading-8 text-slate-600">
                   {paragraphs(section.body).map((p) => (
                     <p>{p}</p>
@@ -347,18 +442,24 @@ const listItems = (item: any) =>
                       <a
                         href={cta.href}
                         class:list={[
-                          'rounded-full px-6 py-3 text-sm font-semibold transition',
-                          i === 0 ? 'bg-brand-green text-white hover:bg-brand-green-dark' : 'border border-brand-green/40 text-brand-green-dark hover:bg-brand-green/10',
+                          'group inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-bold transition',
+                          i === 0
+                            ? 'bg-brand-green text-white hover:bg-brand-green-dark'
+                            : 'border border-brand-green/40 text-brand-green-dark hover:bg-brand-green/10',
                         ]}
                       >
                         {cta.label}
+                        <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
                       </a>
                     ))}
                   </div>
                 )}
               </div>
               {section.image && (
-                <img src={section.image} alt={section.heading ?? ''} class="w-full rounded-3xl shadow-lg" loading="lazy" />
+                <div class="relative">
+                  <div class="absolute -top-4 -right-4 h-full w-full rounded-3xl border-2 border-brand-green/25" aria-hidden="true" />
+                  <img src={section.image} alt={section.heading ?? ''} class="relative w-full rounded-3xl shadow-lg" loading="lazy" />
+                </div>
               )}
             </div>
           </section>
@@ -367,7 +468,7 @@ const listItems = (item: any) =>
       default:
         return (
           <section class="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-            {section.eyebrow && <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-brand-green">{section.eyebrow}</p>}
+            {section.eyebrow && <p class="eyebrow-rule mb-3">{section.eyebrow}</p>}
             {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
             <div class="prose-basuka mt-5 text-lg leading-8 text-slate-600">
               {paragraphs(section.body).map((p) => (
@@ -379,3 +480,36 @@ const listItems = (item: any) =>
     }
   })
 }
+
+<script>
+  // Count-up animation for stat values, triggered on scroll.
+  const ease = (t: number) => 1 - Math.pow(1 - t, 3);
+  const animate = (el: Element) => {
+    const target = parseFloat(el.getAttribute('data-target') ?? '0');
+    const decimals = parseInt(el.getAttribute('data-decimals') ?? '0', 10);
+    const start = performance.now();
+    const dur = 1400;
+    const tick = (now: number) => {
+      const p = Math.min((now - start) / dur, 1);
+      const val = target * ease(p);
+      el.textContent = val.toLocaleString('en-US', {
+        minimumFractionDigits: decimals,
+        maximumFractionDigits: decimals,
+      });
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+  const statObserver = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          animate(entry.target);
+          statObserver.unobserve(entry.target);
+        }
+      }
+    },
+    { threshold: 0.4 }
+  );
+  document.querySelectorAll('.count-up').forEach((el) => statObserver.observe(el));
+</script>
