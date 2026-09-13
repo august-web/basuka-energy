@@ -1,0 +1,211 @@
+{
+  "title": "Ba-Suka Academy - Basuka Energy",
+  "metaDescription": "Ba-Suka Academy Home About Us Our Purpose Training the Leaders of the Clean-Energy Revolution The Ba-Suka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth. […]",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Ba-Suka Academy",
+      "breadcrumb": [
+        "Home",
+        "About Us"
+      ],
+      "image": "/assets/academy-4.jpg"
+    },
+    {
+      "type": "text",
+      "eyebrow": "Our Purpose",
+      "heading": "Training the Leaders of the Clean-Energy Revolution",
+      "body": "The Ba-Suka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth."
+    },
+    {
+      "type": "cards",
+      "eyebrow": "The Benefits",
+      "heading": "Why Join the Yennenga Warriors?",
+      "items": [
+        {
+          "title": "Free Training",
+          "body": "8-week intensive program at no cost to participants"
+        },
+        {
+          "title": "Guaranteed Placement",
+          "body": "Job placement as station manager upon completion"
+        },
+        {
+          "title": "Competitive Salary",
+          "body": "2-3× local average wage ($300-500/month)"
+        },
+        {
+          "title": "Pathway to regional manager, trainer, or leadership roles",
+          "body": "2-3× local average wage ($300-500/month)"
+        },
+        {
+          "title": "Professional Certification",
+          "body": "Recognized credential in renewable energy and IoT systems"
+        },
+        {
+          "title": "Community Impact",
+          "body": "Lead the clean energy transition in your community"
+        },
+        {
+          "title": "Ongoing Support",
+          "body": "Mentorship, continuing education, and career development"
+        }
+      ],
+      "ctas": [
+        {
+          "label": "Apply for the Ba-Suka Academy"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Key Areas of Study",
+      "heading": "The 8-Week Certification Program",
+      "intro": "Our curriculum is designed to move beyond basic mechanics, focusing on the intersection of technology, business, and community leadership. The program consists of 6 weeks of classroom instruction followed by 2 weeks of supervised station practice",
+      "items": [
+        {
+          "number": "01",
+          "title": "Module 1: Solar Systems Fundamentals (Weeks 1-2)",
+          "body": "Participants learn photovoltaic technology, solar panel installation, inverter systems, and energy storage. Hands-on training includes installing a 10 kW solar system at a Swap & Glow™ station. By the end of this module, graduates understand how solar energy is captured, stored, and distributed."
+        },
+        {
+          "number": "02",
+          "title": "Module 2: SIRA™ Battery Management (Weeks 3-4)",
+          "body": "Deep dive into SIRA™ battery technology, battery management systems, charge/discharge cycles, and diagnostics. Participants learn to identify battery health issues, perform maintenance, and troubleshoot problems. Hands-on training includes swapping 100+ batteries and using diagnostic tools."
+        },
+        {
+          "number": "03",
+          "title": "Module 3: Station Operations & IoT Monitoring (Weeks 5-6)",
+          "body": "Participants learn to operate Swap & Glow™ stations, manage inventory, monitor IoT systems, and respond to alerts. Training includes mobile app usage, real-time data interpretation, and customer service protocols. Participants manage a live station during this module, handling actual customers and transactions."
+        },
+        {
+          "number": "04",
+          "title": "Module 4: Leadership & Financial Management (Weeks 7-8)",
+          "body": "Participants learn business fundamentals, financial literacy, team management, and customer retention strategies. Training includes budgeting, revenue optimization, staff supervision, and community engagement. Participants develop a business plan for their assigned station."
+        }
+      ],
+      "ctas": [
+        {
+          "label": "APPLY NOW"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "eyebrow": "Leading the Clean-Energy Revolution",
+      "heading": "Certification & Career Pathways",
+      "body": "Graduation is more than a ceremony; it is a gateway to long-term employment and leadership. Every graduate who passes our rigorous safety and operations exams receives professional certification and is assigned to a station where possible",
+      "image": "/assets/about-hero.jpg"
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Get Excited to move",
+      "heading": "Growth Opportunities Include",
+      "items": [
+        {
+          "number": "1",
+          "title": "Management Progression",
+          "body": "Advancing from Station Manager to Multi-Station Supervisor and eventually Regional Lead"
+        },
+        {
+          "number": "2",
+          "title": "Governance Roles",
+          "body": "Opportunities for experienced managers to contribute to future training programs, product design, and company governance",
+          "cta": {
+            "label": "Apply for the Ba-Suka Academy"
+          }
+        },
+        {
+          "number": "3",
+          "title": "Mentorship",
+          "body": "Ongoing support from senior leadership to ensure sustained success and an 80% retention rate over 24 months"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Ready to lead the revolution?",
+      "heading": "Impact Targets",
+      "items": [
+        {
+          "title": "1,000+ Women Trained",
+          "body": "Our goal is to train over 1,000 women through the Academy within our first three years",
+          "button": {
+            "label": "Apply Now"
+          }
+        },
+        {
+          "title": "Income Advancement",
+          "body": "We aim for our graduates to earn 2–3× the local minimum wage through our performance-linked commission model",
+          "button": {
+            "label": "Apply Now"
+          }
+        },
+        {
+          "title": "Safe Hubs",
+          "body": "Our graduates are the reason Ba-Suka stations are recognized as safe, reliable “women’s places” for energy and mobility services",
+          "button": {
+            "label": "Apply Now"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "financial opportunity",
+      "heading": "Ready to scale?Join the transition",
+      "body": "Secure your place in West Africa’s most trusted women-led energy infrastructure",
+      "image": "/assets/academy-hero.png",
+      "ctas": [
+        {
+          "label": "Become an Investor"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently Asked Questions",
+      "body": "At the Ba-Suka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it. Below, we have compiled the most common questions to help you take your first step toward becoming a certified Station Manager.",
+      "image": "/assets/hero-common.png",
+      "items": [
+        {
+          "q": "What is the Ba-Suka Academy?",
+          "a": "The Ba-Suka Academy is a specialized training engine designed to create a pipeline of certified women leaders for the clean-energy sector. It provides the technical, business, and leadership skills necessary to manage our solar-powered battery-swapping stations."
+        },
+        {
+          "q": "Who can apply to the Academy?",
+          "a": "We welcome applications from motivated women who are interested in technology, sustainability, and community leadership. No prior experience in electrical engineering is required, as we provide comprehensive training from the ground up."
+        },
+        {
+          "q": "How long is the training program?",
+          "a": "The certification program lasts a total of 8 weeks. This includes 6 weeks of intensive classroom instruction followed by 2 weeks of hands-on, supervised practice at an active Ba-Suka station."
+        },
+        {
+          "q": "What topics are covered in the curriculum?",
+          "a": [
+            "Technical Operations: Solar arrays, DMS battery systems, and safety monitoring.",
+            "Clean Energy & Mobility: The transition to electric motorcycles and environmental impact.",
+            "Business Skills: Financial literacy, digital tool usage, and site maintenance.",
+            "Leadership: Customer excellence, conflict resolution, and community service."
+          ]
+        },
+        {
+          "q": "Is there a certification at the end of the program?",
+          "a": "Yes. Upon successfully passing the safety and operations exams, students receive a professional Ba-Suka Academy Certification, recognizing them as qualified energy infrastructure managers."
+        },
+        {
+          "q": "Does graduation guarantee a job?",
+          "a": "Our goal is to assign every certified graduate to a station. While assignment depends on station availability in your area, all graduates are entered into our priority talent pool for new station launches and supervisory roles"
+        },
+        {
+          "q": "What are the earnings for a Station Manager?",
+          "a": "We use a performance-linked commission model designed to reward excellence. Our target is for certified managers to earn 2–3× the local minimum wage."
+        },
+        {
+          "q": "How do I apply?",
+          "a": "You can apply by sending your name, location, and a brief motivation statement to academy@basukaenergy.com . or by Filling our application form."
+        }
+      ]
+    }
+  ]
+}
