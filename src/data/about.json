@@ -7,7 +7,7 @@
       "eyebrow": "Who We Are | Advanced Electricity Infrastructure",
       "heading": "About Us",
       "body": "Ba-Suka (meaning 'women's home' in Mooré) builds Burkina Faso's first smart electricity network. We deliver affordable, sustainable power through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes where grid access fails. Led by Carolyn Wright, our 100% solar, women-managed infrastructure is grid-independent and built specifically for the rugged Sahel environment.",
-      "image": "/assets/about-hero.jpg",
+      "image": "/assets/about-hero.webp",
       "ctas": [
         {
           "label": "Discover Story →",
@@ -42,7 +42,7 @@
       "eyebrow": "About Ba-Suka | Advanced Electricity Infrastructure",
       "heading": "Burkina Faso's First Smart Electricity Network",
       "body": "Ba-Suka (meaning 'women's home' in Mooré) builds Burkina Faso's first smart electricity network. We deliver affordable, sustainable power through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes where grid access fails. Led by Carolyn Wright, our 100% solar, women-managed infrastructure is grid-independent and built for the Sahel.",
-      "image": "/assets/about-portrait.png",
+      "image": "/assets/about-portrait.webp",
       "ctas": [
         {
           "label": "How It Works →",
@@ -69,22 +69,22 @@
         {
           "title": "Accessible → Women-Led Infrastructure",
           "body": "Managed by certified Yennenga Warriors to build deep community trust and ensure operational excellence. We provide affordable electricity via pay-per-swap SIRA™ access.",
-          "iconImage": "/assets/icon-user-group.png"
+          "iconImage": "/assets/icon-user-group.webp"
         },
         {
           "title": "Reliable → Smart Electricity Network",
           "body": "99%+ uptime where national grids fail. Our network uses SIRA™ batteries optimized by IoT and solar redundancy to power mobility, businesses, and homes.",
-          "iconImage": "/assets/icon-energy.png"
+          "iconImage": "/assets/icon-energy.webp"
         },
         {
           "title": "Renewable → 100% Solar-Charged",
           "body": "Grid-independent Swap & Glow™ stations running on 100% clean rooftop power. We displace imported fuels while ensuring a sustainable second-life strategy for all batteries.",
-          "iconImage": "/assets/icon-green-energy.png"
+          "iconImage": "/assets/icon-green-energy.webp"
         },
         {
           "title": "Professional → The 'Yennenga' Legacy",
           "body": "Rooted in the spirit of Burkina Faso's legendary warrior-princess. We drive local economic growth by empowering women as professional infrastructure leaders through the Ba-Suka Academy.",
-          "iconImage": "/assets/icon-care.png"
+          "iconImage": "/assets/icon-care.webp"
         }
       ]
     },

@@ -9,14 +9,14 @@
         "Home",
         "Academy"
       ],
-      "image": "/assets/academy-2.png"
+      "image": "/assets/academy-2.webp"
     },
     {
       "type": "image",
       "eyebrow": "Our Purpose",
       "heading": "Training the Leaders of the Clean-Energy Revolution",
       "body": "The Ba-Suka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth.",
-      "image": "/assets/academy-3.png"
+      "image": "/assets/academy-3.webp"
     },
     {
       "type": "cards",
@@ -116,7 +116,7 @@
       "type": "faq",
       "heading": "Frequently asked questions",
       "body": "At the Ba-Suka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it.",
-      "image": "/assets/hero-common.png",
+      "image": "/assets/hero-common.webp",
       "items": [
         {
           "q": "Who can apply to the Academy?",
@@ -145,7 +145,7 @@
         "OR",
         "Ready to lead the revolution?"
       ],
-      "image": "/assets/academy-hero.png",
+      "image": "/assets/academy-hero.webp",
       "ctas": [
         {
           "label": "Apply Now"

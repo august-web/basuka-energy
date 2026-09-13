@@ -7,7 +7,7 @@
       "eyebrow": "Burkina Faso's Smart Electricity Network",
       "heading": "Affordable Electricity Through Smart, Swappable SIRA™ Batteries",
       "body": "Ba-Suka Energy delivers instant, sustainable power for mobility, businesses, and backup — using 100% solar-powered Swap & Glow™ stations operated by professional women.",
-      "image": "/assets/home-hero.png",
+      "image": "/assets/home-hero.webp",
       "chips": [
         "Smart electricity where grid fails",
         "SIRA™ swaps <60s",
@@ -148,7 +148,7 @@
       "type": "image",
       "heading": "Our Mission & Vision",
       "body": "Building Burkina Faso's First Smart Electricity Network\n\nBa-Suka Energy delivers affordable, sustainable electricity through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes. We are building an advanced, customer-driven network powered by 100% renewable energy, delivering reliable clean power where grid access fails.",
-      "image": "/assets/ev-charger.jpg",
+      "image": "/assets/ev-charger.webp",
       "ctas": [
         {
           "label": "How It Works →",

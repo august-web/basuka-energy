@@ -8,9 +8,9 @@
       "heading": "Empowering the Future of African Mobility",
       "body": "At Ba-Suka Energy, we don’t just provide power; we provide a professional, women-led infrastructure designed to eliminate the barriers to electric vehicle adoption. By combining cutting-edge solar technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
       "images": [
-        "/assets/partners-hero.jpg",
-        "/assets/impact-2.jpg",
-        "/assets/solarhub.jpg"
+        "/assets/partners-hero.webp",
+        "/assets/impact-2.webp",
+        "/assets/solarhub.webp"
       ]
     },
     {
@@ -36,7 +36,7 @@
       "type": "cards",
       "heading": "Solar-Powered Energy Hubs",
       "intro": "Our stations are not just points of sale; they are independent, clean-energy power plants.",
-      "image": "/assets/about-hero.jpg",
+      "image": "/assets/about-hero.webp",
       "items": [
         {
           "title": "Off-Grid Reliability",
@@ -102,7 +102,7 @@
       "eyebrow": "Scale Your Impact. Power Your Fleet",
       "heading": "Join West Africa’s most trusted women-led energy network",
       "body": "Ba-Suka Energy offers a bankable, solar-powered infrastructure platform designed for commercial growth. Whether you are an EV manufacturer, a logistics firm, or an impact investor, we provide the standardized technology and certified operations needed to drive the clean-energy transition across Africa.",
-      "image": "/assets/impact-4.png",
+      "image": "/assets/impact-4.webp",
       "ctas": [
         {
           "label": "Partner with us"
@@ -119,16 +119,16 @@
         "Provide Reliable Infrastructure",
         "Empower Local Communities"
       ],
-      "image": "/assets/impact-3.png"
+      "image": "/assets/impact-3.webp"
     },
     {
       "type": "logos",
       "heading": "Our Partners",
       "images": [
-        "/assets/logo11.png",
-        "/assets/partner-1.png",
-        "/assets/logo3.png",
-        "/assets/logo51-1.png"
+        "/assets/logo11.webp",
+        "/assets/partner-1.webp",
+        "/assets/logo3.webp",
+        "/assets/logo51-1.webp"
       ]
     }
   ]

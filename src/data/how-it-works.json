@@ -7,7 +7,7 @@
       "eyebrow": "Ba-Suka Energy – How It Works",
       "heading": "Grid-independent power, delivered in 60 seconds",
       "body": "100% solar-powered and designed for the rugged Sahel. Ba-Suka combines IoT-optimised hardware with professional women-led operations to keep Burkina Faso moving — even when the national grid fails.",
-      "image": "/assets/how-hero.png",
+      "image": "/assets/how-hero.webp",
       "ctas": [
         {
           "label": "Join the Waitlist",
@@ -52,17 +52,17 @@
         {
           "title": "SIRA™ Battery",
           "body": "Smart swappable battery.\n\n→ IoT tracking — real-time location & health\n→ Multi-use: mobility, business & home\n→ Sahel-rugged dust & heat-proof casing\n→ Second-life reuse strategy, 70%+ recycled",
-          "iconImage": "/assets/battery-plug.png"
+          "iconImage": "/assets/battery-plug.webp"
         },
         {
           "title": "Swap & Glow™ Station",
           "body": "Solar-powered swap station.\n\n→ 10–50kW solar array capacity per station\n→ Modular vertical swap design\n→ Built-in active cooling for Sahel heat\n→ Grid-independent — works during blackouts",
-          "iconImage": "/assets/accumulator.png"
+          "iconImage": "/assets/accumulator.webp"
         },
         {
           "title": "DMS Platform",
           "body": "Data management system.\n\n→ Real-time network optimization\n→ Battery health & predictive diagnostics\n→ Automated mobile money reconciliation\n→ Blockchain-ready ESG impact reporting",
-          "iconImage": "/assets/img-charge.png"
+          "iconImage": "/assets/img-charge.webp"
         }
       ]
     },
@@ -95,17 +95,17 @@
         {
           "title": "Mobility",
           "body": "Electric riders & fleet operators\n\n→ JOLA™ electric motorcycles\n→ Electric tricycles & cargo bikes\n→ Commercial delivery fleets\n→ Pay-per-swap — no ownership cost",
-          "image": "/assets/swappables.png"
+          "image": "/assets/swappables.webp"
         },
         {
           "title": "Business",
           "body": "Kiosks, shops & SMEs\n\n→ Commercial refrigeration\n→ Lighting and device charging\n→ Market stall power supply\n→ Backup power during grid outages",
-          "image": "/assets/swappables-burkina.png"
+          "image": "/assets/swappables-burkina.webp"
         },
         {
           "title": "Planet",
           "body": "Clean energy & circularity\n\n→ 100% solar-charged at every station\n→ Zero fossil-fuel dependency\n→ 70%+ battery second-life reuse\n→ IoT-verified CO₂ displacement data",
-          "image": "/assets/home-hero.png"
+          "image": "/assets/home-hero.webp"
         }
       ]
     },
