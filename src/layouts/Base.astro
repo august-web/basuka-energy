@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const nav = [
+  { label: 'Home', href: '/' },
+  { label: 'About us', href: '/about-us-2/' },
+  { label: 'Partners', href: '/partners/' },
+  { label: 'How it works', href: '/how-it-works/' },
+  { label: 'Academy', href: '/academy/' },
+  { label: 'Impact', href: '/impact/' },
+  { label: 'Contact us', href: '/contact-us/' },
+];
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/favicon-192.png" />
+    <meta property="og:site_name" content="Ba-Suka Energy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <slot />
+  </body>
+</html>
