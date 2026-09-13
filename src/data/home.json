@@ -1,0 +1,235 @@
+{
+  "title": "Home - Ba-Suka Energy",
+  "metaDescription": "Burkina Faso's Smart Electricity Network. Affordable electricity through smart, swappable SIRA™ batteries — 100% solar-powered Swap & Glow™ stations operated by professional women.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Burkina Faso's Smart Electricity Network",
+      "heading": "Affordable Electricity Through Smart, Swappable SIRA™ Batteries",
+      "body": "Ba-Suka Energy delivers instant, sustainable power for mobility, businesses, and backup — using 100% solar-powered Swap & Glow™ stations operated by professional women.",
+      "image": "/assets/home-hero.png",
+      "chips": [
+        "Smart electricity where grid fails",
+        "SIRA™ swaps <60s",
+        "Women-led",
+        "Burkina-first network"
+      ],
+      "ctas": [
+        {
+          "label": "Join the Waitlist",
+          "href": "/contact-us/"
+        },
+        {
+          "label": "How It Works",
+          "href": "/how-it-works/"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "The Ba-Suka Advantage",
+      "intro": "Six unmatched advantages that power Africa's clean energy transition",
+      "items": [
+        {
+          "title": "Smart Electricity Network",
+          "body": "SIRA™ batteries provide reliable power for mobility and business backup, optimized by IoT tracking for maximum efficiency."
+        },
+        {
+          "title": "Swap & Glow™ Stations",
+          "body": "100% solar-powered, vertical swap stations designed for the Sahel. Rugged, professional infrastructure that works even when the grid fails."
+        },
+        {
+          "title": "Women-Led Infrastructure",
+          "body": "Managed by our Yennenga Warriors, our network builds deep community trust and operational excellence through professional female leadership."
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "heading": "Year 3 Targets",
+      "items": [
+        {
+          "value": "1,000+",
+          "label": "Women Trained"
+        },
+        {
+          "value": "100%",
+          "label": "Solar Powered"
+        },
+        {
+          "value": "$10M+",
+          "label": "Local Economic Activity"
+        },
+        {
+          "value": "1,200t",
+          "label": "Tonnes CO₂ Avoided"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "The Problem",
+      "heading": "Why Burkina Faso Needs a Smart Electricity Network",
+      "intro": "The energy gap in West Africa is real and urgent. Ba-Suka solves the three interconnected barriers which prevent electric mobility adoption — making clean electricity accessible where it matters most.",
+      "items": [
+        {
+          "title": "No Grid Access Gap",
+          "body": "81% of Burkina Faso lacks reliable electricity access.\n\nBa-Suka Solution: Solar-powered stations provide energy independence."
+        },
+        {
+          "title": "Professional Swap Stations",
+          "body": "Zero professional battery swap stations exist — Ba-Suka is building the first network.\n\nBa-Suka Solution: Yennenga Warriors operate professional stations."
+        },
+        {
+          "title": "Battery Cost Barrier",
+          "body": "Batteries represent 60-80% of EV vehicle cost.\n\nBa-Suka Solution: Pay-per-swap eliminates ownership costs."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "The Solution",
+      "heading": "The Ba-Suka Advantage",
+      "intro": "Six unmatched advantages that power Africa's clean energy transition",
+      "items": [
+        {
+          "title": "Data Management System",
+          "body": "Real-time network optimization using IoT data to monitor battery health, location, and station demand across Burkina Faso."
+        },
+        {
+          "title": "Ba-Suka Academy",
+          "body": "Professional energy infrastructure training. Module-based learning in PV systems, IoT monitoring, and leadership for our future station managers."
+        },
+        {
+          "title": "Swap & Glow™ Stations",
+          "body": "100% solar-powered, Sahel-rugged stations designed for extreme heat and dust. Vertical battery swapping reduces swap time to under 60 seconds — faster than traditional charging."
+        },
+        {
+          "title": "Multi-Use Platform",
+          "body": "The same SIRA™ battery powers JOLA™ electric bikes, tricycles, commercial kiosks, and household appliances. One battery type serves multiple use cases, maximizing utilization."
+        },
+        {
+          "title": "<60 Second Swaps",
+          "body": "Instant energy exchange. Riders arrive, swap their depleted SIRA™ battery for a fully charged one, and get back to work in under a minute."
+        },
+        {
+          "title": "Women-Led Infrastructure",
+          "body": "Yennenga Warriors are not a CSR initiative — they are the operational core. Professionally trained women manage stations, handle customer relationships, and lead community engagement."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Year 3 Targets",
+      "heading": "Built to Create Lasting Impact",
+      "intro": "Three pillars of impact: People, Planet, and Profit",
+      "items": [
+        {
+          "title": "Economic",
+          "body": "200+ Jobs Created\n$10M+ Local Economic Activity Generated\n80%+ Customer & Staff Retention\n2-3× Local Average Wage"
+        },
+        {
+          "title": "Environmental",
+          "body": "1,200 Tonnes CO₂ Avoided Annually\n100% Renewable Energy\n70%+ Battery Reuse/Recycling\n50+ Stations Deployed"
+        },
+        {
+          "title": "Social",
+          "body": "1,000+ Women Trained\n60+ Yennenga Warriors Employed\n100% Women Station Leads\n15,000+ Riders Served"
+        }
+      ],
+      "ctas": [
+        {
+          "label": "Explore Our Impact",
+          "href": "/impact/"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "heading": "Our Mission & Vision",
+      "body": "Building Burkina Faso's First Smart Electricity Network\n\nBa-Suka Energy delivers affordable, sustainable electricity through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes. We are building an advanced, customer-driven network powered by 100% renewable energy, delivering reliable clean power where grid access fails.",
+      "image": "/assets/ev-charger.jpg",
+      "ctas": [
+        {
+          "label": "How It Works →",
+          "href": "/how-it-works/"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "How It Works",
+      "heading": "Burkina Faso's Smart Electricity Network",
+      "intro": "Ba-Suka Energy delivers affordable, sustainable power through smart, swappable SIRA™ batteries. Our 100% solar, grid-independent infrastructure is built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
+      "items": [
+        {
+          "number": "01",
+          "title": "SIRA™ Smart Swapping",
+          "body": "Riders arrive at a Swap & Glow™ station and exchange their depleted SIRA™ battery for a fully charged unit in under 60 seconds — assisted by a Yennenga Warrior."
+        },
+        {
+          "number": "02",
+          "title": "Pay-Per-Swap Access",
+          "body": "Simple, affordable energy. Pay via mobile money only for the energy you use. No expensive battery ownership costs for riders or business owners."
+        },
+        {
+          "number": "03",
+          "title": "The Ba-Suka Academy",
+          "body": "Our Yennenga Warriors complete professional training in PV fundamentals, SIRA™ battery diagnostics, and IoT station management to ensure elite service."
+        },
+        {
+          "number": "04",
+          "title": "100% Solar-Charged",
+          "body": "Ride with 100% renewable energy. Our grid-independent stations ensure you have power even during national grid failures or blackouts."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Ready to Power the Infrastructure Network?",
+      "heading": "Join us in building Africa's first smart electricity network",
+      "items": [
+        {
+          "title": "Riders",
+          "body": "Get early access to JOLA™ bikes and SIRA™ swaps",
+          "button": {
+            "label": "Join Waitlist",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Managers",
+          "body": "Train as a Yennenga Warrior",
+          "button": {
+            "label": "Academy Info",
+            "href": "/academy/"
+          }
+        },
+        {
+          "title": "Fleet Operators",
+          "body": "Deploy SIRA™ across your fleet",
+          "button": {
+            "label": "Request Info",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Investors",
+          "body": "Access financial projections",
+          "button": {
+            "label": "Pitch Deck",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Partners",
+          "body": "Technology and development partnerships",
+          "button": {
+            "label": "Collaborate",
+            "href": "/partners/"
+          }
+        }
+      ]
+    }
+  ]
+}
