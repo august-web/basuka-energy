@@ -1,0 +1,184 @@
+{
+  "title": "Academy - Basuka Energy",
+  "metaDescription": "Ba-Suka Academy Home Academy Our Purpose Training the Leaders of the Clean-Energy Revolution The Ba-Suka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth. The […]",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Ba-Suka Academy",
+      "breadcrumb": [
+        "Home",
+        "Academy"
+      ],
+      "image": "/assets/academy-2.png"
+    },
+    {
+      "type": "image",
+      "eyebrow": "Our Purpose",
+      "heading": "Training the Leaders of the Clean-Energy Revolution",
+      "body": "The Ba-Suka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth.",
+      "image": "/assets/academy-3.png"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "The Benefits",
+      "heading": "Why Join the Yennenga Warriors?",
+      "items": [
+        {
+          "title": "Free Training",
+          "body": "8-week intensive program at no cost to participants"
+        },
+        {
+          "title": "Guaranteed Placement",
+          "body": "Job placement as station manager upon completion"
+        },
+        {
+          "title": "Competitive Salary",
+          "body": "2-3× local average wage ($300-500/month)"
+        },
+        {
+          "title": "Pathway to regional manager, trainer, or leadership roles",
+          "body": "2-3× local average wage ($300-500/month)"
+        },
+        {
+          "title": "Professional Certification",
+          "body": "Recognized credential in renewable energy and IoT systems"
+        },
+        {
+          "title": "Community Impact",
+          "body": "Lead the clean energy transition in your community"
+        },
+        {
+          "title": "Ongoing Support",
+          "body": "Mentorship, continuing education, and career development"
+        }
+      ],
+      "ctas": [
+        {
+          "label": "Apply for the Ba-Suka Academy"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Leading the Clean-Energy Revolution",
+      "heading": "Your path from graduate to regional lead",
+      "body": "Certification is a gateway, not an endpoint. Ba-Suka is committed to retaining and advancing every Yennenga Warrior who joins us."
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Key Areas of Study",
+      "heading": "The 8-Week Certification Program",
+      "intro": "Six weeks of classroom instruction followed by two weeks of supervised practice at an active Swap & Glow™ station. No prior electrical experience required.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Module 1 – Weeks 1-2 : Clean Energy & E-Mobility",
+          "body": [
+            "Solar PV fundamentals for the Sahel",
+            "The electric mobility transition in WestAfrica",
+            "How SIRA™ battery chemistry works",
+            "Environmental impact and carbon basics"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Module 02 – Weeks 3-4 : Technical Operations",
+          "body": [
+            "Solar array inspection and maintenance",
+            "DMS swappable battery system procedures",
+            "BMS safety and fault diagnosis",
+            "loT monitoring dashboard basics"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Module 03 – Week 5: Business & Digital Skills",
+          "body": [
+            "Financial literacy and daily reconciliation",
+            "Mobile money systems (Orange Money,Wave)",
+            "Station record-keeping and reporting",
+            "Basic site maintenance scheduling"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Module 04 – Week 6: Leadership & Community Service",
+          "body": [
+            "Customer service excellence",
+            "Conflict resolution and de-escalation",
+            "Community trust-building strategies",
+            "The Yennenga Warrior ethos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently asked questions",
+      "body": "At the Ba-Suka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it.",
+      "image": "/assets/hero-common.png",
+      "items": [
+        {
+          "q": "Who can apply to the Academy?",
+          "a": "Any motivated woman based in Burkina Faso who is interested in technology, sustainability, and community service. No prior experience in electrical engineering is required – we train from the ground up."
+        },
+        {
+          "q": "Is there a cost to Participate ?",
+          "a": "Training costs are currently covered by Ba-Suka Energy. Further details on stipend and living support will be confirmed at the application stage."
+        },
+        {
+          "q": "Does Graduation Guarantee Employment ?",
+          "a": "Our goal is to assign every certified graduate to a station. Placement depends on station availability in your region, but all graduates enter our priority talent pool for new launches and supervisory roles."
+        },
+        {
+          "q": "How do I apply?",
+          "a": "Send your name, location, and a short motivation statement to academy@basukaenergy.com. We aim to respond within 7 business days."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "financial opportunity",
+      "heading": "Ready to Lead the Clean-energy revolution",
+      "body": [
+        "Applications are open for the next cohort. Join the women building West Africa’s most trusted energy infrastructure.",
+        "OR",
+        "Ready to lead the revolution?"
+      ],
+      "image": "/assets/academy-hero.png",
+      "ctas": [
+        {
+          "label": "Apply Now"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "3 YEAR IMPACT TARGETS",
+      "body": "These are program goals —updated as Ba-Suka scales.",
+      "items": [
+        {
+          "title": "1,000+ Women Trained",
+          "body": "Our goal is to train over 1,000 women through the Academy within our first three years",
+          "button": {
+            "label": "Apply Now"
+          }
+        },
+        {
+          "title": "Income Advancement",
+          "body": "We aim for our graduates to earn 2–3× the local minimum wage through our performance-linked commission model",
+          "button": {
+            "label": "Apply Now"
+          }
+        },
+        {
+          "title": "Safe Hubs",
+          "body": "Our graduates are the reason Ba-Suka stations are recognized as safe, reliable “women’s places” for energy and mobility services",
+          "button": {
+            "label": "Apply Now"
+          }
+        }
+      ]
+    }
+  ]
+}
