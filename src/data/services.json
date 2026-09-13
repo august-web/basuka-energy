@@ -1,0 +1,135 @@
+{
+  "title": "Services - Basuka Energy",
+  "metaDescription": "SERVICES Home Services Empowering the Future of African Mobility At Ba-Suka Energy, we don’t just provide power; we provide a professional, women-led infrastructure designed to eliminate the barriers to electric vehicle adoption. By combining cutting-edge solar technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders […]",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "SERVICES",
+      "heading": "Empowering the Future of African Mobility",
+      "body": "At Ba-Suka Energy, we don’t just provide power; we provide a professional, women-led infrastructure designed to eliminate the barriers to electric vehicle adoption. By combining cutting-edge solar technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
+      "images": [
+        "/assets/partners-hero.jpg",
+        "/assets/impact-2.jpg",
+        "/assets/solarhub.jpg"
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "DMS Battery-Swapping Infrastructure",
+      "intro": "We eliminate “range anxiety” and long charging wait times by providing a standardized, professional swapping network",
+      "items": [
+        {
+          "title": "The 60-Second Swap",
+          "body": "Our stations allow riders to exchange a depleted battery for a fully charged one in less time than it takes to refuel a petrol bike."
+        },
+        {
+          "title": "The DMS Standard",
+          "body": "We utilize a universal battery format. This “EV-agnostic” approach means any manufacturer or fleet that adopts the DMS standard can utilize our network without proprietary lock-in"
+        },
+        {
+          "title": "Smart BMS Monitoring",
+          "body": "Every battery is equipped with an integrated Battery Management System (BMS) that tracks health, temperature, and cycles in real-time to ensure maximum safety."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Solar-Powered Energy Hubs",
+      "intro": "Our stations are not just points of sale; they are independent, clean-energy power plants.",
+      "image": "/assets/about-hero.jpg",
+      "items": [
+        {
+          "title": "Off-Grid Reliability",
+          "body": "Every station is equipped with a high-capacity solar array and on-site energy storage, ensuring 95% uptime regardless of the local grid’s stability."
+        },
+        {
+          "title": "Sustainable Generation",
+          "body": "By generating 100% of our power from the sun, we provide a truly carbon-neutral fuel source for the transport sector"
+        },
+        {
+          "title": "Dual Charging Options",
+          "body": "While swapping is our primary focus, our hubs also feature conventional charging points for vehicles suited for stationary plug-in charging"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Community Energy Services",
+      "intro": "Beyond mobility, our stations serve as safe, reliable community hubs managed by certified local women",
+      "items": [
+        {
+          "title": "Ancillary Services",
+          "body": "Customers can access essential services such as phone charging and small retail at our station locations"
+        },
+        {
+          "title": "Professional Management:",
+          "body": "Every station is operated by a graduate of the Ba-Suka Academy, ensuring high-quality customer service and technical expertise"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Ba-Suka Academy: Professional Operations",
+      "intro": "We provide “Infrastructure-as-a-Service” by ensuring every site is managed by a certified professional.",
+      "items": [
+        {
+          "title": "Talent Pipeline",
+          "body": "The Academy trains women to become “Infrastructure Managers,” covering technical maintenance, solar management, and digital point-of-sale (POS) systems."
+        },
+        {
+          "title": "Professional Standards",
+          "body": "This ensures that fleet partners and individual riders receive consistent, high-quality, and safe service at every Ba-Suka location"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Fleet & B2B Solutions",
+      "intro": "We offer specialized energy management for commercial partners, including logistics firms, delivery companies, and moto-taxi cooperatives.",
+      "items": [
+        {
+          "title": "Predictable Energy Costs",
+          "body": "We offer subscription-based models and volume agreements that allow businesses to lock in their energy expenses and avoid petrol price volatility."
+        },
+        {
+          "title": "Data Transparency",
+          "body": "Partners receive access to our data platform, providing insights into their fleet’s energy consumption, battery health, and operational efficiency"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Scale Your Impact. Power Your Fleet",
+      "heading": "Join West Africa’s most trusted women-led energy network",
+      "body": "Ba-Suka Energy offers a bankable, solar-powered infrastructure platform designed for commercial growth. Whether you are an EV manufacturer, a logistics firm, or an impact investor, we provide the standardized technology and certified operations needed to drive the clean-energy transition across Africa.",
+      "image": "/assets/impact-4.png",
+      "ctas": [
+        {
+          "label": "Partner with us"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "eyebrow": "WHY WE EXIST",
+      "heading": "Our Mission Is is to position women as visible leaders and trusted operators at the front line of Burkina Faso’s clean-energy and mobility transition",
+      "body": "This is achieved by developing a women-led, solar-powered infrastructure platform that provides safe and reliable energy services to the community",
+      "bullets": [
+        "Lead the Clean Energy Transition",
+        "Provide Reliable Infrastructure",
+        "Empower Local Communities"
+      ],
+      "image": "/assets/impact-3.png"
+    },
+    {
+      "type": "logos",
+      "heading": "Our Partners",
+      "images": [
+        "/assets/logo11.png",
+        "/assets/partner-1.png",
+        "/assets/logo3.png",
+        "/assets/logo51-1.png"
+      ]
+    }
+  ]
+}
