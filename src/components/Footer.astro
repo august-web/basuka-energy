@@ -1,0 +1,59 @@
+---
+const nav = [
+  { label: 'Home', href: '/' },
+  { label: 'About us', href: '/about-us-2/' },
+  { label: 'Partners', href: '/partners/' },
+  { label: 'How it works', href: '/how-it-works/' },
+  { label: 'Academy', href: '/academy/' },
+  { label: 'Impact', href: '/impact/' },
+  { label: 'Services', href: '/services/' },
+  { label: 'Contact us', href: '/contact-us/' },
+];
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-brand-navy text-slate-300">
+  <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="grid gap-12 md:grid-cols-3">
+      <div>
+        <img src="/assets/logo.png" alt="Ba-Suka Energy logo" class="h-12 w-auto bg-white/95 rounded-lg p-1.5" width="190" height="48" />
+        <p class="mt-5 max-w-xs text-sm leading-6">
+          Burkina Faso's smart electricity network — affordable power through smart, swappable SIRA™ batteries and 100% solar-powered Swap &amp; Glow™ stations.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-brand-cream">Explore</h3>
+        <ul class="mt-5 grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
+          {
+            nav.map((item) => (
+              <li>
+                <a href={item.href} class="transition-colors hover:text-brand-cream">
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-brand-cream">Contact</h3>
+        <ul class="mt-5 space-y-3 text-sm">
+          <li>Ouagadougou, Burkina Faso</li>
+          <li>
+            <a href="https://wa.me/22666384592" class="transition-colors hover:text-brand-cream">WhatsApp: +226 66 38 45 92</a>
+          </li>
+          <li>
+            <a href="/contact-us/" class="transition-colors hover:text-brand-cream">Get in touch</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-slate-400 sm:flex-row">
+      <p>&copy; {year} Ba-Suka Energy. All rights reserved.</p>
+      <p>Smart electricity where the grid fails.</p>
+    </div>
+  </div>
+</footer>
