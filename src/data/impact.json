@@ -1,0 +1,133 @@
+{
+  "title": "Impact - Basuka Energy",
+  "metaDescription": "IMPACT Home IMPACT People.Planet.Profit Measureable from day one Ba-Suka Energy is a data driven infrastructure company. Every target below is loT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel. YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES Three Pillars of Verified Impact All figures are Year […]",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "People.Planet.Profit",
+      "heading": "Measurable from day one",
+      "body": "Ba-Suka Energy is a data driven infrastructure company. Every target below is loT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
+      "images": [
+        "/assets/swappables-burkina.png",
+        "/assets/partners-diagram.png"
+      ]
+    },
+    {
+      "type": "stats",
+      "eyebrow": "YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES",
+      "heading": "Three Pillars of Verified Impact",
+      "intro": "All figures are Year 3 programme targets. Ba-Suka’s loT-enabled SIRA™ batteries generate real-time, verifiable data from launch day – September 2026.",
+      "pillars": [
+        "Economic",
+        "ENVIRONMENTAL",
+        "SOCIAL"
+      ],
+      "items": [
+        {
+          "value": "$10M+",
+          "label": "Local economic activity generated (Year 3 target)",
+          "tag": "YEAR 3 TARGETS"
+        },
+        {
+          "value": "1,200t",
+          "label": "Tonnes CO₂ avoided annually",
+          "tag": "YEAR 3 TARGETS"
+        },
+        {
+          "value": "1,000+",
+          "label": "Women Trained via Ba-Suka Academy",
+          "tag": "YEAR 3 TARGETS"
+        },
+        {
+          "value": "200+",
+          "label": "Jobs Created across the network",
+          "tag": "YEAR 3 TARGETS"
+        },
+        {
+          "value": "100%",
+          "label": "Renewable solar energy across all stations",
+          "tag": "GRID-INDEPENDENT FROM DAY ONE"
+        },
+        {
+          "value": "100%",
+          "label": "Women-led station management",
+          "tag": "YENNENGA WARRIORS MODEL"
+        },
+        {
+          "value": "60+",
+          "label": "Yennenga Warriors employed",
+          "tag": "YENNENGA WARRIORS MODEL"
+        },
+        {
+          "value": "70%+",
+          "label": "Battery second-life reuse",
+          "tag": "SECOND-LIFE REUSE STRATEGY"
+        },
+        {
+          "value": "15,000+",
+          "label": "Riders and households served",
+          "tag": "YEAR 3 TARGETS"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "SDG ALIGNMENT",
+      "heading": "Built around global goals",
+      "intro": "Ba-Suka directly addresses four UN Sustainable Development Goals through its core operating model – not as a CSR add-on, but as the architecture of the business itself.",
+      "items": [
+        {
+          "title": "Gender equality",
+          "body": "100% women-led station management. Certified Yennenga Warriors earn 2-3× the local minimum wage through performance-linked pay.",
+          "tag": "Goal:5"
+        },
+        {
+          "title": "Affordable & clean energy",
+          "body": "100% solar-powered, grid-independent Swap & Glow™ stations delivering clean electricity where the national grid fails.",
+          "tag": "GOAL:7"
+        },
+        {
+          "title": "Decent work & economic growth",
+          "body": "200+ jobs created. $10M+ local economic activity. An infrastructure model designed to retain talent at above-market wages.",
+          "tag": "GOAL:8"
+        },
+        {
+          "title": "Climate action",
+          "body": "1,200 tonnes of CO₂ avoided annually by displacing fossil-fuel two-wheel and three-wheel mobility across Burkina Faso.",
+          "tag": "GOAL:13"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "DEPLOYMENT ROADMAP",
+      "heading": "Path to scale",
+      "intro": "From pilot launch to a 50-station network – how Ba-Suka builds verified impact over three years.",
+      "items": [
+        {
+          "title": "Sept 2026 — Pilot launch — Ouagadougou",
+          "body": "First Swap & Glow™ stations go live. First Yennenga Warriors cohort deployed. IoT data collection begins on day one."
+        },
+        {
+          "title": "Year 1 — Network validation",
+          "body": "10 stations. 60+ Yennenga Warriors. 2,500+ riders served. First independent CO₂ baseline audit."
+        },
+        {
+          "title": "Year 2 — Regional expansion",
+          "body": "25 stations across 3 cities . 400+ women trained . $3M+ local economic activity milestone reached."
+        },
+        {
+          "title": "Year 3 — Full-scale impact",
+          "body": "50 stations. 1,000+ women trained. 1,200t CO₂ avoided. $10M+ economic activity. 15,000+ riders served."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "FOR INFRASTRUCTURE FUNDS & CLIMATE PARTNERS",
+      "heading": "IoT-verified impact data, ready for your ESG portfolio",
+      "body": "Ba-Suka’s SIRA™ smart batteries generate real-time metrics on energy throughput, carbon displacement, and station performance – blockchain – ready and auditable from day one of operations.",
+      "image": "/assets/hero-common.png"
+    }
+  ]
+}
