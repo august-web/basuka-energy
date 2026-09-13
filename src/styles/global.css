@@ -85,14 +85,11 @@
   .marquee:hover .marquee-track {
     animation-play-state: paused;
   }
+  /* marquee always runs — deliberately exempt from prefers-reduced-motion
+     (owner request); hover-to-pause remains the manual control */
   @keyframes marquee {
     to {
       transform: translateX(-50%);
-    }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .marquee-track {
-      animation: none;
     }
   }
 
