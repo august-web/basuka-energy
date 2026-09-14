@@ -6,6 +6,7 @@
       "type": "hero",
       "eyebrow": "Ba-Suka Energy – How It Works",
       "heading": "Grid-independent power, delivered in 60 seconds",
+      "breadcrumb": ["Home", "How It Works"],
       "body": "100% solar-powered and designed for the rugged Sahel. Ba-Suka combines IoT-optimised hardware with professional women-led operations to keep Burkina Faso moving — even when the national grid fails.",
       "image": "/assets/how-hero.webp",
       "ctas": [
