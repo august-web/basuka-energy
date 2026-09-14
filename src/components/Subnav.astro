@@ -1,0 +1,84 @@
+---
+// Sticky sub-navigation bar with scrollspy for long pages.
+// Shows horizontal chips linking to each content section, highlights current.
+interface Section {
+  type: string;
+  heading?: string;
+  eyebrow?: string;
+}
+interface Props {
+  sections: Section[];
+}
+const { sections } = Astro.props;
+
+const slugify = (text: string) =>
+  text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+
+const navItems = sections
+  .filter((s) => s.type !== 'hero' && s.type !== 'marquee')
+  .map((s) => ({
+    id: slugify(s.heading ?? s.eyebrow ?? s.type),
+    label: (s.heading ?? s.eyebrow ?? s.type ?? '').slice(0, 32),
+  }))
+  .filter((item) => item.id);
+
+// Only render if 4+ content sections
+if (navItems.length < 4) return null;
+---
+
+<div id="subnav" class="sticky top-16 z-40 hidden border-b border-slate-100 bg-white/95 backdrop-blur lg:block">
+  <div class="mx-auto flex max-w-7xl items-center gap-1 overflow-x-auto px-4 py-2 sm:px-6 lg:px-8 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    <span class="mr-2 shrink-0 text-xs font-bold uppercase tracking-[0.15em] text-slate-400">On this page</span>
+    {
+      navItems.map((item, i) => (
+        <a
+          href={`#${item.id}`}
+          data-subnav-link={item.id}
+          class:list={[
+            'shrink-0 rounded-full px-3 py-1.5 text-xs font-medium transition-colors',
+            i === 0
+              ? 'bg-brand-green/10 text-brand-green-dark'
+              : 'text-slate-500 hover:bg-slate-50 hover:text-brand-navy',
+          ]}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+  </div>
+</div>
+
+<script>
+  // Scrollspy: highlight the subnav link for the section currently in view.
+  const subnavLinks = document.querySelectorAll('[data-subnav-link]');
+  if (subnavLinks.length > 0) {
+    const sections = Array.from(subnavLinks).map((link) => {
+      const id = link.getAttribute('data-subnav-link');
+      return { link, section: document.getElementById(id ?? '') };
+    });
+
+    const activate = (el: Element) => {
+      subnavLinks.forEach((l) => {
+        l.classList.remove('bg-brand-green/10', 'text-brand-green-dark');
+        l.classList.add('text-slate-500');
+      });
+      el.classList.add('bg-brand-green/10', 'text-brand-green-dark');
+      el.classList.remove('text-slate-500');
+      el.scrollIntoView({ block: 'nearest', inline: 'center' });
+    };
+
+    const spy = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const match = sections.find((s) => s.section === entry.target);
+            if (match) activate(match.link);
+          }
+        }
+      },
+      { rootMargin: '-30% 0px -60% 0px' }
+    );
+
+    sections.forEach((s) => { if (s.section) spy.observe(s.section); });
+  }
+</script>
