@@ -1,11 +1,12 @@
 {
   "title": "Impact - Basuka Energy",
-  "metaDescription": "IMPACT Home IMPACT People.Planet.Profit Measureable from day one Ba-Suka Energy is a data driven infrastructure company. Every target below is loT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel. YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES Three Pillars of Verified Impact All figures are Year […]",
+  "metaDescription": "Ba-Suka Energy's verified impact: 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "People.Planet.Profit",
       "heading": "Measurable from day one",
+      "breadcrumb": ["Home", "Impact"],
       "body": "Ba-Suka Energy is a data driven infrastructure company. Every target below is loT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
       "images": [
         "/assets/swappables-burkina.webp",
