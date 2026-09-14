@@ -1,11 +1,12 @@
 {
   "title": "Partners - Basuka Energy",
-  "metaDescription": "PARTNERS Home Partners BA-SUKA ENERGY – PARTNERS Build Africa's clean-energy infrastructure with us We are selecting strategic partners for our September 2026 launch – EV manufacturers, infrastructure funds, and technology providers who went to co- build the Sahel's first professional smart battery-swap network. THREE PARTNERSHIP PILLARS Where we need your expertise Our partnership model is […]",
+  "metaDescription": "Partner with Ba-Suka Energy to build Africa's clean-energy infrastructure. Three partnership pillars: EV manufacturers, climate funds, and technology providers. September 2026 launch in Ouagadougou.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BA-SUKA ENERGY – PARTNERS",
-      "heading": "Build Africa’s clean-energy infrastructure with us",
+      "heading": "Build Africa's clean-energy infrastructure with us",
+      "breadcrumb": ["Home", "Partners"],
       "body": "We are selecting strategic partners for our September 2026 launch – EV manufacturers, infrastructure funds, and technology providers who went to co- build the Sahel’s first professional smart battery-swap network.",
       "images": [
         "/assets/partners-diagram.webp",
