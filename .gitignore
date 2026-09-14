@@ -5,3 +5,7 @@ dist/
 .vscode/
 AGENTS.md
 CLAUDE.md
+
+# Local agent tool state
+.freebuff/
+.workbuddy-ai/
