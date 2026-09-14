@@ -3,12 +3,14 @@
 // In headings, *words* are rendered in the serif accent style for editorial emphasis.
 interface Cta {
   label: string;
-  href: string;
+  href?: string;
 }
 interface Section {
   type: string;
   eyebrow?: string;
   heading?: string;
+  heading2?: string;
+  subheading?: string;
   intro?: string;
   body?: string | string[];
   image?: string;
@@ -19,6 +21,10 @@ interface Section {
   variant?: string;
   chips?: string[];
   citation?: string;
+  breadcrumb?: string[];
+  bullets?: string[];
+  pillars?: string[];
+  form?: boolean;
 }
 interface Props {
   sections: Section[];
@@ -37,6 +43,22 @@ const accentify = (text?: string) =>
   (text ?? '').split(/\*(.+?)\*/g).map((part, i) => ({ text: part, accent: i % 2 === 1 }));
 let eyebrowCounter = 0;
 const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
+// Match a contact label to an icon type for visual context
+const contactIcon = (label: string): 'location' | 'phone' | 'email' | 'office' | null => {
+  const l = label.toLowerCase();
+  if (l.includes('email') || l.includes('mail')) return 'email';
+  if (l.includes('phone')) return 'phone';
+  if (l.includes('office')) return 'office';
+  if (l.includes('location') || l.includes('address')) return 'location';
+  return null;
+};
+// Slugify a heading for use as a section anchor ID
+const sectionId = (section: Section, idx: number): string | undefined => {
+  const raw = section.heading ?? section.eyebrow ?? section.type;
+  if (section.type === 'hero') return undefined; // hero is always first, no ID needed
+  const slug = raw.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return slug ? slug.slice(0, 60) : `section-${idx}`;
+};
 ---
 
 {
@@ -49,8 +71,29 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
             <div class="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full bg-brand-green/20 blur-3xl" aria-hidden="true" />
             <div class="pointer-events-none absolute -right-32 -bottom-32 h-80 w-80 rounded-full bg-brand-cream/10 blur-3xl" aria-hidden="true" />
             <div class="pointer-events-none absolute inset-0 opacity-[0.06]" style="background-image: radial-gradient(#fcde9e 1px, transparent 1px); background-size: 26px 26px;" aria-hidden="true" />
+            <div class="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-brand-navy/40" aria-hidden="true" />
             <div class="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-28">
               <div>
+                {section.breadcrumb && section.breadcrumb.length > 0 && (
+                  <nav aria-label="Breadcrumb" class="mb-5">
+                    <ol class="flex flex-wrap items-center gap-2 text-xs font-medium text-slate-400">
+                      {section.breadcrumb.map((crumb: string, i: number) => (
+                        <li class="flex items-center gap-2">
+                          {i < section.breadcrumb!.length - 1 ? (
+                            <>
+                              <a href="/" class="transition-colors hover:text-brand-cream">{crumb}</a>
+                              <svg class="h-3 w-3 text-slate-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M7.3 5.3a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.4-1.4L10.6 10 7.3 6.7a1 1 0 0 1 0-1.4z" clip-rule="evenodd" />
+                              </svg>
+                            </>
+                          ) : (
+                            <span class="text-brand-cream" aria-current="page">{crumb}</span>
+                          )}
+                        </li>
+                      ))}
+                    </ol>
+                  </nav>
+                )}
                 {section.eyebrow && (
                   <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-brand-cream/30 bg-brand-green/15 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-cream">
                     <span class="inline-block h-1.5 w-1.5 rounded-full bg-brand-cream" aria-hidden="true" />
@@ -62,13 +105,16 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                     part.accent ? <span class="accent-serif text-brand-cream">{part.text}</span> : part.text
                   )}
                 </h1>
+                {section.heading2 && (
+                  <p class="mt-3 text-lg font-medium text-brand-cream/80 sm:text-xl">{section.heading2}</p>
+                )}
                 {paragraphs(section.body).map((p) => (
                   <p class="mt-6 max-w-xl text-lg leading-8 text-slate-300">{p}</p>
                 ))}
                 {section.chips && (
                   <ul class="mt-6 flex flex-wrap gap-2">
                     {section.chips.map((chip: string) => (
-                      <li class="rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm font-medium text-brand-cream">{chip}</li>
+                      <li class="rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm font-medium text-brand-cream transition-colors hover:border-brand-cream/40 hover:bg-white/10">{chip}</li>
                     ))}
                   </ul>
                 )}
@@ -76,11 +122,11 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                   <div class="mt-9 flex flex-wrap gap-3">
                     {section.ctas.map((cta, i) => (
                       <a
-                        href={cta.href}
+                        href={cta.href ?? '/contact-us/'}
                         class:list={[
                           'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
                           i === 0
-                            ? 'bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
+                            ? 'btn-shine bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
                             : 'border border-white/25 text-white hover:border-brand-cream hover:text-brand-cream',
                         ]}
                       >
@@ -92,23 +138,50 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                 )}
               </div>
               {section.image && (
-                <div class="relative">
+                <div class="relative lightbox-trigger cursor-pointer">
                   <div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-green/30 to-brand-cream/20 blur-2xl" aria-hidden="true" />
                   <img
                     src={section.image}
                     alt={section.heading ?? 'Ba-Suka Energy'}
                     class="relative w-full rotate-1 rounded-3xl shadow-2xl ring-1 ring-white/10 transition duration-500 hover:rotate-0"
                     loading="eager"
+                    decoding="async"
+                    fetchpriority="high"
                   />
                 </div>
               )}
+              {!section.image && section.images && section.images.length > 0 && (
+                <div class="relative">
+                  <div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-green/30 to-brand-cream/20 blur-2xl" aria-hidden="true" />
+                  <div class="relative grid grid-cols-2 gap-3">
+                    <img
+                      src={section.images[0]}
+                      alt={section.heading ?? 'Ba-Suka Energy'}
+                      class="col-span-2 w-full rotate-1 rounded-3xl shadow-2xl ring-1 ring-white/10 transition duration-500 hover:rotate-0"
+                      loading="eager"
+                      decoding="async"
+                      fetchpriority="high"
+                    />
+                    {section.images.slice(1).map((src: string) => (
+                      <img src={src} alt="" class="aspect-video w-full rounded-2xl object-cover shadow-lg ring-1 ring-white/10 transition duration-300 hover:scale-[1.03]" loading="lazy" decoding="async" />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            <div class="pointer-events-none absolute inset-x-0 bottom-6 flex justify-center lg:bottom-8" aria-hidden="true">
+              <div class="scroll-indicator flex h-10 w-6 items-start justify-center rounded-full border-2 border-white/20 p-1">
+                <span class="h-2 w-1 rounded-full bg-white/50" />
+              </div>
             </div>
           </section>
         );
 
       case 'marquee':
         return (
-          <section class="weave-strip-container border-y border-brand-navy/10 bg-brand-cream py-4">
+          <section class="weave-strip-container relative overflow-hidden border-y border-brand-navy/10 bg-brand-cream py-4">
+            <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-brand-cream to-transparent" aria-hidden="true" />
+            <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-brand-cream to-transparent" aria-hidden="true" />
             <div class="marquee" aria-hidden="true">
               <div class="marquee-track">
                 {[0, 1].map((copy) => (
@@ -129,8 +202,9 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'quote':
         return (
-          <section class="bg-brand-paper py-20 lg:py-28">
-            <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-paper py-20 lg:py-28">
+            <div class="pointer-events-none absolute left-1/2 top-1/2 h-64 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand-green/5 blur-3xl" aria-hidden="true" />
+            <div class="relative mx-auto max-w-4xl px-4 text-center sm:px-6">
               <svg class="mx-auto h-10 w-10 text-brand-green" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M9.6 4C6 6 3.5 9.4 3.5 13.9c0 3.4 2 5.6 4.7 5.6 2.4 0 4.2-1.8 4.2-4.1 0-2.2-1.6-3.8-3.7-3.8-.4 0-1 .1-1.1.2.4-2.3 2.3-4.7 4.3-5.9L9.6 4zm10 0c-3.6 2-6.1 5.4-6.1 9.9 0 3.4 2 5.6 4.7 5.6 2.4 0 4.2-1.8 4.2-4.1 0-2.2-1.6-3.8-3.7-3.8-.4 0-1 .1-1.1.2.4-2.3 2.3-4.7 4.3-5.9L19.6 4z" />
               </svg>
@@ -146,7 +220,7 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'cards':
         return (
-          <section class:list={['py-20 lg:py-24', tinted ? 'bg-brand-cream-light/70' : 'bg-white']}>
+          <section id={sectionId(section, idx)} class:list={['py-20 lg:py-24', tinted ? 'bg-brand-cream-light/70' : 'bg-white']}>
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
                 <p class="eyebrow-rule mb-3 justify-center">
@@ -162,29 +236,42 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                 </h2>
               )}
               {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">{section.intro}</p>}
+              {section.subheading && <p class="mt-6 text-center text-xs font-bold uppercase tracking-[0.2em] text-brand-green-dark">{section.subheading}</p>}
+              {section.image && (
+                <div class="img-zoom fade-in mt-8 overflow-hidden rounded-2xl">
+                  <img src={section.image} alt="" class="aspect-[16/7] w-full object-cover" loading="lazy" decoding="async" />
+                </div>
+              )}
               <div class:list={['mt-12 grid gap-6', section.items && section.items.length > 4 ? 'sm:grid-cols-2 lg:grid-cols-3' : section.items && section.items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : 'md:grid-cols-3']}>
                 {section.items?.map((item, i) => {
                   const bullets = listItems(item);
                   return (
-                    <div class="reveal group relative overflow-hidden rounded-2xl border border-brand-navy/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-brand-green/30 hover:shadow-xl hover:shadow-brand-navy/5">
+                    <div class="card-corner reveal group relative overflow-hidden rounded-2xl border border-brand-navy/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-brand-green/30 hover:shadow-xl hover:shadow-brand-navy/5">
                       <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-cream transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
                       {item.iconImage && (
-                        <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-brand-green/10">
-                          <img src={item.iconImage} alt="" class="h-9 w-9 object-contain" loading="lazy" />
+                        <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-brand-green/10 transition-transform duration-300 group-hover:scale-110">
+                          <img src={item.iconImage} alt="" class="h-9 w-9 object-contain" loading="lazy" decoding="async" />
                         </div>
                       )}
                       {item.image && (
-                        <img src={item.image} alt={item.title ?? ''} class="mb-5 aspect-[4/3] w-full rounded-xl object-cover" loading="lazy" />
+                        <div class="card-img-overlay fade-in lightbox-trigger mb-5 cursor-pointer rounded-xl">
+                          <img src={item.image} alt={item.title ?? ''} class="aspect-[4/3] w-full rounded-xl object-cover" loading="lazy" decoding="async" />
+                          <span class="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-brand-navy opacity-0 shadow-sm backdrop-blur transition group-hover:opacity-100">
+                            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4" /></svg>
+                          </span>
+                        </div>
                       )}
                       {!item.iconImage && !item.image && item.title && (
-                        <p class="ghost-numeral text-5xl">{String(i + 1).padStart(2, '0')}</p>
+                        <p class="ghost-numeral text-5xl transition-opacity duration-300 group-hover:opacity-70">{String(i + 1).padStart(2, '0')}</p>
                       )}
                       {item.title && <h3 class="mt-4 text-xl font-semibold">{item.title}</h3>}
+                      {item.subtitle && <p class="mt-1 text-sm font-medium text-slate-500">{item.subtitle}</p>}
+                      {item.focus && <p class="mt-2 text-xs font-bold uppercase tracking-widest text-brand-green">{item.focus}</p>}
                       {item.tag && <p class="mt-2 text-xs font-semibold uppercase tracking-widest text-brand-green">{item.tag}</p>}
                       {bullets ? (
                         <ul class="mt-4 space-y-2 text-sm leading-6 text-slate-600">
                           {bullets.map((b) => (
-                            <li class="flex gap-2.5">
+                            <li class="flex gap-2.5 transition-colors duration-200 group-hover:text-slate-700">
                               <svg class="mt-0.5 h-4 w-4 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.8 3.8 6.8-6.8a1 1 0 0 1 1.4 0z" clip-rule="evenodd" />
                               </svg>
@@ -214,7 +301,7 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
               {section.ctas && (
                 <div class="mt-10 text-center">
                   {section.ctas.map((cta) => (
-                    <a href={cta.href} class="group inline-flex items-center gap-2 rounded-full bg-brand-green px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark">
+                    <a href={cta.href ?? '/contact-us/'} class="btn-shine group inline-flex items-center gap-2 rounded-full bg-brand-green px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark">
                       {cta.label}
                       <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
                     </a>
@@ -227,7 +314,7 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'steps':
         return (
-          <section class="bg-brand-cream-light py-20 lg:py-24">
+          <section id={sectionId(section, idx)} data-steps class="bg-brand-cream-light py-20 lg:py-24">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
                 <p class="eyebrow-rule mb-3 justify-center">
@@ -235,21 +322,41 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                   {section.eyebrow}
                 </p>
               )}
-              {section.heading && <h2 class="text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
-              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-600">{section.intro}</p>}
+              {section.heading && (
+                <h2 class="text-center text-3xl font-bold sm:text-4xl">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                  )}
+                </h2>
+              )}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">{section.intro}</p>}
               <ol class="relative mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                <div class="pointer-events-none absolute top-10 right-8 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green/10 via-brand-green/40 to-brand-green/10 lg:block" aria-hidden="true" />
+                <div class="steps-line pointer-events-none absolute top-14 right-8 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green/10 via-brand-green/40 to-brand-green/10 lg:block" aria-hidden="true" />
+                <div class="steps-progress pointer-events-none absolute top-14 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green to-brand-cream lg:block" style="width: 0%" aria-hidden="true" />
                 {section.items?.map((item, i) => (
-                  <li class="reveal relative rounded-2xl bg-white p-8 shadow-sm ring-1 ring-brand-navy/5">
-                    <span class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-green font-display text-lg font-bold text-white shadow-md shadow-brand-green/30">
+                  <li class="reveal group relative rounded-2xl bg-white p-8 shadow-sm ring-1 ring-brand-navy/5 transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-brand-navy/5">
+                    <span class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-green font-display text-lg font-bold text-white shadow-md shadow-brand-green/30 transition-transform duration-300 group-hover:scale-110">
                       {item.number ?? String(i + 1).padStart(2, '0')}
                     </span>
                     <h3 class="mt-5 text-lg font-semibold">{item.title}</h3>
-                    <div class="prose-basuka mt-3 text-sm leading-6 text-slate-600">
-                      {paragraphs(item.body).map((p) => (
-                        <p>{p}</p>
-                      ))}
-                    </div>
+                    {Array.isArray(item.body) ? (
+                      <ul class="mt-3 space-y-1.5 text-sm leading-6 text-slate-600">
+                        {item.body.map((b: string) => (
+                          <li class="flex gap-2">
+                            <svg class="mt-0.5 h-4 w-4 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                              <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.8 3.8 6.8-6.8a1 1 0 0 1 1.4 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span>{b}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <div class="prose-basuka mt-3 text-sm leading-6 text-slate-600">
+                        {paragraphs(item.body).map((p) => (
+                          <p>{p}</p>
+                        ))}
+                      </div>
+                    )}
                   </li>
                 ))}
               </ol>
@@ -259,8 +366,9 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'stats':
         return (
-          <section class="relative overflow-hidden bg-brand-navy py-16 lg:py-20">
+          <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-navy py-16 lg:py-20">
             <div class="pointer-events-none absolute inset-0 opacity-[0.05]" style="background-image: radial-gradient(#fcde9e 1px, transparent 1px); background-size: 26px 26px;" aria-hidden="true" />
+            <div class="pointer-events-none absolute -top-20 left-1/2 h-60 w-96 -translate-x-1/2 rounded-full bg-brand-green/10 blur-3xl" aria-hidden="true" />
             <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
                 <p class="mb-3 flex items-center justify-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">
@@ -268,14 +376,28 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                   {section.eyebrow}
                 </p>
               )}
-              {section.heading && <h2 class="text-center text-3xl font-bold text-white sm:text-4xl">{section.heading}</h2>}
+              {section.heading && (
+                <h2 class="text-center text-3xl font-bold text-white sm:text-4xl">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-brand-cream">{part.text}</span> : part.text
+                  )}
+                </h2>
+              )}
               {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg text-slate-300">{section.intro}</p>}
-              <dl class="mt-10 grid gap-6 sm:grid-cols-3">
+              {section.pillars && section.pillars.length > 0 && (
+                <div class="mt-6 flex flex-wrap justify-center gap-3">
+                  {section.pillars.map((pillar: string) => (
+                    <span class="rounded-full border border-brand-cream/30 bg-brand-cream/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.15em] text-brand-cream">{pillar}</span>
+                  ))}
+                </div>
+              )}
+              <dl class:list={['mt-10 grid gap-6', section.items && section.items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : 'sm:grid-cols-3']}>
                 {section.items?.map((item) => {
                   const [head, ...rest] = (item.label ?? '').split(' — ');
                   const m = String(item.value).match(/^([^\d]*)([\d,.]+)(.*)$/);
                   return (
-                    <div class="reveal rounded-2xl bg-white/5 p-6 text-center ring-1 ring-white/10 backdrop-blur">
+                    <div class="reveal group relative overflow-hidden rounded-2xl bg-white/5 p-6 text-center ring-1 ring-white/10 backdrop-blur transition duration-300 hover:bg-white/[0.08] hover:ring-brand-green/30">
+                      <div class="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 bg-gradient-to-r from-brand-green via-brand-cream to-brand-green transition-transform duration-500 group-hover:scale-x-100" aria-hidden="true" />
                       <dt class="sr-only">{head}</dt>
                       <dd class="font-display text-4xl font-bold text-brand-cream sm:text-5xl">
                         {m ? (
@@ -288,6 +410,7 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                       </dd>
                       <dd class="mt-2 text-sm font-semibold uppercase tracking-wide text-slate-200">{head}</dd>
                       {rest.length > 0 && <dd class="mt-2 text-xs leading-5 text-slate-400">{rest.join(' — ')}</dd>}
+                      {item.tag && <dd class="mt-3 text-[0.65rem] font-bold uppercase tracking-wider text-brand-green/80">{item.tag}</dd>}
                     </div>
                   );
                 })}
@@ -298,14 +421,38 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'faq':
         return (
-          <section class="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8">
-            {section.heading && <h2 class="text-center text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+          <section id={sectionId(section, idx)} class:list={['py-20', section.image ? 'relative overflow-hidden' : 'mx-auto max-w-4xl px-4 sm:px-6 lg:px-8']}>
+            {section.image && (
+              <div class="fade-in pointer-events-none absolute inset-0 opacity-10" aria-hidden="true">
+                <img src={section.image} alt="" class="h-full w-full object-cover" loading="lazy" decoding="async" />
+              </div>
+            )}
+            <div class={section.image ? 'relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8' : ''}>
+            {section.heading && (
+              <h2 class="text-center text-3xl font-bold sm:text-4xl">
+                {accentify(section.heading).map((part) =>
+                  part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                )}
+              </h2>
+            )}
+            {section.body && (
+              <div class="prose-basuka mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">
+                {paragraphs(section.body).map((p) => (
+                  <p>{p}</p>
+                ))}
+              </div>
+            )}
             <div class="mt-10 space-y-4">
               {section.items?.map((item) => (
-                <details class="group rounded-2xl border border-brand-navy/10 bg-white p-6 open:border-brand-green/30 open:shadow-lg open:shadow-brand-navy/5">
+                <details class="group rounded-2xl border border-brand-navy/10 bg-white p-6 transition duration-300 hover:border-brand-green/20 hover:shadow-md hover:shadow-brand-navy/5 open:border-brand-green/30 open:shadow-lg open:shadow-brand-navy/5">
                   <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-brand-navy">
-                    {item.q}
-                    <svg class="h-5 w-5 shrink-0 text-brand-green transition-transform group-open:rotate-45" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <span class="flex items-center gap-3">
+                      <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-brand-green/10 text-brand-green-dark transition-colors duration-300 group-open:bg-brand-green group-open:text-white">
+                        <svg class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2h-6v6a1 1 0 1 1-2 0v-6H3a1 1 0 1 1 0-2h6V3a1 1 0 0 1 1-1z" /></svg>
+                      </span>
+                      {item.q}
+                    </span>
+                    <svg class="h-5 w-5 shrink-0 text-brand-green transition-transform duration-300 group-open:rotate-45" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path d="M10 4a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H5a1 1 0 1 1 0-2h4V5a1 1 0 0 1 1-1z" />
                     </svg>
                   </summary>
@@ -317,13 +464,21 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                 </details>
               ))}
             </div>
+            </div>
           </section>
         );
 
       case 'cta':
         return (
-          <section class="relative overflow-hidden bg-brand-green py-20 lg:py-24">
+          <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-green py-20 lg:py-24">
+            {section.image && (
+              <div class="fade-in pointer-events-none absolute inset-0 opacity-15" aria-hidden="true">
+                <img src={section.image} alt="" class="h-full w-full object-cover" loading="lazy" decoding="async" />
+              </div>
+            )}
             <div class="pointer-events-none absolute inset-0 opacity-10" style="background-image: radial-gradient(#001d39 1.5px, transparent 1.5px); background-size: 24px 24px;" aria-hidden="true" />
+            <div class="pointer-events-none absolute -top-32 left-1/2 h-80 w-[40rem] -translate-x-1/2 rounded-full bg-brand-cream/20 blur-3xl" aria-hidden="true" />
+            <div class="pointer-events-none absolute -bottom-40 right-0 h-64 w-64 rounded-full bg-brand-cream/10 blur-3xl" aria-hidden="true" />
             <div class="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
               {section.eyebrow && <p class="text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">{section.eyebrow}</p>}
               {section.heading && (
@@ -340,10 +495,10 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                 <div class="mt-8 flex flex-wrap justify-center gap-3">
                   {section.ctas.map((cta, i) => (
                     <a
-                      href={cta.href}
+                      href={cta.href ?? '/contact-us/'}
                       class:list={[
                         'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
-                        i === 0 ? 'bg-white text-brand-green-dark hover:bg-brand-cream' : 'border border-white/40 text-white hover:bg-white/10',
+                        i === 0 ? 'btn-shine bg-white text-brand-green-dark hover:bg-brand-cream' : 'btn-shine border border-white/40 text-white hover:bg-white/10',
                       ]}
                     >
                       {cta.label}
@@ -355,7 +510,7 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
               {section.items && (
                 <div class="mt-12 grid gap-6 text-left sm:grid-cols-2 lg:grid-cols-3">
                   {section.items.map((item) => (
-                    <div class="rounded-2xl bg-white/10 p-6 ring-1 ring-white/15 backdrop-blur transition hover:bg-white/15">
+                    <div class="rounded-2xl bg-white/10 p-6 ring-1 ring-white/15 backdrop-blur transition duration-300 hover:-translate-y-1 hover:bg-white/15 hover:ring-white/30">
                       {item.title && <h3 class="text-lg font-semibold text-white">{item.title}</h3>}
                       {item.body && <p class="mt-2 text-sm leading-6 text-white/85">{item.body}</p>}
                       {item.button && (
@@ -376,38 +531,144 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'logos':
         return (
-          <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-            {section.heading && <h2 class="text-center text-sm font-bold uppercase tracking-[0.2em] text-slate-500">{section.heading}</h2>}
-            <div class="mt-10 flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
-              {section.images?.map((src) => (
-                <img src={src} alt="Partner logo" class="h-14 w-auto object-contain opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0" loading="lazy" />
-              ))}
+          <section id={sectionId(section, idx)} class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+            <div class="rounded-3xl border border-brand-navy/5 bg-brand-cream-light/50 px-8 py-10">
+              {section.heading && <h2 class="text-center text-sm font-bold uppercase tracking-[0.2em] text-slate-500">{section.heading}</h2>}
+              <div class="mt-8 flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
+                {section.images?.map((src) => (
+                  <img src={src} alt="Partner logo" class="h-14 w-auto object-contain opacity-70 grayscale transition duration-300 hover:scale-105 hover:opacity-100 hover:grayscale-0" loading="lazy" decoding="async" />
+                ))}
+              </div>
             </div>
           </section>
         );
 
       case 'contact':
         return (
-          <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-            {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+          <section id={sectionId(section, idx)} class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+            {section.eyebrow && (
+              <p class="eyebrow-rule mb-3">
+                <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                {section.eyebrow}
+              </p>
+            )}
+            {section.heading && (
+              <h2 class="text-3xl font-bold sm:text-4xl">
+                {accentify(section.heading).map((part) =>
+                  part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                )}
+              </h2>
+            )}
+            {section.body && (
+              <div class="prose-basuka mt-4 text-lg leading-8 text-slate-600">
+                {paragraphs(section.body).map((p) => (
+                  <p>{p}</p>
+                ))}
+              </div>
+            )}
             <div class="mt-10 grid gap-10 lg:grid-cols-2">
               <dl class="space-y-6">
-                {section.items?.map((item) => (
-                  <div>
-                    <dt class="eyebrow-rule">{item.label}</dt>
-                    <dd class="mt-2 text-lg font-medium text-brand-navy">{item.value}</dd>
-                  </div>
-                ))}
+                {section.items?.map((item) => {
+                  const icon = contactIcon(item.label ?? '');
+                  return (
+                    <div class="rounded-2xl border border-brand-navy/8 bg-white p-5 transition duration-300 hover:border-brand-green/20 hover:shadow-md hover:shadow-brand-navy/5">
+                      <dt class="eyebrow-rule">
+                        {icon === 'location' && (
+                          <svg class="h-4 w-4 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 2a6 6 0 0 1 6 6c0 4.5-6 10-6 10S4 12.5 4 8a6 6 0 0 1 6-6zm0 8a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
+                        )}
+                        {icon === 'phone' && (
+                          <svg class="h-4 w-4 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M2 3a1 1 0 0 1 1-1h3a1 1 0 0 1 1 .8l1 4a1 1 0 0 1-.5 1.1L6 9a11 11 0 0 0 5 5l1.1-1.5a1 1 0 0 1 1.1-.5l4 1a1 1 0 0 1 .8 1v3a1 1 0 0 1-1 1A16 16 0 0 1 2 4a1 1 0 0 1 0-1z" /></svg>
+                        )}
+                        {icon === 'email' && (
+                          <svg class="h-4 w-4 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 4h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm0 2v.4l7 4.2 7-4.2V6H3zm0 2.4V14h14V8.4l-6.5 3.9a1 1 0 0 1-1 0L3 8.4z" /></svg>
+                        )}
+                        {icon === 'office' && (
+                          <svg class="h-4 w-4 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4 3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14h2a1 1 0 1 1 0 2H2a1 1 0 1 1 0-2h2V3zm2 2h2v2H6V5zm0 4h2v2H6V9zm0 4h2v2H6v-2zm4-8h4v10h-4V5z" clip-rule="evenodd" /></svg>
+                        )}
+                        {item.label}
+                      </dt>
+                      <dd class="mt-2 text-lg font-medium text-brand-navy">{item.value}</dd>
+                    </div>
+                  );
+                })}
               </dl>
+              {section.form && (
+                <form
+                  id="contact-form"
+                  class="relative space-y-4"
+                  data-mailto="info@basukaenergy.com"
+                >
+                  <div class="grid gap-4 sm:grid-cols-2">
+                    <label class="block">
+                      <span class="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-500">Name</span>
+                      <input
+                        type="text"
+                        name="name"
+                        required
+                        class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                        placeholder="Your name"
+                      />
+                    </label>
+                    <label class="block">
+                      <span class="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-500">Email</span>
+                      <input
+                        type="email"
+                        name="email"
+                        required
+                        class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                        placeholder="you@example.com"
+                      />
+                    </label>
+                  </div>
+                  <label class="block">
+                    <span class="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-500">Subject</span>
+                    <input
+                      type="text"
+                      name="subject"
+                      class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                      placeholder="Partnership, support, inquiry…"
+                    />
+                  </label>
+                  <label class="block">
+                    <span class="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-500">Message</span>
+                    <textarea
+                      name="message"
+                      required
+                      rows="5"
+                      class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                      placeholder="Tell us how we can help…"
+                    />
+                  </label>
+                  <button
+                    type="submit"
+                    class="btn-shine group inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark"
+                  >
+                    Send message
+                    <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
+                  </button>
+                  <p
+                    id="form-success"
+                    class="hidden items-center gap-2 rounded-xl border border-brand-green/20 bg-brand-green/5 px-4 py-3 text-sm font-medium text-brand-green-dark"
+                  >
+                    <svg class="h-5 w-5 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.3a1 1 0 0 0-1.4-1.4L9 10.6 7.7 9.3a1 1 0 0 0-1.4 1.4l2 2a1 1 0 0 0 1.4 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    Thank you! Your message is ready to send.
+                  </p>
+                </form>
+              )}
               {section.mapEmbed && (
-                <iframe
-                  src={section.mapEmbed}
-                  class="h-80 w-full rounded-2xl border-0 shadow-lg shadow-brand-navy/10"
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  title="Map — Ouagadougou, Burkina Faso"
-                  allowfullscreen
-                />
+                <div class="relative">
+                  <div class="absolute -top-3 -right-3 h-full w-full rounded-2xl border-2 border-brand-green/20" aria-hidden="true" />
+                  <iframe
+                    src={section.mapEmbed}
+                    class="relative h-80 w-full rounded-2xl border-0 shadow-lg shadow-brand-navy/10 ring-1 ring-brand-navy/5"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Map — Ouagadougou, Burkina Faso"
+                    allowfullscreen
+                  />
+                </div>
               )}
             </div>
           </section>
@@ -415,7 +676,7 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       case 'image':
         return (
-          <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+          <section id={sectionId(section, idx)} class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
             <div class:list={['grid items-center gap-10 lg:grid-cols-2 lg:gap-16', section.variant === 'flip' ? 'lg:[&>div:first-child]:order-2' : '']}>
               <div>
                 {section.eyebrow && (
@@ -436,15 +697,27 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
                     <p>{p}</p>
                   ))}
                 </div>
+                {section.bullets && section.bullets.length > 0 && (
+                  <ul class="mt-5 space-y-2.5">
+                    {section.bullets.map((b: string) => (
+                      <li class="flex gap-2.5 text-base font-medium text-brand-navy">
+                        <svg class="mt-0.5 h-5 w-5 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.8 3.8 6.8-6.8a1 1 0 0 1 1.4 0z" clip-rule="evenodd" />
+                        </svg>
+                        <span>{b}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 {section.ctas && (
                   <div class="mt-8 flex flex-wrap gap-3">
                     {section.ctas.map((cta, i) => (
                       <a
-                        href={cta.href}
+                        href={cta.href ?? '/contact-us/'}
                         class:list={[
                           'group inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-bold transition',
                           i === 0
-                            ? 'bg-brand-green text-white hover:bg-brand-green-dark'
+                            ? 'btn-shine bg-brand-green text-white hover:bg-brand-green-dark'
                             : 'border border-brand-green/40 text-brand-green-dark hover:bg-brand-green/10',
                         ]}
                       >
@@ -458,7 +731,12 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
               {section.image && (
                 <div class="relative">
                   <div class="absolute -top-4 -right-4 h-full w-full rounded-3xl border-2 border-brand-green/25" aria-hidden="true" />
-                  <img src={section.image} alt={section.heading ?? ''} class="relative w-full rounded-3xl shadow-lg" loading="lazy" />
+                  <div class="img-zoom fade-in lightbox-trigger relative cursor-pointer rounded-3xl">
+                    <img src={section.image} alt={section.heading ?? ''} class="relative w-full rounded-3xl shadow-lg" loading="lazy" decoding="async" />
+                    <span class="absolute right-4 top-4 flex h-9 w-9 items-center justify-center rounded-full bg-white/80 text-brand-navy opacity-0 shadow-sm backdrop-blur transition hover:opacity-100">
+                      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4" /></svg>
+                    </span>
+                  </div>
                 </div>
               )}
             </div>
@@ -467,9 +745,15 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
 
       default:
         return (
-          <section class="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+          <section id={sectionId(section, idx)} class="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
             {section.eyebrow && <p class="eyebrow-rule mb-3">{section.eyebrow}</p>}
-            {section.heading && <h2 class="text-3xl font-bold sm:text-4xl">{section.heading}</h2>}
+            {section.heading && (
+              <h2 class="text-3xl font-bold sm:text-4xl">
+                {accentify(section.heading).map((part) =>
+                  part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                )}
+              </h2>
+            )}
             <div class="prose-basuka mt-5 text-lg leading-8 text-slate-600">
               {paragraphs(section.body).map((p) => (
                 <p>{p}</p>
@@ -480,6 +764,28 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
     }
   })
 }
+
+<script>
+  // Contact form: build a mailto link and show success confirmation.
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const success = document.getElementById('form-success');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const name = (fd.get('name') ?? '').toString();
+    const email = (fd.get('email') ?? '').toString();
+    const subject = (fd.get('subject') ?? '').toString();
+    const message = (fd.get('message') ?? '').toString();
+    const to = form.getAttribute('data-mailto') ?? 'info@basukaenergy.com';
+    const mailSubject = subject || `New message from ${name}`;
+    const mailBody = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+    const mailto = `mailto:${to}?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
+    window.location.href = mailto;
+    success?.classList.remove('hidden');
+    success?.classList.add('flex');
+    form.reset();
+  });
+</script>
 
 <script>
   // Count-up animation for stat values, triggered on scroll.
@@ -512,4 +818,24 @@ const nextEyebrowNumber = () => String(++eyebrowCounter).padStart(2, '0');
     { threshold: 0.4 }
   );
   document.querySelectorAll('.count-up').forEach((el) => statObserver.observe(el));
+</script>
+
+<script>
+  // Animate the steps progress line based on scroll position through the steps section.
+  const stepsSection = document.querySelector('section[data-steps]') as HTMLElement | null;
+  const stepsProgress = document.querySelector('.steps-progress') as HTMLElement | null;
+  if (stepsSection && stepsProgress) {
+    const updateProgress = () => {
+      const rect = stepsSection.getBoundingClientRect();
+      const viewportH = window.innerHeight;
+      // Start filling when section top enters viewport, fully filled when section bottom passes.
+      const total = rect.height + viewportH * 0.5;
+      const scrolled = viewportH * 0.5 - rect.top;
+      const pct = Math.max(0, Math.min(1, scrolled / total));
+      stepsProgress.style.width = (pct * 100).toFixed(1) + '%';
+    };
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    window.addEventListener('resize', updateProgress);
+    updateProgress();
+  }
 </script>
