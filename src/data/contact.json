@@ -1,6 +1,6 @@
 {
   "title": "Contact us - Basuka Energy",
-  "metaDescription": "Contact Us Home Contact Us Connect with us Feel Free To Connect with us For Fast and Trusted Assistance ! Reach out to Ba-Suka Energy for inquiries, partnerships, or support. Our team responds quickly and provides clear guidance. You can call or email. We look forward to connecting with you. Location Address : Ouagadougou, Burkina […]",
+  "metaDescription": "Contact Ba-Suka Energy in Ouagadougou, Burkina Faso for partnerships, inquiries, or support. Call +226 66 38 45 92 or email info@basukaenergy.com. Our team responds quickly.",
   "sections": [
     {
       "type": "hero",
@@ -36,6 +36,7 @@
       "eyebrow": "CONTACT US",
       "heading": "Send Your Message",
       "body": "Our team is ready to answer all your questions.",
+      "form": true,
       "items": [
         {
           "label": "Burkina Faso Office",
