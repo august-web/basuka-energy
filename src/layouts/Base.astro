@@ -27,6 +27,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#58a80a" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://maps.google.com" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -38,7 +42,27 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/assets/favicon-270.png', Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Ba-Suka Energy',
+        url: 'https://basukaenergy.com',
+        description: "Burkina Faso's smart electricity network — affordable power through smart, swappable SIRA batteries and 100% solar-powered Swap & Glow stations.",
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Ouagadougou',
+          addressCountry: 'BF',
+        },
+      })}
+    />
   </head>
   <body>
     <script is:inline>document.documentElement.classList.add('js');</script>
