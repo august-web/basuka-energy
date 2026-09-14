@@ -1,11 +1,12 @@
 {
   "title": "Services - Basuka Energy",
-  "metaDescription": "SERVICES Home Services Empowering the Future of African Mobility At Ba-Suka Energy, we don’t just provide power; we provide a professional, women-led infrastructure designed to eliminate the barriers to electric vehicle adoption. By combining cutting-edge solar technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders […]",
+  "metaDescription": "Ba-Suka Energy services: SIRA battery swapping, solar-powered Swap & Glow stations, EV mobility infrastructure, and household power — 100% solar, women-led, grid-independent in Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "SERVICES",
       "heading": "Empowering the Future of African Mobility",
+      "breadcrumb": ["Home", "Services"],
       "body": "At Ba-Suka Energy, we don’t just provide power; we provide a professional, women-led infrastructure designed to eliminate the barriers to electric vehicle adoption. By combining cutting-edge solar technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
       "images": [
         "/assets/partners-hero.webp",
