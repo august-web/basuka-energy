@@ -17,6 +17,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
 
   body {
@@ -32,6 +33,43 @@
     @apply font-display text-brand-navy;
     text-wrap: balance;
     letter-spacing: -0.02em;
+  }
+
+  /* Brand-matched text selection */
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-brand-green) 25%, transparent);
+    color: var(--color-brand-navy);
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-brand-paper);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--color-brand-green) 40%, transparent);
+    border-radius: 9999px;
+    border: 2px solid var(--color-brand-paper);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-brand-green);
+  }
+
+  /* Focus-visible outline for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-green);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Subtle press-down effect on interactive elements */
+  a:active:not(.no-press),
+  button:active:not(.no-press),
+  summary:active {
+    transform: scale(0.97);
+    transition: transform 0.08s ease;
   }
 }
 
@@ -59,6 +97,47 @@
   }
   .link-sweep:hover {
     background-size: 100% 2px;
+  }
+
+  /* Nav link animated underline on hover — desktop main nav only */
+  nav[aria-label="Main"] a[href]::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    border-radius: 9999px;
+    background: var(--color-brand-green);
+    transition: width 0.25s ease, left 0.25s ease;
+  }
+  nav[aria-label="Main"] a[href]:hover::after {
+    width: 40%;
+    left: 30%;
+  }
+
+  /* Button shine sweep on hover */
+  .btn-shine {
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-shine::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, white 25%, transparent),
+      transparent
+    );
+    transition: left 0.6s ease;
+  }
+  .btn-shine:hover::before {
+    left: 150%;
   }
 
   /* Burkina-weave inspired divider strip */
@@ -105,6 +184,111 @@
     color: transparent;
     @apply font-display font-bold;
   }
+
+  /* Reading progress bar at top of page */
+  .scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    z-index: 60;
+    background: linear-gradient(90deg, var(--color-brand-green), var(--color-brand-cream));
+    border-radius: 0 9999px 9999px 0;
+    transition: width 0.1s linear;
+    box-shadow: 0 1px 4px color-mix(in srgb, var(--color-brand-green) 50%, transparent);
+  }
+
+  /* Hero scroll-down indicator bounce */
+  .scroll-indicator {
+    animation: scroll-bounce 2s ease-in-out infinite;
+  }
+  @keyframes scroll-bounce {
+    0%, 100% { transform: translateY(0); opacity: 0.6; }
+    50% { transform: translateY(8px); opacity: 1; }
+  }
+
+  /* Card decorative corner accent */
+  .card-corner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    border-top-right-radius: 1rem;
+    background: linear-gradient(
+      135deg,
+      transparent 50%,
+      color-mix(in srgb, var(--color-brand-green) 8%, transparent) 50%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .card-corner:hover::after {
+    opacity: 1;
+  }
+
+  /* Image zoom container */
+  .img-zoom {
+    overflow: hidden;
+  }
+  .img-zoom img {
+    transition: transform 0.5s ease;
+  }
+  .img-zoom:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Image fade-in on scroll */
+  @media (prefers-reduced-motion: no-preference) {
+    html.js .fade-in {
+      opacity: 0;
+      transform: translateY(0.75rem) scale(0.98);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+    html.js .fade-in.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  /* Card image overlay on hover */
+  .card-img-overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  .card-img-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 40%,
+      color-mix(in srgb, var(--color-brand-navy) 55%, transparent) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  .card-img-overlay:hover::after {
+    opacity: 1;
+  }
+}
+
+/* Respect reduced-motion preferences — disable non-essential animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .scroll-indicator,
+  .marquee-track {
+    animation: none !important;
+  }
 }
 
 /* CSS-only scroll reveal — content stays visible without JS
@@ -118,5 +302,40 @@
   html.js .reveal.is-visible {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* Print styles — clean output for paper/PDF */
+@media print {
+  .scroll-progress,
+  #back-to-top,
+  .weave-strip,
+  .marquee,
+  #site-header,
+  #mobile-menu,
+  footer footer,
+  a[aria-label="Chat with us on WhatsApp"] {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: #1a1a1a !important;
+  }
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #666;
+  }
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
