@@ -1,13 +1,13 @@
 {
-  "title": "Services - Ba-Suka Energy",
-  "metaDescription": "Services Ba-Suka Energy : fondation de production de 130 MW, échange de batteries SIRA, stations Swap & Glow solaires d'abord, infrastructure de mobilité électrique et énergie domestique — dirigé par des femmes au Burkina Faso.",
+  "title": "Services - BaSuka Energy",
+  "metaDescription": "Services BaSuka Energy : fondation de production de 130 MW, échange de batteries SIRA, stations Swap & Glow solaires d'abord, infrastructure de mobilité électrique et énergie domestique — dirigé par des femmes au Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "SERVICES",
       "heading": "Propulser l'avenir de la mobilité africaine",
       "breadcrumb": ["Accueil", "Services"],
-      "body": "Chez Ba-Suka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, bâtie sur une fondation production d'abord de 130 MW de nouvelle capacité pilotable. En combinant une technologie de station solaire d'abord avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
+      "body": "Chez BaSuka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, bâtie sur une fondation production d'abord de 130 MW de nouvelle capacité pilotable. En combinant une technologie de station solaire d'abord avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
@@ -60,13 +60,13 @@
         },
         {
           "title": "Gestion professionnelle",
-          "body": "Chaque station est exploitée par une diplômée de l'Académie Ba-Suka, garantissant un service client de haute qualité et une expertise technique."
+          "body": "Chaque station est exploitée par une diplômée de l'Académie BaSuka, garantissant un service client de haute qualité et une expertise technique."
         }
       ]
     },
     {
       "type": "cards",
-      "heading": "Académie Ba-Suka : opérations professionnelles",
+      "heading": "Académie BaSuka : opérations professionnelles",
       "intro": "Nous fournissons de l'« Infrastructure-as-a-Service » en garantissant que chaque site soit géré par une professionnelle certifiée.",
       "items": [
         {
@@ -75,7 +75,7 @@
         },
         {
           "title": "Standards professionnels",
-          "body": "Cela garantit que les partenaires de flottes et les pilotes individuels reçoivent un service constant, de haute qualité et sûr sur chaque site Ba-Suka."
+          "body": "Cela garantit que les partenaires de flottes et les pilotes individuels reçoivent un service constant, de haute qualité et sûr sur chaque site BaSuka."
         }
       ]
     },
@@ -98,7 +98,7 @@
       "type": "cta",
       "eyebrow": "Amplifiez votre impact. Alimentez votre flotte",
       "heading": "Rejoignez le réseau énergétique dirigé par des femmes le plus fiable d'Afrique de l'Ouest",
-      "body": "Ba-Suka Energy offre une plateforme d'infrastructure solaire bancable, conçue pour la croissance commerciale. Que vous soyez fabricant de VE, entreprise de logistique ou investisseur à impact, nous fournissons la technologie standardisée et les opérations certifiées nécessaires pour mener la transition énergétique propre à travers l'Afrique.",
+      "body": "BaSuka Energy offre une plateforme d'infrastructure solaire bancable, conçue pour la croissance commerciale. Que vous soyez fabricant de VE, entreprise de logistique ou investisseur à impact, nous fournissons la technologie standardisée et les opérations certifiées nécessaires pour mener la transition énergétique propre à travers l'Afrique.",
       "image": "/assets/impact-4.webp",
       "ctas": [
         {
