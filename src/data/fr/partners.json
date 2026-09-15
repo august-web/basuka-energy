@@ -58,7 +58,7 @@
       "ctas": [
         {
           "label": "Démarrer la conversation",
-          "href": "/contact-us/"
+          "href": "#partner-form"
         }
       ]
     },
@@ -185,6 +185,67 @@
       "heading": "Nous sélectionnons des partenaires pour notre fondation de production et notre réseau intelligent",
       "body": "BaSuka Energy ouvre sa fondation de production de 130 MW et son réseau SIRA™ à un groupe restreint de partenaires stratégiques — fournisseurs de carburant, sociétés d'ingénierie, fonds d'infrastructure, fabricants de VE, fournisseurs de technologie et alliés du secteur public. Contactez-nous dès aujourd'hui pour démarrer la conversation.",
       "image": "/assets/hero-common.webp"
+    },
+    {
+      "type": "form",
+      "id": "partner-form",
+      "eyebrow": "DEVENIR PARTENAIRE DE BASUKA",
+      "heading": "Démarrer la *conversation*",
+      "body": "Dites-nous comment vous souhaitez collaborer — comme investisseur, fournisseur de carburant, société d'ingénierie, fabricant, fournisseur de technologie ou allié du secteur public. Votre message s'ouvre directement dans WhatsApp.",
+      "context": "Demande de partenariat — basukaenergy.com",
+      "whatsapp": "12149951927",
+      "submitLabel": "Envoyer via WhatsApp",
+      "successText": "Ouverture de WhatsApp… S'il ne s'ouvre pas, touchez",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Nom complet",
+          "type": "text",
+          "required": true,
+          "placeholder": "Jeanne Dupont",
+          "span": 1
+        },
+        {
+          "name": "email",
+          "label": "E-mail professionnel",
+          "type": "email",
+          "required": true,
+          "placeholder": "jeanne@entreprise.com",
+          "span": 1
+        },
+        {
+          "name": "organization",
+          "label": "Entreprise / organisation",
+          "type": "text",
+          "required": true,
+          "placeholder": "Acme Energy",
+          "span": 2
+        },
+        {
+          "name": "interest",
+          "label": "Je suis intéressé(e) en tant que",
+          "type": "select",
+          "required": true,
+          "placeholder": "Sélectionner…",
+          "span": 2,
+          "options": [
+            "Investisseur",
+            "Fournisseur de carburant",
+            "EPC / Société d'ingénierie",
+            "Fabricant de VE",
+            "Fournisseur de technologie",
+            "Secteur public",
+            "Autre"
+          ]
+        },
+        {
+          "name": "message",
+          "label": "Parlez-nous de vos objectifs",
+          "type": "textarea",
+          "placeholder": "Partagez quelques détails sur votre organisation et ce que vous souhaitez construire ensemble…",
+          "span": 2
+        }
+      ]
     }
   ]
 }
