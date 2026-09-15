@@ -6,7 +6,10 @@
       "type": "hero",
       "eyebrow": "SERVICES",
       "heading": "Empowering the Future of African Mobility",
-      "breadcrumb": ["Home", "Services"],
+      "breadcrumb": [
+        "Home",
+        "Services"
+      ],
       "body": "At BaSuka Energy, we don’t just provide power; we provide a professional, women-led infrastructure built on a generation-first foundation of 130 MW of new dispatchable capacity. By combining solar-first station technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
       "backgroundImage": "/assets/services-image.jpg"
     },
@@ -33,7 +36,7 @@
       "type": "cards",
       "heading": "Solar-Powered Energy Hubs",
       "intro": "Our stations are not just points of sale; they are independent, clean-energy power plants.",
-      "image": "/assets/solar panels.jpeg",
+      "image": "/assets/solar-panels.jpeg",
       "items": [
         {
           "title": "Off-Grid Reliability",
