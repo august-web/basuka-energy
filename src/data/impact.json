@@ -1,20 +1,20 @@
 {
-  "title": "Impact - Ba-Suka Energy",
-  "metaDescription": "Ba-Suka Energy's verified impact: 130 MW generation foundation, 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
+  "title": "Impact - BaSuka Energy",
+  "metaDescription": "BaSuka Energy's verified impact: 130 MW generation foundation, 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "People. Planet. Profit.",
       "heading": "Measurable from day one",
       "breadcrumb": ["Home", "Impact"],
-      "body": "Ba-Suka Energy is a data driven infrastructure company. Every target below is IoT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
+      "body": "BaSuka Energy is a data driven infrastructure company. Every target below is IoT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
       "backgroundImage": "/assets/impact-hero.jpg"
     },
     {
       "type": "stats",
       "eyebrow": "YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES",
       "heading": "Three Pillars of Verified Impact",
-      "intro": "All figures are Year 3 programme targets. Ba-Suka’s IoT-enabled SIRA™ batteries generate real-time, verifiable data from launch day.",
+      "intro": "All figures are Year 3 programme targets. BaSuka’s IoT-enabled SIRA™ batteries generate real-time, verifiable data from launch day.",
       "pillars": [
         "Economic",
         "ENVIRONMENTAL",
@@ -33,7 +33,7 @@
         },
         {
           "value": "1,000+",
-          "label": "Women Trained via Ba-Suka Academy",
+          "label": "Women Trained via BaSuka Academy",
           "tag": "YEAR 3 TARGETS"
         },
         {
@@ -72,7 +72,7 @@
       "type": "cards",
       "eyebrow": "SDG ALIGNMENT",
       "heading": "Built around global goals",
-      "intro": "Ba-Suka directly addresses four UN Sustainable Development Goals through its core operating model – not as a CSR add-on, but as the architecture of the business itself.",
+      "intro": "BaSuka directly addresses four UN Sustainable Development Goals through its core operating model – not as a CSR add-on, but as the architecture of the business itself.",
       "items": [
         {
           "title": "Gender equality",
@@ -100,7 +100,7 @@
       "type": "steps",
       "eyebrow": "DEPLOYMENT ROADMAP",
       "heading": "Path to scale",
-      "intro": "From pilot launch to a 50-station network – how Ba-Suka builds verified impact over three years.",
+      "intro": "From pilot launch to a 50-station network – how BaSuka builds verified impact over three years.",
       "items": [
         {
           "title": "Pilot launch — Ouagadougou",
@@ -124,7 +124,7 @@
       "type": "cta",
       "eyebrow": "FOR INFRASTRUCTURE FUNDS & CLIMATE PARTNERS",
       "heading": "IoT-verified impact data, ready for your ESG portfolio",
-      "body": "Ba-Suka’s SIRA™ smart batteries generate real-time metrics on energy throughput, carbon displacement, and station performance – blockchain – ready and auditable from day one of operations.",
+      "body": "BaSuka’s SIRA™ smart batteries generate real-time metrics on energy throughput, carbon displacement, and station performance – blockchain – ready and auditable from day one of operations.",
       "image": "/assets/hero-common.webp"
     }
   ]
