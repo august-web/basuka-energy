@@ -1,5 +1,5 @@
 {
-  "title": "Academy - Basuka Energy",
+  "title": "Academy - Ba-Suka Energy",
   "metaDescription": "Ba-Suka Academy trains women as certified Yennenga Warriors — the talent engine powering Burkina Faso's smart electricity network. Solar PV, battery systems, and professional operations training.",
   "sections": [
     {
@@ -75,7 +75,7 @@
           "title": "Module 1 – Weeks 1-2 : Clean Energy & E-Mobility",
           "body": [
             "Solar PV fundamentals for the Sahel",
-            "The electric mobility transition in WestAfrica",
+            "The electric mobility transition in West Africa",
             "How SIRA™ battery chemistry works",
             "Environmental impact and carbon basics"
           ]
@@ -87,7 +87,7 @@
             "Solar array inspection and maintenance",
             "DMS swappable battery system procedures",
             "BMS safety and fault diagnosis",
-            "loT monitoring dashboard basics"
+            "IoT monitoring dashboard basics"
           ]
         },
         {
@@ -95,7 +95,7 @@
           "title": "Module 03 – Week 5: Business & Digital Skills",
           "body": [
             "Financial literacy and daily reconciliation",
-            "Mobile money systems (Orange Money,Wave)",
+            "Mobile money systems (Orange Money, Wave)",
             "Station record-keeping and reporting",
             "Basic site maintenance scheduling"
           ]
@@ -138,7 +138,7 @@
     },
     {
       "type": "cta",
-      "eyebrow": "financial opportunity",
+      "eyebrow": "A FINANCIAL OPPORTUNITY",
       "heading": "Ready to Lead the Clean-energy revolution",
       "body": [
         "Applications are open for the next cohort. Join the women building West Africa’s most trusted energy infrastructure.",
