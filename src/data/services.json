@@ -1,13 +1,13 @@
 {
-  "title": "Services - Ba-Suka Energy",
-  "metaDescription": "Ba-Suka Energy services: 130 MW generation foundation, SIRA battery swapping, solar-first Swap & Glow stations, EV mobility infrastructure, and household power — women-led in Burkina Faso.",
+  "title": "Services - BaSuka Energy",
+  "metaDescription": "BaSuka Energy services: 130 MW generation foundation, SIRA battery swapping, solar-first Swap & Glow stations, EV mobility infrastructure, and household power — women-led in Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "SERVICES",
       "heading": "Empowering the Future of African Mobility",
       "breadcrumb": ["Home", "Services"],
-      "body": "At Ba-Suka Energy, we don’t just provide power; we provide a professional, women-led infrastructure built on a generation-first foundation of 130 MW of new dispatchable capacity. By combining solar-first station technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
+      "body": "At BaSuka Energy, we don’t just provide power; we provide a professional, women-led infrastructure built on a generation-first foundation of 130 MW of new dispatchable capacity. By combining solar-first station technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
@@ -60,13 +60,13 @@
         },
         {
           "title": "Professional Management:",
-          "body": "Every station is operated by a graduate of the Ba-Suka Academy, ensuring high-quality customer service and technical expertise"
+          "body": "Every station is operated by a graduate of the BaSuka Academy, ensuring high-quality customer service and technical expertise"
         }
       ]
     },
     {
       "type": "cards",
-      "heading": "Ba-Suka Academy: Professional Operations",
+      "heading": "BaSuka Academy: Professional Operations",
       "intro": "We provide “Infrastructure-as-a-Service” by ensuring every site is managed by a certified professional.",
       "items": [
         {
@@ -75,7 +75,7 @@
         },
         {
           "title": "Professional Standards",
-          "body": "This ensures that fleet partners and individual riders receive consistent, high-quality, and safe service at every Ba-Suka location"
+          "body": "This ensures that fleet partners and individual riders receive consistent, high-quality, and safe service at every BaSuka location"
         }
       ]
     },
@@ -98,7 +98,7 @@
       "type": "cta",
       "eyebrow": "Scale Your Impact. Power Your Fleet",
       "heading": "Join West Africa’s most trusted women-led energy network",
-      "body": "Ba-Suka Energy offers a bankable, solar-powered infrastructure platform designed for commercial growth. Whether you are an EV manufacturer, a logistics firm, or an impact investor, we provide the standardized technology and certified operations needed to drive the clean-energy transition across Africa.",
+      "body": "BaSuka Energy offers a bankable, solar-powered infrastructure platform designed for commercial growth. Whether you are an EV manufacturer, a logistics firm, or an impact investor, we provide the standardized technology and certified operations needed to drive the clean-energy transition across Africa.",
       "image": "/assets/impact-4.webp",
       "ctas": [
         {
