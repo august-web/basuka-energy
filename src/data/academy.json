@@ -1,10 +1,10 @@
 {
-  "title": "Academy - Ba-Suka Energy",
-  "metaDescription": "Ba-Suka Academy trains women as certified Yennenga Warriors — a professional workforce-development pipeline across Burkina Faso's energy ecosystem: solar PV, battery systems, site operations, health & safety, and smart-energy services.",
+  "title": "Academy - BaSuka Energy",
+  "metaDescription": "BaSuka Academy trains women as certified Yennenga Warriors — a professional workforce-development pipeline across Burkina Faso's energy ecosystem: solar PV, battery systems, site operations, health & safety, and smart-energy services.",
   "sections": [
     {
       "type": "hero",
-      "heading": "Ba-Suka Academy",
+      "heading": "BaSuka Academy",
       "breadcrumb": [
         "Home",
         "Academy"
@@ -15,7 +15,7 @@
       "type": "image",
       "eyebrow": "Our Purpose",
       "heading": "Training the Leaders of the Clean-Energy Revolution",
-      "body": "The Ba-Suka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth.",
+      "body": "The BaSuka Academy serves as the talent engine for our operations, creating a specialized pipeline of capable women managers. We invest in comprehensive training, certification, and ongoing support to ensure every graduate is confident, skilled, and positioned for professional career growth.",
       "image": "/assets/academy-3.webp"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "ctas": [
         {
-          "label": "Apply for the Ba-Suka Academy"
+          "label": "Apply for the BaSuka Academy"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "type": "text",
       "eyebrow": "Leading the Clean-Energy Revolution",
       "heading": "Your path from graduate to regional lead",
-      "body": "Certification is a gateway, not an endpoint. Ba-Suka is committed to retaining and advancing every Yennenga Warrior who joins us."
+      "body": "Certification is a gateway, not an endpoint. BaSuka is committed to retaining and advancing every Yennenga Warrior who joins us."
     },
     {
       "type": "steps",
@@ -116,7 +116,7 @@
     {
       "type": "faq",
       "heading": "Frequently asked questions",
-      "body": "At the Ba-Suka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it.",
+      "body": "At the BaSuka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it.",
       "image": "/assets/hero-common.webp",
       "items": [
         {
@@ -125,7 +125,7 @@
         },
         {
           "q": "Is there a cost to Participate ?",
-          "a": "Training costs are currently covered by Ba-Suka Energy. Further details on stipend and living support will be confirmed at the application stage."
+          "a": "Training costs are currently covered by BaSuka Energy. Further details on stipend and living support will be confirmed at the application stage."
         },
         {
           "q": "Does Graduation Guarantee Employment ?",
@@ -156,7 +156,7 @@
     {
       "type": "cta",
       "heading": "3 YEAR IMPACT TARGETS",
-      "body": "These are program goals —updated as Ba-Suka scales.",
+      "body": "These are program goals —updated as BaSuka scales.",
       "items": [
         {
           "title": "1,000+ Women Trained",
@@ -174,7 +174,7 @@
         },
         {
           "title": "Safe Hubs",
-          "body": "Our graduates are the reason Ba-Suka stations are recognized as safe, reliable “women’s places” for energy and mobility services",
+          "body": "Our graduates are the reason BaSuka stations are recognized as safe, reliable “women’s places” for energy and mobility services",
           "button": {
             "label": "Apply Now"
           }
