@@ -1,0 +1,184 @@
+{
+  "title": "Académie - Ba-Suka Energy",
+  "metaDescription": "L'Académie Ba-Suka forme des femmes comme Yennenga Warriors certifiées — le moteur de talents du réseau électrique intelligent du Burkina Faso. Formation solaire PV, systèmes de batteries et opérations professionnelles.",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Académie Ba-Suka",
+      "breadcrumb": [
+        "Accueil",
+        "Académie"
+      ],
+      "image": "/assets/academy-2.webp"
+    },
+    {
+      "type": "image",
+      "eyebrow": "Notre raison d'être",
+      "heading": "Former les cheffes de la révolution énergétique propre",
+      "body": "L'Académie Ba-Suka est le moteur de talents de nos opérations, créant un vivier spécialisé de cheffes de station compétentes. Nous investissons dans une formation complète, la certification et un accompagnement continu pour que chaque diplômée soit sûre d'elle, compétente et positionnée pour une croissance professionnelle.",
+      "image": "/assets/academy-3.webp"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Les avantages",
+      "heading": "Pourquoi rejoindre les Yennenga Warriors ?",
+      "items": [
+        {
+          "title": "Formation gratuite",
+          "body": "Programme intensif de 8 semaines sans frais pour les participantes"
+        },
+        {
+          "title": "Placement garanti",
+          "body": "Emploi de cheffe de station à l'issue de la formation"
+        },
+        {
+          "title": "Salaire compétitif",
+          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+        },
+        {
+          "title": "Évolution vers cheffe régionale, formatrice ou postes de direction",
+          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+        },
+        {
+          "title": "Certification professionnelle",
+          "body": "Credential reconnu en énergies renouvelables et systèmes IoT"
+        },
+        {
+          "title": "Impact communautaire",
+          "body": "Menez la transition énergétique propre dans votre communauté"
+        },
+        {
+          "title": "Accompagnement continu",
+          "body": "Mentorat, formation continue et développement de carrière"
+        }
+      ],
+      "ctas": [
+        {
+          "label": "Postuler à l'Académie Ba-Suka"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Mener la révolution énergétique propre",
+      "heading": "Votre parcours de diplômée à cheffe régionale",
+      "body": "La certification est une porte d'entrée, pas une destination. Ba-Suka s'engage à retenir et faire évoluer chaque Yennenga Warrior qui nous rejoint."
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Domaines d'étude clés",
+      "heading": "Le programme de certification de 8 semaines",
+      "intro": "Six semaines d'enseignement en classe suivies de deux semaines de pratique supervisée dans une station Swap & Glow™ active. Aucune expérience préalable en électricité requise.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Module 1 – Semaines 1-2 : Énergie propre & e-mobilité",
+          "body": [
+            "Fondamentaux du solaire PV pour le Sahel",
+            "La transition de la mobilité électrique en Afrique de l'Ouest",
+            "Fonctionnement de la chimie des batteries SIRA™",
+            "Impact environnemental et bases du carbone"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Module 2 – Semaines 3-4 : Opérations techniques",
+          "body": [
+            "Inspection et maintenance des panneaux solaires",
+            "Procédures du système de batteries échangeables DMS",
+            "Sécurité BMS et diagnostic des pannes",
+            "Bases du tableau de bord de supervision IoT"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Module 3 – Semaine 5 : Compétences business & numériques",
+          "body": [
+            "Éducation financière et réconciliation quotidienne",
+            "Systèmes de mobile money (Orange Money, Wave)",
+            "Tenue de registres et reporting de station",
+            "Planification de base de la maintenance du site"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Module 4 – Semaine 6 : Leadership & service communautaire",
+          "body": [
+            "Excellence en service client",
+            "Résolution de conflits et désescalade",
+            "Stratégies de confiance communautaire",
+            "L'éthique de la Yennenga Warrior"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions fréquentes",
+      "body": "À l'Académie Ba-Suka, nous croyons que la transition énergétique propre n'est solide que par les cheffes qui l'exploitent.",
+      "image": "/assets/hero-common.webp",
+      "items": [
+        {
+          "q": "Qui peut postuler à l'Académie ?",
+          "a": "Toute femme motivée basée au Burkina Faso intéressée par la technologie, la durabilité et le service communautaire. Aucune expérience préalable en génie électrique n'est requise — nous formons de A à Z."
+        },
+        {
+          "q": "La participation est-elle payante ?",
+          "a": "Les frais de formation sont actuellement pris en charge par Ba-Suka Energy. De plus amples détails sur la bourse et le soutien au quotidien seront confirmés au moment de la candidature."
+        },
+        {
+          "q": "La diplômé garantit-elle un emploi ?",
+          "a": "Notre objectif est d'affecter chaque diplômée certifiée à une station. L'affectation dépend des stations disponibles dans votre région, mais toutes les diplômées rejoignent notre vivier de talents prioritaire pour les nouveaux lancements et les postes de supervision."
+        },
+        {
+          "q": "Comment postuler ?",
+          "a": "Envoyez votre nom, votre localisation et une courte lettre de motivation à academy@basukaenergy.com. Nous nous engageons à répondre sous 7 jours ouvrés."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "opportunité financière",
+      "heading": "Prête à mener la révolution énergétique propre",
+      "body": [
+        "Les candidatures sont ouvertes pour la prochaine cohorte. Rejoignez les femmes qui bâtissent l'infrastructure énergétique la plus fiable d'Afrique de l'Ouest.",
+        "OU",
+        "Prête à mener la révolution ?"
+      ],
+      "image": "/assets/academy-hero.webp",
+      "ctas": [
+        {
+          "label": "Postuler maintenant"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "OBJECTIFS D'IMPACT À 3 ANS",
+      "body": "Ce sont des objectifs du programme — mis à jour à mesure que Ba-Suka grandit.",
+      "items": [
+        {
+          "title": "1 000+ femmes formées",
+          "body": "Notre objectif est de former plus de 1 000 femmes via l'Académie au cours de nos trois premières années",
+          "button": {
+            "label": "Postuler maintenant"
+          }
+        },
+        {
+          "title": "Progression des revenus",
+          "body": "Nous visons à ce que nos diplômées gagnent 2–3× le salaire minimum local grâce à notre modèle de commission lié à la performance",
+          "button": {
+            "label": "Postuler maintenant"
+          }
+        },
+        {
+          "title": "Hubs sûrs",
+          "body": "Nos diplômées font des stations Ba-Suka des « espaces de femmes » reconnus comme sûrs et fiables pour les services d'énergie et de mobilité",
+          "button": {
+            "label": "Postuler maintenant"
+          }
+        }
+      ]
+    }
+  ]
+}
