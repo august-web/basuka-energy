@@ -8,11 +8,7 @@
       "heading": "Propulser l'avenir de la mobilité africaine",
       "breadcrumb": ["Accueil", "Services"],
       "body": "Chez Ba-Suka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, conçue pour éliminer les obstacles à l'adoption des véhicules électriques. En combinant une technologie solaire de pointe avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
-      "images": [
-        "/assets/partners-hero.webp",
-        "/assets/impact-2.webp",
-        "/assets/solarhub.webp"
-      ]
+      "backgroundImage": "/assets/services-image.jpg"
     },
     {
       "type": "cards",
@@ -37,7 +33,7 @@
       "type": "cards",
       "heading": "Hubs d'énergie solaire",
       "intro": "Nos stations ne sont pas de simples points de vente ; ce sont des centrales d'énergie propre indépendantes.",
-      "image": "/assets/about-hero.webp",
+      "image": "/assets/solar panels.jpeg",
       "items": [
         {
           "title": "Fiabilité hors réseau",
