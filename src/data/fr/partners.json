@@ -1,14 +1,63 @@
 {
   "title": "Partenaires - Ba-Suka Energy",
-  "metaDescription": "Devenez partenaire de Ba-Suka Energy pour bâtir l'infrastructure énergétique propre de l'Afrique. Trois piliers de partenariat : fabricants de VE, fonds climat et fournisseurs de technologie. Bientôt disponible à Ouagadougou.",
+  "metaDescription": "Devenez partenaire de Ba-Suka Energy pour bâtir l'avenir énergétique souverain du Burkina Faso : 130 MW de nouvelle capacité de production plus l'infrastructure énergétique propre de l'Afrique. Partenariats pour investisseurs, fournisseurs de carburant, sociétés d'ingénierie, fabricants de VE et fournisseurs de technologie.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BA-SUKA ENERGY – PARTENAIRES",
       "heading": "Bâtissez l'infrastructure énergétique propre de l'Afrique avec nous",
       "breadcrumb": ["Accueil", "Partenaires"],
-      "body": "Nous sélectionnons des partenaires stratégiques pour notre prochain lancement — fabricants de VE, fonds d'infrastructure et fournisseurs de technologie souhaitant co-construire le premier réseau professionnel intelligent de batteries échangeables du Sahel.",
+      "body": "Nous sélectionnons des partenaires stratégiques pour bâtir l'avenir énergétique souverain du Burkina Faso — fournisseurs de carburant, sociétés d'ingénierie et d'EPC, fonds d'infrastructure et climat, fabricants de VE, fournisseurs de technologie et alliés du secteur public souhaitant co-construire 130 MW de nouvelle capacité de production et le premier réseau professionnel intelligent de batteries échangeables du Sahel.",
       "backgroundImage": "/assets/partner-image.jpeg"
+    },
+    {
+      "type": "generation",
+      "eyebrow": "PARTENARIATS PRODUCTION D'ABORD",
+      "heading": "Alimentez la fondation : 130 MW de *nouvelle capacité pilotable*",
+      "intro": "La stratégie production d'abord de Ba-Suka débute avec quatre centrales thermiques à grande échelle fournissant 130 MW d'électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
+      "items": [
+        {
+          "value": "130 MW",
+          "label": "Nouvelle capacité de production"
+        },
+        {
+          "value": "4",
+          "label": "Centrales thermiques à grande échelle"
+        },
+        {
+          "value": "5",
+          "label": "Voies de partenariat — carburant, tech, EPC, finance, public"
+        }
+      ],
+      "cards": [
+        {
+          "iconImage": "/assets/icon-energy.webp",
+          "title": "Fournisseurs & négociants de carburant",
+          "body": "Approvisionnement stratégique en carburant et sources diversifiées pour sécuriser la sécurité énergétique, la stabilité des prix et une production pilotable."
+        },
+        {
+          "iconImage": "/assets/icon-network-house.webp",
+          "title": "Ingénierie & EPC",
+          "body": "Technologies de production à haut rendement et à faibles émissions, et livraison bancable d'ingénierie, d'approvisionnement et de construction."
+        },
+        {
+          "iconImage": "/assets/icon-green-energy.webp",
+          "title": "Financement d'infrastructure & climat",
+          "body": "Capital à long terme pour les actifs de production et l'expansion du réseau intelligent, avec des données ESG et carbone vérifiées par l'IoT dès le premier jour."
+        },
+        {
+          "iconImage": "/assets/icon-care.webp",
+          "title": "Secteur public & institutions",
+          "body": "Gouvernement, régulateurs et institutions de développement co-livrant une énergie fiable et une croissance économique inclusive."
+        }
+      ],
+      "body": "Ces voies reflètent notre écosystème énergétique intégré : d'abord la production, puis la distribution par réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre — chacun rendu possible par la base de puissance ferme qui le sous-tend.",
+      "ctas": [
+        {
+          "label": "Démarrer la conversation",
+          "href": "/contact-us/"
+        }
+      ]
     },
     {
       "type": "cards",
@@ -130,8 +179,8 @@
     {
       "type": "cta",
       "eyebrow": "PRÊT À BÂTIR L'AVENIR ÉNERGÉTIQUE DE L'AFRIQUE ?",
-      "heading": "Nous sélectionnons des partenaires pour notre prochain lancement",
-      "body": "Ba-Suka Energy ouvre son réseau SIRA™ à un groupe restreint de partenaires stratégiques. Les places sont limitées avant le lancement pilote. Contactez-nous dès aujourd'hui pour être informé(e) de la date de lancement.",
+      "heading": "Nous sélectionnons des partenaires pour notre fondation de production et notre réseau intelligent",
+      "body": "Ba-Suka Energy ouvre sa fondation de production de 130 MW et son réseau SIRA™ à un groupe restreint de partenaires stratégiques — fournisseurs de carburant, sociétés d'ingénierie, fonds d'infrastructure, fabricants de VE, fournisseurs de technologie et alliés du secteur public. Contactez-nous dès aujourd'hui pour démarrer la conversation.",
       "image": "/assets/hero-common.webp"
     }
   ]
