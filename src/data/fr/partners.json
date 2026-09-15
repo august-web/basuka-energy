@@ -1,12 +1,15 @@
 {
-  "title": "Partenaires - Ba-Suka Energy",
-  "metaDescription": "Devenez partenaire de Ba-Suka Energy pour bâtir l'avenir énergétique souverain du Burkina Faso : 130 MW de nouvelle capacité de production plus l'infrastructure énergétique propre de l'Afrique. Partenariats pour investisseurs, fournisseurs de carburant, sociétés d'ingénierie, fabricants de VE et fournisseurs de technologie.",
+  "title": "Partenaires - BaSuka Energy",
+  "metaDescription": "Devenez partenaire de BaSuka Energy pour bâtir l'avenir énergétique souverain du Burkina Faso : 130 MW de nouvelle capacité de production plus l'infrastructure énergétique propre de l'Afrique. Partenariats pour investisseurs, fournisseurs de carburant, sociétés d'ingénierie, fabricants de VE et fournisseurs de technologie.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BA-SUKA ENERGY – PARTENAIRES",
       "heading": "Bâtissez l'infrastructure énergétique propre de l'Afrique avec nous",
-      "breadcrumb": ["Accueil", "Partenaires"],
+      "breadcrumb": [
+        "Accueil",
+        "Partenaires"
+      ],
       "body": "Nous sélectionnons des partenaires stratégiques pour bâtir l'avenir énergétique souverain du Burkina Faso — fournisseurs de carburant, sociétés d'ingénierie et d'EPC, fonds d'infrastructure et climat, fabricants de VE, fournisseurs de technologie et alliés du secteur public souhaitant co-construire 130 MW de nouvelle capacité de production et le premier réseau professionnel intelligent de batteries échangeables du Sahel.",
       "backgroundImage": "/assets/partner-image.jpeg"
     },
@@ -14,7 +17,7 @@
       "type": "generation",
       "eyebrow": "PARTENARIATS PRODUCTION D'ABORD",
       "heading": "Alimentez la fondation : 130 MW de *nouvelle capacité pilotable*",
-      "intro": "La stratégie production d'abord de Ba-Suka débute avec quatre centrales thermiques à grande échelle fournissant 130 MW d'électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
+      "intro": "La stratégie production d'abord de BaSuka débute avec quatre centrales thermiques à grande échelle fournissant 130 MW d'électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
       "items": [
         {
           "value": "130 MW",
@@ -73,7 +76,7 @@
           "bullets": [
             "Dimensions de batteries optimisées pour l'IoT & protocoles BMS",
             "Co-ingénierie adaptée à la chaleur et à la poussière du Sahel",
-            "Accès au réseau croissant de pilotes Ba-Suka",
+            "Accès au réseau croissant de pilotes BaSuka",
             "Stratégie conjointe de mise sur le marché pour le Burkina Faso et au-delà"
           ]
         },
@@ -107,19 +110,19 @@
       "type": "cards",
       "eyebrow": "POURQUOI DEVENIR PARTENAIRE DE BA-SUKA",
       "heading": "Quatre raisons de nous rejoindre dès maintenant",
-      "intro": "Ba-Suka n'est pas un concept — c'est une plateforme d'infrastructure entièrement conçue, ciblant son prochain lancement pilote à Ouagadougou.",
+      "intro": "BaSuka n'est pas un concept — c'est une plateforme d'infrastructure entièrement conçue, ciblant son prochain lancement pilote à Ouagadougou.",
       "items": [
         {
           "title": "Avantage du premier entrant",
-          "body": "Ba-Suka construit le premier réseau professionnel de batteries intelligentes échangeables au Burkina Faso. Les partenaires bénéficient de conditions d'intégration préférentielles et d'une position de pionnier sur un marché des VE en forte croissance."
+          "body": "BaSuka construit le premier réseau professionnel de batteries intelligentes échangeables au Burkina Faso. Les partenaires bénéficient de conditions d'intégration préférentielles et d'une position de pionnier sur un marché des VE en forte croissance."
         },
         {
           "title": "Opérations professionnelles Yennenga",
-          "body": "Chaque station est gérée par une Yennenga Warrior certifiée — une femme formée à l'Académie Ba-Suka. Cela génère une profonde confiance communautaire, des standards de service d'élite et un objectif de rétention du personnel de 80%+."
+          "body": "Chaque station est gérée par une Yennenga Warrior certifiée — une femme formée à l'Académie BaSuka. Cela génère une profonde confiance communautaire, des standards de service d'élite et un objectif de rétention du personnel de 80%+."
         },
         {
           "title": "Fiabilité indépendante du réseau",
-          "body": "Les stations Swap & Glow™ 100% solaires fonctionnent entièrement hors réseau — notre réseau reste actif même pendant les fréquentes défaillances du réseau national burkinabè. Objectif de disponibilité de 99%+ dès le premier jour."
+          "body": "Les stations Swap & Glow™ solaires d’abord fonctionnent de manière résiliente hors réseau — notre réseau reste actif même pendant les fréquentes défaillances du réseau national burkinabè. Objectif de disponibilité de 99%+ dès le premier jour."
         },
         {
           "title": "Écosystème multi-usage SIRA™",
@@ -151,7 +154,7 @@
     {
       "type": "steps",
       "eyebrow": "PROCESSUS DE PARTENARIAT",
-      "heading": "Comment devenir partenaire de Ba-Suka",
+      "heading": "Comment devenir partenaire de BaSuka",
       "intro": "Nous avançons vite. De la première prise de contact à la signature de l'accord de partenariat, notre processus est conçu pour intégrer les partenaires stratégiques avant la fenêtre de lancement.",
       "items": [
         {
@@ -162,12 +165,12 @@
         {
           "number": "02",
           "title": "Pitch deck & brief technique",
-          "body": "Nous partageons le dossier de présentation complet de Ba-Suka à destination des investisseurs et partenaires, ainsi que le brief d'intégration technique SIRA™ correspondant à votre pilier de partenariat."
+          "body": "Nous partageons le dossier de présentation complet de BaSuka à destination des investisseurs et partenaires, ainsi que le brief d'intégration technique SIRA™ correspondant à votre pilier de partenariat."
         },
         {
           "number": "03",
           "title": "Appel de découverte",
-          "body": "Un appel ciblé de 45 minutes avec l'équipe fondatrice de Ba-Suka pour aligner le périmètre d'intégration, les conditions commerciales et le calendrier de lancement."
+          "body": "Un appel ciblé de 45 minutes avec l'équipe fondatrice de BaSuka pour aligner le périmètre d'intégration, les conditions commerciales et le calendrier de lancement."
         },
         {
           "number": "04",
@@ -180,7 +183,7 @@
       "type": "cta",
       "eyebrow": "PRÊT À BÂTIR L'AVENIR ÉNERGÉTIQUE DE L'AFRIQUE ?",
       "heading": "Nous sélectionnons des partenaires pour notre fondation de production et notre réseau intelligent",
-      "body": "Ba-Suka Energy ouvre sa fondation de production de 130 MW et son réseau SIRA™ à un groupe restreint de partenaires stratégiques — fournisseurs de carburant, sociétés d'ingénierie, fonds d'infrastructure, fabricants de VE, fournisseurs de technologie et alliés du secteur public. Contactez-nous dès aujourd'hui pour démarrer la conversation.",
+      "body": "BaSuka Energy ouvre sa fondation de production de 130 MW et son réseau SIRA™ à un groupe restreint de partenaires stratégiques — fournisseurs de carburant, sociétés d'ingénierie, fonds d'infrastructure, fabricants de VE, fournisseurs de technologie et alliés du secteur public. Contactez-nous dès aujourd'hui pour démarrer la conversation.",
       "image": "/assets/hero-common.webp"
     }
   ]
