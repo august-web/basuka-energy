@@ -1,0 +1,252 @@
+{
+  "title": "Accueil - Ba-Suka Energy",
+  "metaDescription": "Le réseau électrique intelligent du Burkina Faso. Une électricité abordable grâce aux batteries SIRA™ intelligentes et échangeables — stations Swap & Glow™ 100% solaires exploitées par des femmes professionnelles.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Le réseau électrique intelligent du Burkina Faso",
+      "heading": "Une électricité abordable grâce aux batteries *SIRA™* intelligentes et échangeables",
+      "body": "Ba-Suka Energy fournit une énergie instantanée et durable pour la mobilité, les entreprises et les solutions de secours — via des stations Swap & Glow™ 100% solaires exploitées par des femmes professionnelles.",
+      "image": "/assets/home-hero.webp",
+      "chips": [
+        "Électricité intelligente là où le réseau fait défaut",
+        "Échanges SIRA™ <60s",
+        "Dirigé par des femmes",
+        "Réseau pionnier au Burkina"
+      ],
+      "ctas": [
+        {
+          "label": "Rejoindre la liste d'attente",
+          "href": "/contact-us/"
+        },
+        {
+          "label": "Comment ça marche",
+          "href": "/how-it-works/"
+        }
+      ]
+    },
+    {
+      "type": "marquee",
+      "items": [
+        "Échanges SIRA™ en moins de 60 secondes",
+        "Stations 100% solaires",
+        "Infrastructure dirigée par des femmes",
+        "Paiement à l'échange — aucun coût d'acquisition",
+        "Conçu pour le Sahel",
+        "Impact vérifié par IoT",
+        "Lancement septembre 2026 — Ouagadougou"
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "L'avantage Ba-Suka",
+      "intro": "Six avantages inégalés qui propulsent la transition énergétique propre de l'Afrique",
+      "items": [
+        {
+          "title": "Réseau électrique intelligent",
+          "body": "Les batteries SIRA™ fournissent une énergie fiable pour la mobilité et l'alimentation de secours des entreprises, optimisées par le suivi IoT pour une efficacité maximale."
+        },
+        {
+          "title": "Stations Swap & Glow™",
+          "body": "Stations d'échange verticales 100% solaires, conçues pour le Sahel. Une infrastructure robuste et professionnelle qui fonctionne même en cas de défaillance du réseau."
+        },
+        {
+          "title": "Infrastructure dirigée par des femmes",
+          "body": "Géré par nos Yennenga Warriors, notre réseau bâtit une profonde confiance communautaire et l'excellence opérationnelle grâce à un leadership féminin professionnel."
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "heading": "Objectifs Année 3",
+      "items": [
+        {
+          "value": "1 000+",
+          "label": "Femmes formées"
+        },
+        {
+          "value": "100 %",
+          "label": "Énergie solaire"
+        },
+        {
+          "value": "10 M$+",
+          "label": "Activité économique locale"
+        },
+        {
+          "value": "1 200 t",
+          "label": "Tonnes de CO₂ évitées"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Le problème",
+      "heading": "Pourquoi le Burkina Faso a besoin d'un *réseau électrique intelligent*",
+      "intro": "Le déficit énergétique en Afrique de l'Ouest est réel et urgent. Ba-Suka résout les trois obstacles interconnectés qui freinent l'adoption de la mobilité électrique — rendant l'électricité propre accessible là où cela compte le plus.",
+      "items": [
+        {
+          "title": "Accès limité au réseau",
+          "body": "81% du Burkina Faso n'a pas d'accès fiable à l'électricité.\n\nSolution Ba-Suka : des stations solaires garantissent l'indépendance énergétique."
+        },
+        {
+          "title": "Stations d'échange professionnelles",
+          "body": "Aucune station professionnelle d'échange de batteries n'existe — Ba-Suka construit le premier réseau.\n\nSolution Ba-Suka : les Yennenga Warriors exploitent des stations professionnelles."
+        },
+        {
+          "title": "Coût des batteries",
+          "body": "Les batteries représentent 60 à 80 % du coût d'un véhicule électrique.\n\nSolution Ba-Suka : le paiement à l'échange élimine les coûts d'acquisition."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "La solution",
+      "heading": "L'*avantage* Ba-Suka",
+      "intro": "Six avantages inégalés qui propulsent la transition énergétique propre de l'Afrique",
+      "items": [
+        {
+          "title": "Système de gestion des données",
+          "body": "Optimisation du réseau en temps réel grâce aux données IoT pour surveiller la santé des batteries, leur localisation et la demande des stations à travers le Burkina Faso."
+        },
+        {
+          "title": "Académie Ba-Suka",
+          "body": "Formation professionnelle aux infrastructures énergétiques. Apprentissage modulaire en systèmes PV, supervision IoT et leadership pour nos futures cheffes de station."
+        },
+        {
+          "title": "Stations Swap & Glow™",
+          "body": "Stations 100% solaires, robustes face au Sahel, conçues pour la chaleur extrême et la poussière. L'échange vertical de batteries réduit le temps d'échange à moins de 60 secondes — plus rapide que la charge classique."
+        },
+        {
+          "title": "Plateforme multi-usage",
+          "body": "La même batterie SIRA™ alimente les motos électriques JOLA™, les tricycles, les kiosques commerciaux et les appareils ménagers. Un seul type de batterie sert plusieurs usages, maximisant l'utilisation."
+        },
+        {
+          "title": "Échanges <60 secondes",
+          "body": "Échange d'énergie instantané. Les pilotes arrivent, échangent leur batterie SIRA™ déchargée contre une batterie pleinement chargée et reprennent la route en moins d'une minute."
+        },
+        {
+          "title": "Infrastructure dirigée par des femmes",
+          "body": "Les Yennenga Warriors ne sont pas une simple initiative de RSE — elles constituent le cœur opérationnel. Des femmes formées professionnellement gèrent les stations, les relations clients et l'engagement communautaire."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Objectifs Année 3",
+      "heading": "Conçu pour créer un *impact durable*",
+      "intro": "Trois piliers d'impact : Personnes, Planète et Profit",
+      "items": [
+        {
+          "title": "Économique",
+          "body": "200+ emplois créés\n10 M$+ d'activité économique locale générée\n80%+ de fidélisation des clients et du personnel\n2-3× le salaire moyen local"
+        },
+        {
+          "title": "Environnemental",
+          "body": "1 200 tonnes de CO₂ évitées par an\n100% d'énergie renouvelable\n70%+ de réutilisation/recyclage des batteries\n50+ stations déployées"
+        },
+        {
+          "title": "Social",
+          "body": "1 000+ femmes formées\n60+ Yennenga Warriors employées\n100% de stations dirigées par des femmes\n15 000+ pilotes servis"
+        }
+      ],
+      "ctas": [
+        {
+          "label": "Découvrir notre impact",
+          "href": "/impact/"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "heading": "Notre mission & vision",
+      "body": "Construire le premier réseau électrique intelligent du Burkina Faso\n\nBa-Suka Energy fournit une électricité abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables — alimentant la mobilité électrique, les entreprises et les foyers. Nous construisons un réseau avancé, piloté par le client, alimenté à 100% par des énergies renouvelables, offrant une énergie propre fiable là où l'accès au réseau échoue.",
+      "image": "/assets/ev-charger.webp",
+      "ctas": [
+        {
+          "label": "Comment ça marche →",
+          "href": "/how-it-works/"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Comment ça marche",
+      "heading": "Le *réseau électrique intelligent* du Burkina Faso",
+      "intro": "Ba-Suka Energy fournit une énergie abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables. Notre infrastructure 100% solaire, indépendante du réseau, est conçue pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Échange intelligent SIRA™",
+          "body": "Les pilotes arrivent à une station Swap & Glow™ et échangent leur batterie SIRA™ déchargée contre une unité pleinement chargée en moins de 60 secondes — assistés par une Yennenga Warrior."
+        },
+        {
+          "number": "02",
+          "title": "Paiement à l'échange",
+          "body": "Une énergie simple et abordable. Payez par mobile money uniquement l'énergie consommée. Aucun coût d'acquisition de batterie pour les pilotes ou les entreprises."
+        },
+        {
+          "number": "03",
+          "title": "L'Académie Ba-Suka",
+          "body": "Nos Yennenga Warriors suivent une formation professionnelle en fondamentaux PV, diagnostic des batteries SIRA™ et gestion IoT des stations pour garantir un service d'élite."
+        },
+        {
+          "number": "04",
+          "title": "100% chargé solaire",
+          "body": "Roulez à l'énergie 100% renouvelable. Nos stations indépendantes du réseau vous garantissent de l'énergie même pendant les défaillances ou coupures nationales."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "body": "Positionner les femmes comme leaders professionnels du secteur de l'énergie afin de bâtir une profonde confiance communautaire et l'excellence opérationnelle à travers le premier réseau électrique intelligent du Burkina Faso.",
+      "citation": "La Vision Yennenga — Ba-Suka Energy"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Prêt à alimenter le réseau d'infrastructures ?",
+      "heading": "Rejoignez-nous pour bâtir *le premier réseau* électrique intelligent d'Afrique",
+      "items": [
+        {
+          "title": "Pilotes",
+          "body": "Accédez en avant-première aux motos électriques JOLA™ et aux échanges SIRA™",
+          "button": {
+            "label": "Rejoindre la liste d'attente",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Cheffes de station",
+          "body": "Formez-vous comme Yennenga Warrior",
+          "button": {
+            "label": "Info Académie",
+            "href": "/academy/"
+          }
+        },
+        {
+          "title": "Opérateurs de flottes",
+          "body": "Déployez SIRA™ sur toute votre flotte",
+          "button": {
+            "label": "Demander une info",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Investisseurs",
+          "body": "Accédez aux projections financières",
+          "button": {
+            "label": "Dossier d'investissement",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Partenaires",
+          "body": "Partenariats technologiques et de développement",
+          "button": {
+            "label": "Collaborer",
+            "href": "/partners/"
+          }
+        }
+      ]
+    }
+  ]
+}
