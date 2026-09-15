@@ -8,8 +8,18 @@ interface Cta {
   label: string;
   href?: string;
 }
+interface FormField {
+  name: string;
+  label: string;
+  type?: 'text' | 'email' | 'tel' | 'select' | 'textarea';
+  required?: boolean;
+  placeholder?: string;
+  options?: string[];
+  span?: 1 | 2;
+}
 interface Section {
   type: string;
+  id?: string;
   eyebrow?: string;
   heading?: string;
   heading2?: string;
@@ -30,6 +40,11 @@ interface Section {
   bullets?: string[];
   pillars?: string[];
   form?: boolean;
+  fields?: FormField[];
+  context?: string;
+  whatsapp?: string;
+  submitLabel?: string;
+  successText?: string;
 }
 interface Props {
   sections: Section[];
@@ -61,8 +76,9 @@ const contactIcon = (label: string): 'location' | 'phone' | 'email' | 'office' |
   if (l.includes('location') || l.includes('address')) return 'location';
   return null;
 };
-// Slugify a heading for use as a section anchor ID
+// Slugify a heading for use as a section anchor ID (explicit `id` wins)
 const sectionId = (section: Section, idx: number): string | undefined => {
+  if (section.id) return section.id;
   const raw = section.heading ?? section.eyebrow ?? section.type;
   if (section.type === 'hero') return undefined; // hero is always first, no ID needed
   const slug = raw.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -772,7 +788,9 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                 <form
                   id="contact-form"
                   class="relative space-y-4"
-                  data-mailto="info@basukaenergy.com"
+                  data-whatsapp="12149951927"
+                  data-context={ui.contactFormContext}
+                  data-success="form-success"
                 >
                   <div class="grid gap-4 sm:grid-cols-2">
                     <label class="block">
@@ -781,6 +799,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                         type="text"
                         name="name"
                         required
+                        data-label={ui.formName}
                         class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                         placeholder={ui.formNamePh}
                       />
@@ -791,6 +810,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                         type="email"
                         name="email"
                         required
+                        data-label={ui.formEmail}
                         class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                         placeholder={ui.formEmailPh}
                       />
@@ -801,6 +821,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     <input
                       type="text"
                       name="subject"
+                      data-label={ui.formSubject}
                       class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                       placeholder={ui.formSubjectPh}
                     />
@@ -810,6 +831,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     <textarea
                       name="message"
                       required
+                      data-label={ui.formMessage}
                       rows="5"
                       class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                       placeholder={ui.formMessagePh}
@@ -819,6 +841,9 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     type="submit"
                     class="btn-shine group inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark"
                   >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.11.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.02a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.42 9.42 0 1 1 7.98 4.41zM20.5 3.53A11.35 11.35 0 0 0 12.03 0C5.5 0 .16 5.34.16 11.88c0 2.1.55 4.14 1.59 5.94L0 24l6.35-1.66a11.87 11.87 0 0 0 5.68 1.45h.01c6.53 0 11.88-5.34 11.88-11.88 0-3.17-1.24-6.16-3.42-8.4z" />
+                    </svg>
                     {ui.formSend}
                     <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
                   </button>
@@ -829,7 +854,10 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     <svg class="h-5 w-5 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.3a1 1 0 0 0-1.4-1.4L9 10.6 7.7 9.3a1 1 0 0 0-1.4 1.4l2 2a1 1 0 0 0 1.4 0l4-4z" clip-rule="evenodd" />
                     </svg>
-                    {ui.formSuccess}
+                    <span>
+                      {ui.formSuccess}
+                      <a data-fallback href="#" target="_blank" rel="noopener" class="underline">WhatsApp</a>
+                    </span>
                   </p>
                 </form>
               )}
@@ -849,6 +877,109 @@ const sectionId = (section: Section, idx: number): string | undefined => {
             </div>
           </section>
         );
+
+      case 'form':
+        // Data-driven lead form (partnership / academy application). On submit the
+        // fields are composed into a pre-filled WhatsApp message to the business number.
+        {
+          const formId = `wa-form-${section.id ?? sectionId(section, idx) ?? 'form'}`;
+          const successId = `${formId}-success`;
+          return (
+            <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-navy py-20 lg:py-24">
+              <div class="pointer-events-none absolute -top-24 right-0 h-72 w-72 rounded-full bg-brand-green/10 blur-3xl" aria-hidden="true" />
+              <div class="pointer-events-none absolute -bottom-24 left-0 h-72 w-72 rounded-full bg-brand-cream/10 blur-3xl" aria-hidden="true" />
+              <div class="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+                {section.eyebrow && (
+                  <p class="mb-3 flex items-center justify-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">
+                    <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                    {section.eyebrow}
+                  </p>
+                )}
+                {section.heading && (
+                  <h2 class="text-center text-3xl font-bold text-white sm:text-4xl">
+                    {accentify(section.heading).map((part) =>
+                      part.accent ? <span class="accent-serif text-brand-cream">{part.text}</span> : part.text
+                    )}
+                  </h2>
+                )}
+                {section.body && (
+                  <div class="prose-basuka mx-auto mt-4 max-w-2xl text-center text-lg leading-8 text-slate-300">
+                    {paragraphs(section.body).map((p) => (
+                      <p>{p}</p>
+                    ))}
+                  </div>
+                )}
+                <form
+                  id={formId}
+                  class="relative mt-10 space-y-4 rounded-3xl bg-white p-6 shadow-xl shadow-brand-navy/10 sm:p-10"
+                  data-whatsapp={section.whatsapp ?? '12149951927'}
+                  data-context={section.context ?? ''}
+                  data-success={successId}
+                >
+                  <div class="grid gap-4 sm:grid-cols-2">
+                    {section.fields?.map((field) => (
+                      <label class:list={['block', field.span === 1 ? '' : 'sm:col-span-2']}>
+                        <span class="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-500">{field.label}</span>
+                        {field.type === 'select' ? (
+                          <select
+                            name={field.name}
+                            required={field.required}
+                            data-label={field.label}
+                            class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                          >
+                            <option value="" disabled selected>{field.placeholder ?? 'Select…'}</option>
+                            {field.options?.map((opt) => (
+                              <option value={opt}>{opt}</option>
+                            ))}
+                          </select>
+                        ) : field.type === 'textarea' ? (
+                          <textarea
+                            name={field.name}
+                            required={field.required}
+                            data-label={field.label}
+                            rows={5}
+                            placeholder={field.placeholder}
+                            class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                          />
+                        ) : (
+                          <input
+                            type={field.type ?? 'text'}
+                            name={field.name}
+                            required={field.required}
+                            data-label={field.label}
+                            placeholder={field.placeholder}
+                            class="w-full rounded-xl border border-brand-navy/10 bg-white px-4 py-3 text-base text-brand-navy placeholder-slate-400 shadow-sm transition duration-200 focus:border-brand-green focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                          />
+                        )}
+                      </label>
+                    ))}
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn-shine group inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-green px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition hover:bg-brand-green-dark"
+                  >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.11.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.02a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.42 9.42 0 1 1 7.98 4.41zM20.5 3.53A11.35 11.35 0 0 0 12.03 0C5.5 0 .16 5.34.16 11.88c0 2.1.55 4.14 1.59 5.94L0 24l6.35-1.66a11.87 11.87 0 0 0 5.68 1.45h.01c6.53 0 11.88-5.34 11.88-11.88 0-3.17-1.24-6.16-3.42-8.4z" />
+                    </svg>
+                    {section.submitLabel ?? 'Send via WhatsApp'}
+                  </button>
+                  <p
+                    id={successId}
+                    class="hidden items-center gap-2 rounded-xl border border-brand-green/20 bg-brand-green/5 px-4 py-3 text-sm font-medium text-brand-green-dark"
+                  >
+                    <svg class="h-5 w-5 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.3a1 1 0 0 0-1.4-1.4L9 10.6 7.7 9.3a1 1 0 0 0-1.4 1.4l2 2a1 1 0 0 0 1.4 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <span>
+                      {section.successText ?? 'Opening WhatsApp…'}
+                      <a data-fallback href="#" target="_blank" rel="noopener" class="underline">Open WhatsApp</a>
+                    </span>
+                  </p>
+                </form>
+              </div>
+            </section>
+          );
+        }
 
       case 'image':
         return (
@@ -942,24 +1073,38 @@ const sectionId = (section: Section, idx: number): string | undefined => {
 }
 
 <script>
-  // Contact form: build a mailto link and show success confirmation.
-  const form = document.getElementById('contact-form') as HTMLFormElement | null;
-  const success = document.getElementById('form-success');
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const fd = new FormData(form);
-    const name = (fd.get('name') ?? '').toString();
-    const email = (fd.get('email') ?? '').toString();
-    const subject = (fd.get('subject') ?? '').toString();
-    const message = (fd.get('message') ?? '').toString();
-    const to = form.getAttribute('data-mailto') ?? 'info@basukaenergy.com';
-    const mailSubject = subject || `New message from ${name}`;
-    const mailBody = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-    const mailto = `mailto:${to}?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
-    window.location.href = mailto;
-    success?.classList.remove('hidden');
-    success?.classList.add('flex');
-    form.reset();
+  // Lead forms (contact, partnership, academy): compose the fields into a
+  // pre-filled WhatsApp message and open it in a new tab, with a fallback link.
+  document.querySelectorAll('form[data-whatsapp]').forEach((form) => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const number = form.getAttribute('data-whatsapp') ?? '12149951927';
+      const context = form.getAttribute('data-context') ?? '';
+      const fd = new FormData(form);
+      const lines: string[] = [];
+      if (context) lines.push(context);
+      form.querySelectorAll<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>('[data-label]').forEach((el) => {
+        const label = el.getAttribute('data-label');
+        let value = '';
+        if (el instanceof HTMLSelectElement) {
+          value = el.options[el.selectedIndex]?.text ?? '';
+        } else {
+          value = (fd.get(el.name)?.toString() ?? '').trim();
+        }
+        if (label && value) lines.push(`${label}: ${value}`);
+      });
+      const url = `https://wa.me/${number}?text=${encodeURIComponent(lines.join('\n'))}`;
+      window.open(url, '_blank', 'noopener');
+      const successId = form.getAttribute('data-success');
+      const success = successId ? document.getElementById(successId) : null;
+      if (success) {
+        const fallback = success.querySelector<HTMLAnchorElement>('a[data-fallback]');
+        if (fallback) fallback.setAttribute('href', url);
+        success.classList.remove('hidden');
+        success.classList.add('flex');
+      }
+      form.reset();
+    });
   });
 </script>
 
