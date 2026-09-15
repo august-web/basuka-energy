@@ -1,0 +1,130 @@
+{
+  "title": "Comment ça marche - Ba-Suka Energy",
+  "metaDescription": "Une énergie indépendante du réseau, livrée en 60 secondes. Échange de batteries SIRA™ 100% solaire et optimisé par l'IoT, avec des opérations professionnelles dirigées par des femmes à travers le Burkina Faso.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ba-Suka Energy – Comment ça marche",
+      "heading": "Une énergie indépendante du réseau, livrée en 60 secondes",
+      "breadcrumb": ["Accueil", "Comment ça marche"],
+      "body": "100% solaire et conçu pour le Sahel rude. Ba-Suka combine du matériel optimisé par l'IoT et des opérations professionnelles dirigées par des femmes pour garder le Burkina Faso en mouvement — même quand le réseau national tombe.",
+      "image": "/assets/how-hero.webp",
+      "ctas": [
+        {
+          "label": "Rejoindre la liste d'attente",
+          "href": "/contact-us/"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Le processus d'échange – 4 étapes",
+      "heading": "Comment se déroule un échange",
+      "intro": "L'échange complet — de l'arrivée au départ — prend moins de 60 secondes, assisté par une Yennenga Warrior certifiée à chaque station.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Arrivez",
+          "body": "Arrivez à n'importe quelle station Swap & Glow™. Sans rendez-vous."
+        },
+        {
+          "number": "02",
+          "title": "Échangez",
+          "body": "Échangez votre batterie SIRA™ déchargée contre une unité pleinement chargée solaire en moins de 60 secondes."
+        },
+        {
+          "number": "03",
+          "title": "Payez",
+          "body": "Paiement mobile money fluide — Orange Money, Wave ou espèces. Ne payez que l'énergie consommée."
+        },
+        {
+          "number": "04",
+          "title": "Roulez",
+          "body": "Continuez votre route ou alimentez votre entreprise avec zéro émission et zéro dépendance au réseau."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "La pile technologique",
+      "heading": "Trois couches d'infrastructure intelligente",
+      "intro": "Chaque composant est conçu pour le Sahel — de la chimie de la batterie au boîtier de la station jusqu'à la plateforme de données.",
+      "items": [
+        {
+          "title": "Batterie SIRA™",
+          "body": "Batterie intelligente échangeable.\n\n→ Suivi IoT — localisation et santé en temps réel\n→ Multi-usage : mobilité, entreprise & maison\n→ Boîtier robuste anti-poussière et anti-chaleur pour le Sahel\n→ Stratégie de seconde vie, 70%+ recyclé",
+          "iconImage": "/assets/battery-plug.webp"
+        },
+        {
+          "title": "Station Swap & Glow™",
+          "body": "Station d'échange solaire.\n\n→ Capacité de panneaux solaires de 10 à 50 kW par station\n→ Conception modulaire d'échange vertical\n→ Refroidissement actif intégré pour la chaleur du Sahel\n→ Indépendante du réseau — fonctionne pendant les coupures",
+          "iconImage": "/assets/accumulator.webp"
+        },
+        {
+          "title": "Plateforme DMS",
+          "body": "Système de gestion des données.\n\n→ Optimisation du réseau en temps réel\n→ Santé des batteries et diagnostics prédictifs\n→ Réconciliation automatique du mobile money\n→ Rapports d'impact ESG prêts pour la blockchain",
+          "iconImage": "/assets/img-charge.webp"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "eyebrow": "Avantages techniques",
+      "heading": "Conçu pour le Sahel",
+      "intro": "Chaque décision de conception prend en compte la chaleur extrême, la poussière, l'accès intermittent au réseau et les réalités de l'exploitation en Afrique de l'Ouest.",
+      "items": [
+        {
+          "value": "99%+",
+          "label": "Objectif de disponibilité — une conception solaire d'abord avec stockage sur batterie maintient le réseau en ligne même lors de défaillances complètes du réseau national."
+        },
+        {
+          "value": "<60s",
+          "label": "Temps d'échange — l'architecture d'échange verticale et les Yennenga Warriors formées complètent chaque échange plus vite qu'un arrêt à la pompe."
+        },
+        {
+          "value": "IP54",
+          "label": "Indice de robustesse Sahel — boîtiers étanches à la poussière et résistants à la chaleur, conçus pour les températures ouest-africaines et l'harmattan."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Plateforme multi-usage",
+      "heading": "Une batterie. Tous les usages",
+      "intro": "La batterie SIRA™ ne se limite pas aux motos électriques. La même unité alimente les kiosques commerciaux, les appareils ménagers et plus encore — maximisant l'utilisation à travers le réseau.",
+      "items": [
+        {
+          "title": "Mobilité",
+          "body": "Pilotes électriques & opérateurs de flottes\n\n→ Motos électriques JOLA™\n→ Tricycles électriques & vélos cargo\n→ Flottes commerciales de livraison\n→ Paiement à l'échange — aucun coût d'acquisition",
+          "image": "/assets/swappables.webp"
+        },
+        {
+          "title": "Entreprise",
+          "body": "Kiosques, boutiques & PME\n\n→ Réfrigération commerciale\n→ Éclairage et charge d'appareils\n→ Alimentation des étals de marché\n→ Alimentation de secours pendant les coupures",
+          "image": "/assets/swappables-burkina.webp"
+        },
+        {
+          "title": "Planète",
+          "body": "Énergie propre & circularité\n\n→ 100% chargé solaire à chaque station\n→ Zéro dépendance aux énergies fossiles\n→ 70%+ de seconde vie des batteries\n→ Données de déplacement CO₂ vérifiées par l'IoT",
+          "image": "/assets/home-hero.webp"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Rejoignez la transition énergétique",
+      "heading": "Que vous rouliez, dirigiez une entreprise ou investissiez dans l'infrastructure",
+      "body": "Ba-Suka ouvre son réseau SIRA™ aux partenaires technologiques, aux fabricants de VE et aux fonds d'infrastructure. Ensemble, nous comblons le déficit énergétique du Sahel grâce à une innovation solaire évolutive et dirigée par des femmes.",
+      "ctas": [
+        {
+          "label": "Devenir partenaire",
+          "href": "/partners/"
+        },
+        {
+          "label": "Contactez-nous",
+          "href": "/contact-us/"
+        }
+      ]
+    }
+  ]
+}
