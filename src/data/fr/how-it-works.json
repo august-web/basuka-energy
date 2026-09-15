@@ -1,13 +1,13 @@
 {
   "title": "Comment ça marche - Ba-Suka Energy",
-  "metaDescription": "Une énergie indépendante du réseau, livrée en 60 secondes. Échange de batteries SIRA™ 100% solaire et optimisé par l'IoT, avec des opérations professionnelles dirigées par des femmes à travers le Burkina Faso.",
+  "metaDescription": "Une énergie production d'abord, livrée en 60 secondes. 130 MW de nouvelle capacité pilotable plus l'échange de batteries SIRA™ solaires d'abord et optimisé par l'IoT, avec des opérations professionnelles dirigées par des femmes à travers le Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Ba-Suka Energy – Comment ça marche",
       "heading": "Une énergie indépendante du réseau, livrée en 60 secondes",
       "breadcrumb": ["Accueil", "Comment ça marche"],
-      "body": "100% solaire et conçu pour le Sahel rude. Ba-Suka combine du matériel optimisé par l'IoT et des opérations professionnelles dirigées par des femmes pour garder le Burkina Faso en mouvement — même quand le réseau national tombe.",
+      "body": "Construit sur une fondation production d'abord de 130 MW de nouvelle capacité pilotable, Ba-Suka combine un matériel solaire d'abord et optimisé par l'IoT avec des opérations professionnelles dirigées par des femmes pour garder le Burkina Faso en mouvement — même quand le réseau national tombe.",
       "backgroundImage": "/assets/how-it-works.jpg",
       "ctas": [
         {
@@ -105,7 +105,7 @@
         },
         {
           "title": "Planète",
-          "body": "Énergie propre & circularité\n\n→ 100% chargé solaire à chaque station\n→ Zéro dépendance aux énergies fossiles\n→ 70%+ de seconde vie des batteries\n→ Données de déplacement CO₂ vérifiées par l'IoT",
+          "body": "Énergie propre & circularité\n\n→ Charge solaire d'abord à chaque station\n→ Fondation de production à faibles émissions\n→ 70%+ de seconde vie des batteries\n→ Données de déplacement CO₂ vérifiées par l'IoT",
           "image": "/assets/home-hero.webp"
         }
       ]
