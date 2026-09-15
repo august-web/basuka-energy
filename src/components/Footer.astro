@@ -1,13 +1,20 @@
 ---
+import { t, type Lang, localizedHref } from '../i18n/ui';
+
+interface Props {
+  lang?: Lang;
+}
+const { lang = 'en' } = Astro.props;
+const ui = t(lang);
 const nav = [
-  { label: 'About us', href: '/about-us-2/' },
-  { label: 'Partners', href: '/partners/' },
-  { label: 'How it works', href: '/how-it-works/' },
-  { label: 'Academy', href: '/academy/' },
-  { label: 'Impact', href: '/impact/' },
-  { label: 'Services', href: '/services/' },
-  { label: 'Contact us', href: '/contact-us/' },
-];
+  { key: 'about', href: '/about-us-2/' },
+  { key: 'partners', href: '/partners/' },
+  { key: 'howItWorks', href: '/how-it-works/' },
+  { key: 'academy', href: '/academy/' },
+  { key: 'impact', href: '/impact/' },
+  { key: 'services', href: '/services/' },
+  { key: 'contact', href: '/contact-us/' },
+] as const;
 const year = new Date().getFullYear();
 ---
 
@@ -16,8 +23,8 @@ const year = new Date().getFullYear();
   <div class="mx-auto max-w-7xl px-4 pb-10 pt-16 sm:px-6 lg:px-8">
     <div class="mb-12 flex flex-col items-start gap-4 rounded-2xl border border-white/10 bg-white/5 p-6 sm:flex-row sm:items-center sm:justify-between">
       <div>
-        <h3 class="text-sm font-bold uppercase tracking-[0.2em] text-brand-cream">Stay in the loop</h3>
-        <p class="mt-1 text-sm text-slate-400">Updates on our September 2026 launch, partner opportunities, and impact reports.</p>
+        <h3 class="text-sm font-bold uppercase tracking-[0.2em] text-brand-cream">{ui.newsletterTitle}</h3>
+        <p class="mt-1 text-sm text-slate-400">{ui.newsletterDesc}</p>
       </div>
       <form id="newsletter-form" class="flex w-full max-w-md gap-2" data-mailto="info@basukaenergy.com">
         <input
@@ -25,23 +32,23 @@ const year = new Date().getFullYear();
           name="email"
           required
           class="w-full rounded-full border border-white/15 bg-white/10 px-5 py-2.5 text-sm text-white placeholder-slate-500 outline-none transition focus:border-brand-cream/40 focus:bg-white/15"
-          placeholder="your@email.com"
-          aria-label="Email address for newsletter"
+          placeholder={ui.newsletterPlaceholder}
+          aria-label={ui.newsletterEmailLabel}
         />
         <button
           type="submit"
           class="btn-shine shrink-0 rounded-full bg-brand-green px-6 py-2.5 text-sm font-bold text-white transition hover:bg-brand-green-dark"
         >
-          Subscribe
+          {ui.newsletterSubscribe}
         </button>
       </form>
-      <p id="newsletter-success" class="hidden text-sm font-medium text-brand-cream">Thank you! We'll be in touch.</p>
+      <p id="newsletter-success" class="hidden text-sm font-medium text-brand-cream">{ui.newsletterSuccess}</p>
     </div>
     <div class="grid gap-12 md:grid-cols-3">
       <div>
         <img src="/assets/logo.png" alt="Ba-Suka Energy logo" class="h-12 w-auto rounded-lg bg-white/95 p-1.5 transition-transform duration-300 hover:scale-105" width="190" height="48" decoding="async" />
         <p class="mt-5 max-w-xs text-sm leading-6">
-          Burkina Faso's smart electricity network — affordable power through smart, swappable SIRA™ batteries and 100% solar-powered Swap &amp; Glow™ stations.
+          {ui.footerBlurb}
         </p>
         <a
           href="https://wa.me/22666384592"
@@ -66,13 +73,13 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
-        <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">Explore</h3>
+        <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">{ui.footerExplore}</h3>
         <ul class="mt-5 grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
           {
             nav.map((item) => (
               <li>
-                <a href={item.href} class="link-sweep transition-colors hover:text-brand-cream">
-                  {item.label}
+                <a href={localizedHref(item.href, lang)} class="link-sweep transition-colors hover:text-brand-cream">
+                  {ui.nav[item.key]}
                 </a>
               </li>
             ))
@@ -81,7 +88,7 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
-        <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">Contact</h3>
+        <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-brand-cream">{ui.footerContact}</h3>
         <ul class="mt-5 space-y-3 text-sm">
           <li class="flex items-start gap-2">
             <svg class="mt-0.5 h-4 w-4 shrink-0 text-brand-green" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -90,11 +97,11 @@ const year = new Date().getFullYear();
             Ouagadougou, Burkina Faso
           </li>
           <li>
-            <a href="/contact-us/" class="link-sweep transition-colors hover:text-brand-cream">Get in touch</a>
+            <a href={localizedHref('/contact-us/', lang)} class="link-sweep transition-colors hover:text-brand-cream">{ui.getInTouch}</a>
           </li>
         </ul>
         <p class="mt-6 rounded-xl border border-white/10 bg-white/5 p-4 text-xs leading-5 text-slate-400">
-          Building Africa's first women-led smart electricity network — launching September 2026.
+          {ui.footerNote}
         </p>
       </div>
     </div>
@@ -104,8 +111,8 @@ const year = new Date().getFullYear();
     </p>
 
     <div class="mt-4 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-slate-400 sm:flex-row">
-      <p>&copy; {year} Ba-Suka Energy. All rights reserved.</p>
-      <p>Smart electricity where the grid fails.</p>
+      <p>&copy; {year} Ba-Suka Energy. {ui.footerRights}</p>
+      <p>{ui.footerTagline}</p>
     </div>
   </div>
 </footer>
