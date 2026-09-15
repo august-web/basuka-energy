@@ -1,0 +1,136 @@
+{
+  "title": "Services - Ba-Suka Energy",
+  "metaDescription": "Services Ba-Suka Energy : échange de batteries SIRA, stations Swap & Glow solaires, infrastructure de mobilité électrique et énergie domestique — 100% solaire, dirigé par des femmes, indépendant du réseau au Burkina Faso.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "SERVICES",
+      "heading": "Propulser l'avenir de la mobilité africaine",
+      "breadcrumb": ["Accueil", "Services"],
+      "body": "Chez Ba-Suka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, conçue pour éliminer les obstacles à l'adoption des véhicules électriques. En combinant une technologie solaire de pointe avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
+      "images": [
+        "/assets/partners-hero.webp",
+        "/assets/impact-2.webp",
+        "/assets/solarhub.webp"
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Infrastructure d'échange de batteries DMS",
+      "intro": "Nous éliminons « l'anxiété d'autonomie » et les longues attentes de charge en fournissant un réseau d'échange standardisé et professionnel",
+      "items": [
+        {
+          "title": "L'échange en 60 secondes",
+          "body": "Nos stations permettent aux pilotes d'échanger une batterie déchargée contre une batterie pleinement chargée en moins de temps qu'il n'en faut pour faire le plein d'une moto à essence."
+        },
+        {
+          "title": "Le standard DMS",
+          "body": "Nous utilisons un format de batterie universel. Cette approche « EV-agnostique » signifie que tout fabricant ou flotte adoptant le standard DMS peut utiliser notre réseau sans verrouillage propriétaire."
+        },
+        {
+          "title": "Surveillance BMS intelligente",
+          "body": "Chaque batterie est équipée d'un système de gestion de batterie (BMS) intégré qui suit la santé, la température et les cycles en temps réel pour garantir une sécurité maximale."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Hubs d'énergie solaire",
+      "intro": "Nos stations ne sont pas de simples points de vente ; ce sont des centrales d'énergie propre indépendantes.",
+      "image": "/assets/about-hero.webp",
+      "items": [
+        {
+          "title": "Fiabilité hors réseau",
+          "body": "Chaque station est équipée d'un panneau solaire de haute capacité et d'un stockage d'énergie sur place, garantissant 95% de disponibilité indépendamment de la stabilité du réseau local."
+        },
+        {
+          "title": "Génération durable",
+          "body": "En générant 100% de notre énergie à partir du soleil, nous fournissons une source de carburant véritablement neutre en carbone pour le secteur des transports."
+        },
+        {
+          "title": "Deux options de charge",
+          "body": "Bien que l'échange soit notre priorité, nos hubs proposent aussi des points de charge classiques pour les véhicules adaptés à la charge stationnaire par câble."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Services énergétiques communautaires",
+      "intro": "Au-delà de la mobilité, nos stations servent de hubs communautaires sûrs et fiables, gérés par des femmes locales certifiées",
+      "items": [
+        {
+          "title": "Services annexes",
+          "body": "Les clients peuvent accéder à des services essentiels comme la charge de téléphones et le petit commerce sur nos sites de stations."
+        },
+        {
+          "title": "Gestion professionnelle",
+          "body": "Chaque station est exploitée par une diplômée de l'Académie Ba-Suka, garantissant un service client de haute qualité et une expertise technique."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Académie Ba-Suka : opérations professionnelles",
+      "intro": "Nous fournissons de l'« Infrastructure-as-a-Service » en garantissant que chaque site soit géré par une professionnelle certifiée.",
+      "items": [
+        {
+          "title": "Vivier de talents",
+          "body": "L'Académie forme des femmes à devenir « Cheffes d'Infrastructure », couvrant la maintenance technique, la gestion solaire et les systèmes numériques de point de vente (POS)."
+        },
+        {
+          "title": "Standards professionnels",
+          "body": "Cela garantit que les partenaires de flottes et les pilotes individuels reçoivent un service constant, de haute qualité et sûr sur chaque site Ba-Suka."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Solutions flottes & B2B",
+      "intro": "Nous offrons une gestion énergétique spécialisée pour les partenaires commerciaux, incluant les entreprises de logistique, de livraison et les coopératives de moto-taxi.",
+      "items": [
+        {
+          "title": "Coûts énergétiques prévisibles",
+          "body": "Nous proposons des modèles d'abonnement et des accords de volume permettant aux entreprises de figer leurs dépenses énergétiques et d'éviter la volatilité des prix de l'essence."
+        },
+        {
+          "title": "Transparence des données",
+          "body": "Les partenaires accèdent à notre plateforme de données, fournissant des informations sur la consommation énergétique de leur flotte, la santé des batteries et l'efficacité opérationnelle."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Amplifiez votre impact. Alimentez votre flotte",
+      "heading": "Rejoignez le réseau énergétique dirigé par des femmes le plus fiable d'Afrique de l'Ouest",
+      "body": "Ba-Suka Energy offre une plateforme d'infrastructure solaire bancable, conçue pour la croissance commerciale. Que vous soyez fabricant de VE, entreprise de logistique ou investisseur à impact, nous fournissons la technologie standardisée et les opérations certifiées nécessaires pour mener la transition énergétique propre à travers l'Afrique.",
+      "image": "/assets/impact-4.webp",
+      "ctas": [
+        {
+          "label": "Devenir partenaire"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "eyebrow": "POURQUOI NOUS EXISTONS",
+      "heading": "Notre mission est de positionner les femmes comme cheffes visibles et opératrices de confiance à la ligne de front de la transition énergétique propre et de la mobilité du Burkina Faso",
+      "body": "Cela est réalisé en développant une plateforme d'infrastructure solaire dirigée par des femmes qui fournit des services énergétiques sûrs et fiables à la communauté",
+      "bullets": [
+        "Mener la transition énergétique propre",
+        "Fournir une infrastructure fiable",
+        "Autonomiser les communautés locales"
+      ],
+      "image": "/assets/impact-3.webp"
+    },
+    {
+      "type": "logos",
+      "heading": "Nos partenaires",
+      "images": [
+        "/assets/logo11.webp",
+        "/assets/partner-1.webp",
+        "/assets/logo3.webp",
+        "/assets/logo51-1.webp"
+      ]
+    }
+  ]
+}
