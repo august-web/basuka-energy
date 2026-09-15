@@ -1,12 +1,15 @@
 {
-  "title": "Partners - Ba-Suka Energy",
-  "metaDescription": "Partner with Ba-Suka Energy to build Burkina Faso's sovereign energy future: 130 MW of new generation capacity plus Africa's clean-energy infrastructure. Partnerships for investors, fuel suppliers, EPC firms, EV manufacturers, and technology providers.",
+  "title": "Partners - BaSuka Energy",
+  "metaDescription": "Partner with BaSuka Energy to build Burkina Faso's sovereign energy future: 130 MW of new generation capacity plus Africa's clean-energy infrastructure. Partnerships for investors, fuel suppliers, EPC firms, EV manufacturers, and technology providers.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BA-SUKA ENERGY – PARTNERS",
       "heading": "Build Africa's clean-energy infrastructure with us",
-      "breadcrumb": ["Home", "Partners"],
+      "breadcrumb": [
+        "Home",
+        "Partners"
+      ],
       "body": "We are selecting strategic partners to build Burkina Faso's sovereign energy future — fuel suppliers, engineering and EPC firms, infrastructure and climate funds, EV manufacturers, technology providers, and public-sector allies who want to co-build 130 MW of new generation capacity and the Sahel's first professional smart battery-swap network.",
       "backgroundImage": "/assets/partner-image.jpeg"
     },
@@ -14,7 +17,7 @@
       "type": "generation",
       "eyebrow": "GENERATION-FIRST PARTNERSHIPS",
       "heading": "Power the foundation: 130 MW of *new dispatchable capacity*",
-      "intro": "Ba-Suka's generation-first strategy begins with four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable electricity. We are securing strategic fuel, technology, engineering, financing, and public-sector partnerships to deliver this foundation.",
+      "intro": "BaSuka's generation-first strategy begins with four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable electricity. We are securing strategic fuel, technology, engineering, financing, and public-sector partnerships to deliver this foundation.",
       "items": [
         {
           "value": "130 MW",
@@ -73,7 +76,7 @@
           "bullets": [
             "IoT-optimised battery dimensions & BMS protocols",
             "Co-engineering for Sahel heat & dust tolerance",
-            "Access to Ba-Suka’s growing rider network",
+            "Access to BaSuka’s growing rider network",
             "Joint route-to-market for Burkina Faso & beyond"
           ]
         },
@@ -107,19 +110,19 @@
       "type": "cards",
       "eyebrow": "WHY PARTNER WITH BA-SUKA",
       "heading": "Four reasons to join now",
-      "intro": "Ba-Suka is not a concept – it is a fully engineered infrastructure platform targeting its upcoming pilot launch in Ouagadougou.",
+      "intro": "BaSuka is not a concept – it is a fully engineered infrastructure platform targeting its upcoming pilot launch in Ouagadougou.",
       "items": [
         {
           "title": "First-mover advantage",
-          "body": "Ba-Suka is building the first professional smart battery-swap network in Burkina Faso. Partners secure preferential integration terms and first-to-market positioning in a rapidly growing EV market."
+          "body": "BaSuka is building the first professional smart battery-swap network in Burkina Faso. Partners secure preferential integration terms and first-to-market positioning in a rapidly growing EV market."
         },
         {
           "title": "Professional Yennenga operations",
-          "body": "Every station is managed by a certified Yennenga Warrior – a woman trained at the Ba-Suka Academy. This drives deep community trust, elite service standards, and an 80%+ staff retention target."
+          "body": "Every station is managed by a certified Yennenga Warrior – a woman trained at the BaSuka Academy. This drives deep community trust, elite service standards, and an 80%+ staff retention target."
         },
         {
           "title": "Grid-independent reliability",
-          "body": "100% solar-powered Swap & Glow™ stations operate entirely off-grid – meaning our network stays live even during Burkina Faso’s frequent national grid failures. 99%+ uptime target from day one."
+          "body": "Solar-first Swap & Glow™ stations operate resiliently off-grid – meaning our network stays live even during Burkina Faso’s frequent national grid failures. 99%+ uptime target from day one."
         },
         {
           "title": "Multi-use SIRA™ ecosystem",
@@ -151,7 +154,7 @@
     {
       "type": "steps",
       "eyebrow": "PARTNERSHIP PROCESS",
-      "heading": "How to become a Ba-Suka Partner",
+      "heading": "How to become a BaSuka Partner",
       "intro": "We move quickly. From initial enquiry to signed partnership agreement, our process is designed to get strategic partners integrated before the launch window.",
       "items": [
         {
@@ -162,12 +165,12 @@
         {
           "number": "02",
           "title": "Pitch deck & technical brief",
-          "body": "We share Ba-Suka’s full investor/partner pitch deck and the SIRA™ technical integration brief relevant to your partnership pillar."
+          "body": "We share BaSuka’s full investor/partner pitch deck and the SIRA™ technical integration brief relevant to your partnership pillar."
         },
         {
           "number": "03",
           "title": "Discovery call",
-          "body": "A focused 45-minute call with Ba-Suka’s founding team to align on integration scope, commercial terms, and launch timeline fit."
+          "body": "A focused 45-minute call with BaSuka’s founding team to align on integration scope, commercial terms, and launch timeline fit."
         },
         {
           "number": "04",
@@ -180,7 +183,7 @@
       "type": "cta",
       "eyebrow": "READY TO BUILD THE FUTURE OF AFRICAN ENERGY?",
       "heading": "We are selecting partners for our generation foundation and smart network",
-      "body": "Ba-Suka Energy is opening its 130 MW generation foundation and SIRA™ network to a focused group of strategic partners — fuel suppliers, engineering firms, infrastructure funds, EV manufacturers, technology providers, and public-sector allies. Reach out today to start the conversation.",
+      "body": "BaSuka Energy is opening its 130 MW generation foundation and SIRA™ network to a focused group of strategic partners — fuel suppliers, engineering firms, infrastructure funds, EV manufacturers, technology providers, and public-sector allies. Reach out today to start the conversation.",
       "image": "/assets/hero-common.webp"
     }
   ]
