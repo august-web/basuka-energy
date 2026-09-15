@@ -1,10 +1,10 @@
 {
-  "title": "Académie - Ba-Suka Energy",
-  "metaDescription": "L'Académie Ba-Suka forme des femmes comme Yennenga Warriors certifiées — un pipeline professionnel de développement de la main-d'œuvre à travers l'écosystème énergétique du Burkina Faso : solaire PV, systèmes de batteries, opérations de site, santé & sécurité et services d'énergie intelligente.",
+  "title": "Académie - BaSuka Energy",
+  "metaDescription": "L'Académie BaSuka forme des femmes comme Yennenga Warriors certifiées — un pipeline professionnel de développement de la main-d'œuvre à travers l'écosystème énergétique du Burkina Faso : solaire PV, systèmes de batteries, opérations de site, santé & sécurité et services d'énergie intelligente.",
   "sections": [
     {
       "type": "hero",
-      "heading": "Académie Ba-Suka",
+      "heading": "Académie BaSuka",
       "breadcrumb": [
         "Accueil",
         "Académie"
@@ -15,7 +15,7 @@
       "type": "image",
       "eyebrow": "Notre raison d'être",
       "heading": "Former les cheffes de la révolution énergétique propre",
-      "body": "L'Académie Ba-Suka est le moteur de talents de nos opérations, créant un vivier spécialisé de cheffes de station compétentes. Nous investissons dans une formation complète, la certification et un accompagnement continu pour que chaque diplômée soit sûre d'elle, compétente et positionnée pour une croissance professionnelle.",
+      "body": "L'Académie BaSuka est le moteur de talents de nos opérations, créant un vivier spécialisé de cheffes de station compétentes. Nous investissons dans une formation complète, la certification et un accompagnement continu pour que chaque diplômée soit sûre d'elle, compétente et positionnée pour une croissance professionnelle.",
       "image": "/assets/academy-3.webp"
     },
     {
@@ -54,7 +54,7 @@
       ],
       "ctas": [
         {
-          "label": "Postuler à l'Académie Ba-Suka"
+          "label": "Postuler à l'Académie BaSuka"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "type": "text",
       "eyebrow": "Mener la révolution énergétique propre",
       "heading": "Votre parcours de diplômée à cheffe régionale",
-      "body": "La certification est une porte d'entrée, pas une destination. Ba-Suka s'engage à retenir et faire évoluer chaque Yennenga Warrior qui nous rejoint."
+      "body": "La certification est une porte d'entrée, pas une destination. BaSuka s'engage à retenir et faire évoluer chaque Yennenga Warrior qui nous rejoint."
     },
     {
       "type": "steps",
@@ -116,7 +116,7 @@
     {
       "type": "faq",
       "heading": "Questions fréquentes",
-      "body": "À l'Académie Ba-Suka, nous croyons que la transition énergétique propre n'est solide que par les cheffes qui l'exploitent.",
+      "body": "À l'Académie BaSuka, nous croyons que la transition énergétique propre n'est solide que par les cheffes qui l'exploitent.",
       "image": "/assets/hero-common.webp",
       "items": [
         {
@@ -125,7 +125,7 @@
         },
         {
           "q": "La participation est-elle payante ?",
-          "a": "Les frais de formation sont actuellement pris en charge par Ba-Suka Energy. De plus amples détails sur la bourse et le soutien au quotidien seront confirmés au moment de la candidature."
+          "a": "Les frais de formation sont actuellement pris en charge par BaSuka Energy. De plus amples détails sur la bourse et le soutien au quotidien seront confirmés au moment de la candidature."
         },
         {
           "q": "La diplômé garantit-elle un emploi ?",
@@ -156,7 +156,7 @@
     {
       "type": "cta",
       "heading": "OBJECTIFS D'IMPACT À 3 ANS",
-      "body": "Ce sont des objectifs du programme — mis à jour à mesure que Ba-Suka grandit.",
+      "body": "Ce sont des objectifs du programme — mis à jour à mesure que BaSuka grandit.",
       "items": [
         {
           "title": "1 000+ femmes formées",
@@ -174,7 +174,7 @@
         },
         {
           "title": "Hubs sûrs",
-          "body": "Nos diplômées font des stations Ba-Suka des « espaces de femmes » reconnus comme sûrs et fiables pour les services d'énergie et de mobilité",
+          "body": "Nos diplômées font des stations BaSuka des « espaces de femmes » reconnus comme sûrs et fiables pour les services d'énergie et de mobilité",
           "button": {
             "label": "Postuler maintenant"
           }
