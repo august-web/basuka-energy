@@ -8,6 +8,7 @@
       "heading": "Une électricité abordable grâce aux batteries *SIRA™* intelligentes et échangeables",
       "body": "Ba-Suka Energy fournit une énergie instantanée et durable pour la mobilité, les entreprises et les solutions de secours — via des stations Swap & Glow™ 100% solaires exploitées par des femmes professionnelles.",
       "image": "/assets/home-hero.webp",
+      "backgroundImage": "/assets/desktop-homepage2.jpg",
       "chips": [
         "Électricité intelligente là où le réseau fait défaut",
         "Échanges SIRA™ <60s",
@@ -34,7 +35,7 @@
         "Paiement à l'échange — aucun coût d'acquisition",
         "Conçu pour le Sahel",
         "Impact vérifié par IoT",
-        "Lancement septembre 2026 — Ouagadougou"
+        "Date de lancement à venir — Restez informé(e)"
       ]
     },
     {
@@ -160,7 +161,7 @@
       "type": "image",
       "heading": "Notre mission & vision",
       "body": "Construire le premier réseau électrique intelligent du Burkina Faso\n\nBa-Suka Energy fournit une électricité abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables — alimentant la mobilité électrique, les entreprises et les foyers. Nous construisons un réseau avancé, piloté par le client, alimenté à 100% par des énergies renouvelables, offrant une énergie propre fiable là où l'accès au réseau échoue.",
-      "image": "/assets/ev-charger.webp",
+      "image": "/assets/our-mission.jpg",
       "ctas": [
         {
           "label": "Comment ça marche →",
