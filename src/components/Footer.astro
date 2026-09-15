@@ -26,11 +26,12 @@ const year = new Date().getFullYear();
         <h3 class="text-sm font-bold uppercase tracking-[0.2em] text-brand-cream">{ui.newsletterTitle}</h3>
         <p class="mt-1 text-sm text-slate-400">{ui.newsletterDesc}</p>
       </div>
-      <form id="newsletter-form" class="flex w-full max-w-md gap-2" data-mailto="info@basukaenergy.com">
+      <form id="newsletter-form" class="flex w-full max-w-md gap-2" data-whatsapp="12149951927">
         <input
           type="email"
           name="email"
           required
+          data-label="Email"
           class="w-full rounded-full border border-white/15 bg-white/10 px-5 py-2.5 text-sm text-white placeholder-slate-500 outline-none transition focus:border-brand-cream/40 focus:bg-white/15"
           placeholder={ui.newsletterPlaceholder}
           aria-label={ui.newsletterEmailLabel}
@@ -51,19 +52,19 @@ const year = new Date().getFullYear();
           {ui.footerBlurb}
         </p>
         <a
-          href="https://wa.me/22666384592"
+          href="https://wa.me/12149951927"
           class="mt-6 inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 text-sm font-semibold text-white transition hover:border-brand-cream hover:text-brand-cream"
         >
           <span class="relative inline-block h-2 w-2 rounded-full bg-brand-green" aria-hidden="true">
             <span class="absolute inset-0 animate-ping rounded-full bg-brand-green opacity-75"></span>
           </span>
-          WhatsApp +226 66 38 45 92
+          WhatsApp +1 (214) 995-1927
         </a>
         <div class="mt-6 flex items-center gap-3">
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="BaSuka Energy on LinkedIn" class="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-slate-400 transition hover:border-brand-cream/40 hover:text-brand-cream">
             <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.3 18.3V10H5.7v8.3h2.6zM7 8.8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm11.3 9.5v-4.5c0-2.4-1.3-3.5-3-3.5-1.4 0-2 .8-2.3 1.3v-1.1h-2.6v8.3h2.6v-4.6c0-.9.2-1.7 1.3-1.7s1.1 1 1.1 1.7v4.6h2.6z" /></svg>
           </a>
-          <a href="https://wa.me/22666384592" target="_blank" rel="noopener noreferrer" aria-label="BaSuka Energy on WhatsApp" class="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-slate-400 transition hover:border-brand-cream/40 hover:text-brand-cream">
+          <a href="https://wa.me/12149951927" target="_blank" rel="noopener noreferrer" aria-label="BaSuka Energy on WhatsApp" class="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-slate-400 transition hover:border-brand-cream/40 hover:text-brand-cream">
             <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.2-.7.2-.8 1-.9 1.1-.3.2-.6 0c-1.5-.7-2.4-1.3-3.4-3-.3-.5.3-.5.7-1.5.1-.2 0-.4 0-.5L9.4 7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.8.4C7 7 6 8 6 10c0 2.3 1.7 4.5 1.9 4.8.2.3 3.3 5 8 7 1.2.5 2 .8 2.7.9.6.1 1.2.1 1.6 0 .5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.3-.6-.4z M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.3A10 10 0 1 0 12 2z" /></svg>
           </a>
           <a href="mailto:info@basukaenergy.com" aria-label="Email BaSuka Energy" class="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-slate-400 transition hover:border-brand-cream/40 hover:text-brand-cream">
@@ -118,14 +119,15 @@ const year = new Date().getFullYear();
 </footer>
 
 <script>
-  // Newsletter form: build a mailto link and show success confirmation.
+  // Newsletter form: open a pre-filled WhatsApp message to the business number.
   const nlForm = document.getElementById('newsletter-form') as HTMLFormElement | null;
   const nlSuccess = document.getElementById('newsletter-success');
   nlForm?.addEventListener('submit', (e) => {
     e.preventDefault();
-    const email = (new FormData(nlForm).get('email') ?? '').toString();
-    const to = nlForm.getAttribute('data-mailto') ?? 'info@basukaenergy.com';
-    window.location.href = `mailto:${to}?subject=${encodeURIComponent('Newsletter subscription')}&body=${encodeURIComponent(`Please add ${email} to the newsletter list.`)}`;
+    const email = (new FormData(nlForm).get('email') ?? '').toString().trim();
+    const number = nlForm.getAttribute('data-whatsapp') ?? '12149951927';
+    const text = `Newsletter subscription\nEmail: ${email}`;
+    window.open(`https://wa.me/${number}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
     nlSuccess?.classList.remove('hidden');
     nlForm.classList.add('hidden');
   });
