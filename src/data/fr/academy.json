@@ -54,7 +54,8 @@
       ],
       "ctas": [
         {
-          "label": "Postuler à l'Académie BaSuka"
+          "label": "Postuler à l'Académie BaSuka",
+          "href": "#apply-form"
         }
       ]
     },
@@ -149,7 +150,8 @@
       "image": "/assets/academy-hero.webp",
       "ctas": [
         {
-          "label": "Postuler maintenant"
+          "label": "Postuler maintenant",
+          "href": "#apply-form"
         }
       ]
     },
@@ -178,6 +180,73 @@
           "button": {
             "label": "Postuler maintenant"
           }
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "apply-form",
+      "eyebrow": "POSTULER À L'ACADÉMIE",
+      "heading": "Commencez votre parcours de *Yennenga Warrior*",
+      "body": "Remplissez vos informations et nous vous contacterons sur WhatsApp pour vous guider dans les prochaines étapes. Aucun compte e-mail requis.",
+      "context": "Candidature à l'Académie — basukaenergy.com",
+      "whatsapp": "12149951927",
+      "submitLabel": "Envoyer la candidature via WhatsApp",
+      "successText": "Ouverture de WhatsApp… S'il ne s'ouvre pas, touchez",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Nom complet",
+          "type": "text",
+          "required": true,
+          "placeholder": "Aminata Ouédraogo",
+          "span": 1
+        },
+        {
+          "name": "email",
+          "label": "E-mail",
+          "type": "email",
+          "required": true,
+          "placeholder": "vous@exemple.com",
+          "span": 1
+        },
+        {
+          "name": "phone",
+          "label": "Téléphone / WhatsApp",
+          "type": "tel",
+          "required": true,
+          "placeholder": "+226 …",
+          "span": 1
+        },
+        {
+          "name": "city",
+          "label": "Ville / région",
+          "type": "text",
+          "required": true,
+          "placeholder": "Ouagadougou",
+          "span": 1
+        },
+        {
+          "name": "education",
+          "label": "Niveau d'éducation le plus élevé",
+          "type": "select",
+          "required": true,
+          "placeholder": "Sélectionner…",
+          "span": 2,
+          "options": [
+            "École secondaire",
+            "Certificat / Diplôme",
+            "Licence",
+            "Master",
+            "Autre"
+          ]
+        },
+        {
+          "name": "message",
+          "label": "Pourquoi souhaitez-vous rejoindre l'Académie ?",
+          "type": "textarea",
+          "placeholder": "Parlez-nous de vous et de ce que vous espérez accomplir…",
+          "span": 2
         }
       ]
     }
