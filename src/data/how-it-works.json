@@ -1,13 +1,13 @@
 {
   "title": "How It Works - Ba-Suka Energy",
-  "metaDescription": "Grid-independent power, delivered in 60 seconds. 100% solar-powered, IoT-optimised SIRA™ battery swapping with professional women-led operations across Burkina Faso.",
+  "metaDescription": "Generation-first power, delivered in 60 seconds. 130 MW of new dispatchable capacity plus solar-first, IoT-optimised SIRA™ battery swapping with professional women-led operations across Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Ba-Suka Energy – How It Works",
       "heading": "Grid-independent power, delivered in 60 seconds",
       "breadcrumb": ["Home", "How It Works"],
-      "body": "100% solar-powered and designed for the rugged Sahel. Ba-Suka combines IoT-optimised hardware with professional women-led operations to keep Burkina Faso moving — even when the national grid fails.",
+      "body": "Built on a generation-first foundation of 130 MW of new dispatchable capacity, Ba-Suka combines solar-first, IoT-optimised hardware with professional women-led operations to keep Burkina Faso moving — even when the national grid fails.",
       "backgroundImage": "/assets/how-it-works.jpg",
       "ctas": [
         {
@@ -30,7 +30,7 @@
         {
           "number": "02",
           "title": "Glow",
-          "body": "Exchange your depleted SIRA™ battery for a fully solar-charged unit in under 60 seconds."
+          "body": "Exchange your depleted SIRA™ battery for a fully solar-first-charged unit in under 60 seconds."
         },
         {
           "number": "03",
@@ -105,7 +105,7 @@
         },
         {
           "title": "Planet",
-          "body": "Clean energy & circularity\n\n→ 100% solar-charged at every station\n→ Zero fossil-fuel dependency\n→ 70%+ battery second-life reuse\n→ IoT-verified CO₂ displacement data",
+          "body": "Clean energy & circularity\n\n→ Solar-first charging at every station\n→ Lower-emission generation foundation\n→ 70%+ battery second-life reuse\n→ IoT-verified CO₂ displacement data",
           "image": "/assets/home-hero.webp"
         }
       ]
