@@ -105,7 +105,8 @@
       "image": "/assets/impact-4.webp",
       "ctas": [
         {
-          "label": "Partner with us"
+          "label": "Partner with us",
+          "href": "/partners/#partner-form"
         }
       ]
     },
