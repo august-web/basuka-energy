@@ -198,15 +198,6 @@
     box-shadow: 0 1px 4px color-mix(in srgb, var(--color-brand-green) 50%, transparent);
   }
 
-  /* Hero scroll-down indicator bounce */
-  .scroll-indicator {
-    animation: scroll-bounce 2s ease-in-out infinite;
-  }
-  @keyframes scroll-bounce {
-    0%, 100% { transform: translateY(0); opacity: 0.6; }
-    50% { transform: translateY(8px); opacity: 1; }
-  }
-
   /* Card decorative corner accent */
   .card-corner::after {
     content: "";
@@ -285,9 +276,10 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-  .scroll-indicator,
+  /* marquee keeps running per owner request (see .marquee-track above) —
+     re-assert over the universal reduced-motion kill */
   .marquee-track {
-    animation: none !important;
+    animation: marquee 28s linear infinite !important;
   }
 }
 
@@ -307,9 +299,6 @@
 
 /* Print styles — clean output for paper/PDF */
 @media print {
-  .scroll-progress,
-  #back-to-top,
-  .weave-strip,
   .marquee,
   #site-header,
   #mobile-menu,
