@@ -1,13 +1,13 @@
 {
   "title": "À propos - Ba-Suka Energy",
-  "metaDescription": "Ba-Suka (« la maison des femmes » en mooré) construit le premier réseau électrique intelligent du Burkina Faso — une infrastructure 100% solaire, gérée par des femmes, conçue pour le Sahel.",
+  "metaDescription": "Ba-Suka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, bâtissant l'avenir énergétique souverain du Burkina Faso : 130 MW de nouvelle capacité de production plus un réseau électrique intelligent alimenté par des batteries SIRA™ échangeables.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Qui sommes-nous | Infrastructure électrique avancée",
       "heading": "À propos de nous",
       "breadcrumb": ["Accueil", "À propos"],
-      "body": "Ba-Suka (« la maison des femmes » en mooré) construit le premier réseau électrique intelligent du Burkina Faso. Nous fournissons une énergie abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables — alimentant la mobilité électrique, les entreprises et les foyers là où l'accès au réseau échoue. Dirigée par Carolyn Wright, notre infrastructure 100% solaire et gérée par des femmes est indépendante du réseau et conçue spécifiquement pour l'environnement rude du Sahel.",
+      "body": "Ba-Suka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, au service de l'avenir énergétique souverain du Burkina Faso. Nous commençons par une fondation production d'abord — quatre centrales thermiques fournissant 130 MW de nouvelle capacité pilotable — puis nous nous étendons via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue spécifiquement pour l'environnement rude du Sahel.",
       "image": "/assets/about-hero.webp",
       "backgroundImage": "/assets/about-us.jpg",
       "ctas": [
@@ -27,7 +27,7 @@
         },
         {
           "value": "100 %",
-          "label": "Énergie solaire"
+          "label": "Stations solaires d'abord"
         },
         {
           "value": "10 M$+",
@@ -42,8 +42,8 @@
     {
       "type": "image",
       "eyebrow": "À propos de Ba-Suka | Infrastructure électrique avancée",
-      "heading": "Le premier réseau électrique intelligent du Burkina Faso",
-      "body": "Ba-Suka (« la maison des femmes » en mooré) construit le premier réseau électrique intelligent du Burkina Faso. Nous fournissons une énergie abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables — alimentant la mobilité électrique, les entreprises et les foyers là où l'accès au réseau échoue. Dirigée par Carolyn Wright, notre infrastructure 100% solaire et gérée par des femmes est indépendante du réseau et conçue pour le Sahel.",
+      "heading": "Un avenir énergétique souverain pour le Burkina Faso",
+      "body": "Ba-Suka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes. Notre stratégie production d'abord fournit 130 MW de nouvelle capacité pilotable via quatre centrales thermiques — renforçant la fiabilité du réseau et débloquant l'industrie, les mines et l'agro-industrie — puis s'étend via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue pour le Sahel.",
       "image": "/assets/about-portrait.webp",
       "ctas": [
         {
@@ -56,13 +56,13 @@
       "type": "text",
       "eyebrow": "L'héritage Ba-Suka",
       "heading": "Notre mission",
-      "body": "Ba-Suka Energy fournit une électricité abordable et durable grâce à des batteries intelligentes, portables et échangeables — alimentant la mobilité électrique, les entreprises et les foyers à travers le Burkina Faso et l'Afrique de l'Ouest."
+      "body": "Ba-Suka Energy fournit une électricité fiable et abordable à travers le Burkina Faso et l'Afrique de l'Ouest — en commençant par une fondation production d'abord de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries intelligentes, portables et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
     },
     {
       "type": "text",
-      "eyebrow": "Notre vision | Le premier réseau électrique intelligent du Burkina Faso",
+      "eyebrow": "Notre vision | Un avenir énergétique souverain",
       "heading": "Notre vision",
-      "body": "Ba-Suka Energy construira un réseau électrique avancé, intelligent et piloté par le client, alimenté par des énergies renouvelables — offrant une énergie propre fiable là où l'accès au réseau échoue."
+      "body": "Ba-Suka Energy construira une plateforme énergétique intégrée, pilotée par le client, qui soutient la souveraineté énergétique, l'industrialisation et la croissance inclusive — fournissant une énergie fiable au réseau national et des services d'électricité intelligente et propre là où l'accès au réseau échoue."
     },
     {
       "type": "cards",
@@ -75,12 +75,12 @@
         },
         {
           "title": "Fiable → Réseau électrique intelligent",
-          "body": "99%+ de disponibilité là où les réseaux nationaux tombent. Notre réseau utilise des batteries SIRA™ optimisées par l'IoT et la redondance solaire pour alimenter mobilité, entreprises et foyers.",
+          "body": "99%+ de disponibilité là où les réseaux nationaux tombent. Notre réseau utilise des batteries SIRA™ optimisées par l'IoT et une production solaire d'abord pour alimenter mobilité, entreprises et foyers.",
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
-          "title": "Renouvelable → 100% chargé solaire",
-          "body": "Stations Swap & Glow™ indépendantes du réseau fonctionnant à 100% à l'énergie solaire de toit. Nous remplaçons les carburants importés tout en garantissant une stratégie de seconde vie durable pour toutes les batteries.",
+          "title": "Renouvelable → Stations 100% chargées solaire",
+          "body": "Stations Swap & Glow™ indépendantes du réseau fonctionnant à l'énergie solaire propre. Nous faisons progresser la transition vers une énergie propre tout en garantissant une stratégie de seconde vie durable pour toutes les batteries.",
           "iconImage": "/assets/icon-solar-panel.webp"
         },
         {
@@ -132,8 +132,8 @@
     {
       "type": "cta",
       "eyebrow": "Faites partie de l'impact",
-      "heading": "Nous recherchons actuellement des fonds d'infrastructure et des partenaires climat qui valorisent des données d'impact transparentes et vérifiées par l'IoT",
-      "body": "Ba-Suka Energy est bien plus qu'un fournisseur de mobilité ; nous sommes un réseau d'infrastructure piloté par les données. En rejoignant notre prochain lancement, vous investissez dans un écosystème certifié visant 1 200 tonnes d'évitement de CO₂ et 10 M$ d'activité économique locale d'ici l'Année 3. Nos batteries intelligentes SIRA™ fournissent des métriques en temps réel, prêtes pour la blockchain, sur le débit d'énergie et le déplacement carbone, garantissant que vos investissements ESG livrent des résultats mesurables et de haute fidélité dans le Sahel.",
+      "heading": "Nous recherchons des fonds d'infrastructure, des partenaires carburant et technologiques, des sociétés d'ingénierie et des alliés du secteur public pour bâtir la fondation énergétique du Burkina Faso",
+      "body": "Ba-Suka Energy est bien plus qu'un fournisseur de mobilité ; nous sommes une plateforme d'infrastructure pilotée par les données. Notre fondation production d'abord fournit 130 MW de nouvelle capacité pilotable pour le réseau national et l'industrie, tandis que nos batteries intelligentes SIRA™ fournissent des métriques en temps réel, prêtes pour la blockchain, sur le débit d'énergie et le déplacement carbone — garantissant que vos investissements ESG livrent des résultats mesurables et de haute fidélité dans le Sahel.",
       "ctas": [
         {
           "label": "Devenir partenaire",
