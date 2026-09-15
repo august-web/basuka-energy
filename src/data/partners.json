@@ -1,5 +1,5 @@
 {
-  "title": "Partners - Basuka Energy",
+  "title": "Partners - Ba-Suka Energy",
   "metaDescription": "Partner with Ba-Suka Energy to build Africa's clean-energy infrastructure. Three partnership pillars: EV manufacturers, climate funds, and technology providers. September 2026 launch in Ouagadougou.",
   "sections": [
     {
@@ -7,7 +7,7 @@
       "eyebrow": "BA-SUKA ENERGY – PARTNERS",
       "heading": "Build Africa's clean-energy infrastructure with us",
       "breadcrumb": ["Home", "Partners"],
-      "body": "We are selecting strategic partners for our September 2026 launch – EV manufacturers, infrastructure funds, and technology providers who went to co- build the Sahel’s first professional smart battery-swap network.",
+      "body": "We are selecting strategic partners for our September 2026 launch – EV manufacturers, infrastructure funds, and technology providers who want to co-build the Sahel’s first professional smart battery-swap network.",
       "images": [
         "/assets/partners-diagram.webp",
         "/assets/partners-hero.webp"
@@ -17,42 +17,42 @@
       "type": "cards",
       "eyebrow": "THREE PARTNERSHIP PILLARS",
       "heading": "Where we need your expertise",
-      "intro": "Our partnership model is built around three strategic pillars. Each offers a distinct integration pathway into Burkina Faso’s first loT-enabled, solar-powered energy infrastructure network.",
+      "intro": "Our partnership model is built around three strategic pillars. Each offers a distinct integration pathway into Burkina Faso’s first IoT-enabled, solar-powered energy infrastructure network.",
       "items": [
         {
           "title": "EV MANUFACTURERS",
           "subtitle": "OEM battery interoperability.",
           "focus": "FOCUS: HARDWARE INTEGRATION",
-          "body": "We partner with 2-wheel and 3- wheel vehicle manufacturers to integrate SRA” battery standards directly into new frames – ensuring high-performance mobility optimised for the Sahel environment.",
+          "body": "We partner with 2-wheel and 3-wheel vehicle manufacturers to integrate SIRA™ battery standards directly into new frames – ensuring high-performance mobility optimised for the Sahel environment.",
           "bullets": [
-            "lOT-optimised battery dimensions & BMS protocols",
-            "Co-engincering for Sahel hoat & dust tolerance",
-            "Access to Ba-Suka’s growing ridor network",
-            "Joint route-to-market for Burking Faso & beyond"
+            "IoT-optimised battery dimensions & BMS protocols",
+            "Co-engineering for Sahel heat & dust tolerance",
+            "Access to Ba-Suka’s growing rider network",
+            "Joint route-to-market for Burkina Faso & beyond"
           ]
         },
         {
           "title": "CLIMATE FUND",
-          "subtitle": "Infrastructure & ESGinvestment",
+          "subtitle": "Infrastructure & ESG investment",
           "focus": "FOCUS: SCALABLE IMPACT CAPITAL",
-          "body": "We provide a high-impact platform for infrastructure and climate investors – offering transparent, loT-driven data for ESG compliance and measurable carbon avoidance through our solar-pawered network.",
+          "body": "We provide a high-impact platform for infrastructure and climate investors – offering transparent, IoT-driven data for ESG compliance and measurable carbon avoidance through our solar-powered network.",
           "bullets": [
-            "Real-time lol impact metrics from day one",
+            "Real-time IoT impact metrics from day one",
             "Blockchain-ready CO2 avoidance reporting",
-            "Year 3 target: 1,200t CO2 avoided annualy",
-            "SDG 5, 7, 8, 13 alignment – vorifoble data"
+            "Year 3 target: 1,200t CO2 avoided annually",
+            "SDG 5, 7, 8, 13 alignment – verifiable data"
           ]
         },
         {
-          "title": "TECHNOLGY PROVIDER",
-          "subtitle": "Solar, BMS & loT solutions",
+          "title": "TECHNOLOGY PROVIDER",
+          "subtitle": "Solar, BMS & IoT solutions",
           "focus": "FOCUS: SAHEL-RUGGED INFRASTRUCTURE",
-          "body": "We seek partners in high-efficiency PV systems, advanced battery management technology. and loT networking to keep our smart electricity network operating at 99%+ uptime across West Africa.",
+          "body": "We seek partners in high-efficiency PV systems, advanced battery management technology, and IoT networking to keep our smart electricity network operating at 99%+ uptime across West Africa.",
           "bullets": [
-            "High-efficiency PV pancis for extreme heat",
+            "High-efficiency PV panels for extreme heat",
             "Advanced EMS for multi-use battery cycles",
-            "IOT networking for remote station monitoring",
-            "Dust-proot enclosure manufacturing"
+            "IoT networking for remote station monitoring",
+            "Dust-proof enclosure manufacturing"
           ]
         }
       ]
@@ -84,13 +84,13 @@
     {
       "type": "cards",
       "eyebrow": "OEM TECHNICAL INTEGRATION DETAIL",
-      "heading": "How SIRAT™ integration works",
+      "heading": "How SIRA™ integration works",
       "intro": "For vehicle manufacturers, integration with the SIRA™ network is engineered to be as frictionless as possible – from BMS protocol alignment to customer access.",
       "subheading": "THREE INTEGRATION TRACKS",
       "items": [
         {
           "title": "SIRA™ interoperability",
-          "body": "Our engineering team works directly with your R&D team to align loT-optimised battery dimensions and BMS protocols with your 2-wheel and 3-wheel frames."
+          "body": "Our engineering team works directly with your R&D team to align IoT-optimised battery dimensions and BMS protocols with your 2-wheel and 3-wheel frames."
         },
         {
           "title": "Swap & Glow™ access",
@@ -105,7 +105,7 @@
     {
       "type": "steps",
       "eyebrow": "PARTNERSHIP PROCESS",
-      "heading": "How to become a Basuka Partner",
+      "heading": "How to become a Ba-Suka Partner",
       "intro": "We move quickly. From initial enquiry to signed partnership agreement, our process is designed to get strategic partners integrated before the September 2026 launch window.",
       "items": [
         {
@@ -121,12 +121,12 @@
         {
           "number": "03",
           "title": "Discovery call",
-          "body": "A focused 45-minute call with Ba-Suka’s founding team to align on integration scope, commercial terms, and launch timeline fit"
+          "body": "A focused 45-minute call with Ba-Suka’s founding team to align on integration scope, commercial terms, and launch timeline fit."
         },
         {
           "number": "04",
           "title": "Partnership agreement",
-          "body": "We move to a formal partnership agreement with clear deliverables, milestones, and revenue-sharing or investment terms anchored to the September 2026 launch.fit"
+          "body": "We move to a formal partnership agreement with clear deliverables, milestones, and revenue-sharing or investment terms anchored to the September 2026 launch."
         }
       ]
     },
