@@ -1,0 +1,52 @@
+{
+  "title": "Contact - Ba-Suka Energy",
+  "metaDescription": "Contactez Ba-Suka Energy à Ouagadougou, Burkina Faso pour des partenariats, demandes ou assistance. Appelez le +226 66 38 45 92 ou écrivez à info@basukaenergy.com. Notre équipe répond rapidement.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Connectez-vous avec nous",
+      "heading": "Contactez-nous",
+      "breadcrumb": [
+        "Accueil",
+        "Contact"
+      ],
+      "heading2": "N'hésitez pas à nous contacter pour une assistance rapide et fiable !",
+      "body": "Contactez Ba-Suka Energy pour toute demande, partenariat ou assistance. Notre équipe répond rapidement et vous guide clairement. Vous pouvez appeler ou écrire. Nous nous réjouissons de vous connecter."
+    },
+    {
+      "type": "contact",
+      "items": [
+        {
+          "label": "Adresse :",
+          "value": "Ouagadougou, Burkina Faso"
+        },
+        {
+          "label": "Téléphones :",
+          "value": "+226 66 38 45 92"
+        },
+        {
+          "label": "E-mail :",
+          "value": "info@basukaenergy.com"
+        }
+      ],
+      "mapEmbed": "https://maps.google.com/maps?q=Ouagadougou%2C%20Burkina%20Faso&t=m&z=10&output=embed&iwloc=near"
+    },
+    {
+      "type": "contact",
+      "eyebrow": "CONTACTEZ-NOUS",
+      "heading": "Envoyez-nous votre message",
+      "body": "Notre équipe est prête à répondre à toutes vos questions.",
+      "form": true,
+      "items": [
+        {
+          "label": "Burkina Faso",
+          "value": "Ouagadougou, Burkina Faso"
+        },
+        {
+          "label": "Bureau USA",
+          "value": "PO Box 117560, Carrollton, Texas, USA 75011"
+        }
+      ]
+    }
+  ]
+}
