@@ -43,9 +43,8 @@ export const ui = {
     footerExplore: 'Explore',
     footerContact: 'Contact',
     footerBlurb:
-      "Burkina Faso's smart electricity network — affordable power through smart, swappable SIRA™ batteries and 100% solar-powered Swap & Glow™ stations.",
-    footerNote:
-      "Building Africa's first women-led smart electricity network — launching soon.",
+      "Burkina Faso's sovereign energy platform — 130 MW of new dispatchable capacity, delivered through smart, swappable SIRA™ batteries and solar-first Swap & Glow™ stations.",
+    footerNote: "Building Africa's first women-led energy and infrastructure platform.",
     footerTagline: 'Smart electricity where the grid fails.',
     footerRights: 'All rights reserved.',
     cookieText:
@@ -101,9 +100,9 @@ export const ui = {
     footerExplore: 'Explorer',
     footerContact: 'Contact',
     footerBlurb:
-      'Le réseau électrique intelligent du Burkina Faso — une énergie abordable grâce aux batteries SIRA™ intelligentes et échangeables et aux stations Swap & Glow™ 100% solaires.',
+      'La plateforme énergétique souveraine du Burkina Faso — 130 MW de nouvelle capacité pilotable, livrés grâce aux batteries SIRA™ intelligentes et échangeables et aux stations Swap & Glow™ solaires d’abord.',
     footerNote:
-      "En train de bâtir le premier réseau électrique intelligent d'Afrique dirigé par des femmes — bientôt disponible.",
+      "En train de bâtir la première plateforme énergétique et d'infrastructure d'Afrique dirigée par des femmes.",
     footerTagline: "L'électricité intelligente là où le réseau fait défaut.",
     footerRights: 'Tous droits réservés.',
     cookieText:
