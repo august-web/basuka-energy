@@ -61,6 +61,7 @@ export const ui = {
     formMessagePh: 'Tell us how we can help…',
     formSend: 'Send message',
     formSuccess: 'Thank you! Your message is ready to send.',
+    contactFormContext: 'Contact inquiry — basukaenergy.com',
     partnerLogoAlt: 'Partner logo',
     nav: {
       home: 'Home',
@@ -119,6 +120,7 @@ export const ui = {
     formMessagePh: 'Dites-nous comment nous pouvons vous aider…',
     formSend: 'Envoyer le message',
     formSuccess: 'Merci ! Votre message est prêt à être envoyé.',
+    contactFormContext: 'Demande de contact — basukaenergy.com',
     partnerLogoAlt: 'Logo partenaire',
     nav: {
       home: 'Accueil',
