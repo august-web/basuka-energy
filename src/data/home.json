@@ -1,12 +1,12 @@
 {
   "title": "Home - Ba-Suka Energy",
-  "metaDescription": "Burkina Faso's Smart Electricity Network. Affordable electricity through smart, swappable SIRA™ batteries — 100% solar-powered Swap & Glow™ stations operated by professional women.",
+  "metaDescription": "Ba-Suka Energy builds Burkina Faso's sovereign energy future: a generation-first platform adding 130 MW of dispatchable power, then extending through smart, swappable SIRA™ batteries and women-led Swap & Glow™ stations.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Burkina Faso's Smart Electricity Network",
       "heading": "Affordable Electricity Through Smart, Swappable *SIRA™* Batteries",
-      "body": "Ba-Suka Energy delivers instant, sustainable power for mobility, businesses, and backup — using 100% solar-powered Swap & Glow™ stations operated by professional women.",
+      "body": "Ba-Suka Energy delivers instant, sustainable power for mobility, businesses, and backup — using solar-first Swap & Glow™ stations operated by professional women.",
       "image": "/assets/home-hero.webp",
       "backgroundImage": "/assets/desktop-homepage2.jpg",
       "chips": [
@@ -30,12 +30,65 @@
       "type": "marquee",
       "items": [
         "SIRA™ swaps in under 60 seconds",
-        "100% solar-powered stations",
+        "Solar-first stations",
         "Women-led infrastructure",
         "Pay-per-swap — no ownership cost",
         "Built for the Sahel",
         "IoT-verified impact",
         "Launch date coming soon — Get notified"
+      ]
+    },
+    {
+      "type": "generation",
+      "eyebrow": "The Generation Foundation",
+      "heading": "130 MW of new dispatchable power — the *foundation* of the network",
+      "intro": "Before the smart network comes the power base. Ba-Suka's generation-first strategy begins with four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable electricity for the national grid, industry, mining, agriculture, businesses, and homes.",
+      "items": [
+        {
+          "value": "130 MW",
+          "label": "New generating capacity"
+        },
+        {
+          "value": "4",
+          "label": "Utility-scale power plants"
+        },
+        {
+          "value": "99%+",
+          "label": "Uptime target — dispatchable, grid-stabilising power"
+        },
+        {
+          "value": "24/7",
+          "label": "Reliable baseload for industry & communities"
+        }
+      ],
+      "cards": [
+        {
+          "iconImage": "/assets/icon-network-house.webp",
+          "title": "Generation-First Strategy",
+          "body": "Four thermal plants form the dependable base that unlocks smart-grid distribution, storage, swappable batteries, and clean mobility — sequenced so every advanced service is enabled by firm capacity."
+        },
+        {
+          "iconImage": "/assets/icon-energy.webp",
+          "title": "Strategic Fuel Partnerships",
+          "body": "Diversified fuel supply and high-efficiency, lower-emission technologies — backed by disciplined environmental and social safeguards aligned with international standards."
+        },
+        {
+          "iconImage": "/assets/icon-green-energy.webp",
+          "title": "Energy Sovereignty",
+          "body": "Reliable national power drives industrialization, job creation, and long-term economic resilience — an end-to-end platform built for Burkina Faso, owned in purpose by its people."
+        },
+        {
+          "iconImage": "/assets/icon-care.webp",
+          "title": "Operational Excellence",
+          "body": "International-standard operations and a professional, women-led workforce keep the network reliable, safe, and bankable from day one."
+        }
+      ],
+      "body": "This sequencing is deliberate: dependable generation first, then the integrated energy ecosystem it powers. Ba-Suka's thermal foundation strengthens grid reliability and unlocks the industrial and commercial activity that clean-energy services build on.",
+      "ctas": [
+        {
+          "label": "Partner With Us",
+          "href": "/partners/"
+        }
       ]
     },
     {
@@ -49,7 +102,7 @@
         },
         {
           "title": "Swap & Glow™ Stations",
-          "body": "100% solar-powered, vertical swap stations designed for the Sahel. Rugged, professional infrastructure that works even when the grid fails."
+          "body": "Solar-first, vertical swap stations designed for the Sahel. Rugged, professional infrastructure that works even when the grid fails."
         },
         {
           "title": "Women-Led Infrastructure",
@@ -67,7 +120,7 @@
         },
         {
           "value": "100%",
-          "label": "Solar Powered"
+          "label": "Solar-First Stations"
         },
         {
           "value": "$10M+",
@@ -115,7 +168,7 @@
         },
         {
           "title": "Swap & Glow™ Stations",
-          "body": "100% solar-powered, Sahel-rugged stations designed for extreme heat and dust. Vertical battery swapping reduces swap time to under 60 seconds — faster than traditional charging."
+          "body": "Solar-first, Sahel-rugged stations designed for extreme heat and dust. Vertical battery swapping reduces swap time to under 60 seconds — faster than traditional charging."
         },
         {
           "title": "Multi-Use Platform",
@@ -143,7 +196,7 @@
         },
         {
           "title": "Environmental",
-          "body": "1,200 Tonnes CO₂ Avoided Annually\n100% Renewable Energy\n70%+ Battery Reuse/Recycling\n50+ Stations Deployed"
+          "body": "1,200 Tonnes CO₂ Avoided Annually\n100% Solar-First Stations\n70%+ Battery Reuse/Recycling\n50+ Stations Deployed"
         },
         {
           "title": "Social",
@@ -160,7 +213,7 @@
     {
       "type": "image",
       "heading": "Our Mission & Vision",
-      "body": "Building Burkina Faso's First Smart Electricity Network\n\nBa-Suka Energy delivers affordable, sustainable electricity through smart, swappable SIRA™ batteries — powering electric mobility, businesses, and homes. We are building an advanced, customer-driven network powered by 100% renewable energy, delivering reliable clean power where grid access fails.",
+      "body": "Building a Sovereign Energy Future for Burkina Faso\n\nBa-Suka Energy delivers reliable, affordable electricity — starting with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes. We are building an integrated, customer-driven energy ecosystem that supports industrialization, energy sovereignty, and inclusive growth where grid access fails.",
       "image": "/assets/our-mission.jpg",
       "ctas": [
         {
@@ -173,7 +226,7 @@
       "type": "steps",
       "eyebrow": "How It Works",
       "heading": "Burkina Faso's *Smart Electricity Network*",
-      "intro": "Ba-Suka Energy delivers affordable, sustainable power through smart, swappable SIRA™ batteries. Our 100% solar, grid-independent infrastructure is built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
+      "intro": "Ba-Suka Energy delivers reliable, affordable power through a generation-first platform of 130 MW of dispatchable capacity, extending through smart, swappable SIRA™ batteries. Our solar-first stations are built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
       "items": [
         {
           "number": "01",
@@ -192,8 +245,8 @@
         },
         {
           "number": "04",
-          "title": "100% Solar-Charged",
-          "body": "Ride with 100% renewable energy. Our grid-independent stations ensure you have power even during national grid failures or blackouts."
+          "title": "Solar-First Charging",
+          "body": "Ride with clean energy. Our solar-first stations keep you powered during national grid failures or blackouts."
         }
       ]
     },
