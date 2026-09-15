@@ -1,6 +1,6 @@
 {
   "title": "Impact - Ba-Suka Energy",
-  "metaDescription": "Ba-Suka Energy's verified impact: 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
+  "metaDescription": "Ba-Suka Energy's verified impact: 130 MW generation foundation, 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
   "sections": [
     {
       "type": "hero",
@@ -43,8 +43,8 @@
         },
         {
           "value": "100%",
-          "label": "Renewable solar energy across all stations",
-          "tag": "GRID-INDEPENDENT FROM DAY ONE"
+          "label": "Solar-first energy across all stations",
+          "tag": "STATION-LEVEL"
         },
         {
           "value": "100%",
@@ -81,7 +81,7 @@
         },
         {
           "title": "Affordable & clean energy",
-          "body": "100% solar-powered, grid-independent Swap & Glow™ stations delivering clean electricity where the national grid fails.",
+          "body": "A generation-first foundation of 130 MW of new dispatchable capacity, plus solar-first Swap & Glow™ stations delivering clean electricity where the national grid fails.",
           "tag": "GOAL 7"
         },
         {
