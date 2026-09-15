@@ -9,7 +9,7 @@
         "Accueil",
         "Académie"
       ],
-      "image": "/assets/academy-2.webp"
+      "backgroundImage": "/assets/academy-hero.jpg"
     },
     {
       "type": "image",
