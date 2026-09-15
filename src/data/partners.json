@@ -1,14 +1,63 @@
 {
   "title": "Partners - Ba-Suka Energy",
-  "metaDescription": "Partner with Ba-Suka Energy to build Africa's clean-energy infrastructure. Three partnership pillars: EV manufacturers, climate funds, and technology providers. Launching soon in Ouagadougou.",
+  "metaDescription": "Partner with Ba-Suka Energy to build Burkina Faso's sovereign energy future: 130 MW of new generation capacity plus Africa's clean-energy infrastructure. Partnerships for investors, fuel suppliers, EPC firms, EV manufacturers, and technology providers.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BA-SUKA ENERGY – PARTNERS",
       "heading": "Build Africa's clean-energy infrastructure with us",
       "breadcrumb": ["Home", "Partners"],
-      "body": "We are selecting strategic partners for our upcoming launch – EV manufacturers, infrastructure funds, and technology providers who want to co-build the Sahel’s first professional smart battery-swap network.",
+      "body": "We are selecting strategic partners to build Burkina Faso's sovereign energy future — fuel suppliers, engineering and EPC firms, infrastructure and climate funds, EV manufacturers, technology providers, and public-sector allies who want to co-build 130 MW of new generation capacity and the Sahel's first professional smart battery-swap network.",
       "backgroundImage": "/assets/partner-image.jpeg"
+    },
+    {
+      "type": "generation",
+      "eyebrow": "GENERATION-FIRST PARTNERSHIPS",
+      "heading": "Power the foundation: 130 MW of *new dispatchable capacity*",
+      "intro": "Ba-Suka's generation-first strategy begins with four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable electricity. We are securing strategic fuel, technology, engineering, financing, and public-sector partnerships to deliver this foundation.",
+      "items": [
+        {
+          "value": "130 MW",
+          "label": "New generating capacity"
+        },
+        {
+          "value": "4",
+          "label": "Utility-scale power plants"
+        },
+        {
+          "value": "5",
+          "label": "Partnership tracks — fuel, tech, EPC, finance, public sector"
+        }
+      ],
+      "cards": [
+        {
+          "iconImage": "/assets/icon-energy.webp",
+          "title": "Fuel Suppliers & Traders",
+          "body": "Strategic fuel supply and diversified sourcing to secure energy security, price stability, and dispatchable generation."
+        },
+        {
+          "iconImage": "/assets/icon-network-house.webp",
+          "title": "Engineering & EPC",
+          "body": "High-efficiency, lower-emission generation technologies and bankable engineering, procurement, and construction delivery."
+        },
+        {
+          "iconImage": "/assets/icon-green-energy.webp",
+          "title": "Infrastructure & Climate Finance",
+          "body": "Long-term capital for generation assets and smart-network expansion, with IoT-verified ESG and carbon data from day one."
+        },
+        {
+          "iconImage": "/assets/icon-care.webp",
+          "title": "Public Sector & Institutions",
+          "body": "Government, regulators, and development institutions co-delivering dependable power and inclusive economic growth."
+        }
+      ],
+      "body": "These tracks mirror our integrated energy ecosystem: generation first, then smart-grid distribution, storage, swappable batteries, and clean mobility — each enabled by the firm power base beneath it.",
+      "ctas": [
+        {
+          "label": "Start the Conversation",
+          "href": "/contact-us/"
+        }
+      ]
     },
     {
       "type": "cards",
@@ -130,8 +179,8 @@
     {
       "type": "cta",
       "eyebrow": "READY TO BUILD THE FUTURE OF AFRICAN ENERGY?",
-      "heading": "We are selecting partners for our upcoming launch",
-      "body": "Ba-Suka Energy is opening its SIRA™ network to a focused group of strategic partners. Spots are limited ahead of the pilot launch. Reach out today to get notified about the launch date.",
+      "heading": "We are selecting partners for our generation foundation and smart network",
+      "body": "Ba-Suka Energy is opening its 130 MW generation foundation and SIRA™ network to a focused group of strategic partners — fuel suppliers, engineering firms, infrastructure funds, EV manufacturers, technology providers, and public-sector allies. Reach out today to start the conversation.",
       "image": "/assets/hero-common.webp"
     }
   ]
