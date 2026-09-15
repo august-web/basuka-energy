@@ -34,7 +34,7 @@ export const ui = {
     onThisPage: 'On this page',
     breadcrumbNav: 'Breadcrumb',
     newsletterTitle: 'Stay in the loop',
-    newsletterDesc: 'Updates on our September 2026 launch, partner opportunities, and impact reports.',
+    newsletterDesc: 'Updates on our upcoming launch, partner opportunities, and impact reports.',
     newsletterPlaceholder: 'your@email.com',
     newsletterEmailLabel: 'Email address for newsletter',
     newsletterSubscribe: 'Subscribe',
@@ -45,7 +45,7 @@ export const ui = {
     footerBlurb:
       "Burkina Faso's smart electricity network — affordable power through smart, swappable SIRA™ batteries and 100% solar-powered Swap & Glow™ stations.",
     footerNote:
-      "Building Africa's first women-led smart electricity network — launching September 2026.",
+      "Building Africa's first women-led smart electricity network — launching soon.",
     footerTagline: 'Smart electricity where the grid fails.',
     footerRights: 'All rights reserved.',
     cookieText:
@@ -92,7 +92,7 @@ export const ui = {
     breadcrumbNav: "Fil d'Ariane",
     newsletterTitle: 'Restez informés',
     newsletterDesc:
-      'Actualités sur notre lancement de septembre 2026, les opportunités de partenariat et nos rapports d’impact.',
+      'Actualités sur notre prochain lancement, les opportunités de partenariat et nos rapports d’impact.',
     newsletterPlaceholder: 'votre@email.com',
     newsletterEmailLabel: 'Adresse e-mail pour la newsletter',
     newsletterSubscribe: "S'abonner",
@@ -103,7 +103,7 @@ export const ui = {
     footerBlurb:
       'Le réseau électrique intelligent du Burkina Faso — une énergie abordable grâce aux batteries SIRA™ intelligentes et échangeables et aux stations Swap & Glow™ 100% solaires.',
     footerNote:
-      "En train de bâtir le premier réseau électrique intelligent d'Afrique dirigé par des femmes — lancement en septembre 2026.",
+      "En train de bâtir le premier réseau électrique intelligent d'Afrique dirigé par des femmes — bientôt disponible.",
     footerTagline: "L'électricité intelligente là où le réseau fait défaut.",
     footerRights: 'Tous droits réservés.',
     cookieText:
