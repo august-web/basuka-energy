@@ -53,7 +53,8 @@
       ],
       "ctas": [
         {
-          "label": "Apply for the BaSuka Academy"
+          "label": "Apply for the BaSuka Academy",
+          "href": "#apply-form"
         }
       ]
     },
@@ -86,7 +87,8 @@
       ],
       "ctas": [
         {
-          "label": "APPLY NOW"
+          "label": "APPLY NOW",
+          "href": "#apply-form"
         }
       ]
     },
@@ -158,7 +160,8 @@
       "image": "/assets/academy-hero.webp",
       "ctas": [
         {
-          "label": "Become an Investor"
+          "label": "Become an Investor",
+          "href": "/partners/#partner-form"
         }
       ]
     },
@@ -204,6 +207,73 @@
         {
           "q": "How do I apply?",
           "a": "You can apply by sending your name, location, and a brief motivation statement to academy@basukaenergy.com . or by Filling our application form."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "apply-form",
+      "eyebrow": "APPLY TO THE ACADEMY",
+      "heading": "Start your journey as a *Yennenga Warrior*",
+      "body": "Fill in your details and we'll reach out on WhatsApp to guide you through the next steps. No email account needed.",
+      "context": "Academy application — basukaenergy.com",
+      "whatsapp": "12149951927",
+      "submitLabel": "Submit application via WhatsApp",
+      "successText": "Opening WhatsApp… If it didn't open, tap",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Aminata Ouedraogo",
+          "span": 1
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "you@example.com",
+          "span": 1
+        },
+        {
+          "name": "phone",
+          "label": "Phone / WhatsApp",
+          "type": "tel",
+          "required": true,
+          "placeholder": "+226 …",
+          "span": 1
+        },
+        {
+          "name": "city",
+          "label": "City / region",
+          "type": "text",
+          "required": true,
+          "placeholder": "Ouagadougou",
+          "span": 1
+        },
+        {
+          "name": "education",
+          "label": "Highest education level",
+          "type": "select",
+          "required": true,
+          "placeholder": "Select…",
+          "span": 2,
+          "options": [
+            "Secondary school",
+            "Certificate / Diploma",
+            "Bachelor's degree",
+            "Master's degree",
+            "Other"
+          ]
+        },
+        {
+          "name": "message",
+          "label": "Why do you want to join the Academy?",
+          "type": "textarea",
+          "placeholder": "Tell us about yourself and what you hope to achieve…",
+          "span": 2
         }
       ]
     }
