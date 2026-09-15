@@ -8,16 +8,13 @@
       "heading": "Measurable from day one",
       "breadcrumb": ["Home", "Impact"],
       "body": "Ba-Suka Energy is a data driven infrastructure company. Every target below is IoT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
-      "images": [
-        "/assets/swappables-burkina.webp",
-        "/assets/partners-diagram.webp"
-      ]
+      "backgroundImage": "/assets/impact-hero.jpg"
     },
     {
       "type": "stats",
       "eyebrow": "YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES",
       "heading": "Three Pillars of Verified Impact",
-      "intro": "All figures are Year 3 programme targets. Ba-Suka’s IoT-enabled SIRA™ batteries generate real-time, verifiable data from launch day – September 2026.",
+      "intro": "All figures are Year 3 programme targets. Ba-Suka’s IoT-enabled SIRA™ batteries generate real-time, verifiable data from launch day.",
       "pillars": [
         "Economic",
         "ENVIRONMENTAL",
@@ -106,7 +103,7 @@
       "intro": "From pilot launch to a 50-station network – how Ba-Suka builds verified impact over three years.",
       "items": [
         {
-          "title": "Sept 2026 — Pilot launch — Ouagadougou",
+          "title": "Pilot launch — Ouagadougou",
           "body": "First Swap & Glow™ stations go live. First Yennenga Warriors cohort deployed. IoT data collection begins on day one."
         },
         {
