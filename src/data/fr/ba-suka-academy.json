@@ -1,0 +1,211 @@
+{
+  "title": "Académie Ba-Suka - Ba-Suka Energy",
+  "metaDescription": "L'Académie Ba-Suka forme des femmes comme Yennenga Warriors certifiées — le moteur de talents du réseau électrique intelligent du Burkina Faso. Formation solaire PV, systèmes de batteries et opérations professionnelles.",
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Académie Ba-Suka",
+      "breadcrumb": [
+        "Accueil",
+        "À propos"
+      ],
+      "image": "/assets/academy-4.webp"
+    },
+    {
+      "type": "text",
+      "eyebrow": "Notre raison d'être",
+      "heading": "Former les cheffes de la révolution énergétique propre",
+      "body": "L'Académie Ba-Suka est le moteur de talents de nos opérations, créant un vivier spécialisé de cheffes de station compétentes. Nous investissons dans une formation complète, la certification et un accompagnement continu pour que chaque diplômée soit sûre d'elle, compétente et positionnée pour une croissance professionnelle."
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Les avantages",
+      "heading": "Pourquoi rejoindre les Yennenga Warriors ?",
+      "items": [
+        {
+          "title": "Formation gratuite",
+          "body": "Programme intensif de 8 semaines sans frais pour les participantes"
+        },
+        {
+          "title": "Placement garanti",
+          "body": "Emploi de cheffe de station à l'issue de la formation"
+        },
+        {
+          "title": "Salaire compétitif",
+          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+        },
+        {
+          "title": "Évolution vers cheffe régionale, formatrice ou postes de direction",
+          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+        },
+        {
+          "title": "Certification professionnelle",
+          "body": "Credential reconnu en énergies renouvelables et systèmes IoT"
+        },
+        {
+          "title": "Impact communautaire",
+          "body": "Menez la transition énergétique propre dans votre communauté"
+        },
+        {
+          "title": "Accompagnement continu",
+          "body": "Mentorat, formation continue et développement de carrière"
+        }
+      ],
+      "ctas": [
+        {
+          "label": "Postuler à l'Académie Ba-Suka"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Domaines d'étude clés",
+      "heading": "Le programme de certification de 8 semaines",
+      "intro": "Notre programme est conçu pour aller au-delà de la mécanique de base, en se concentrant sur l'intersection de la technologie, du business et du leadership communautaire. Le programme comprend 6 semaines d'enseignement en classe suivies de 2 semaines de pratique supervisée en station",
+      "items": [
+        {
+          "number": "01",
+          "title": "Module 1 : Fondamentaux des systèmes solaires (Semaines 1-2)",
+          "body": "Les participantes apprennent la technologie photovoltaïque, l'installation de panneaux solaires, les systèmes onduleur et le stockage d'énergie. La formation pratique comprend l'installation d'un système solaire de 10 kW dans une station Swap & Glow™. À la fin de ce module, les diplômées comprennent comment l'énergie solaire est captée, stockée et distribuée."
+        },
+        {
+          "number": "02",
+          "title": "Module 2 : Gestion des batteries SIRA™ (Semaines 3-4)",
+          "body": "Plongée approfondie dans la technologie des batteries SIRA™, les systèmes de gestion de batterie, les cycles charge/décharge et le diagnostic. Les participantes apprennent à identifier les problèmes de santé des batteries, effectuer la maintenance et résoudre les pannes. La formation pratique comprend l'échange de 100+ batteries et l'utilisation d'outils de diagnostic."
+        },
+        {
+          "number": "03",
+          "title": "Module 3 : Opérations de station & supervision IoT (Semaines 5-6)",
+          "body": "Les participantes apprennent à exploiter les stations Swap & Glow™, gérer les stocks, superviser les systèmes IoT et répondre aux alertes. La formation comprend l'utilisation de l'application mobile, l'interprétation de données en temps réel et les protocoles de service client. Les participantes gèrent une station en direct pendant ce module, avec de vrais clients et transactions."
+        },
+        {
+          "number": "04",
+          "title": "Module 4 : Leadership & gestion financière (Semaines 7-8)",
+          "body": "Les participantes apprennent les fondamentaux du business, l'éducation financière, la gestion d'équipe et les stratégies de fidélisation client. La formation comprend la budgétisation, l'optimisation des revenus, la supervision du personnel et l'engagement communautaire. Les participantes élaborent un plan d'affaires pour leur station."
+        }
+      ],
+      "ctas": [
+        {
+          "label": "POSTULER MAINTENANT"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "eyebrow": "Mener la révolution énergétique propre",
+      "heading": "Certification & parcours de carrière",
+      "body": "La diplômée est bien plus qu'une cérémonie ; c'est une porte vers un emploi durable et le leadership. Chaque diplômée qui réussit nos examens rigoureux de sécurité et d'opérations reçoit une certification professionnelle et est affectée à une station dans la mesure du possible",
+      "image": "/assets/about-hero.webp"
+    },
+    {
+      "type": "steps",
+      "eyebrow": "De quoi vous motiver",
+      "heading": "Les perspectives d'évolution comprennent",
+      "items": [
+        {
+          "number": "1",
+          "title": "Progression managériale",
+          "body": "Évoluer de cheffe de station à superviseure multi-stations puis cheffe régionale"
+        },
+        {
+          "number": "2",
+          "title": "Rôles de gouvernance",
+          "body": "Opportunités pour les cheffes expérimentées de contribuer aux futurs programmes de formation, à la conception produit et à la gouvernance de l'entreprise",
+          "cta": {
+            "label": "Postuler à l'Académie Ba-Suka"
+          }
+        },
+        {
+          "number": "3",
+          "title": "Mentorat",
+          "body": "Accompagnement continu par la direction senior pour garantir un succès durable et un taux de rétention de 80% sur 24 mois"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Prête à mener la révolution ?",
+      "heading": "Objectifs d'impact",
+      "items": [
+        {
+          "title": "1 000+ femmes formées",
+          "body": "Notre objectif est de former plus de 1 000 femmes via l'Académie au cours de nos trois premières années",
+          "button": {
+            "label": "Postuler maintenant"
+          }
+        },
+        {
+          "title": "Progression des revenus",
+          "body": "Nous visons à ce que nos diplômées gagnent 2–3× le salaire minimum local grâce à notre modèle de commission lié à la performance",
+          "button": {
+            "label": "Postuler maintenant"
+          }
+        },
+        {
+          "title": "Hubs sûrs",
+          "body": "Nos diplômées font des stations Ba-Suka des « espaces de femmes » reconnus comme sûrs et fiables pour les services d'énergie et de mobilité",
+          "button": {
+            "label": "Postuler maintenant"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "opportunité financière",
+      "heading": "Prête à passer à l'échelle ?Rejoignez la transition",
+      "body": "Sécurisez votre place dans l'infrastructure énergétique dirigée par des femmes la plus fiable d'Afrique de l'Ouest",
+      "image": "/assets/academy-hero.webp",
+      "ctas": [
+        {
+          "label": "Devenir investisseuse"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions fréquentes",
+      "body": "À l'Académie Ba-Suka, nous croyons que la transition énergétique propre n'est solide que par les cheffes qui l'exploitent. Ci-dessous, nous avons compilé les questions les plus fréquentes pour vous aider à faire le premier pas vers la certification de Cheffe de Station.",
+      "image": "/assets/hero-common.webp",
+      "items": [
+        {
+          "q": "Qu'est-ce que l'Académie Ba-Suka ?",
+          "a": "L'Académie Ba-Suka est un moteur de formation spécialisé conçu pour créer un vivier de cheffes certifiées pour le secteur de l'énergie propre. Elle fournit les compétences techniques, business et de leadership nécessaires pour gérer nos stations solaires de batteries échangeables."
+        },
+        {
+          "q": "Qui peut postuler à l'Académie ?",
+          "a": "Nous accueillons les candidatures de femmes motivées intéressées par la technologie, la durabilité et le leadership communautaire. Aucune expérience préalable en génie électrique n'est requise, car nous offrons une formation complète de A à Z."
+        },
+        {
+          "q": "Quelle est la durée du programme de formation ?",
+          "a": "Le programme de certification dure 8 semaines au total. Cela comprend 6 semaines d'enseignement intensif en classe suivies de 2 semaines de pratique supervisée dans une station Ba-Suka active."
+        },
+        {
+          "q": "Quels sujets sont couverts par le programme ?",
+          "a": [
+            "Opérations techniques : panneaux solaires, systèmes de batteries DMS et supervision de sécurité.",
+            "Énergie propre & mobilité : la transition vers les motos électriques et l'impact environnemental.",
+            "Compétences business : éducation financière, outils numériques et maintenance du site.",
+            "Leadership : excellence client, résolution de conflits et service communautaire."
+          ]
+        },
+        {
+          "q": "Y a-t-il une certification à la fin du programme ?",
+          "a": "Oui. Après avoir réussi les examens de sécurité et d'opérations, les étudiantes reçoivent une Certification Professionnelle de l'Académie Ba-Suka, les reconnaissant comme cheffes d'infrastructure énergétique qualifiées."
+        },
+        {
+          "q": "La diplômé garantit-elle un emploi ?",
+          "a": "Notre objectif est d'affecter chaque diplômée certifiée à une station. Bien que l'affectation dépende des stations disponibles dans votre région, toutes les diplômées rejoignent notre vivier de talents prioritaire pour les nouveaux lancements de stations et les postes de supervision."
+        },
+        {
+          "q": "Quel est le salaire d'une Cheffe de Station ?",
+          "a": "Nous utilisons un modèle de commission lié à la performance, conçu pour récompenser l'excellence. Notre objectif est que les cheffes certifiées gagnent 2–3× le salaire minimum local."
+        },
+        {
+          "q": "Comment postuler ?",
+          "a": "Vous pouvez postuler en envoyant votre nom, votre localisation et une brève lettre de motivation à academy@basukaenergy.com, ou en remplissant notre formulaire de candidature."
+        }
+      ]
+    }
+  ]
+}
