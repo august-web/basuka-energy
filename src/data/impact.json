@@ -1,13 +1,13 @@
 {
-  "title": "Impact - Basuka Energy",
+  "title": "Impact - Ba-Suka Energy",
   "metaDescription": "Ba-Suka Energy's verified impact: 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "People.Planet.Profit",
+      "eyebrow": "People. Planet. Profit.",
       "heading": "Measurable from day one",
       "breadcrumb": ["Home", "Impact"],
-      "body": "Ba-Suka Energy is a data driven infrastructure company. Every target below is loT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
+      "body": "Ba-Suka Energy is a data driven infrastructure company. Every target below is IoT-verified and tracked in real time – giving investors and climate partners high-fidelity ESG metrics in the Sahel.",
       "images": [
         "/assets/swappables-burkina.webp",
         "/assets/partners-diagram.webp"
@@ -17,7 +17,7 @@
       "type": "stats",
       "eyebrow": "YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES",
       "heading": "Three Pillars of Verified Impact",
-      "intro": "All figures are Year 3 programme targets. Ba-Suka’s loT-enabled SIRA™ batteries generate real-time, verifiable data from launch day – September 2026.",
+      "intro": "All figures are Year 3 programme targets. Ba-Suka’s IoT-enabled SIRA™ batteries generate real-time, verifiable data from launch day – September 2026.",
       "pillars": [
         "Economic",
         "ENVIRONMENTAL",
@@ -80,22 +80,22 @@
         {
           "title": "Gender equality",
           "body": "100% women-led station management. Certified Yennenga Warriors earn 2-3× the local minimum wage through performance-linked pay.",
-          "tag": "Goal:5"
+          "tag": "GOAL 5"
         },
         {
           "title": "Affordable & clean energy",
           "body": "100% solar-powered, grid-independent Swap & Glow™ stations delivering clean electricity where the national grid fails.",
-          "tag": "GOAL:7"
+          "tag": "GOAL 7"
         },
         {
           "title": "Decent work & economic growth",
           "body": "200+ jobs created. $10M+ local economic activity. An infrastructure model designed to retain talent at above-market wages.",
-          "tag": "GOAL:8"
+          "tag": "GOAL 8"
         },
         {
           "title": "Climate action",
           "body": "1,200 tonnes of CO₂ avoided annually by displacing fossil-fuel two-wheel and three-wheel mobility across Burkina Faso.",
-          "tag": "GOAL:13"
+          "tag": "GOAL 13"
         }
       ]
     },
