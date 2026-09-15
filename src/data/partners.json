@@ -58,7 +58,7 @@
       "ctas": [
         {
           "label": "Start the Conversation",
-          "href": "/contact-us/"
+          "href": "#partner-form"
         }
       ]
     },
@@ -185,6 +185,67 @@
       "heading": "We are selecting partners for our generation foundation and smart network",
       "body": "BaSuka Energy is opening its 130 MW generation foundation and SIRA™ network to a focused group of strategic partners — fuel suppliers, engineering firms, infrastructure funds, EV manufacturers, technology providers, and public-sector allies. Reach out today to start the conversation.",
       "image": "/assets/hero-common.webp"
+    },
+    {
+      "type": "form",
+      "id": "partner-form",
+      "eyebrow": "PARTNER WITH BASUKA",
+      "heading": "Start the *Conversation*",
+      "body": "Tell us how you'd like to collaborate — as an investor, fuel supplier, engineering firm, manufacturer, technology provider, or public-sector ally. Your message opens directly in WhatsApp.",
+      "context": "Partnership inquiry — basukaenergy.com",
+      "whatsapp": "12149951927",
+      "submitLabel": "Send via WhatsApp",
+      "successText": "Opening WhatsApp… If it didn't open, tap",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Jane Doe",
+          "span": 1
+        },
+        {
+          "name": "email",
+          "label": "Work email",
+          "type": "email",
+          "required": true,
+          "placeholder": "jane@company.com",
+          "span": 1
+        },
+        {
+          "name": "organization",
+          "label": "Company / organization",
+          "type": "text",
+          "required": true,
+          "placeholder": "Acme Energy",
+          "span": 2
+        },
+        {
+          "name": "interest",
+          "label": "I'm interested as",
+          "type": "select",
+          "required": true,
+          "placeholder": "Select…",
+          "span": 2,
+          "options": [
+            "Investor",
+            "Fuel supplier",
+            "EPC / Engineering firm",
+            "EV manufacturer",
+            "Technology provider",
+            "Public sector",
+            "Other"
+          ]
+        },
+        {
+          "name": "message",
+          "label": "Tell us about your goals",
+          "type": "textarea",
+          "placeholder": "Share a few details about your organization and what you'd like to build together…",
+          "span": 2
+        }
+      ]
     }
   ]
 }
