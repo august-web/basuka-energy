@@ -8,7 +8,7 @@
       "heading": "Une énergie indépendante du réseau, livrée en 60 secondes",
       "breadcrumb": ["Accueil", "Comment ça marche"],
       "body": "100% solaire et conçu pour le Sahel rude. Ba-Suka combine du matériel optimisé par l'IoT et des opérations professionnelles dirigées par des femmes pour garder le Burkina Faso en mouvement — même quand le réseau national tombe.",
-      "image": "/assets/how-hero.webp",
+      "backgroundImage": "/assets/how-it-works.jpg",
       "ctas": [
         {
           "label": "Rejoindre la liste d'attente",
