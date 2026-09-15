@@ -17,6 +17,7 @@ interface Section {
   intro?: string;
   body?: string | string[];
   image?: string;
+  backgroundImage?: string;
   items?: any[];
   ctas?: Cta[];
   images?: string[];
@@ -73,6 +74,74 @@ const sectionId = (section: Section, idx: number): string | undefined => {
     const tinted = idx % 2 === 1;
     switch (section.type) {
       case 'hero':
+        // Full-bleed background variant: image covers the whole hero behind
+        // the headline (same asset on desktop and mobile), with a navy scrim
+        // layered on top so white text stays readable.
+        if (section.backgroundImage) {
+          return (
+            <section class="relative isolate overflow-hidden bg-brand-navy">
+              <OptimizedImage
+                src={section.backgroundImage}
+                alt=""
+                class="absolute inset-0 h-full w-full object-cover"
+                widths={[480, 768, 1200, 1920]}
+                sizes="100vw"
+                loading="eager"
+                fetchpriority="high"
+              />
+              {/* Legibility scrims: deeper on the left/bottom for desktop copy,
+                  heavier at the bottom for stacked mobile copy. */}
+              <div class="absolute inset-0 bg-gradient-to-r from-brand-navy/85 via-brand-navy/45 to-brand-navy/10" aria-hidden="true" />
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/25 to-brand-navy/20" aria-hidden="true" />
+              <div class="relative mx-auto flex min-h-[36rem] max-w-7xl items-center px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
+                <div class="max-w-2xl">
+                  {section.eyebrow && (
+                    <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-brand-cream/30 bg-brand-navy/50 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-cream backdrop-blur-sm">
+                      <span class="inline-block h-1.5 w-1.5 rounded-full bg-brand-cream" aria-hidden="true" />
+                      {section.eyebrow}
+                    </p>
+                  )}
+                  <h1 class="text-4xl font-bold leading-[1.05] text-white drop-shadow-md sm:text-6xl lg:text-[4.25rem]">
+                    {accentify(section.heading).map((part) =>
+                      part.accent ? <span class="accent-serif text-brand-cream">{part.text}</span> : part.text
+                    )}
+                  </h1>
+                  {section.heading2 && (
+                    <p class="mt-3 text-lg font-medium text-brand-cream/90 sm:text-xl">{section.heading2}</p>
+                  )}
+                  {paragraphs(section.body).map((p) => (
+                    <p class="mt-6 max-w-xl text-lg leading-8 text-slate-100 drop-shadow-sm">{p}</p>
+                  ))}
+                  {section.chips && (
+                    <ul class="mt-6 flex flex-wrap gap-2">
+                      {section.chips.map((chip: string) => (
+                        <li class="rounded-full border border-white/25 bg-brand-navy/50 px-4 py-1.5 text-sm font-medium text-brand-cream backdrop-blur-sm transition-colors hover:border-brand-cream/40 hover:bg-brand-navy/70">{chip}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {section.ctas && section.ctas.length > 0 && (
+                    <div class="mt-9 flex flex-wrap gap-3">
+                      {section.ctas.map((cta, i) => (
+                        <a
+                          href={cta.href ?? '/contact-us/'}
+                          class:list={[
+                            'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
+                            i === 0
+                              ? 'btn-shine bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
+                              : 'border border-white/40 bg-brand-navy/30 text-white backdrop-blur-sm hover:border-brand-cream hover:text-brand-cream',
+                          ]}
+                        >
+                          {cta.label}
+                          <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">→</span>
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </section>
+          );
+        }
         return (
           <section class="relative overflow-hidden bg-brand-navy">
             <div class="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full bg-brand-green/20 blur-3xl" aria-hidden="true" />
