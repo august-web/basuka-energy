@@ -1,13 +1,13 @@
 {
-  "title": "About Us - Ba-Suka Energy",
-  "metaDescription": "Ba-Suka (meaning 'women's home' in Mooré) builds Burkina Faso's sovereign energy future: 130 MW of new generation capacity plus a smart, women-led electricity network powered by swappable SIRA™ batteries.",
+  "title": "About Us - BaSuka Energy",
+  "metaDescription": "BaSuka (meaning 'women's home' in Mooré) builds Burkina Faso's sovereign energy future: 130 MW of new generation capacity plus a smart, women-led electricity network powered by swappable SIRA™ batteries.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Who We Are | Advanced Electricity Infrastructure",
       "heading": "About Us",
       "breadcrumb": ["Home", "About Us"],
-      "body": "Ba-Suka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company powering Burkina Faso's sovereign energy future. We start with a generation-first foundation — four thermal power plants delivering 130 MW of new dispatchable capacity — then extend through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built specifically for the rugged Sahel environment.",
+      "body": "BaSuka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company powering Burkina Faso's sovereign energy future. We start with a generation-first foundation — four thermal power plants delivering 130 MW of new dispatchable capacity — then extend through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built specifically for the rugged Sahel environment.",
       "image": "/assets/about-hero.webp",
       "backgroundImage": "/assets/about-us.jpg",
       "ctas": [
@@ -41,9 +41,9 @@
     },
     {
       "type": "image",
-      "eyebrow": "About Ba-Suka | Advanced Electricity Infrastructure",
+      "eyebrow": "About BaSuka | Advanced Electricity Infrastructure",
       "heading": "A Sovereign Energy Future for Burkina Faso",
-      "body": "Ba-Suka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company. Our generation-first strategy delivers 130 MW of new dispatchable capacity through four thermal power plants — strengthening grid reliability and unlocking industry, mining, and agro-processing — then extends through smart, swappable SIRA™ batteries that power mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built for the Sahel.",
+      "body": "BaSuka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company. Our generation-first strategy delivers 130 MW of new dispatchable capacity through four thermal power plants — strengthening grid reliability and unlocking industry, mining, and agro-processing — then extends through smart, swappable SIRA™ batteries that power mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built for the Sahel.",
       "image": "/assets/about-portrait.webp",
       "ctas": [
         {
@@ -54,15 +54,15 @@
     },
     {
       "type": "text",
-      "eyebrow": "The Ba-Suka Legacy",
+      "eyebrow": "The BaSuka Legacy",
       "heading": "Our Mission",
-      "body": "Ba-Suka Energy delivers reliable, affordable electricity across Burkina Faso and West Africa — beginning with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, portable, swappable batteries that power electric mobility, businesses, and homes."
+      "body": "BaSuka Energy delivers reliable, affordable electricity across Burkina Faso and West Africa — beginning with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, portable, swappable batteries that power electric mobility, businesses, and homes."
     },
     {
       "type": "text",
       "eyebrow": "Our Vision | A Sovereign Energy Future",
       "heading": "Our Vision",
-      "body": "Ba-Suka Energy will build an integrated, customer-driven energy platform that supports energy sovereignty, industrialization, and inclusive growth — delivering reliable power for the national grid and clean, smart electricity services where grid access fails."
+      "body": "BaSuka Energy will build an integrated, customer-driven energy platform that supports energy sovereignty, industrialization, and inclusive growth — delivering reliable power for the national grid and clean, smart electricity services where grid access fails."
     },
     {
       "type": "cards",
@@ -79,13 +79,13 @@
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
-          "title": "Renewable → 100% Solar-Charged Stations",
+          "title": "Renewable → Solar-First Stations",
           "body": "Grid-independent Swap & Glow™ stations running on clean solar power. We advance the transition to clean energy while ensuring a sustainable second-life strategy for all batteries.",
           "iconImage": "/assets/icon-solar-panel.webp"
         },
         {
           "title": "Professional → The 'Yennenga' Legacy",
-          "body": "Rooted in the spirit of Burkina Faso's legendary warrior-princess. We drive local economic growth by empowering women as professional infrastructure leaders through the Ba-Suka Academy.",
+          "body": "Rooted in the spirit of Burkina Faso's legendary warrior-princess. We drive local economic growth by empowering women as professional infrastructure leaders through the BaSuka Academy.",
           "iconImage": "/assets/icon-care.webp"
         }
       ]
@@ -96,7 +96,7 @@
       "heading": "Quick Links",
       "items": [
         {
-          "title": "Ba-Suka Academy",
+          "title": "BaSuka Academy",
           "body": "Professional training for the women who run our stations.",
           "button": {
             "label": "Visit the Academy",
@@ -133,7 +133,7 @@
       "type": "cta",
       "eyebrow": "Be Part of the Impact",
       "heading": "We are seeking infrastructure funds, fuel and technology partners, engineering firms, and public-sector allies to build Burkina Faso's energy foundation",
-      "body": "Ba-Suka Energy is more than a mobility provider; we are a data-driven infrastructure platform. Our generation-first foundation delivers 130 MW of new dispatchable capacity for the national grid and industry, while our SIRA™ smart batteries provide real-time, blockchain-ready metrics on energy throughput and carbon displacement — ensuring your ESG investments deliver measurable, high-fidelity results in the Sahel.",
+      "body": "BaSuka Energy is more than a mobility provider; we are a data-driven infrastructure platform. Our generation-first foundation delivers 130 MW of new dispatchable capacity for the national grid and industry, while our SIRA™ smart batteries provide real-time, blockchain-ready metrics on energy throughput and carbon displacement — ensuring your ESG investments deliver measurable, high-fidelity results in the Sahel.",
       "ctas": [
         {
           "label": "Partner With Us",
