@@ -1,20 +1,20 @@
 {
-  "title": "Impact - Ba-Suka Energy",
-  "metaDescription": "L'impact vérifié de Ba-Suka Energy : fondation de production de 130 MW, 1 200 t de CO2 évitées, 500+ foyers alimentés, opérations dirigées par des femmes. Métriques ESG suivies par IoT sur les piliers économiques, environnementaux et sociaux au Burkina Faso.",
+  "title": "Impact - BaSuka Energy",
+  "metaDescription": "L'impact vérifié de BaSuka Energy : fondation de production de 130 MW, 1 200 t de CO2 évitées, 500+ foyers alimentés, opérations dirigées par des femmes. Métriques ESG suivies par IoT sur les piliers économiques, environnementaux et sociaux au Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "PERSONNES. PLANÈTE. PROFIT.",
       "heading": "Mesurable dès le premier jour",
       "breadcrumb": ["Accueil", "Impact"],
-      "body": "Ba-Suka Energy est une entreprise d'infrastructure pilotée par les données. Chaque objectif ci-dessous est vérifié par l'IoT et suivi en temps réel — offrant aux investisseurs et partenaires climat des métriques ESG de haute fidélité dans le Sahel.",
+      "body": "BaSuka Energy est une entreprise d'infrastructure pilotée par les données. Chaque objectif ci-dessous est vérifié par l'IoT et suivi en temps réel — offrant aux investisseurs et partenaires climat des métriques ESG de haute fidélité dans le Sahel.",
       "backgroundImage": "/assets/impact-hero.jpg"
     },
     {
       "type": "stats",
       "eyebrow": "OBJECTIFS ANNÉE 3 – BUTS, PAS CHIFFRES ACTUELS",
       "heading": "Trois piliers d'impact vérifié",
-      "intro": "Tous les chiffres sont des objectifs du programme en Année 3. Les batteries SIRA™ activées par IoT de Ba-Suka génèrent des données vérifiables en temps réel dès le jour du lancement.",
+      "intro": "Tous les chiffres sont des objectifs du programme en Année 3. Les batteries SIRA™ activées par IoT de BaSuka génèrent des données vérifiables en temps réel dès le jour du lancement.",
       "pillars": [
         "Économique",
         "ENVIRONNEMENTAL",
@@ -33,7 +33,7 @@
         },
         {
           "value": "1 000+",
-          "label": "Femmes formées via l'Académie Ba-Suka",
+          "label": "Femmes formées via l'Académie BaSuka",
           "tag": "OBJECTIFS ANNÉE 3"
         },
         {
@@ -72,7 +72,7 @@
       "type": "cards",
       "eyebrow": "ALIGNEMENT ODD",
       "heading": "Construit autour des objectifs mondiaux",
-      "intro": "Ba-Suka répond directement à quatre Objectifs de Développement Durable de l'ONU à travers son modèle opérationnel — non pas comme un supplément RSE, mais comme l'architecture même de l'entreprise.",
+      "intro": "BaSuka répond directement à quatre Objectifs de Développement Durable de l'ONU à travers son modèle opérationnel — non pas comme un supplément RSE, mais comme l'architecture même de l'entreprise.",
       "items": [
         {
           "title": "Égalité des genres",
@@ -100,7 +100,7 @@
       "type": "steps",
       "eyebrow": "FEUILLE DE ROUTE DE DÉPLOIEMENT",
       "heading": "Le chemin vers l'échelle",
-      "intro": "Du lancement pilote à un réseau de 50 stations — comment Ba-Suka construit un impact vérifié sur trois ans.",
+      "intro": "Du lancement pilote à un réseau de 50 stations — comment BaSuka construit un impact vérifié sur trois ans.",
       "items": [
         {
           "title": "Lancement pilote — Ouagadougou",
@@ -124,7 +124,7 @@
       "type": "cta",
       "eyebrow": "POUR LES FONDS D'INFRASTRUCTURE & PARTENAIRES CLIMAT",
       "heading": "Données d'impact vérifiées par l'IoT, prêtes pour votre portefeuille ESG",
-      "body": "Les batteries intelligentes SIRA™ de Ba-Suka génèrent des métriques en temps réel sur le débit d'énergie, le déplacement carbone et la performance des stations — prêtes pour la blockchain et auditables dès le premier jour d'exploitation.",
+      "body": "Les batteries intelligentes SIRA™ de BaSuka génèrent des métriques en temps réel sur le débit d'énergie, le déplacement carbone et la performance des stations — prêtes pour la blockchain et auditables dès le premier jour d'exploitation.",
       "image": "/assets/hero-common.webp"
     }
   ]
