@@ -1,0 +1,56 @@
+---
+/**
+ * Thin wrapper around Astro's <Image /> with the site's common defaults.
+ * Accepts either a resolved image (ImageMetadata) or a plain URL string —
+ * strings (e.g. not-yet-migrated assets) pass through unoptimized.
+ */
+import { Image, type ImageMetadata } from 'astro:assets';
+import { resolveImage } from '../utils/images';
+
+interface Props {
+  src: string | ImageMetadata | null | undefined;
+  alt: string;
+  class?: string;
+  widths?: number[];
+  sizes?: string;
+  loading?: 'eager' | 'lazy';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  width?: number;
+  height?: number;
+}
+
+const {
+  src,
+  alt,
+  class: className,
+  widths = [480, 768, 1200],
+  sizes = '(min-width: 1024px) 50vw, 100vw',
+  loading = 'lazy',
+  fetchpriority,
+  width,
+  height,
+} = Astro.props;
+
+const resolved = resolveImage(src);
+const isOptimizable = typeof resolved === 'object';
+---
+
+{
+  resolved === null ? null : isOptimizable ? (
+    <Image
+      src={resolved}
+      alt={alt}
+      class={className}
+      widths={widths}
+      sizes={sizes}
+      loading={loading}
+      fetchpriority={fetchpriority}
+      width={width}
+      height={height}
+      format="webp"
+      quality={80}
+    />
+  ) : (
+    <img src={resolved} alt={alt} class={className} loading={loading} fetchpriority={fetchpriority} width={width} height={height} />
+  )
+}
