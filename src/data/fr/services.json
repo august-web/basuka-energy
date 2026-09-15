@@ -1,13 +1,13 @@
 {
   "title": "Services - Ba-Suka Energy",
-  "metaDescription": "Services Ba-Suka Energy : échange de batteries SIRA, stations Swap & Glow solaires, infrastructure de mobilité électrique et énergie domestique — 100% solaire, dirigé par des femmes, indépendant du réseau au Burkina Faso.",
+  "metaDescription": "Services Ba-Suka Energy : fondation de production de 130 MW, échange de batteries SIRA, stations Swap & Glow solaires d'abord, infrastructure de mobilité électrique et énergie domestique — dirigé par des femmes au Burkina Faso.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "SERVICES",
       "heading": "Propulser l'avenir de la mobilité africaine",
       "breadcrumb": ["Accueil", "Services"],
-      "body": "Chez Ba-Suka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, conçue pour éliminer les obstacles à l'adoption des véhicules électriques. En combinant une technologie solaire de pointe avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
+      "body": "Chez Ba-Suka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, bâtie sur une fondation production d'abord de 130 MW de nouvelle capacité pilotable. En combinant une technologie de station solaire d'abord avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
@@ -41,7 +41,7 @@
         },
         {
           "title": "Génération durable",
-          "body": "En générant 100% de notre énergie à partir du soleil, nous fournissons une source de carburant véritablement neutre en carbone pour le secteur des transports."
+          "body": "En générant 100% de l'énergie de nos stations à partir du soleil, nous fournissons une source de carburant propre et légère en carbone pour le secteur des transports."
         },
         {
           "title": "Deux options de charge",
@@ -110,7 +110,7 @@
       "type": "image",
       "eyebrow": "POURQUOI NOUS EXISTONS",
       "heading": "Notre mission est de positionner les femmes comme cheffes visibles et opératrices de confiance à la ligne de front de la transition énergétique propre et de la mobilité du Burkina Faso",
-      "body": "Cela est réalisé en développant une plateforme d'infrastructure solaire dirigée par des femmes qui fournit des services énergétiques sûrs et fiables à la communauté",
+      "body": "Cela est réalisé en développant une plateforme d'infrastructure solaire d'abord dirigée par des femmes qui fournit des services énergétiques sûrs et fiables à la communauté",
       "bullets": [
         "Mener la transition énergétique propre",
         "Fournir une infrastructure fiable",
