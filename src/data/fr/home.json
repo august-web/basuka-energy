@@ -1,6 +1,6 @@
 {
   "title": "Accueil - Ba-Suka Energy",
-  "metaDescription": "Le réseau électrique intelligent du Burkina Faso. Une électricité abordable grâce aux batteries SIRA™ intelligentes et échangeables — stations Swap & Glow™ 100% solaires exploitées par des femmes professionnelles.",
+  "metaDescription": "Ba-Suka Energy bâtit l'avenir énergétique souverain du Burkina Faso : une plateforme production d'abord ajoutant 130 MW de puissance pilotable, puis un réseau intelligent de batteries SIRA™ interchangeables et des stations Swap & Glow™ dirigées par des femmes.",
   "sections": [
     {
       "type": "hero",
@@ -39,6 +39,59 @@
       ]
     },
     {
+      "type": "generation",
+      "eyebrow": "La fondation de production",
+      "heading": "130 MW de nouvelle puissance pilotable — la *fondation* du réseau",
+      "intro": "Avant le réseau intelligent vient la base de production. La stratégie de Ba-Suka, axée d'abord sur la production, débute avec quatre centrales thermiques à grande échelle fournissant 130 MW d'électricité fiable et pilotable pour le réseau national, l'industrie, les mines, l'agriculture, les entreprises et les ménages.",
+      "items": [
+        {
+          "value": "130 MW",
+          "label": "Nouvelle capacité de production"
+        },
+        {
+          "value": "4",
+          "label": "Centrales thermiques à grande échelle"
+        },
+        {
+          "value": "99 %+",
+          "label": "Objectif de disponibilité — puissance pilotable stabilisant le réseau"
+        },
+        {
+          "value": "24h/24",
+          "label": "Base fiable pour l'industrie et les communautés"
+        }
+      ],
+      "cards": [
+        {
+          "iconImage": "/assets/icon-network-house.webp",
+          "title": "Stratégie production d'abord",
+          "body": "Quatre centrales thermiques forment la base fiable qui débloque la distribution par réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre — séquencés pour que chaque service avancé s'appuie sur une capacité ferme."
+        },
+        {
+          "iconImage": "/assets/icon-energy.webp",
+          "title": "Partenariats stratégiques de carburant",
+          "body": "Approvisionnement en carburant diversifié et technologies à haut rendement et à faibles émissions — soutenus par des sauvegardes environnementales et sociales rigoureuses conformes aux normes internationales."
+        },
+        {
+          "iconImage": "/assets/icon-green-energy.webp",
+          "title": "Souveraineté énergétique",
+          "body": "Une puissance nationale fiable stimule l'industrialisation, la création d'emplois et la résilience économique à long terme — une plateforme de bout en bout construite pour le Burkina Faso."
+        },
+        {
+          "iconImage": "/assets/icon-care.webp",
+          "title": "Excellence opérationnelle",
+          "body": "Des opérations aux normes internationales et une main-d'œuvre professionnelle dirigée par des femmes maintiennent le réseau fiable, sûr et bancable dès le premier jour."
+        }
+      ],
+      "body": "Ce séquençage est délibéré : d'abord une production fiable, puis l'écosystème énergétique intégré qu'elle alimente. La fondation thermique de Ba-Suka renforce la fiabilité du réseau et débloque l'activité industrielle et commerciale sur laquelle s'appuient les services d'énergie propre.",
+      "ctas": [
+        {
+          "label": "Partenaires",
+          "href": "/partners/"
+        }
+      ]
+    },
+    {
       "type": "cards",
       "heading": "L'avantage Ba-Suka",
       "intro": "Six avantages inégalés qui propulsent la transition énergétique propre de l'Afrique",
@@ -67,7 +120,7 @@
         },
         {
           "value": "100 %",
-          "label": "Énergie solaire"
+          "label": "Stations solaires d'abord"
         },
         {
           "value": "10 M$+",
@@ -143,7 +196,7 @@
         },
         {
           "title": "Environnemental",
-          "body": "1 200 tonnes de CO₂ évitées par an\n100% d'énergie renouvelable\n70%+ de réutilisation/recyclage des batteries\n50+ stations déployées"
+          "body": "1 200 tonnes de CO₂ évitées par an\n100% de stations solaires d'abord\n70%+ de réutilisation/recyclage des batteries\n50+ stations déployées"
         },
         {
           "title": "Social",
@@ -160,7 +213,7 @@
     {
       "type": "image",
       "heading": "Notre mission & vision",
-      "body": "Construire le premier réseau électrique intelligent du Burkina Faso\n\nBa-Suka Energy fournit une électricité abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables — alimentant la mobilité électrique, les entreprises et les foyers. Nous construisons un réseau avancé, piloté par le client, alimenté à 100% par des énergies renouvelables, offrant une énergie propre fiable là où l'accès au réseau échoue.",
+      "body": "Bâtir un avenir énergétique souverain pour le Burkina Faso\n\nBa-Suka Energy fournit une électricité fiable et abordable — en commençant par une fondation de production de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Nous construisons un écosystème énergétique intégré, piloté par le client, qui soutient l'industrialisation, la souveraineté énergétique et la croissance inclusive là où l'accès au réseau échoue.",
       "image": "/assets/our-mission.jpg",
       "ctas": [
         {
@@ -173,7 +226,7 @@
       "type": "steps",
       "eyebrow": "Comment ça marche",
       "heading": "Le *réseau électrique intelligent* du Burkina Faso",
-      "intro": "Ba-Suka Energy fournit une énergie abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables. Notre infrastructure 100% solaire, indépendante du réseau, est conçue pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
+      "intro": "Ba-Suka Energy fournit une énergie fiable et abordable grâce à une plateforme production d'abord de 130 MW de capacité pilotable, étendue par des batteries SIRA™ intelligentes et échangeables. Nos stations solaires d'abord sont conçues pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
       "items": [
         {
           "number": "01",
@@ -192,8 +245,8 @@
         },
         {
           "number": "04",
-          "title": "100% chargé solaire",
-          "body": "Roulez à l'énergie 100% renouvelable. Nos stations indépendantes du réseau vous garantissent de l'énergie même pendant les défaillances ou coupures nationales."
+          "title": "Charge solaire d'abord",
+          "body": "Roulez avec une énergie propre. Nos stations solaires d'abord vous garantissent de l'énergie même pendant les défaillances ou coupures nationales."
         }
       ]
     },
