@@ -9,6 +9,7 @@
       "breadcrumb": ["Accueil", "À propos"],
       "body": "Ba-Suka (« la maison des femmes » en mooré) construit le premier réseau électrique intelligent du Burkina Faso. Nous fournissons une énergie abordable et durable grâce à des batteries SIRA™ intelligentes et échangeables — alimentant la mobilité électrique, les entreprises et les foyers là où l'accès au réseau échoue. Dirigée par Carolyn Wright, notre infrastructure 100% solaire et gérée par des femmes est indépendante du réseau et conçue spécifiquement pour l'environnement rude du Sahel.",
       "image": "/assets/about-hero.webp",
+      "backgroundImage": "/assets/about-us.jpg",
       "ctas": [
         {
           "label": "Découvrir notre histoire →",
@@ -132,7 +133,7 @@
       "type": "cta",
       "eyebrow": "Faites partie de l'impact",
       "heading": "Nous recherchons actuellement des fonds d'infrastructure et des partenaires climat qui valorisent des données d'impact transparentes et vérifiées par l'IoT",
-      "body": "Ba-Suka Energy est bien plus qu'un fournisseur de mobilité ; nous sommes un réseau d'infrastructure piloté par les données. En rejoignant notre lancement de septembre 2026, vous investissez dans un écosystème certifié visant 1 200 tonnes d'évitement de CO₂ et 10 M$ d'activité économique locale d'ici l'Année 3. Nos batteries intelligentes SIRA™ fournissent des métriques en temps réel, prêtes pour la blockchain, sur le débit d'énergie et le déplacement carbone, garantissant que vos investissements ESG livrent des résultats mesurables et de haute fidélité dans le Sahel.",
+      "body": "Ba-Suka Energy est bien plus qu'un fournisseur de mobilité ; nous sommes un réseau d'infrastructure piloté par les données. En rejoignant notre prochain lancement, vous investissez dans un écosystème certifié visant 1 200 tonnes d'évitement de CO₂ et 10 M$ d'activité économique locale d'ici l'Année 3. Nos batteries intelligentes SIRA™ fournissent des métriques en temps réel, prêtes pour la blockchain, sur le débit d'énergie et le déplacement carbone, garantissant que vos investissements ESG livrent des résultats mesurables et de haute fidélité dans le Sahel.",
       "ctas": [
         {
           "label": "Devenir partenaire",
