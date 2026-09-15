@@ -8,16 +8,13 @@
       "heading": "Mesurable dès le premier jour",
       "breadcrumb": ["Accueil", "Impact"],
       "body": "Ba-Suka Energy est une entreprise d'infrastructure pilotée par les données. Chaque objectif ci-dessous est vérifié par l'IoT et suivi en temps réel — offrant aux investisseurs et partenaires climat des métriques ESG de haute fidélité dans le Sahel.",
-      "images": [
-        "/assets/swappables-burkina.webp",
-        "/assets/partners-diagram.webp"
-      ]
+      "backgroundImage": "/assets/impact-hero.jpg"
     },
     {
       "type": "stats",
       "eyebrow": "OBJECTIFS ANNÉE 3 – BUTS, PAS CHIFFRES ACTUELS",
       "heading": "Trois piliers d'impact vérifié",
-      "intro": "Tous les chiffres sont des objectifs du programme en Année 3. Les batteries SIRA™ activées par IoT de Ba-Suka génèrent des données vérifiables en temps réel dès le jour du lancement — septembre 2026.",
+      "intro": "Tous les chiffres sont des objectifs du programme en Année 3. Les batteries SIRA™ activées par IoT de Ba-Suka génèrent des données vérifiables en temps réel dès le jour du lancement.",
       "pillars": [
         "Économique",
         "ENVIRONNEMENTAL",
@@ -106,7 +103,7 @@
       "intro": "Du lancement pilote à un réseau de 50 stations — comment Ba-Suka construit un impact vérifié sur trois ans.",
       "items": [
         {
-          "title": "Sept 2026 — Lancement pilote — Ouagadougou",
+          "title": "Lancement pilote — Ouagadougou",
           "body": "Les premières stations Swap & Glow™ sont mises en service. Première cohorte de Yennenga Warriors déployée. La collecte de données IoT commence dès le premier jour."
         },
         {
