@@ -62,9 +62,7 @@
         },
         {
           "title": "Plateforme DMS",
-          "body": "Système de gestion des données.\n\n→ Optimisation du réseau en temps réel\n→ Santé des batteries et diagnostics prédictifs\n→ Réconciliation automatique du mobile money\n→ Rapports d'impact ESG prêts pour la blockchain",
-          "iconImage": "/assets/img-charge.webp"
-        }
+          "body": "Système de gestion des données.\n\n→ Optimisation du réseau en temps réel\n→ Santé des batteries et diagnostics prédictifs\n→ Réconciliation automatique du mobile money\n→ Rapports d'impact ESG prêts pour la blockchain"}
       ]
     },
     {
@@ -95,9 +93,7 @@
       "items": [
         {
           "title": "Mobilité",
-          "body": "Pilotes électriques & opérateurs de flottes\n\n→ Motos électriques JOLA™\n→ Tricycles électriques & vélos cargo\n→ Flottes commerciales de livraison\n→ Paiement à l'échange — aucun coût d'acquisition",
-          "image": "/assets/swappables.webp"
-        },
+          "body": "Pilotes électriques & opérateurs de flottes\n\n→ Motos électriques JOLA™\n→ Tricycles électriques & vélos cargo\n→ Flottes commerciales de livraison\n→ Paiement à l'échange — aucun coût d'acquisition"},
         {
           "title": "Entreprise",
           "body": "Kiosques, boutiques & PME\n\n→ Réfrigération commerciale\n→ Éclairage et charge d'appareils\n→ Alimentation des étals de marché\n→ Alimentation de secours pendant les coupures",
@@ -105,9 +101,7 @@
         },
         {
           "title": "Planète",
-          "body": "Énergie propre & circularité\n\n→ Charge solaire d'abord à chaque station\n→ Fondation de production à faibles émissions\n→ 70%+ de seconde vie des batteries\n→ Données de déplacement CO₂ vérifiées par l'IoT",
-          "image": "/assets/home-hero.webp"
-        }
+          "body": "Énergie propre & circularité\n\n→ Charge solaire d'abord à chaque station\n→ Fondation de production à faibles émissions\n→ 70%+ de seconde vie des batteries\n→ Données de déplacement CO₂ vérifiées par l'IoT"}
       ]
     },
     {

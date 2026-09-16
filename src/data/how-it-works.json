@@ -62,9 +62,7 @@
         },
         {
           "title": "DMS Platform",
-          "body": "Data management system.\n\n→ Real-time network optimization\n→ Battery health & predictive diagnostics\n→ Automated mobile money reconciliation\n→ Blockchain-ready ESG impact reporting",
-          "iconImage": "/assets/img-charge.webp"
-        }
+          "body": "Data management system.\n\n→ Real-time network optimization\n→ Battery health & predictive diagnostics\n→ Automated mobile money reconciliation\n→ Blockchain-ready ESG impact reporting"}
       ]
     },
     {
@@ -95,8 +93,7 @@
       "items": [
         {
           "title": "Mobility",
-          "body": "Electric riders & fleet operators\n\n→ JOLA™ electric motorcycles\n→ Electric tricycles & cargo bikes\n→ Commercial delivery fleets\n→ Pay-per-swap — no ownership cost",
-          "image": "/assets/swappables.webp"
+          "body": "Electric riders & fleet operators\n\n→ JOLA™ electric motorcycles\n→ Electric tricycles & cargo bikes\n→ Commercial delivery fleets\n→ Pay-per-swap — no ownership cost"
         },
         {
           "title": "Business",
@@ -105,8 +102,7 @@
         },
         {
           "title": "Planet",
-          "body": "Clean energy & circularity\n\n→ Solar-first charging at every station\n→ Lower-emission generation foundation\n→ 70%+ battery second-life reuse\n→ IoT-verified CO₂ displacement data",
-          "image": "/assets/home-hero.webp"
+          "body": "Clean energy & circularity\n\n→ Solar-first charging at every station\n→ Lower-emission generation foundation\n→ 70%+ battery second-life reuse\n→ IoT-verified CO₂ displacement data"
         }
       ]
     },
