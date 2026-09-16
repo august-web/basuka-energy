@@ -5,12 +5,12 @@
     {
       "type": "hero",
       "eyebrow": "SERVICES",
-      "heading": "Empowering the Future of African Mobility",
+      "heading": "Energy Generation & Infrastructure for Africa",
       "breadcrumb": [
         "Home",
         "Services"
       ],
-      "body": "At BaSuka Energy, we don’t just provide power; we provide a professional, women-led infrastructure built on a generation-first foundation of 130 MW of new dispatchable capacity. By combining solar-first station technology with standardized battery systems, we ensure that clean mobility is reliable, affordable, and accessible for everyone—from individual riders to large-scale commercial fleets.",
+      "body": "At BaSuka Energy, we don’t just provide power; we provide a professional, women-led infrastructure built on a generation-first foundation of 130 MW of new dispatchable capacity. By combining solar-first station technology with standardized battery systems, we power national grid reliability, industrial activity, agriculture, water infrastructure, and clean mobility across Burkina Faso.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
@@ -102,7 +102,7 @@
       "eyebrow": "Scale Your Impact. Power Your Fleet",
       "heading": "Join West Africa’s most trusted women-led energy network",
       "body": "BaSuka Energy offers a bankable, solar-powered infrastructure platform designed for commercial growth. Whether you are an EV manufacturer, a logistics firm, or an impact investor, we provide the standardized technology and certified operations needed to drive the clean-energy transition across Africa.",
-      "image": "/assets/impact-4.webp",
+
       "ctas": [
         {
           "label": "Partner with us",
@@ -111,16 +111,23 @@
       ]
     },
     {
-      "type": "image",
-      "eyebrow": "WHY WE EXIST",
-      "heading": "Our Mission is to position women as visible leaders and trusted operators at the front line of Burkina Faso's energy and mobility transition",
-      "body": "This is achieved by developing a women-led, solar-first infrastructure platform that provides safe and reliable energy services to the community",
-      "bullets": [
-        "Lead the Clean Energy Transition",
-        "Provide Reliable Infrastructure",
-        "Empower Local Communities"
-      ],
-      "image": "/assets/impact-3.webp"
+      "type": "cards",
+      "heading": "Energy for Infrastructure, Water & Agriculture",
+      "intro": "Our 130 MW generation foundation powers more than mobility — it enables the critical infrastructure that drives national development.",
+      "items": [
+        {
+          "title": "Grid Reliability & Industry",
+          "body": "Dispatchable baseload power for mining operations, agro-processing facilities, manufacturing, and commercial enterprises that depend on uninterrupted electricity."
+        },
+        {
+          "title": "Water Infrastructure",
+          "body": "Reliable power for water treatment plants, pumping stations, and irrigation systems — ensuring clean water access and agricultural productivity."
+        },
+        {
+          "title": "Agricultural Productivity",
+          "body": "Electricity for cold storage, grain milling, food processing, and farm equipment — reducing post-harvest losses and powering the agricultural value chain."
+        }
+      ]
     },
     {
       "type": "logos",

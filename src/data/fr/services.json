@@ -5,7 +5,7 @@
     {
       "type": "hero",
       "eyebrow": "SERVICES",
-      "heading": "Propulser l'avenir de la mobilité africaine",
+      "heading": "Production d'énergie et infrastructure pour l'Afrique",
       "breadcrumb": [
         "Accueil",
         "Services"
@@ -102,7 +102,7 @@
       "eyebrow": "Amplifiez votre impact. Alimentez votre flotte",
       "heading": "Rejoignez le réseau énergétique dirigé par des femmes le plus fiable d'Afrique de l'Ouest",
       "body": "BaSuka Energy offre une plateforme d'infrastructure solaire bancable, conçue pour la croissance commerciale. Que vous soyez fabricant de VE, entreprise de logistique ou investisseur à impact, nous fournissons la technologie standardisée et les opérations certifiées nécessaires pour mener la transition énergétique propre à travers l'Afrique.",
-      "image": "/assets/impact-4.webp",
+
       "ctas": [
         {
           "label": "Devenir partenaire",
@@ -111,16 +111,23 @@
       ]
     },
     {
-      "type": "image",
-      "eyebrow": "POURQUOI NOUS EXISTONS",
-      "heading": "Notre mission est de positionner les femmes comme cheffes visibles et opératrices de confiance à la ligne de front de la transition énergétique propre et de la mobilité du Burkina Faso",
-      "body": "Cela est réalisé en développant une plateforme d'infrastructure solaire d'abord dirigée par des femmes qui fournit des services énergétiques sûrs et fiables à la communauté",
-      "bullets": [
-        "Mener la transition énergétique propre",
-        "Fournir une infrastructure fiable",
-        "Autonomiser les communautés locales"
-      ],
-      "image": "/assets/impact-3.webp"
+      "type": "cards",
+      "heading": "Énergie pour l'infrastructure, l'eau et l'agriculture",
+      "intro": "Notre fondation de production de 130 MW alimente bien plus que la mobilité — elle permet l'infrastructure critique qui alimente le développement national.",
+      "items": [
+        {
+          "title": "Fiabilité du réseau et industrie",
+          "body": "Puissance de base pilotable pour les opérations minières, les installations de transformation agroalimentaire, la fabrication et les entreprises commerciales."
+        },
+        {
+          "title": "Infrastructure hydrique",
+          "body": "Énergie fiable pour les usines de traitement de l'eau, les stations de pompage et les systèmes d'irrigation — garantissant l'accès à l'eau potable."
+        },
+        {
+          "title": "Productivité agricole",
+          "body": "Électricité pour le froid, le broyage de céréales, la transformation alimentaire et les équipements agricoles — réduisant les pertes post-récolte."
+        }
+      ]
     },
     {
       "type": "logos",
