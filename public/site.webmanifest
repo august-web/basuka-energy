@@ -1,10 +1,10 @@
 {
-  "name": "Ba-Suka Energy",
-  "short_name": "Ba-Suka",
+  "name": "BaSuka Energy",
+  "short_name": "BaSuka",
   "description": "Burkina Faso's smart electricity network — affordable power through smart, swappable SIRA batteries and 100% solar-powered Swap & Glow stations.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fdf8ee",
+  "background_color": "#ffffff",
   "theme_color": "#58a80a",
   "icons": [
     {
