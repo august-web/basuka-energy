@@ -39,19 +39,7 @@
         }
       ]
     },
-    {
-      "type": "image",
-      "eyebrow": "À propos de BaSuka | Infrastructure électrique avancée",
-      "heading": "Un avenir énergétique souverain pour le Burkina Faso",
-      "body": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes. Notre stratégie production d'abord fournit 130 MW de nouvelle capacité pilotable via quatre centrales thermiques — renforçant la fiabilité du réseau et débloquant l'industrie, les mines et l'agro-industrie — puis s'étend via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue pour le Sahel.",
-      "image": "/assets/about-portrait.webp",
-      "ctas": [
-        {
-          "label": "Comment ça marche →",
-          "href": "/how-it-works/"
-        }
-      ]
-    },
+
     {
       "type": "text",
       "eyebrow": "L'héritage BaSuka",
