@@ -39,19 +39,7 @@
         }
       ]
     },
-    {
-      "type": "image",
-      "eyebrow": "About BaSuka | Advanced Electricity Infrastructure",
-      "heading": "A Sovereign Energy Future for Burkina Faso",
-      "body": "BaSuka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company. Our generation-first strategy delivers 130 MW of new dispatchable capacity through four thermal power plants — strengthening grid reliability and unlocking industry, mining, and agro-processing — then extends through smart, swappable SIRA™ batteries that power mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built for the Sahel.",
-      "image": "/assets/about-portrait.webp",
-      "ctas": [
-        {
-          "label": "How It Works →",
-          "href": "/how-it-works/"
-        }
-      ]
-    },
+
     {
       "type": "text",
       "eyebrow": "The BaSuka Legacy",
