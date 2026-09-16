@@ -265,9 +265,9 @@ const sectionId = (section: Section, idx: number): string | undefined => {
 
       case 'marquee':
         return (
-          <section class="weave-strip-container relative overflow-hidden border-y border-brand-navy/10 bg-brand-cream py-4">
-            <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-brand-cream to-transparent" aria-hidden="true" />
-            <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-brand-cream to-transparent" aria-hidden="true" />
+          <section class="weave-strip-container relative overflow-hidden border-y border-slate-200 bg-slate-50 py-4">
+            <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-slate-50 to-transparent" aria-hidden="true" />
+            <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-slate-50 to-transparent" aria-hidden="true" />
             <div class="marquee" aria-hidden="true">
               <div class="marquee-track">
                 {[0, 1].map((copy) => (
@@ -288,7 +288,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
 
       case 'quote':
         return (
-          <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-paper py-20 lg:py-28">
+          <section id={sectionId(section, idx)} class="relative overflow-hidden bg-white py-20 lg:py-28">
             <div class="pointer-events-none absolute left-1/2 top-1/2 h-64 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand-green/5 blur-3xl" aria-hidden="true" />
             <div class="relative mx-auto max-w-4xl px-4 text-center sm:px-6">
               <svg class="mx-auto h-10 w-10 text-brand-green" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -306,7 +306,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
 
       case 'cards':
         return (
-          <section id={sectionId(section, idx)} class:list={['py-20 lg:py-24', tinted ? 'bg-brand-cream-light/70' : 'bg-white']}>
+          <section id={sectionId(section, idx)} class:list={['py-20 lg:py-24', 'bg-white']}>
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
                 <p class="eyebrow-rule mb-3 justify-center">
@@ -333,7 +333,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   const bullets = listItems(item);
                   return (
                     <div class="card-corner reveal group relative overflow-hidden rounded-2xl border border-brand-navy/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-brand-green/30 hover:shadow-xl hover:shadow-brand-navy/5">
-                      <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-cream transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
+                      <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-green-dark transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
                       {item.iconImage && (
                         <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-brand-green/10 transition-transform duration-300 group-hover:scale-110">
                           <OptimizedImage src={item.iconImage} alt="" class="h-9 w-9 object-contain" loading="lazy" />
@@ -400,7 +400,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
 
       case 'steps':
         return (
-          <section id={sectionId(section, idx)} data-steps class="bg-brand-cream-light py-20 lg:py-24">
+          <section id={sectionId(section, idx)} data-steps class="bg-white py-20 lg:py-24">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               {section.eyebrow && (
                 <p class="eyebrow-rule mb-3 justify-center">
@@ -418,7 +418,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
               {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">{section.intro}</p>}
               <ol class="relative mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <div class="steps-line pointer-events-none absolute top-14 right-8 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green/10 via-brand-green/40 to-brand-green/10 lg:block" aria-hidden="true" />
-                <div class="steps-progress pointer-events-none absolute top-14 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green to-brand-cream lg:block" style="width: 0%" aria-hidden="true" />
+                <div class="steps-progress pointer-events-none absolute top-14 left-8 hidden h-0.5 bg-gradient-to-r from-brand-green to-brand-green-dark lg:block" style="width: 0%" aria-hidden="true" />
                 {section.items?.map((item, i) => (
                   <li class="reveal group relative rounded-2xl bg-white p-8 shadow-sm ring-1 ring-brand-navy/5 transition duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-brand-navy/5">
                     <span class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-brand-green font-display text-lg font-bold text-white shadow-md shadow-brand-green/30 transition-transform duration-300 group-hover:scale-110">
@@ -559,7 +559,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     const bullets = listItems(card);
                     return (
                       <div class="card-corner reveal group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur transition duration-300 hover:-translate-y-1.5 hover:border-brand-green/40 hover:bg-white/[0.08]">
-                        <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-cream transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
+                        <div class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand-green to-brand-green-dark transition-transform duration-300 group-hover:scale-x-100" aria-hidden="true" />
                         {card.iconImage && (
                           <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-brand-green/20 transition-transform duration-300 group-hover:scale-110">
                             <OptimizedImage src={card.iconImage} alt="" class="h-9 w-9 object-contain" loading="lazy" />
@@ -724,7 +724,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
       case 'logos':
         return (
           <section id={sectionId(section, idx)} class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-            <div class="rounded-3xl border border-brand-navy/5 bg-brand-cream-light/50 px-8 py-10">
+            <div class="rounded-3xl border border-brand-navy/5 bg-white px-8 py-10">
               {section.heading && <h2 class="text-center text-sm font-bold uppercase tracking-[0.2em] text-slate-500">{section.heading}</h2>}
               <div class="mt-8 flex flex-wrap items-center justify-center gap-x-14 gap-y-8">
                 {section.images?.map((src) => (
