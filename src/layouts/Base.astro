@@ -31,6 +31,7 @@ const altHref = altPath(Astro.url.pathname, lang === 'en' ? 'fr' : 'en');
     <link rel="alternate" hreflang="en" href={new URL(lang === 'en' ? Astro.url.pathname : altHref, Astro.site)} />
     <link rel="alternate" hreflang="fr" href={new URL(lang === 'fr' ? Astro.url.pathname : altHref, Astro.site)} />
     <link rel="alternate" hreflang="x-default" href={new URL(altPath(Astro.url.pathname, 'en'), Astro.site)} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png" />
     <link rel="apple-touch-icon" href="/assets/favicon-192.png" />
