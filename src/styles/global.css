@@ -21,7 +21,7 @@
   }
 
   body {
-    @apply bg-brand-paper font-sans text-slate-700 antialiased;
+    @apply bg-white font-sans text-slate-700 antialiased;
     background-image: radial-gradient(
       color-mix(in srgb, var(--color-brand-navy) 4%, transparent) 1px,
       transparent 1px
@@ -46,12 +46,12 @@
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: var(--color-brand-paper);
+    background: #f1f5f9;
   }
   ::-webkit-scrollbar-thumb {
     background: color-mix(in srgb, var(--color-brand-green) 40%, transparent);
     border-radius: 9999px;
-    border: 2px solid var(--color-brand-paper);
+    border: 2px solid #f1f5f9;
   }
   ::-webkit-scrollbar-thumb:hover {
     background: var(--color-brand-green);
@@ -147,7 +147,7 @@
       90deg,
       var(--color-brand-green) 0 24px,
       var(--color-brand-navy) 24px 48px,
-      var(--color-brand-cream) 48px 60px,
+      #f1f5f9 48px 60px,
       var(--color-brand-navy) 60px 84px
     );
   }
@@ -192,7 +192,7 @@
     left: 0;
     height: 3px;
     z-index: 60;
-    background: linear-gradient(90deg, var(--color-brand-green), var(--color-brand-cream));
+    background: linear-gradient(90deg, var(--color-brand-green), var(--color-brand-green-dark));
     border-radius: 0 9999px 9999px 0;
     transition: width 0.1s linear;
     box-shadow: 0 1px 4px color-mix(in srgb, var(--color-brand-green) 50%, transparent);
