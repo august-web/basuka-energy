@@ -8,8 +8,8 @@
       "breadcrumb": [
         "Accueil",
         "À propos"
-      ],
-      "image": "/assets/academy-4.webp"
+      ]
+
     },
     {
       "type": "text",
@@ -95,8 +95,8 @@
       "type": "image",
       "eyebrow": "Mener la révolution énergétique propre",
       "heading": "Certification & parcours de carrière",
-      "body": "La diplômée est bien plus qu'une cérémonie ; c'est une porte vers un emploi durable et le leadership. Chaque diplômée qui réussit nos examens rigoureux de sécurité et d'opérations reçoit une certification professionnelle et est affectée à une station dans la mesure du possible",
-      "image": "/assets/about-hero.webp"
+      "body": "La diplômée est bien plus qu'une cérémonie ; c'est une porte vers un emploi durable et le leadership. Chaque diplômée qui réussit nos examens rigoureux de sécurité et d'opérations reçoit une certification professionnelle et est affectée à une station dans la mesure du possible"
+
     },
     {
       "type": "steps",
@@ -156,7 +156,6 @@
       "eyebrow": "opportunité financière",
       "heading": "Prête à passer à l'échelle ?Rejoignez la transition",
       "body": "Sécurisez votre place dans l'infrastructure énergétique dirigée par des femmes la plus fiable d'Afrique de l'Ouest",
-      "image": "/assets/academy-hero.webp",
       "ctas": [
         {
           "label": "Devenir investisseuse"
@@ -167,7 +166,6 @@
       "type": "faq",
       "heading": "Questions fréquentes",
       "body": "À l'Académie BaSuka, nous croyons que la transition énergétique propre n'est solide que par les cheffes qui l'exploitent. Ci-dessous, nous avons compilé les questions les plus fréquentes pour vous aider à faire le premier pas vers la certification de Cheffe de Station.",
-      "image": "/assets/hero-common.webp",
       "items": [
         {
           "q": "Qu'est-ce que l'Académie BaSuka ?",

@@ -8,8 +8,8 @@
       "breadcrumb": [
         "Home",
         "About Us"
-      ],
-      "image": "/assets/academy-4.webp"
+      ]
+
     },
     {
       "type": "text",
@@ -96,8 +96,8 @@
       "type": "image",
       "eyebrow": "Leading the Clean-Energy Revolution",
       "heading": "Certification & Career Pathways",
-      "body": "Graduation is more than a ceremony; it is a gateway to long-term employment and leadership. Every graduate who passes our rigorous safety and operations exams receives professional certification and is assigned to a station where possible",
-      "image": "/assets/about-hero.webp"
+      "body": "Graduation is more than a ceremony; it is a gateway to long-term employment and leadership. Every graduate who passes our rigorous safety and operations exams receives professional certification and is assigned to a station where possible"
+
     },
     {
       "type": "steps",
@@ -156,8 +156,7 @@
       "type": "cta",
       "eyebrow": "A FINANCIAL OPPORTUNITY",
       "heading": "Ready to scale? Join the transition",
-      "body": "Secure your place in West Africa’s most trusted women-led energy infrastructure",
-      "image": "/assets/academy-hero.webp",
+      "body": "Secure your place in West Africa's most trusted women-led energy infrastructure",
       "ctas": [
         {
           "label": "Become an Investor",
@@ -169,7 +168,6 @@
       "type": "faq",
       "heading": "Frequently Asked Questions",
       "body": "At the BaSuka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it. Below, we have compiled the most common questions to help you take your first step toward becoming a certified Station Manager.",
-      "image": "/assets/hero-common.webp",
       "items": [
         {
           "q": "What is the BaSuka Academy?",
