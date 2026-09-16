@@ -118,7 +118,6 @@
       "type": "faq",
       "heading": "Frequently asked questions",
       "body": "At the BaSuka Academy, we believe the clean-energy transition is only as strong as the leaders who operate it.",
-      "image": "/assets/hero-common.webp",
       "items": [
         {
           "q": "Who can apply to the Academy?",
@@ -147,7 +146,6 @@
         "OR",
         "Ready to lead the revolution?"
       ],
-      "image": "/assets/academy-hero.webp",
       "ctas": [
         {
           "label": "Apply Now",

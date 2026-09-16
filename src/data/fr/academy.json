@@ -118,7 +118,6 @@
       "type": "faq",
       "heading": "Questions fréquentes",
       "body": "À l'Académie BaSuka, nous croyons que la transition énergétique propre n'est solide que par les cheffes qui l'exploitent.",
-      "image": "/assets/hero-common.webp",
       "items": [
         {
           "q": "Qui peut postuler à l'Académie ?",
@@ -147,7 +146,6 @@
         "OU",
         "Prête à mener la révolution ?"
       ],
-      "image": "/assets/academy-hero.webp",
       "ctas": [
         {
           "label": "Postuler maintenant",
