@@ -19,23 +19,23 @@
     },
     {
       "type": "stats",
-      "heading": "Year 3 Targets",
+      "heading": "Our Foundation",
       "items": [
         {
-          "value": "1,000+",
-          "label": "Women Trained"
+          "value": "4",
+          "label": "Utility-scale thermal power plants"
         },
         {
-          "value": "100%",
-          "label": "Solar Powered"
+          "value": "130 MW",
+          "label": "New dispatchable generating capacity"
         },
         {
-          "value": "$10M+",
-          "label": "Local Economic Activity"
+          "value": "Women-led",
+          "label": "Workforce development and community empowerment"
         },
         {
-          "value": "1,200t",
-          "label": "Tonnes CO₂ Avoided"
+          "value": "Integrated",
+          "label": "Generation, distribution, storage, mobility, and services"
         }
       ]
     },
@@ -57,18 +57,18 @@
       "heading": "Core Values",
       "items": [
         {
-          "title": "Accessible → Women-Led Infrastructure",
-          "body": "Managed by certified Yennenga Warriors to build deep community trust and ensure operational excellence. We provide affordable electricity via pay-per-swap SIRA™ access.",
+          "title": "Inclusive → Women-Led Workforce",
+          "body": "The Yennenga Warriors are BaSuka's professional talent pipeline, building practical capabilities in health and safety, site operations, customer engagement, storage support, and future energy services.",
           "iconImage": "/assets/icon-location-pin.webp"
         },
         {
-          "title": "Reliable → Smart Electricity Network",
-          "body": "99%+ uptime where national grids fail. Our network uses SIRA™ batteries optimized by IoT and solar-first generation to power mobility, businesses, and homes.",
+          "title": "Reliable → Generation First",
+          "body": "Four thermal power plants will provide the dependable electricity required by the national grid, industry, mining, agriculture, businesses, homes, and communities.",
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
-          "title": "Renewable → Solar-First Stations",
-          "body": "Grid-independent Swap & Glow™ stations running on clean solar power. We advance the transition to clean energy while ensuring a sustainable second-life strategy for all batteries.",
+          "title": "Responsible → Sustainable Development",
+          "body": "High-efficiency, lower-emission technologies and disciplined environmental and social safeguards will guide the platform's development.",
           "iconImage": "/assets/icon-solar-panel.webp"
         },
         {
@@ -121,7 +121,7 @@
       "type": "cta",
       "eyebrow": "Be Part of the Impact",
       "heading": "We are seeking infrastructure funds, fuel and technology partners, engineering firms, and public-sector allies to build Burkina Faso's energy foundation",
-      "body": "BaSuka Energy is more than a mobility provider; we are a data-driven infrastructure platform. Our generation-first foundation delivers 130 MW of new dispatchable capacity for the national grid and industry, while our SIRA™ smart batteries provide real-time, blockchain-ready metrics on energy throughput and carbon displacement — ensuring your ESG investments deliver measurable, high-fidelity results in the Sahel.",
+      "body": "BaSuka is developing an integrated infrastructure platform: dependable generation first, followed by smart-grid distribution, storage, swappable batteries, clean mobility, and energy services. We welcome collaborators who share the objective of dependable power and inclusive economic growth in Burkina Faso.",
       "ctas": [
         {
           "label": "Partner With Us",
