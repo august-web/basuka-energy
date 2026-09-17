@@ -10,13 +10,13 @@
         "Accueil",
         "Services"
       ],
-      "body": "Chez BaSuka Energy, nous ne fournissons pas seulement de l'énergie ; nous offrons une infrastructure professionnelle dirigée par des femmes, bâtie sur une fondation production d'abord de 130 MW de nouvelle capacité pilotable. En combinant une technologie de station solaire d'abord avec des systèmes de batteries standardisés, nous garantissons une mobilité propre fiable, abordable et accessible pour tous — des pilotes individuels aux grandes flottes commerciales.",
+      "body": "BaSuka développe une plateforme énergétique professionnelle dirigée par des femmes, bâtie sur quatre centrales thermiques de grande échelle fournissant 130 MW de nouvelle capacité pilotable. Cette fondation de production fiable soutiendra le réseau national, l'industrie, les mines, l'agriculture, les infrastructures hydrauliques, les entreprises, les foyers et les futurs services énergétiques.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
       "type": "cards",
-      "heading": "Infrastructure d'échange de batteries DMS",
-      "intro": "Nous éliminons « l'anxiété d'autonomie » et les longues attentes de charge en fournissant un réseau d'échange standardisé et professionnel",
+      "heading": "Futurs services de stockage et de batteries interchangeables",
+      "intro": "Une fois la production fiable établie, BaSuka étendra la plateforme via des services standardisés de stockage et de batteries interchangeables.",
       "items": [
         {
           "title": "L'échange en 60 secondes",
@@ -34,8 +34,8 @@
     },
     {
       "type": "cards",
-      "heading": "Hubs d'énergie solaire",
-      "intro": "Nos stations ne sont pas de simples points de vente ; ce sont des centrales d'énergie propre indépendantes.",
+      "heading": "Hubs énergétiques intégrés",
+      "intro": "Les futurs hubs énergétiques relieront le stockage, les services intelligents et la mobilité propre à une fondation de production fiable.",
       "image": "/assets/solar-panels.jpeg",
       "items": [
         {
@@ -99,9 +99,9 @@
     },
     {
       "type": "cta",
-      "eyebrow": "Amplifiez votre impact. Alimentez votre flotte",
-      "heading": "Rejoignez le réseau énergétique dirigé par des femmes le plus fiable d'Afrique de l'Ouest",
-      "body": "BaSuka Energy offre une plateforme d'infrastructure solaire bancable, conçue pour la croissance commerciale. Que vous soyez fabricant de VE, entreprise de logistique ou investisseur à impact, nous fournissons la technologie standardisée et les opérations certifiées nécessaires pour mener la transition énergétique propre à travers l'Afrique.",
+      "eyebrow": "Bâtir la fondation. Permettre la croissance.",
+      "heading": "Rejoignez la plateforme énergétique intégrée de BaSuka",
+      "body": "BaSuka accueille les partenaires du carburant, de la technologie, de l'ingénierie, du financement, du développement des compétences et du secteur public pour fournir une énergie fiable et les services qu'elle rend possibles.",
 
       "ctas": [
         {
