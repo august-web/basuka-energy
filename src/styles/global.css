@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-green: #58a80a;
-  --color-brand-green-dark: #417d08;
-  --color-brand-green-deep: #2f5c05;
-  --color-brand-cream: #fcde9e;
-  --color-brand-cream-light: #faf1de;
-  --color-brand-paper: #fdf8ee;
-  --color-brand-navy: #0b1f33;
-  --color-brand-navy-light: #14304d;
+  /* BaSuka's original identity: forest green, yellow-gold and white. */
+  --color-brand-green: #176b35;
+  --color-brand-green-dark: #0b4723;
+  --color-brand-green-deep: #06351a;
+  --color-brand-cream: #dca51a;
+  --color-brand-cream-light: #fff5d6;
+  --color-brand-paper: #ffffff;
+  /* Kept as legacy token names so shared components stay coherent. */
+  --color-brand-navy: #073b23;
+  --color-brand-navy-light: #0d5732;
   --font-display: "Outfit Variable", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Outfit Variable", ui-sans-serif, system-ui, sans-serif;
   --font-accent: "Fraunces", Georgia, serif;
