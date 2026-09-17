@@ -12,9 +12,9 @@
     },
     {
       "type": "stats",
-      "eyebrow": "YEAR 3 TARGETS – GOALS, NOT CURRENT FIGURES",
-      "heading": "Three Pillars of Verified Impact",
-      "intro": "All figures are Year 3 programme targets. BaSuka’s IoT-enabled SIRA™ batteries generate real-time, verifiable data from launch day.",
+      "eyebrow": "THE PLATFORM'S INTENDED IMPACT",
+      "heading": "Reliable power. Inclusive growth. Long-term value.",
+      "intro": "BaSuka's approach combines dependable generation, workforce development, smart infrastructure, storage, and clean mobility to create durable national value.",
       "pillars": [
         "Economic",
         "ENVIRONMENTAL",
@@ -22,49 +22,49 @@
       ],
       "items": [
         {
-          "value": "$10M+",
-          "label": "Local economic activity generated (Year 3 target)",
-          "tag": "YEAR 3 TARGETS"
+          "value": "4",
+          "label": "Utility-scale thermal power plants",
+          "tag": "GENERATION FOUNDATION"
         },
         {
-          "value": "1,200t",
-          "label": "Tonnes CO₂ avoided annually",
-          "tag": "YEAR 3 TARGETS"
+          "value": "130 MW",
+          "label": "New dispatchable generating capacity",
+          "tag": "GENERATION FOUNDATION"
         },
         {
-          "value": "1,000+",
-          "label": "Women Trained via BaSuka Academy",
-          "tag": "YEAR 3 TARGETS"
+          "value": "Reliable",
+          "label": "Power for the grid, industry, and communities",
+          "tag": "ECONOMIC RESILIENCE"
         },
         {
-          "value": "200+",
-          "label": "Jobs Created across the network",
-          "tag": "YEAR 3 TARGETS"
+          "value": "Women-led",
+          "label": "Workforce solutions and community empowerment",
+          "tag": "YENNENGA WARRIORS"
         },
         {
-          "value": "100%",
-          "label": "Solar-first energy across all stations",
-          "tag": "STATION-LEVEL"
+          "value": "Integrated",
+          "label": "Smart-grid distribution, storage, mobility, and services",
+          "tag": "ECOSYSTEM"
         },
         {
-          "value": "100%",
-          "label": "Women-led station management",
-          "tag": "YENNENGA WARRIORS MODEL"
+          "value": "High-efficiency",
+          "label": "Lower-emission technology under consideration",
+          "tag": "RESPONSIBLE DEVELOPMENT"
         },
         {
-          "value": "60+",
-          "label": "Yennenga Warriors employed",
-          "tag": "YENNENGA WARRIORS MODEL"
+          "value": "Practical",
+          "label": "Training in safety, site operations, and customer engagement",
+          "tag": "WORKFORCE DEVELOPMENT"
         },
         {
-          "value": "70%+",
-          "label": "Battery second-life reuse",
-          "tag": "SECOND-LIFE REUSE STRATEGY"
+          "value": "Disciplined",
+          "label": "Environmental and social safeguards",
+          "tag": "INTERNATIONAL STANDARDS"
         },
         {
-          "value": "15,000+",
-          "label": "Riders and households served",
-          "tag": "YEAR 3 TARGETS"
+          "value": "Sovereign",
+          "label": "Infrastructure built for Burkina Faso",
+          "tag": "LONG-TERM VALUE"
         }
       ]
     },
@@ -76,22 +76,22 @@
       "items": [
         {
           "title": "Gender equality",
-          "body": "100% women-led station management. Certified Yennenga Warriors earn 2-3× the local minimum wage through performance-linked pay.",
+          "body": "The Yennenga Warriors are a professional women-led talent pipeline prepared to participate across BaSuka's expanding energy ecosystem.",
           "tag": "GOAL 5"
         },
         {
           "title": "Affordable & clean energy",
-          "body": "A generation-first foundation of 130 MW of new dispatchable capacity, plus solar-first Swap & Glow™ stations delivering clean electricity where the national grid fails.",
+          "body": "Four utility-scale thermal power plants delivering 130 MW of new dispatchable capacity establish the reliable foundation for an integrated energy ecosystem.",
           "tag": "GOAL 7"
         },
         {
           "title": "Decent work & economic growth",
-          "body": "200+ jobs created. $10M+ local economic activity. An infrastructure model designed to retain talent at above-market wages.",
+          "body": "Reliable generation, local workforce development, and smart infrastructure support industrialization, job creation, and long-term economic resilience.",
           "tag": "GOAL 8"
         },
         {
           "title": "Climate action",
-          "body": "1,200 tonnes of CO₂ avoided annually by displacing fossil-fuel two-wheel and three-wheel mobility across Burkina Faso.",
+          "body": "High-efficiency, lower-emission technologies and environmental and social safeguards will guide responsible development of the platform.",
           "tag": "GOAL 13"
         }
       ]
@@ -99,31 +99,31 @@
     {
       "type": "steps",
       "eyebrow": "DEPLOYMENT ROADMAP",
-      "heading": "Path to scale",
-      "intro": "From pilot launch to a 50-station network – how BaSuka builds verified impact over three years.",
+      "heading": "Immediate priorities",
+      "intro": "The Read-Ahead sets out the practical steps for establishing the generation foundation and preparing the integrated ecosystem.",
       "items": [
         {
-          "title": "Pilot launch — Ouagadougou",
-          "body": "First Swap & Glow™ stations go live. First Yennenga Warriors cohort deployed. IoT data collection begins on day one."
+          "title": "Advance generation development",
+          "body": "Advance the development of four thermal power plants totaling 130 MW of new capacity."
         },
         {
-          "title": "Year 1 — Network validation",
-          "body": "10 stations. 60+ Yennenga Warriors. 2,500+ riders served. First independent CO₂ baseline audit."
+          "title": "Secure strategic partnerships",
+          "body": "Secure fuel, technology, engineering, financing, and public-sector partnerships."
         },
         {
-          "title": "Year 2 — Regional expansion",
-          "body": "25 stations across 3 cities . 400+ women trained . $3M+ local economic activity milestone reached."
+          "title": "Develop the workforce",
+          "body": "Establish workforce solutions and train the first cohorts of Yennenga Warriors."
         },
         {
-          "title": "Year 3 — Full-scale impact",
-          "body": "50 stations. 1,000+ women trained. 1,200t CO₂ avoided. $10M+ economic activity. 15,000+ riders served."
+          "title": "Prepare ecosystem expansion",
+          "body": "Prepare the operating foundation for smart-grid, storage, swappable-battery, and clean-mobility expansion."
         }
       ]
     },
     {
       "type": "cta",
       "eyebrow": "FOR INFRASTRUCTURE FUNDS & CLIMATE PARTNERS",
-      "heading": "IoT-verified impact data, ready for your ESG portfolio",
-      "body": "BaSuka’s SIRA™ smart batteries generate real-time metrics on energy throughput, carbon displacement, and station performance – blockchain – ready and auditable from day one of operations."}
+      "heading": "Build dependable power and inclusive economic growth",
+      "body": "BaSuka welcomes infrastructure funds and partners who share its commitment to reliable power, responsible development, local capability, and a sovereign energy future for Burkina Faso."}
   ]
 }
