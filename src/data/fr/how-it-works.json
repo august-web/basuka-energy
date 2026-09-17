@@ -1,46 +1,46 @@
 {
   "title": "Comment ça marche - BaSuka Energy",
-  "metaDescription": "Une énergie production d'abord, livrée en 60 secondes. 130 MW de nouvelle capacité pilotable plus l'échange de batteries SIRA™ solaires d'abord et optimisé par l'IoT, avec des opérations professionnelles dirigées par des femmes à travers le Burkina Faso.",
+  "metaDescription": "Comment la plateforme de BaSuka Energy, axée sur la production d'abord, bâtira une énergie fiable pour le Burkina Faso : quatre centrales thermiques de grande échelle fournissant 130 MW, puis un écosystème énergétique intégré.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BaSuka Energy – Comment ça marche",
-      "heading": "Une énergie indépendante du réseau, livrée en 60 secondes",
+      "heading": "Une plateforme de production d'abord pour le Burkina Faso",
       "breadcrumb": ["Accueil", "Comment ça marche"],
-      "body": "Construit sur une fondation production d'abord de 130 MW de nouvelle capacité pilotable, BaSuka combine un matériel solaire d'abord et optimisé par l'IoT avec des opérations professionnelles dirigées par des femmes pour garder le Burkina Faso en mouvement — même quand le réseau national tombe.",
+      "body": "BaSuka commence par développer quatre centrales thermiques de grande échelle fournissant 130 MW d'électricité fiable et pilotable. Cette base solide rend possible un écosystème énergétique intégré, évolutif et une croissance économique inclusive.",
       "backgroundImage": "/assets/how-it-works.jpg",
       "ctas": [
         {
-          "label": "Rejoindre la liste d'attente",
-          "href": "/contact-us/"
+          "label": "Devenir partenaire",
+          "href": "/partners/"
         }
       ]
     },
     {
       "type": "steps",
-      "eyebrow": "Le processus d'échange – 4 étapes",
-      "heading": "Comment se déroule un échange",
-      "intro": "L'échange complet — de l'arrivée au départ — prend moins de 60 secondes, assisté par une Yennenga Warrior certifiée à chaque station.",
+      "eyebrow": "Une vision. Des solutions connectées.",
+      "heading": "Comment l'écosystème énergétique intégré se développe",
+      "intro": "La séquence est délibérée : une production fiable d'abord, puis les infrastructures et les services qu'elle rend possibles.",
       "items": [
         {
           "number": "01",
-          "title": "Arrivez",
-          "body": "Arrivez à n'importe quelle station Swap & Glow™. Sans rendez-vous."
+          "title": "Produire",
+          "body": "Quatre centrales thermiques de grande échelle créent une base électrique fiable et pilotable pour le réseau national, les entreprises, les foyers, l'industrie, les mines, l'agriculture et l'agro-industrie."
         },
         {
           "number": "02",
-          "title": "Échangez",
-          "body": "Échangez votre batterie SIRA™ déchargée contre une unité pleinement chargée solaire en moins de 60 secondes."
+          "title": "Distribuer",
+          "body": "La distribution par réseau intelligent étend une électricité fiable là où elle est nécessaire et soutient une plateforme opérationnelle évolutive."
         },
         {
           "number": "03",
-          "title": "Payez",
-          "body": "Paiement mobile money fluide — Orange Money, Wave ou espèces. Ne payez que l'énergie consommée."
+          "title": "Stocker et servir",
+          "body": "Le stockage d'énergie et les batteries interchangeables peuvent soutenir un accès pratique à l'énergie pour la mobilité, les entreprises et les communautés."
         },
         {
           "number": "04",
-          "title": "Roulez",
-          "body": "Continuez votre route ou alimentez votre entreprise avec zéro émission et zéro dépendance au réseau."
+          "title": "Étendre",
+          "body": "La mobilité propre et les futurs services énergétiques s'appuient sur cette fondation, avec le soutien des Yennenga Warriors formées dans tout l'écosystème."
         }
       ]
     },
@@ -106,9 +106,9 @@
     },
     {
       "type": "cta",
-      "eyebrow": "Rejoignez la transition énergétique",
-      "heading": "Que vous rouliez, dirigiez une entreprise ou investissiez dans l'infrastructure",
-      "body": "BaSuka ouvre son réseau SIRA™ aux partenaires technologiques, aux fabricants de VE et aux fonds d'infrastructure. Ensemble, nous comblons le déficit énergétique du Sahel grâce à une innovation solaire évolutive et dirigée par des femmes.",
+      "eyebrow": "Bâtir la fondation",
+      "heading": "Participez à l'avenir énergétique souverain du Burkina Faso",
+      "body": "BaSuka accueille les pouvoirs publics, investisseurs, partenaires d'ingénierie et de technologie, fournisseurs de carburant, institutions de développement des compétences et communautés engagées en faveur d'une énergie fiable et d'une croissance économique inclusive.",
       "ctas": [
         {
           "label": "Devenir partenaire",
