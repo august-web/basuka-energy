@@ -12,9 +12,9 @@
     },
     {
       "type": "stats",
-      "eyebrow": "OBJECTIFS ANNÉE 3 – BUTS, PAS CHIFFRES ACTUELS",
-      "heading": "Trois piliers d'impact vérifié",
-      "intro": "Tous les chiffres sont des objectifs du programme en Année 3. Les batteries SIRA™ activées par IoT de BaSuka génèrent des données vérifiables en temps réel dès le jour du lancement.",
+      "eyebrow": "L'IMPACT VISÉ PAR LA PLATEFORME",
+      "heading": "Une énergie fiable. Une croissance inclusive. Une valeur durable.",
+      "intro": "L'approche de BaSuka associe une production fiable, le développement des compétences, les infrastructures intelligentes, le stockage et la mobilité propre afin de créer une valeur nationale durable.",
       "pillars": [
         "Économique",
         "ENVIRONNEMENTAL",
@@ -22,49 +22,49 @@
       ],
       "items": [
         {
-          "value": "10 M$+",
-          "label": "Activité économique locale générée (objectif Année 3)",
-          "tag": "OBJECTIFS ANNÉE 3"
+          "value": "4",
+          "label": "Centrales thermiques de grande échelle",
+          "tag": "FONDATION DE PRODUCTION"
         },
         {
-          "value": "1 200 t",
-          "label": "Tonnes de CO₂ évitées par an",
-          "tag": "OBJECTIFS ANNÉE 3"
+          "value": "130 MW",
+          "label": "Nouvelle capacité de production pilotable",
+          "tag": "FONDATION DE PRODUCTION"
         },
         {
-          "value": "1 000+",
-          "label": "Femmes formées via l'Académie BaSuka",
-          "tag": "OBJECTIFS ANNÉE 3"
+          "value": "Fiable",
+          "label": "Énergie pour le réseau, l'industrie et les communautés",
+          "tag": "RÉSILIENCE ÉCONOMIQUE"
         },
         {
-          "value": "200+",
-          "label": "Emplois créés à travers le réseau",
-          "tag": "OBJECTIFS ANNÉE 3"
+          "value": "Dirigée par des femmes",
+          "label": "Solutions de main-d'œuvre et autonomisation des communautés",
+          "tag": "YENNENGA WARRIORS"
         },
         {
-          "value": "100 %",
-          "label": "Énergie solaire d'abord sur toutes les stations",
-          "tag": "AU NIVEAU DES STATIONS"
+          "value": "Intégré",
+          "label": "Distribution intelligente, stockage, mobilité et services",
+          "tag": "ÉCOSYSTÈME"
         },
         {
-          "value": "100 %",
-          "label": "Gestion des stations dirigée par des femmes",
-          "tag": "MODÈLE YENNENGA WARRIORS"
+          "value": "Haut rendement",
+          "label": "Technologies à faibles émissions envisagées",
+          "tag": "DÉVELOPPEMENT RESPONSABLE"
         },
         {
-          "value": "60+",
-          "label": "Yennenga Warriors employées",
-          "tag": "MODÈLE YENNENGA WARRIORS"
+          "value": "Pratique",
+          "label": "Formation à la sécurité, aux opérations de site et à l'engagement client",
+          "tag": "DÉVELOPPEMENT DES COMPÉTENCES"
         },
         {
-          "value": "70%+",
-          "label": "Réutilisation des batteries en seconde vie",
-          "tag": "STRATÉGIE DE SECONDE VIE"
+          "value": "Rigoureux",
+          "label": "Sauvegardes environnementales et sociales",
+          "tag": "NORMES INTERNATIONALES"
         },
         {
-          "value": "15 000+",
-          "label": "Pilotes et foyers servis",
-          "tag": "OBJECTIFS ANNÉE 3"
+          "value": "Souverain",
+          "label": "Une infrastructure bâtie pour le Burkina Faso",
+          "tag": "VALEUR DURABLE"
         }
       ]
     },
@@ -76,22 +76,22 @@
       "items": [
         {
           "title": "Égalité des genres",
-          "body": "100% de gestion de stations dirigée par des femmes. Les Yennenga Warriors certifiées gagnent 2 à 3× le salaire minimum local grâce à une rémunération liée à la performance.",
+          "body": "Les Yennenga Warriors constituent un vivier professionnel dirigé par des femmes, préparé à participer à l'écosystème énergétique en expansion de BaSuka.",
           "tag": "ODD 5"
         },
         {
           "title": "Énergie abordable & propre",
-          "body": "Une fondation production d'abord de 130 MW de nouvelle capacité pilotable, plus des stations Swap & Glow™ solaires d'abord fournissant une électricité propre là où le réseau national échoue.",
+          "body": "Quatre centrales thermiques de grande échelle fournissant 130 MW de nouvelle capacité pilotable établissent la fondation fiable d'un écosystème énergétique intégré.",
           "tag": "ODD 7"
         },
         {
           "title": "Travail décent & croissance économique",
-          "body": "200+ emplois créés. 10 M$+ d'activité économique locale. Un modèle d'infrastructure conçu pour retenir les talents à des salaires supérieurs au marché.",
+          "body": "Une production fiable, le développement des compétences locales et les infrastructures intelligentes soutiennent l'industrialisation, la création d'emplois et la résilience économique à long terme.",
           "tag": "ODD 8"
         },
         {
           "title": "Action climatique",
-          "body": "1 200 tonnes de CO₂ évitées chaque année en remplaçant la mobilité fossile 2-roues et 3-roues à travers le Burkina Faso.",
+          "body": "Des technologies à haut rendement et à faibles émissions, ainsi que des sauvegardes environnementales et sociales, guideront le développement responsable de la plateforme.",
           "tag": "ODD 13"
         }
       ]
@@ -99,31 +99,31 @@
     {
       "type": "steps",
       "eyebrow": "FEUILLE DE ROUTE DE DÉPLOIEMENT",
-      "heading": "Le chemin vers l'échelle",
-      "intro": "Du lancement pilote à un réseau de 50 stations — comment BaSuka construit un impact vérifié sur trois ans.",
+      "heading": "Priorités immédiates",
+      "intro": "Le Read-Ahead définit les étapes pratiques pour établir la fondation de production et préparer l'écosystème intégré.",
       "items": [
         {
-          "title": "Lancement pilote — Ouagadougou",
-          "body": "Les premières stations Swap & Glow™ sont mises en service. Première cohorte de Yennenga Warriors déployée. La collecte de données IoT commence dès le premier jour."
+          "title": "Faire avancer le développement de la production",
+          "body": "Faire avancer le développement de quatre centrales thermiques totalisant 130 MW de nouvelle capacité."
         },
         {
-          "title": "Année 1 — Validation du réseau",
-          "body": "10 stations. 60+ Yennenga Warriors. 2 500+ pilotes servis. Premier audit indépendant de référence CO₂."
+          "title": "Sécuriser des partenariats stratégiques",
+          "body": "Sécuriser des partenariats pour le carburant, la technologie, l'ingénierie, le financement et le secteur public."
         },
         {
-          "title": "Année 2 — Expansion régionale",
-          "body": "25 stations dans 3 villes. 400+ femmes formées. Jalon de 3 M$+ d'activité économique locale atteint."
+          "title": "Développer la main-d'œuvre",
+          "body": "Établir des solutions de main-d'œuvre et former les premières cohortes de Yennenga Warriors."
         },
         {
-          "title": "Année 3 — Impact à pleine échelle",
-          "body": "50 stations. 1 000+ femmes formées. 1 200 t de CO₂ évitées. 10 M$+ d'activité économique. 15 000+ pilotes servis."
+          "title": "Préparer l'expansion de l'écosystème",
+          "body": "Préparer la fondation opérationnelle pour le réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre."
         }
       ]
     },
     {
       "type": "cta",
       "eyebrow": "POUR LES FONDS D'INFRASTRUCTURE & PARTENAIRES CLIMAT",
-      "heading": "Données d'impact vérifiées par l'IoT, prêtes pour votre portefeuille ESG",
-      "body": "Les batteries intelligentes SIRA™ de BaSuka génèrent des métriques en temps réel sur le débit d'énergie, le déplacement carbone et la performance des stations — prêtes pour la blockchain et auditables dès le premier jour d'exploitation."}
+      "heading": "Bâtir une énergie fiable et une croissance économique inclusive",
+      "body": "BaSuka accueille les fonds d'infrastructure et les partenaires qui partagent son engagement pour une énergie fiable, un développement responsable, des capacités locales et un avenir énergétique souverain pour le Burkina Faso."}
   ]
 }
