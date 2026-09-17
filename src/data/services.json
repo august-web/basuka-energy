@@ -10,13 +10,13 @@
         "Home",
         "Services"
       ],
-      "body": "At BaSuka Energy, we don’t just provide power; we provide a professional, women-led infrastructure built on a generation-first foundation of 130 MW of new dispatchable capacity. By combining solar-first station technology with standardized battery systems, we power national grid reliability, industrial activity, agriculture, water infrastructure, and clean mobility across Burkina Faso.",
+      "body": "BaSuka is developing a professional, women-led energy platform built on four utility-scale thermal power plants delivering 130 MW of new dispatchable capacity. This reliable generation foundation will support the national grid, industry, mining, agriculture, water infrastructure, businesses, homes, and future energy services.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
       "type": "cards",
-      "heading": "DMS Battery-Swapping Infrastructure",
-      "intro": "We eliminate “range anxiety” and long charging wait times by providing a standardized, professional swapping network",
+      "heading": "Future Storage & Swappable-Battery Services",
+      "intro": "Once dependable generation is established, BaSuka will extend the platform through standardized storage and swappable-battery services.",
       "items": [
         {
           "title": "The 60-Second Swap",
@@ -34,8 +34,8 @@
     },
     {
       "type": "cards",
-      "heading": "Solar-Powered Energy Hubs",
-      "intro": "Our stations are not just points of sale; they are independent, clean-energy power plants.",
+      "heading": "Integrated Energy Hubs",
+      "intro": "Future energy hubs will connect storage, smart services, and clean mobility to the dependable generation foundation.",
       "image": "/assets/solar-panels.jpeg",
       "items": [
         {
@@ -99,9 +99,9 @@
     },
     {
       "type": "cta",
-      "eyebrow": "Scale Your Impact. Power Your Fleet",
-      "heading": "Join West Africa’s most trusted women-led energy network",
-      "body": "BaSuka Energy offers a bankable, solar-powered infrastructure platform designed for commercial growth. Whether you are an EV manufacturer, a logistics firm, or an impact investor, we provide the standardized technology and certified operations needed to drive the clean-energy transition across Africa.",
+      "eyebrow": "Build the Foundation. Enable Growth.",
+      "heading": "Join BaSuka's integrated energy platform",
+      "body": "BaSuka welcomes partners in fuel, technology, engineering, financing, workforce development, and the public sector to help deliver dependable power and the services it enables.",
 
       "ctas": [
         {
