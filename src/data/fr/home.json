@@ -1,40 +1,40 @@
 {
   "title": "Accueil - BaSuka Energy",
-  "metaDescription": "BaSuka Energy bâtit l'avenir énergétique souverain du Burkina Faso : une plateforme production d'abord ajoutant 130 MW de puissance pilotable, puis un réseau intelligent de batteries SIRA™ interchangeables et des stations Swap & Glow™ dirigées par des femmes.",
+  "metaDescription": "BaSuka Energy bâtit l'avenir énergétique souverain du Burkina Faso grâce à quatre centrales thermiques de grande échelle fournissant 130 MW de capacité fiable et pilotable, puis à un écosystème énergétique intégré.",
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "Le réseau électrique intelligent du Burkina Faso",
-      "heading": "Une électricité abordable grâce aux batteries *SIRA™* intelligentes et échangeables",
-      "body": "BaSuka Energy fournit une énergie instantanée et durable pour la mobilité, les entreprises et les solutions de secours — via des stations Swap & Glow™ solaires d'abord exploitées par des femmes professionnelles.",
+      "eyebrow": "Éclairer le Burkina Faso. Bâtir un avenir énergétique souverain.",
+      "heading": "Nous bâtissons. Nous alimentons. Nous *transformons*.",
+      "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales thermiques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable au Burkina Faso.",
       "backgroundImage": "/assets/desktop-homepage2.jpg",
       "chips": [
-        "Électricité intelligente là où le réseau fait défaut",
-        "Échanges SIRA™ <60s",
-        "Dirigé par des femmes",
-        "Réseau pionnier au Burkina"
+        "4 centrales thermiques",
+        "130 MW de nouvelle capacité",
+        "Solutions de main-d'œuvre dirigées par des femmes",
+        "Construit pour le Burkina Faso"
       ],
       "ctas": [
         {
-          "label": "Rejoindre la liste d'attente",
-          "href": "/contact-us/"
+          "label": "Devenez partenaire",
+          "href": "/partners/"
         },
         {
-          "label": "Comment ça marche",
-          "href": "/how-it-works/"
+          "label": "Notre approche",
+          "href": "/about-us-2/"
         }
       ]
     },
     {
       "type": "marquee",
       "items": [
-        "Échanges SIRA™ en moins de 60 secondes",
-        "Stations solaires d’abord",
-        "Infrastructure dirigée par des femmes",
-        "Paiement à l'échange — aucun coût d'acquisition",
+        "4 centrales thermiques de grande échelle",
+        "130 MW de nouvelle capacité pilotable",
+        "Énergie fiable pour tous les secteurs",
+        "Solutions de main-d'œuvre dirigées par des femmes",
         "Conçu pour le Sahel",
-        "Impact vérifié par IoT",
-        "Date de lancement à venir — Restez informé(e)"
+        "Opérations aux normes internationales",
+        "Écosystème énergétique intégré"
       ]
     },
     {
@@ -52,12 +52,12 @@
           "label": "Centrales thermiques à grande échelle"
         },
         {
-          "value": "99 %+",
-          "label": "Objectif de disponibilité — puissance pilotable stabilisant le réseau"
+          "value": "Fiable",
+          "label": "Électricité pilotable pour le réseau national et l'industrie"
         },
         {
-          "value": "24h/24",
-          "label": "Base fiable pour l'industrie et les communautés"
+          "value": "Intégré",
+          "label": "Plateforme pour le stockage, la mobilité et les services énergétiques"
         }
       ],
       "cards": [
