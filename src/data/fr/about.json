@@ -19,23 +19,23 @@
     },
     {
       "type": "stats",
-      "heading": "Objectifs Année 3",
+      "heading": "Notre fondation",
       "items": [
         {
-          "value": "1 000+",
-          "label": "Femmes formées"
+          "value": "4",
+          "label": "Centrales thermiques de grande échelle"
         },
         {
-          "value": "100 %",
-          "label": "Stations solaires d'abord"
+          "value": "130 MW",
+          "label": "Nouvelle capacité de production pilotable"
         },
         {
-          "value": "10 M$+",
-          "label": "Activité économique locale"
+          "value": "Dirigée par des femmes",
+          "label": "Développement des compétences et autonomisation des communautés"
         },
         {
-          "value": "1 200 t",
-          "label": "Tonnes de CO₂ évitées"
+          "value": "Intégré",
+          "label": "Production, distribution, stockage, mobilité et services"
         }
       ]
     },
@@ -57,18 +57,18 @@
       "heading": "Valeurs fondamentales",
       "items": [
         {
-          "title": "Accessible → Infrastructure dirigée par des femmes",
-          "body": "Gérée par des Yennenga Warriors certifiées pour bâtir une profonde confiance communautaire et garantir l'excellence opérationnelle. Nous fournissons une électricité abordable grâce au paiement à l'échange des batteries SIRA™.",
+          "title": "Inclusive → Main-d'œuvre dirigée par des femmes",
+          "body": "Les Yennenga Warriors constituent le vivier professionnel de BaSuka, développant des compétences pratiques en santé et sécurité, opérations de site, engagement communautaire, soutien au stockage et futurs services énergétiques.",
           "iconImage": "/assets/icon-location-pin.webp"
         },
         {
-          "title": "Fiable → Réseau électrique intelligent",
-          "body": "99%+ de disponibilité là où les réseaux nationaux tombent. Notre réseau utilise des batteries SIRA™ optimisées par l'IoT et une production solaire d'abord pour alimenter mobilité, entreprises et foyers.",
+          "title": "Fiable → Production d'abord",
+          "body": "Quatre centrales thermiques fourniront l'électricité fiable nécessaire au réseau national, à l'industrie, aux mines, à l'agriculture, aux entreprises, aux foyers et aux communautés.",
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
-          "title": "Renouvelable → Stations solaires d'abord",
-          "body": "Stations Swap & Glow™ indépendantes du réseau fonctionnant à l'énergie solaire propre. Nous faisons progresser la transition vers une énergie propre tout en garantissant une stratégie de seconde vie durable pour toutes les batteries.",
+          "title": "Responsable → Développement durable",
+          "body": "Des technologies à haut rendement et à faibles émissions, ainsi que des sauvegardes environnementales et sociales rigoureuses, guideront le développement de la plateforme.",
           "iconImage": "/assets/icon-solar-panel.webp"
         },
         {
@@ -121,7 +121,7 @@
       "type": "cta",
       "eyebrow": "Faites partie de l'impact",
       "heading": "Nous recherchons des fonds d'infrastructure, des partenaires carburant et technologiques, des sociétés d'ingénierie et des alliés du secteur public pour bâtir la fondation énergétique du Burkina Faso",
-      "body": "BaSuka Energy est bien plus qu'un fournisseur de mobilité ; nous sommes une plateforme d'infrastructure pilotée par les données. Notre fondation production d'abord fournit 130 MW de nouvelle capacité pilotable pour le réseau national et l'industrie, tandis que nos batteries intelligentes SIRA™ fournissent des métriques en temps réel, prêtes pour la blockchain, sur le débit d'énergie et le déplacement carbone — garantissant que vos investissements ESG livrent des résultats mesurables et de haute fidélité dans le Sahel.",
+      "body": "BaSuka développe une plateforme d'infrastructure intégrée : une production fiable d'abord, suivie par la distribution intelligente, le stockage, les batteries interchangeables, la mobilité propre et les services énergétiques. Nous accueillons les collaborateurs qui partagent l'objectif d'une énergie fiable et d'une croissance économique inclusive au Burkina Faso.",
       "ctas": [
         {
           "label": "Devenir partenaire",
