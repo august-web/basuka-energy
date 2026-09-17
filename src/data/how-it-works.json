@@ -1,46 +1,46 @@
 {
   "title": "How It Works - BaSuka Energy",
-  "metaDescription": "Generation-first power, delivered in 60 seconds. 130 MW of new dispatchable capacity plus solar-first, IoT-optimised SIRA™ battery swapping with professional women-led operations across Burkina Faso.",
+  "metaDescription": "How BaSuka Energy's generation-first platform will build reliable power for Burkina Faso: four utility-scale thermal power plants delivering 130 MW, followed by an integrated energy ecosystem.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BaSuka Energy – How It Works",
-      "heading": "Grid-independent power, delivered in 60 seconds",
+      "heading": "A generation-first platform for Burkina Faso",
       "breadcrumb": ["Home", "How It Works"],
-      "body": "Built on a generation-first foundation of 130 MW of new dispatchable capacity, BaSuka combines solar-first, IoT-optimised hardware with professional women-led operations to keep Burkina Faso moving — even when the national grid fails.",
+      "body": "BaSuka begins by developing four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable electricity. That firm foundation enables a scalable, integrated energy ecosystem and inclusive economic growth.",
       "backgroundImage": "/assets/how-it-works.jpg",
       "ctas": [
         {
-          "label": "Join the Waitlist",
-          "href": "/contact-us/"
+          "label": "Partner With Us",
+          "href": "/partners/"
         }
       ]
     },
     {
       "type": "steps",
-      "eyebrow": "The Swap Process – 4 Steps",
-      "heading": "How a swap works",
-      "intro": "The entire exchange — from arrival to departure — takes under 60 seconds, assisted by a certified Yennenga Warrior at every station.",
+      "eyebrow": "One Vision. Connected Solutions.",
+      "heading": "How the integrated energy ecosystem grows",
+      "intro": "The sequence is deliberate: dependable generation first, then the infrastructure and services it makes possible.",
       "items": [
         {
           "number": "01",
-          "title": "Swap",
-          "body": "Arrive at any Swap & Glow™ station. No appointment needed."
+          "title": "Generate",
+          "body": "Four utility-scale thermal power plants create the reliable, dispatchable power base for the national grid, businesses, homes, industry, mining, agriculture, and agro-processing."
         },
         {
           "number": "02",
-          "title": "Glow",
-          "body": "Exchange your depleted SIRA™ battery for a fully solar-first-charged unit in under 60 seconds."
+          "title": "Distribute",
+          "body": "Smart-grid distribution extends dependable electricity where it is needed and supports a scalable operating platform."
         },
         {
           "number": "03",
-          "title": "Pay",
-          "body": "Seamless mobile money payment — Orange Money, Wave, or cash. Pay only for energy used."
+          "title": "Store & Serve",
+          "body": "Energy storage and swappable batteries can support practical energy access for mobility, businesses, and communities."
         },
         {
           "number": "04",
-          "title": "Ride",
-          "body": "Continue your journey or power your business with zero emissions and zero grid dependency."
+          "title": "Expand",
+          "body": "Clean mobility and future energy services build on the foundation, supported by trained Yennenga Warriors across the ecosystem."
         }
       ]
     },
@@ -108,9 +108,9 @@
     },
     {
       "type": "cta",
-      "eyebrow": "Join the Energy Transition",
-      "heading": "Whether you ride, run a business, or invest in infrastructure",
-      "body": "BaSuka is opening its SIRA™ network to technology partners, EV manufacturers, and infrastructure funds. Together, we bridge the energy gap in the Sahel through scalable, women-led solar innovation.",
+      "eyebrow": "Build the Foundation",
+      "heading": "Partner in Burkina Faso's sovereign energy future",
+      "body": "BaSuka welcomes government, investors, engineering and technology partners, fuel suppliers, workforce-development institutions, and communities committed to dependable power and inclusive economic growth.",
       "ctas": [
         {
           "label": "Become a Partner",
