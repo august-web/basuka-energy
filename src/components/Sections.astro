@@ -793,6 +793,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   data-whatsapp="12149951927"
                   data-context={ui.contactFormContext}
                   data-success="form-success"
+                  data-error="form-error"
                 >
                   <div class="grid gap-4 sm:grid-cols-2">
                     <label class="block">
@@ -859,7 +860,18 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     </svg>
                     <span>
                       {ui.formSuccess}
-                      <a data-fallback href="#" target="_blank" rel="noopener" class="hidden underline">WhatsApp</a>
+                    </span>
+                  </p>
+                  <p
+                    id="form-error"
+                    class="hidden items-center gap-2 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700"
+                  >
+                    <svg class="h-5 w-5 shrink-0 text-red-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                    </svg>
+                    <span>
+                      {ui.formError}
+                      <a data-error-link href="https://wa.me/12149951927" target="_blank" rel="noopener" class="underline">WhatsApp</a>
                     </span>
                   </p>
                 </form>
@@ -919,6 +931,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   data-whatsapp={section.whatsapp ?? '12149951927'}
                   data-context={section.context ?? ''}
                   data-success={successId}
+                  data-error={`${formId}-error`}
                 >
                   <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
                   <div class="grid gap-4 sm:grid-cols-2">
@@ -978,7 +991,18 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     </svg>
                     <span>
                       {section.successText ?? ui.formSuccess}
-                      <a data-fallback href="#" target="_blank" rel="noopener" class="hidden underline">WhatsApp</a>
+                    </span>
+                  </p>
+                  <p
+                    id={`${formId}-error`}
+                    class="hidden items-center gap-2 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700"
+                  >
+                    <svg class="h-5 w-5 shrink-0 text-red-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                    </svg>
+                    <span>
+                      {ui.formError}
+                      <a data-error-link href="https://wa.me/12149951927" target="_blank" rel="noopener" class="underline">WhatsApp</a>
                     </span>
                   </p>
                 </form>
@@ -1101,17 +1125,26 @@ const sectionId = (section: Section, idx: number): string | undefined => {
         if (label && value) lines.push(`${label}: ${value}`);
       });
       const waUrl = `https://wa.me/${number}?text=${encodeURIComponent(lines.join('\n'))}`;
-      const showSuccess = () => {
-        const successId = form.getAttribute('data-success');
-        const success = successId ? document.getElementById(successId) : null;
-        if (success) {
-          const fallback = success.querySelector<HTMLAnchorElement>('a[data-fallback]');
-          if (fallback) fallback.setAttribute('href', waUrl);
-          success.classList.remove('hidden');
-          success.classList.add('flex');
+      const banner = (kind: 'success' | 'error') => {
+        const id = form.getAttribute(kind === 'success' ? 'data-success' : 'data-error');
+        const el = id ? document.getElementById(id) : null;
+        const other = document.getElementById(form.getAttribute(kind === 'success' ? 'data-error' : 'data-success') ?? '');
+        other?.classList.add('hidden');
+        other?.classList.remove('flex');
+        if (el) {
+          if (kind === 'error') {
+            const link = el.querySelector<HTMLAnchorElement>('a[data-error-link]');
+            if (link) link.setAttribute('href', waUrl);
+          }
+          el.classList.remove('hidden');
+          el.classList.add('flex');
         }
+      };
+      const showSuccess = () => {
+        banner('success');
         form.reset();
       };
+      const showError = () => banner('error');
       // Forms with data-email deliver via the site's own /api/contact endpoint;
       // WhatsApp opens only as an explicit user choice on failure.
       if (email) {
@@ -1137,16 +1170,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
             if (!res.ok) throw new Error('Delivery failed');
             showSuccess();
           })
-          .catch(() => {
-            const successId = form.getAttribute('data-success');
-            const success = successId ? document.getElementById(successId) : null;
-            const fb = success?.querySelector<HTMLAnchorElement>('a[data-fallback]');
-            if (fb) {
-              fb.setAttribute('href', waUrl);
-              fb.classList.remove('hidden');
-            }
-            showSuccess();
-          });
+          .catch(showError);
         return;
       }
       window.open(waUrl, '_blank', 'noopener');
