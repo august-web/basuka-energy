@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "BA-SUKA ENERGY – PARTNERS",
+      "eyebrow": "BASUKA ENERGY – PARTNERS",
       "heading": "Build Africa's clean-energy infrastructure with us",
       "breadcrumb": [
         "Home",
@@ -108,7 +108,7 @@
     },
     {
       "type": "cards",
-      "eyebrow": "WHY PARTNER WITH BA-SUKA",
+      "eyebrow": "WHY PARTNER WITH BASUKA",
       "heading": "Four reasons to join now",
       "intro": "BaSuka is not a concept – it is a fully engineered infrastructure platform targeting its upcoming pilot launch in Ouagadougou.",
       "items": [
@@ -160,7 +160,7 @@
         {
           "number": "01",
           "title": "Initial enquiry",
-          "body": "Email info@basukaenergy.com with your organisation name, partnership type (OEM / Fund / Technology), and a brief summary of what you bring to the network."
+          "body": "Email partners@basukaenergy.com with your organisation name, partnership type (OEM / Fund / Technology), and a brief summary of what you bring to the network."
         },
         {
           "number": "02",
@@ -187,13 +187,14 @@
     {
       "type": "form",
       "id": "partner-form",
+      "email": "partners@basukaenergy.com",
       "eyebrow": "PARTNER WITH BASUKA",
       "heading": "Start the *Conversation*",
       "body": "Tell us how you'd like to collaborate — as an investor, fuel supplier, engineering firm, manufacturer, technology provider, or public-sector ally. Your message opens directly in WhatsApp.",
       "context": "Partnership inquiry — basukaenergy.com",
       "whatsapp": "12149951927",
-      "submitLabel": "Send via WhatsApp",
-      "successText": "Opening WhatsApp… If it didn't open, tap",
+      "submitLabel": "Send partnership inquiry",
+      "successText": "Thank you! Your inquiry has been sent — we will reply shortly.",
       "fields": [
         {
           "name": "name",

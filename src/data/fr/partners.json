@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "BA-SUKA ENERGY – PARTENAIRES",
+      "eyebrow": "BASUKA ENERGY – PARTENAIRES",
       "heading": "Bâtissez l'infrastructure énergétique propre de l'Afrique avec nous",
       "breadcrumb": [
         "Accueil",
@@ -108,7 +108,7 @@
     },
     {
       "type": "cards",
-      "eyebrow": "POURQUOI DEVENIR PARTENAIRE DE BA-SUKA",
+      "eyebrow": "POURQUOI DEVENIR PARTENAIRE DE BASUKA",
       "heading": "Quatre raisons de nous rejoindre dès maintenant",
       "intro": "BaSuka n'est pas un concept — c'est une plateforme d'infrastructure entièrement conçue, ciblant son prochain lancement pilote à Ouagadougou.",
       "items": [
@@ -160,7 +160,7 @@
         {
           "number": "01",
           "title": "Première prise de contact",
-          "body": "Écrivez à info@basukaenergy.com avec le nom de votre organisation, le type de partenariat (OEM / Fonds / Technologie) et un bref résumé de votre apport au réseau."
+          "body": "Écrivez à partners@basukaenergy.com avec le nom de votre organisation, le type de partenariat (OEM / Fonds / Technologie) et un bref résumé de votre apport au réseau."
         },
         {
           "number": "02",
@@ -187,13 +187,14 @@
     {
       "type": "form",
       "id": "partner-form",
+      "email": "partners@basukaenergy.com",
       "eyebrow": "DEVENIR PARTENAIRE DE BASUKA",
       "heading": "Démarrer la *conversation*",
       "body": "Dites-nous comment vous souhaitez collaborer — comme investisseur, fournisseur de carburant, société d'ingénierie, fabricant, fournisseur de technologie ou allié du secteur public. Votre message s'ouvre directement dans WhatsApp.",
       "context": "Demande de partenariat — basukaenergy.com",
       "whatsapp": "12149951927",
-      "submitLabel": "Envoyer via WhatsApp",
-      "successText": "Ouverture de WhatsApp… S'il ne s'ouvre pas, touchez",
+      "submitLabel": "Envoyer la demande de partenariat",
+      "successText": "Merci ! Votre demande a bien été envoyée — nous vous répondrons rapidement.",
       "fields": [
         {
           "name": "name",
