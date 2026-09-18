@@ -3,6 +3,10 @@ dist/
 .astro/
 .DS_Store
 .vscode/
+.env
+.env.*
+!.env.example
+.vercel/
 AGENTS.md
 CLAUDE.md
 
