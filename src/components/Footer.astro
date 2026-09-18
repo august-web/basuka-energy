@@ -134,7 +134,10 @@ const year = new Date().getFullYear();
       nlForm.classList.add('hidden');
     };
     if (dest) {
-      fetch('/api/contact', {
+      const apiBase = location.hostname === 'basukaenergy.com'
+        ? 'https://www.basukaenergy.com'
+        : '';
+      fetch(apiBase + '/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -149,8 +152,8 @@ const year = new Date().getFullYear();
           showSuccess();
         })
         .catch(() => {
-          window.open(waUrl, '_blank', 'noopener');
-          showSuccess();
+          nlSuccess?.classList.remove('hidden');
+          nlForm.classList.add('hidden');
         });
       return;
     }
