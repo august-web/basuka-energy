@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BaSuka Energy — Email Infrastructure Summary</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 210mm; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1a2332;
+    background: #ffffff;
+    font-size: 9.2pt;
+    line-height: 1.45;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 13mm 15mm 11mm;
+    display: flex;
+    flex-direction: column;
+  }
+  /* ── Header ─────────────────────────── */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 4mm;
+    border-bottom: 1mm solid #0e7a3d;
+  }
+  .brand .name {
+    font-size: 19pt;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    color: #0e2a1f;
+  }
+  .brand .name span { color: #0e7a3d; }
+  .brand .doc {
+    font-size: 8.6pt;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #5a6b60;
+    margin-top: 1mm;
+  }
+  .meta { text-align: right; font-size: 8pt; color: #5a6b60; line-height: 1.6; }
+  .meta b { color: #0e7a3d; }
+  /* ── Section headings ───────────────── */
+  h2 {
+    font-size: 10.2pt;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #0e7a3d;
+    margin: 5mm 0 1.8mm;
+  }
+  p { margin-bottom: 1.6mm; }
+  /* ── Two-column start ───────────────── */
+  .cols { display: flex; gap: 7mm; }
+  .col { flex: 1; }
+  .problem-box {
+    background: #f4f6f5;
+    border-left: 1.2mm solid #b8860b;
+    padding: 3mm 3.5mm;
+    margin-top: 1mm;
+  }
+  .problem-box p:last-child { margin-bottom: 0; }
+  /* ── Work list ──────────────────────── */
+  ol.work { margin: 1mm 0 0 4.5mm; }
+  ol.work li { margin-bottom: 1.8mm; padding-left: 1mm; }
+  ol.work b { color: #0e2a1f; }
+  /* ── Value grid ─────────────────────── */
+  .value-grid { display: flex; gap: 3mm; margin-top: 1.5mm; }
+  .value {
+    flex: 1;
+    border: 0.35mm solid #d5ddd8;
+    border-top: 0.9mm solid #0e7a3d;
+    padding: 2.6mm 3mm;
+    background: #fbfcfb;
+  }
+  .value .t { font-weight: 700; font-size: 9pt; color: #0e2a1f; margin-bottom: 0.8mm; }
+  .value .d { font-size: 8.2pt; color: #47554d; line-height: 1.4; }
+  /* ── Costs callout ──────────────────── */
+  .cost {
+    display: flex;
+    align-items: center;
+    gap: 5mm;
+    background: #0e2a1f;
+    color: #ffffff;
+    padding: 3.2mm 4.5mm;
+    border-radius: 1.5mm;
+    margin-top: 1.5mm;
+  }
+  .cost .big { font-size: 17pt; font-weight: 800; white-space: nowrap; }
+  .cost .big small { display: block; font-size: 7.5pt; font-weight: 400; letter-spacing: 1px; opacity: .75; }
+  .cost p { font-size: 8.4pt; margin: 0; opacity: .95; }
+  /* ── Next steps table ───────────────── */
+  table { width: 100%; border-collapse: collapse; margin-top: 1.5mm; }
+  th {
+    background: #0e7a3d;
+    color: #fff;
+    font-size: 8.2pt;
+    letter-spacing: .8px;
+    text-align: left;
+    padding: 1.8mm 3mm;
+  }
+  td {
+    padding: 1.9mm 3mm;
+    font-size: 8.6pt;
+    border-bottom: 0.3mm solid #e3e8e5;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f6f8f7; }
+  td.when { white-space: nowrap; font-weight: 600; color: #0e7a3d; width: 34mm; }
+  /* ── Footer ─────────────────────────── */
+  footer {
+    margin-top: auto;
+    padding-top: 3mm;
+    border-top: 0.3mm solid #d5ddd8;
+    font-size: 7.6pt;
+    color: #7a8880;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer b { color: #0e7a3d; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="brand">
+      <div class="name">BASUKA <span>ENERGY</span></div>
+      <div class="doc">Email &amp; Website Infrastructure — Executive Summary</div>
+    </div>
+    <div class="meta">
+      September 18, 2026<br>
+      <b>● COMPLETE — TESTED &amp; LIVE</b><br>
+      basukaenergy.com
+    </div>
+  </header>
+
+  <h2>The Business Problem</h2>
+  <div class="problem-box">
+    <p>BaSuka Energy's public email addresses were <b>silently failing</b>: inquiries from partners, investors, and applicants never arrived, and replies sent from company addresses bounced. Meanwhile, the website's contact forms relied on a free third-party service and WhatsApp redirects with no delivery guarantee. The result: missed meetings, unanswered partnership requests, and lost revenue opportunities.</p>
+  </div>
+
+  <h2>What Was Done</h2>
+  <div class="cols">
+    <div class="col">
+      <ol class="work">
+        <li><b>Email restored &amp; secured.</b> Mail routing was moved from broken forwarding to the company's own hosted mail system, protected with industry-standard authentication (SPF, DKIM, DMARC). Every address at <b>basukaenergy.com</b> now receives mail reliably, and outgoing mail is digitally signed — no more bounces at Gmail, Outlook, or corporate servers.</li>
+        <li><b>A dedicated address per business function.</b> Partnerships, academy applications, general inquiries, and the CEO's office each route to their own professional mailbox — nothing is lost, and every message is answerable directly.</li>
+        <li><b>Website forms rebuilt on owned infrastructure.</b> All five forms (contact, newsletter, partner inquiry, two academy applications) now deliver directly into company mailboxes through BaSuka's own server — zero third-party dependencies — with spam protection, rate limiting, and honest error messaging.</li>
+        <li><b>Verified end to end.</b> Every mailbox and every form was tested live in production; submissions arrived in each inbox.</li>
+      </ol>
+    </div>
+  </div>
+
+  <h2>What This Means for the Business</h2>
+  <div class="value-grid">
+    <div class="value">
+      <div class="t">No invisible losses</div>
+      <div class="d">Partner, investor, and applicant emails now arrive — every time — and are answerable from branded company addresses.</div>
+    </div>
+    <div class="value">
+      <div class="t">Board-grade professionalism</div>
+      <div class="d">All correspondence carries authenticated @basukaenergy.com addresses that pass strict corporate spam filters.</div>
+    </div>
+    <div class="value">
+      <div class="t">Full ownership</div>
+      <div class="d">No subscriptions, no per-seat fees, no third party able to interrupt the company's communications.</div>
+    </div>
+    <div class="value">
+      <div class="t">Room to grow</div>
+      <div class="d">The same infrastructure scales with headcount and correspondence volume at no additional cost.</div>
+    </div>
+  </div>
+
+  <h2>Ongoing Cost</h2>
+  <div class="cost">
+    <div class="big">$0<small>PER MONTH</small></div>
+    <p>The system runs entirely on the company's existing assets — its domain (Namecheap), hosting (cPanel), and website platform (Vercel). Recommended upkeep is routine only: mark first emails as "not spam" and include mail in periodic hosting backups.</p>
+  </div>
+
+  <h2>Suggested Next Steps</h2>
+  <table>
+    <tr><th style="width:34mm">Timing</th><th>Action</th></tr>
+    <tr><td class="when">This week</td><td>Team confirms receipt of test emails and saves the new addresses to contacts.</td></tr>
+    <tr><td class="when">Within 30 days</td><td>Leadership Gmail accounts linked to send and receive as @basukaenergy.com (5-minute setup).</td></tr>
+    <tr><td class="when">After 2–4 stable weeks</td><td>Anti-spoofing protection tightened from monitoring mode to enforcement mode.</td></tr>
+  </table>
+
+  <footer>
+    <div>Full technical configuration — DNS records, server settings, troubleshooting — documented in <b>EMAIL-ARCHITECTURE.md</b> (project repository).</div>
+    <div><b>1 / 1</b></div>
+  </footer>
+
+</div>
+</body>
+</html>
