@@ -1,8 +1,8 @@
-# Ba-Suka Energy — Website (Astro + Tailwind)
+# BaSuka Energy — Website (Astro + Tailwind)
 
 Modern rebuild of https://basukaenergy.com/ (the original WordPress codebase was
 lost; this version was rebuilt by scraping the live site). All copy and imagery
-belong to Ba-Suka Energy.
+belong to BaSuka Energy.
 
 ## Quick start
 
