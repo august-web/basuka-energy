@@ -39,6 +39,7 @@ export const ui = {
     newsletterEmailLabel: 'Email address for newsletter',
     newsletterSubscribe: 'Subscribe',
     newsletterSuccess: "Thank you! We'll be in touch.",
+    newsletterError: 'Something went wrong — please try again or email info@basukaenergy.com.',
     newsletterSubject: 'Newsletter subscription',
     footerExplore: 'Explore',
     footerContact: 'Contact',
@@ -61,6 +62,7 @@ export const ui = {
     formMessagePh: 'Tell us how we can help…',
     formSend: 'Send message',
     formSuccess: 'Thank you! Your message has been sent — we will reply shortly.',
+    formError: 'Sorry — sending failed. Please email us directly or use WhatsApp:',
     contactFormContext: 'Contact inquiry — basukaenergy.com',
     partnerLogoAlt: 'Partner logo',
     nav: {
@@ -97,6 +99,7 @@ export const ui = {
     newsletterEmailLabel: 'Adresse e-mail pour la newsletter',
     newsletterSubscribe: "S'abonner",
     newsletterSuccess: 'Merci ! Nous revenons vers vous.',
+    newsletterError: 'Une erreur est survenue — réessayez ou écrivez à info@basukaenergy.com.',
     newsletterSubject: 'Inscription à la newsletter',
     footerExplore: 'Explorer',
     footerContact: 'Contact',
@@ -120,6 +123,7 @@ export const ui = {
     formMessagePh: 'Dites-nous comment nous pouvons vous aider…',
     formSend: 'Envoyer le message',
     formSuccess: 'Merci ! Votre message a bien été envoyé — nous vous répondrons rapidement.',
+    formError: 'Désolé — l\'envoi a échoué. Écrivez-nous directement ou utilisez WhatsApp :',
     contactFormContext: 'Demande de contact — basukaenergy.com',
     partnerLogoAlt: 'Logo partenaire',
     nav: {
