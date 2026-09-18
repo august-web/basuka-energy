@@ -26,7 +26,7 @@ const year = new Date().getFullYear();
         <h3 class="text-sm font-bold uppercase tracking-[0.2em] text-brand-cream">{ui.newsletterTitle}</h3>
         <p class="mt-1 text-sm text-slate-400">{ui.newsletterDesc}</p>
       </div>
-      <form id="newsletter-form" class="flex w-full max-w-md gap-2" data-whatsapp="12149951927">
+      <form id="newsletter-form" class="flex w-full max-w-md gap-2" data-email="info@basukaenergy.com" data-whatsapp="12149951927">
         <input
           type="email"
           name="email"
@@ -119,16 +119,42 @@ const year = new Date().getFullYear();
 </footer>
 
 <script>
-  // Newsletter form: open a pre-filled WhatsApp message to the business number.
+  // Newsletter form: deliver by email to info@, WhatsApp only as fallback.
   const nlForm = document.getElementById('newsletter-form') as HTMLFormElement | null;
   const nlSuccess = document.getElementById('newsletter-success');
   nlForm?.addEventListener('submit', (e) => {
     e.preventDefault();
     const email = (new FormData(nlForm).get('email') ?? '').toString().trim();
     const number = nlForm.getAttribute('data-whatsapp') ?? '12149951927';
+    const dest = nlForm.getAttribute('data-email') ?? '';
     const text = `Newsletter subscription\nEmail: ${email}`;
-    window.open(`https://wa.me/${number}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
-    nlSuccess?.classList.remove('hidden');
-    nlForm.classList.add('hidden');
+    const waUrl = `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
+    const showSuccess = () => {
+      nlSuccess?.classList.remove('hidden');
+      nlForm.classList.add('hidden');
+    };
+    if (dest) {
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          to: dest,
+          email,
+          context: 'Newsletter subscription',
+          message: text,
+        }),
+      })
+        .then((res) => {
+          if (!res.ok) throw new Error('Delivery failed');
+          showSuccess();
+        })
+        .catch(() => {
+          window.open(waUrl, '_blank', 'noopener');
+          showSuccess();
+        });
+      return;
+    }
+    window.open(waUrl, '_blank', 'noopener');
+    showSuccess();
   });
 </script>
