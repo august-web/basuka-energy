@@ -34,7 +34,11 @@ function json(data: unknown, status = 200, origin = '') {
     headers['Access-Control-Allow-Headers'] = 'Content-Type';
     headers['Vary'] = 'Origin';
   }
-  return new Response(JSON.stringify(data), { status, headers });
+  // 204 responses must not carry a body (production runtime rejects it).
+  return new Response(status === 204 ? null : JSON.stringify(data), {
+    status,
+    headers,
+  });
 }
 
 export const OPTIONS: APIRoute = ({ request }) =>
