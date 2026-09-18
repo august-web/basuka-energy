@@ -133,7 +133,7 @@
         },
         {
           "q": "How do I apply?",
-          "a": "Send your name, location, and a short motivation statement to academy@basukaenergy.com. We aim to respond within 7 business days."
+          "a": "Send your name, location, and a short motivation statement to basukaacademy@basukaenergy.com. We aim to respond within 7 business days."
         }
       ]
     },
@@ -184,13 +184,14 @@
     {
       "type": "form",
       "id": "apply-form",
+      "email": "basukaacademy@basukaenergy.com",
       "eyebrow": "APPLY TO THE ACADEMY",
       "heading": "Start your journey as a *Yennenga Warrior*",
       "body": "Fill in your details and we'll reach out on WhatsApp to guide you through the next steps. No email account needed.",
       "context": "Academy application — basukaenergy.com",
       "whatsapp": "12149951927",
-      "submitLabel": "Submit application via WhatsApp",
-      "successText": "Opening WhatsApp… If it didn't open, tap",
+      "submitLabel": "Submit application",
+      "successText": "Thank you! Your application has been sent — we will reply shortly.",
       "fields": [
         {
           "name": "name",
