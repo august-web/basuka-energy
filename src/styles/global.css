@@ -304,8 +304,7 @@
   .marquee,
   #site-header,
   #mobile-menu,
-  footer footer,
-  a[aria-label="Chat with us on WhatsApp"] {
+  footer footer {
     display: none !important;
   }
   body {

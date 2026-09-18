@@ -2,7 +2,6 @@
 import Base from './Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import Sections from '../components/Sections.astro';
 import Subnav from '../components/Subnav.astro';
 import { t, langFromPath, type Lang } from '../i18n/ui';
@@ -38,7 +37,6 @@ for (const s of data.sections) {
     <Sections sections={data.sections} lang={lang} />
   </main>
   <Footer lang={lang} />
-  <WhatsAppFloat lang={lang} />
   <button
     id="back-to-top"
     class="fixed bottom-5 left-5 z-50 flex h-12 w-12 items-center justify-center rounded-full border border-slate-200 bg-white text-brand-navy shadow-lg shadow-slate-200/50 opacity-0 pointer-events-none transition-all duration-300 hover:scale-105 hover:border-brand-green/30 hover:text-brand-green-dark"
@@ -50,7 +48,7 @@ for (const s of data.sections) {
   </button>
 
   {/* Floating share buttons */}
-  <div id="share-bar" class="fixed bottom-24 right-5 z-50 flex flex-col gap-2">
+  <div id="share-bar" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2">
     <button
       id="share-toggle"
       class="flex h-12 w-12 items-center justify-center rounded-full bg-brand-navy text-white shadow-lg shadow-brand-navy/20 transition hover:scale-105"
