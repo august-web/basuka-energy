@@ -22,7 +22,7 @@ const MAILBOXES = new Set([
 
 // Simple in-memory rate limit per IP (per serverless instance).
 const hits = new Map<string, { count: number; reset: number }>();
-const RATE_LIMIT = 5;
+const RATE_LIMIT = 20;
 const WINDOW_MS = 10 * 60 * 1000;
 
 function json(data: unknown, status = 200, origin = '') {
