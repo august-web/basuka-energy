@@ -1113,9 +1113,14 @@ const sectionId = (section: Section, idx: number): string | undefined => {
         form.reset();
       };
       // Forms with data-email deliver via the site's own /api/contact endpoint;
-      // WhatsApp opens only as fallback.
+      // WhatsApp opens only as an explicit user choice on failure.
       if (email) {
-        fetch('/api/contact', {
+        // On the apex domain the /api 308-redirect to www would make the POST
+        // cross-origin; call www directly there, relative elsewhere (dev/www).
+        const apiBase = location.hostname === 'basukaenergy.com'
+          ? 'https://www.basukaenergy.com'
+          : '';
+        fetch(apiBase + '/api/contact', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -1133,7 +1138,6 @@ const sectionId = (section: Section, idx: number): string | undefined => {
             showSuccess();
           })
           .catch(() => {
-            window.open(waUrl, '_blank', 'noopener');
             const successId = form.getAttribute('data-success');
             const success = successId ? document.getElementById(successId) : null;
             const fb = success?.querySelector<HTMLAnchorElement>('a[data-fallback]');
