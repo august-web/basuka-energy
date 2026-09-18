@@ -129,8 +129,15 @@ const year = new Date().getFullYear();
     const dest = nlForm.getAttribute('data-email') ?? '';
     const text = `Newsletter subscription\nEmail: ${email}`;
     const waUrl = `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
-    const showSuccess = () => {
-      nlSuccess?.classList.remove('hidden');
+    const showSuccess = (errorMsg?: string) => {
+      const el = document.getElementById('newsletter-success');
+      if (el) {
+        if (errorMsg) {
+          el.textContent = errorMsg;
+          el.classList.add('text-red-300');
+        }
+        el.classList.remove('hidden');
+      }
       nlForm.classList.add('hidden');
     };
     if (dest) {
@@ -151,10 +158,9 @@ const year = new Date().getFullYear();
           if (!res.ok) throw new Error('Delivery failed');
           showSuccess();
         })
-        .catch(() => {
-          nlSuccess?.classList.remove('hidden');
-          nlForm.classList.add('hidden');
-        });
+        .catch(() =>
+          showSuccess('Something went wrong — please try again or email info@basukaenergy.com.')
+        );
       return;
     }
     window.open(waUrl, '_blank', 'noopener');
