@@ -202,20 +202,21 @@
         },
         {
           "q": "Comment postuler ?",
-          "a": "Vous pouvez postuler en envoyant votre nom, votre localisation et une brève lettre de motivation à academy@basukaenergy.com, ou en remplissant notre formulaire de candidature."
+          "a": "Vous pouvez postuler en envoyant votre nom, votre localisation et une brève lettre de motivation à basukaacademy@basukaenergy.com, ou en remplissant notre formulaire de candidature."
         }
       ]
     },
     {
       "type": "form",
       "id": "apply-form",
+      "email": "basukaacademy@basukaenergy.com",
       "eyebrow": "POSTULER À L'ACADÉMIE",
       "heading": "Commencez votre parcours de *Yennenga Warrior*",
       "body": "Remplissez vos informations et nous vous contacterons sur WhatsApp pour vous guider dans les prochaines étapes. Aucun compte e-mail requis.",
       "context": "Candidature à l'Académie — basukaenergy.com",
       "whatsapp": "12149951927",
-      "submitLabel": "Envoyer la candidature via WhatsApp",
-      "successText": "Ouverture de WhatsApp… S'il ne s'ouvre pas, touchez",
+      "submitLabel": "Envoyer la candidature",
+      "successText": "Merci ! Votre candidature a bien été envoyée — nous vous répondrons rapidement.",
       "fields": [
         {
           "name": "name",
