@@ -1,13 +1,13 @@
 {
   "title": "À propos - BaSuka Energy",
-  "metaDescription": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, bâtissant l'avenir énergétique souverain du Burkina Faso : 130 MW de nouvelle capacité de production plus un réseau électrique intelligent alimenté par des batteries SIRA™ échangeables.",
+  "metaDescription": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, bâtissant l'avenir énergétique souverain de l'Afrique : 130 MW de nouvelle capacité de production plus un réseau électrique intelligent alimenté par des batteries SIRA™ échangeables.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Qui sommes-nous | Infrastructure électrique avancée",
       "heading": "À propos de nous",
       "breadcrumb": ["Accueil", "À propos"],
-      "body": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, au service de l'avenir énergétique souverain du Burkina Faso. Nous commençons par une fondation production d'abord — quatre centrales thermiques fournissant 130 MW de nouvelle capacité pilotable — puis nous nous étendons via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue spécifiquement pour l'environnement rude du Sahel.",
+      "body": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, au service de l'avenir énergétique souverain de l'Afrique. Nous commençons par une fondation production d'abord — quatre centrales électriques fournissant 130 MW de nouvelle capacité pilotable — puis nous nous étendons via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue spécifiquement pour l'environnement rude du Sahel.",
 
       "backgroundImage": "/assets/about-us.jpg",
       "ctas": [
@@ -23,7 +23,7 @@
       "items": [
         {
           "value": "4",
-          "label": "Centrales thermiques de grande échelle"
+          "label": "Centrales électriques de grande échelle"
         },
         {
           "value": "130 MW",
@@ -41,16 +41,22 @@
     },
 
     {
-      "type": "text",
+      "type": "cards",
       "eyebrow": "L'héritage BaSuka",
-      "heading": "Notre mission",
-      "body": "BaSuka Energy fournit une électricité fiable et abordable à travers le Burkina Faso et l'Afrique de l'Ouest — en commençant par une fondation production d'abord de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries intelligentes, portables et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
-    },
-    {
-      "type": "text",
-      "eyebrow": "Notre vision | Un avenir énergétique souverain",
-      "heading": "Notre vision",
-      "body": "BaSuka Energy construira une plateforme énergétique intégrée, pilotée par le client, qui soutient la souveraineté énergétique, l'industrialisation et la croissance inclusive — fournissant une énergie fiable au réseau national et des services d'électricité intelligente et propre là où l'accès au réseau échoue."
+      "heading": "Notre mission & vision",
+      "intro": "Bâtir un avenir énergétique souverain pour l'Afrique",
+      "items": [
+        {
+          "iconImage": "/assets/icon-mission.svg",
+          "title": "Notre mission",
+          "body": "BaSuka Energy fournit une électricité fiable et abordable à travers l'Afrique — en commençant par une fondation production d'abord de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries intelligentes, portables et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
+        },
+        {
+          "iconImage": "/assets/icon-vision.svg",
+          "title": "Notre vision",
+          "body": "BaSuka Energy construira une plateforme énergétique intégrée, pilotée par le client, qui soutient la souveraineté énergétique, l'industrialisation et la croissance inclusive — fournissant une énergie fiable au réseau national et des services d'électricité intelligente et propre là où l'accès au réseau échoue."
+        }
+      ]
     },
     {
       "type": "cards",
@@ -63,7 +69,7 @@
         },
         {
           "title": "Fiable → Production d'abord",
-          "body": "Quatre centrales thermiques fourniront l'électricité fiable nécessaire au réseau national, à l'industrie, aux mines, à l'agriculture, aux entreprises, aux foyers et aux communautés.",
+          "body": "Quatre centrales électriques fourniront l'électricité fiable nécessaire au réseau national, à l'industrie, aux mines, à l'agriculture, aux entreprises, aux foyers et aux communautés.",
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
@@ -73,7 +79,7 @@
         },
         {
           "title": "Professionnel → L'héritage « Yennenga »",
-          "body": "Enraciné dans l'esprit de la légendaire princesse-guerrière du Burkina Faso. Nous stimulons la croissance économique locale en autonomisant les femmes comme cheffes professionnelles d'infrastructure grâce à l'Académie BaSuka.",
+          "body": "Enraciné dans l'esprit de la légendaire princesse-guerrière d'Afrique. Nous stimulons la croissance économique locale en autonomisant les femmes comme cheffes professionnelles d'infrastructure grâce à l'Académie BaSuka.",
           "iconImage": "/assets/icon-care.webp"
         }
       ]
@@ -120,8 +126,8 @@
     {
       "type": "cta",
       "eyebrow": "Faites partie de l'impact",
-      "heading": "Nous recherchons des fonds d'infrastructure, des partenaires carburant et technologiques, des sociétés d'ingénierie et des alliés du secteur public pour bâtir la fondation énergétique du Burkina Faso",
-      "body": "BaSuka développe une plateforme d'infrastructure intégrée : une production fiable d'abord, suivie par la distribution intelligente, le stockage, les batteries interchangeables, la mobilité propre et les services énergétiques. Nous accueillons les collaborateurs qui partagent l'objectif d'une énergie fiable et d'une croissance économique inclusive au Burkina Faso.",
+      "heading": "Nous recherchons des fonds d'infrastructure, des partenaires carburant et technologiques, des sociétés d'ingénierie et des alliés du secteur public pour bâtir la fondation énergétique de l'Afrique",
+      "body": "BaSuka développe une plateforme d'infrastructure intégrée : une production fiable d'abord, suivie par la distribution intelligente, le stockage, les batteries interchangeables, la mobilité propre et les services énergétiques. Nous accueillons les collaborateurs qui partagent l'objectif d'une énergie fiable et d'une croissance économique inclusive en Afrique.",
       "ctas": [
         {
           "label": "Devenir partenaire",
