@@ -329,7 +329,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   <OptimizedImage src={section.image} alt="" class="aspect-[16/7] w-full object-cover" loading="lazy" />
                 </div>
               )}
-              <div class:list={['mt-12 grid gap-6', section.items && section.items.length > 4 ? 'sm:grid-cols-2 lg:grid-cols-3' : section.items && section.items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : 'md:grid-cols-3']}>
+              <div class:list={['mt-12 grid gap-6', section.items && section.items.length > 4 ? 'sm:grid-cols-2 lg:grid-cols-3' : section.items && section.items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : section.items && section.items.length === 2 ? 'mx-auto max-w-4xl sm:grid-cols-2' : 'md:grid-cols-3']}>
                 {section.items?.map((item, i) => {
                   const bullets = listItems(item);
                   return (
