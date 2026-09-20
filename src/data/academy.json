@@ -1,6 +1,6 @@
 {
   "title": "Academy - BaSuka Energy",
-  "metaDescription": "BaSuka Academy trains women as certified Yennenga Warriors — a professional workforce-development pipeline across Burkina Faso's energy ecosystem: solar PV, battery systems, site operations, health & safety, and smart-energy services.",
+  "metaDescription": "BaSuka Academy trains women as certified Yennenga Warriors — a professional workforce-development pipeline across Africa's energy ecosystem: solar PV, battery systems, site operations, health & safety, and smart-energy services.",
   "sections": [
     {
       "type": "hero",
@@ -16,7 +16,7 @@
       "eyebrow": "Our Purpose",
       "heading": "Training the Yennenga Warriors",
       "body": "The BaSuka Academy is BaSuka's workforce-development and community-empowerment pillar. It prepares a professional women-led talent pipeline for health and safety, site and field operations, customer and community engagement, smart-energy services, battery and storage support, and future clean-mobility activities.",
-      "image": "/assets/academy-3.webp"
+      "image": "/assets/yennenga.jpg"
     },
     {
       "type": "cards",
@@ -121,7 +121,7 @@
       "items": [
         {
           "q": "Who can apply to the Academy?",
-          "a": "Any motivated woman based in Burkina Faso who is interested in technology, sustainability, and community service. No prior experience in electrical engineering is required – we train from the ground up."
+          "a": "Any motivated woman based in Africa who is interested in technology, sustainability, and community service. No prior experience in electrical engineering is required – we train from the ground up."
         },
         {
           "q": "Is there a cost to Participate ?",
