@@ -1,13 +1,13 @@
 {
   "title": "Comment ça marche - BaSuka Energy",
-  "metaDescription": "Comment la plateforme de BaSuka Energy, axée sur la production d'abord, bâtira une énergie fiable pour le Burkina Faso : quatre centrales thermiques de grande échelle fournissant 130 MW, puis un écosystème énergétique intégré.",
+  "metaDescription": "Comment la plateforme de BaSuka Energy, axée sur la production d'abord, bâtira une énergie fiable pour l'Afrique : quatre centrales électriques de grande échelle fournissant 130 MW, puis un écosystème énergétique intégré.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "BaSuka Energy – Comment ça marche",
-      "heading": "Une plateforme de production d'abord pour le Burkina Faso",
+      "heading": "Une plateforme de production d'abord pour l'Afrique",
       "breadcrumb": ["Accueil", "Comment ça marche"],
-      "body": "BaSuka commence par développer quatre centrales thermiques de grande échelle fournissant 130 MW d'électricité fiable et pilotable. Cette base solide rend possible un écosystème énergétique intégré, évolutif et une croissance économique inclusive.",
+      "body": "BaSuka commence par développer quatre centrales électriques de grande échelle fournissant 130 MW d'électricité fiable et pilotable. Cette base solide rend possible un écosystème énergétique intégré, évolutif et une croissance économique inclusive.",
       "backgroundImage": "/assets/how-it-works.jpg",
       "ctas": [
         {
@@ -25,7 +25,7 @@
         {
           "number": "01",
           "title": "Produire",
-          "body": "Quatre centrales thermiques de grande échelle créent une base électrique fiable et pilotable pour le réseau national, les entreprises, les foyers, l'industrie, les mines, l'agriculture et l'agro-industrie."
+          "body": "Quatre centrales électriques de grande échelle créent une base électrique fiable et pilotable pour le réseau national, les entreprises, les foyers, l'industrie, les mines, l'agriculture et l'agro-industrie."
         },
         {
           "number": "02",
@@ -107,7 +107,7 @@
     {
       "type": "cta",
       "eyebrow": "Bâtir la fondation",
-      "heading": "Participez à l'avenir énergétique souverain du Burkina Faso",
+      "heading": "Participez à l'avenir énergétique souverain de l'Afrique",
       "body": "BaSuka accueille les pouvoirs publics, investisseurs, partenaires d'ingénierie et de technologie, fournisseurs de carburant, institutions de développement des compétences et communautés engagées en faveur d'une énergie fiable et d'une croissance économique inclusive.",
       "ctas": [
         {
