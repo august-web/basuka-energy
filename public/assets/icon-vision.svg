@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" fill="none" role="img" aria-label="Vision">
+  <!-- barrels above lenses -->
+  <path d="M52 18 L84 18 L80 48 L56 48 Z" stroke="#233029" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M156 18 L188 18 L184 48 L160 48 Z" stroke="#233029" stroke-width="9" stroke-linejoin="round"/>
+  <!-- center hinge -->
+  <circle cx="120" cy="34" r="14" stroke="#233029" stroke-width="9"/>
+  <!-- lenses -->
+  <circle cx="66" cy="98" r="48" stroke="#233029" stroke-width="9"/>
+  <circle cx="174" cy="98" r="48" stroke="#233029" stroke-width="9"/>
+  <!-- gold glints inside lenses -->
+  <path d="M42 74 A30 30 0 0 1 66 62" stroke="#dca51a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M150 74 A30 30 0 0 1 174 62" stroke="#dca51a" stroke-width="9" stroke-linecap="round"/>
+  <!-- bridge between barrels and hinge -->
+  <path d="M84 26 L106 26 M134 26 L156 26" stroke="#233029" stroke-width="9" stroke-linecap="round"/>
+</svg>
