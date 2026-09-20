@@ -138,12 +138,12 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                     </ul>
                   )}
                   {section.ctas && section.ctas.length > 0 && (
-                    <div class="mt-9 flex flex-wrap gap-3">
+                    <div class="mt-9 flex flex-row items-center gap-2.5 sm:gap-3">
                       {section.ctas.map((cta, i) => (
                         <a
                           href={cta.href ?? '/contact-us/'}
                           class:list={[
-                            'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
+                            'group inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-full px-3.5 py-3 text-xs sm:px-7 sm:py-3.5 sm:text-sm font-bold whitespace-nowrap transition',
                             i === 0
                               ? 'btn-shine bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
                               : 'border border-white/40 bg-brand-navy/30 text-white backdrop-blur-sm hover:border-white/70 hover:bg-white/5',
@@ -225,12 +225,12 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   </ul>
                 )}
                 {section.ctas && section.ctas.length > 0 && (
-                  <div class="mt-9 flex flex-wrap gap-3">
+                  <div class="mt-9 flex flex-row items-center gap-2.5 sm:gap-3">
                     {section.ctas.map((cta, i) => (
                       <a
                         href={cta.href ?? '/contact-us/'}
                         class:list={[
-                          'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
+                          'group inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-full px-3.5 py-3 text-xs sm:px-7 sm:py-3.5 sm:text-sm font-bold whitespace-nowrap transition',
                           i === 0
                             ? 'btn-shine bg-brand-green text-white shadow-lg shadow-brand-green/30 hover:bg-brand-green-dark'
                             : 'border border-white/25 text-white hover:border-white/60 hover:bg-white/5',
@@ -355,31 +355,41 @@ const sectionId = (section: Section, idx: number): string | undefined => {
               )}
               {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">{section.intro}</p>}
               <div class="mt-12 grid items-center gap-12 lg:grid-cols-2">
-                <div class="fade-in relative mx-auto w-full max-w-md">
-                  <svg viewBox="0 0 400 440" class="w-full drop-shadow-sm" role="img" aria-label={section.heading ?? 'Map of the BaSuka network in Burkina Faso'}>
-                    <path
-                      d="M5 425 L65 414 L140 425 L205 418 L290 432 L330 401 L390 348 L400 288 L360 220 L315 167 L280 106 L250 23 L180 23 L75 15 L5 23 L10 129 L35 197 L5 250 L10 311 L40 371 Z"
-                      class="fill-brand-green/5 stroke-brand-green/50"
-                      stroke-width="2.5"
-                      stroke-linejoin="round"
+                <div class="fade-in relative mx-auto w-full max-w-lg lg:max-w-none">
+                  {section.image ? (
+                    <OptimizedImage
+                      src={section.image}
+                      alt={section.heading ?? 'Map of the BaSuka network'}
+                      class="mx-auto w-full h-auto max-w-xl drop-shadow-sm transition duration-500 hover:scale-[1.02]"
+                      widths={[480, 768, 1024]}
+                      sizes="(min-width: 1024px) 50vw, 100vw"
                     />
-                    <circle cx="204" cy="215" r="70" class="stroke-brand-green/25" stroke-width="1.5" stroke-dasharray="4 6" fill="none" />
-                    <circle cx="204" cy="215" r="120" class="stroke-brand-green/15" stroke-width="1.5" stroke-dasharray="4 6" fill="none" />
-                    {section.points?.map((p: any) => {
-                      const [x, y] = project(p.lon, p.lat);
-                      return p.status === 'pipeline' ? (
-                        <circle cx={x} cy={y} r="7" class="fill-white stroke-brand-green" stroke-width="3" stroke-dasharray="3 3">
-                          <title>{p.name}</title>
-                        </circle>
-                      ) : (
-                        <g>
-                          <circle cx={x} cy={y} r="16" class="map-pulse fill-brand-green/20" />
-                          <circle cx={x} cy={y} r="8" class="fill-brand-green" />
-                          <title>{p.name}</title>
-                        </g>
-                      );
-                    })}
-                  </svg>
+                  ) : (
+                    <svg viewBox="0 0 400 440" class="w-full drop-shadow-sm" role="img" aria-label={section.heading ?? 'Map of the BaSuka network across Africa'}>
+                      <path
+                        d="M5 425 L65 414 L140 425 L205 418 L290 432 L330 401 L390 348 L400 288 L360 220 L315 167 L280 106 L250 23 L180 23 L75 15 L5 23 L10 129 L35 197 L5 250 L10 311 L40 371 Z"
+                        class="fill-brand-green/5 stroke-brand-green/50"
+                        stroke-width="2.5"
+                        stroke-linejoin="round"
+                      />
+                      <circle cx="204" cy="215" r="70" class="stroke-brand-green/25" stroke-width="1.5" stroke-dasharray="4 6" fill="none" />
+                      <circle cx="204" cy="215" r="120" class="stroke-brand-green/15" stroke-width="1.5" stroke-dasharray="4 6" fill="none" />
+                      {section.points?.map((p: any) => {
+                        const [x, y] = project(p.lon, p.lat);
+                        return p.status === 'pipeline' ? (
+                          <circle cx={x} cy={y} r="7" class="fill-white stroke-brand-green" stroke-width="3" stroke-dasharray="3 3">
+                            <title>{p.name}</title>
+                          </circle>
+                        ) : (
+                          <g>
+                            <circle cx={x} cy={y} r="16" class="map-pulse fill-brand-green/20" />
+                            <circle cx={x} cy={y} r="8" class="fill-brand-green" />
+                            <title>{p.name}</title>
+                          </g>
+                        );
+                      })}
+                    </svg>
+                  )}
                 </div>
                 <div class="space-y-4">
                   {section.points?.map((p: any) => (
@@ -644,7 +654,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
         );
 
       case 'generation':
-        // "Generation-first" foundation band: 130 MW thermal fleet plus the
+        // "Generation-first" foundation band: 130 MW generation fleet plus the
         // ecosystem it enables. Dark navy to signal the firm power base.
         return (
           <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-navy py-20 lg:py-24">
@@ -822,12 +832,12 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                 <p class="mx-auto mt-4 max-w-3xl text-lg leading-8 text-white/90">{p}</p>
               ))}
               {section.ctas && (
-                <div class="mt-8 flex flex-wrap justify-center gap-3">
+                <div class="mt-8 flex flex-row items-center justify-center gap-2.5 sm:gap-3">
                   {section.ctas.map((cta, i) => (
                     <a
                       href={cta.href ?? '/contact-us/'}
                       class:list={[
-                        'group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition',
+                        'group inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-full px-3.5 py-3 text-xs sm:px-7 sm:py-3.5 sm:text-sm font-bold whitespace-nowrap transition',
                         i === 0 ? 'btn-shine bg-white text-brand-green-dark hover:bg-brand-cream' : 'btn-shine border border-white/40 text-white hover:bg-white/10',
                       ]}
                     >
