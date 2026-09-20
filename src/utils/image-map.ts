@@ -45,7 +45,7 @@ import img37 from '../assets/logo3.webp';
 import img38 from '../assets/logo51-1.webp';
 import img39 from '../assets/our-mission.jpg';
 import img40 from '../assets/partner-1.webp';
-import img41 from '../assets/partner-image.jpeg';
+import img41 from '../assets/partner-herobg.webp';
 import img42 from '../assets/partners-diagram.webp';
 import img43 from '../assets/partners-hero.webp';
 import img44 from '../assets/services-image.jpg';
@@ -96,7 +96,7 @@ export const imageMap: Record<string, ImageMetadata> = {
   'logo51-1.webp': img38,
   'our-mission.jpg': img39,
   'partner-1.webp': img40,
-  'partner-image.jpeg': img41,
+  'partner-herobg.webp': img41,
   'partners-diagram.webp': img42,
   'partners-hero.webp': img43,
   'services-image.jpg': img44,
