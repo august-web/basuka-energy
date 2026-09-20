@@ -1,6 +1,6 @@
 {
   "title": "Impact - BaSuka Energy",
-  "metaDescription": "BaSuka Energy's verified impact: 130 MW generation foundation, 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Burkina Faso.",
+  "metaDescription": "BaSuka Energy's verified impact: 130 MW generation foundation, 1,200t CO2 avoided, 500+ households powered, women-led operations. IoT-tracked ESG metrics across economic, environmental, and social pillars in Africa.",
   "sections": [
     {
       "type": "hero",
@@ -23,7 +23,7 @@
       "items": [
         {
           "value": "4",
-          "label": "Utility-scale thermal power plants",
+          "label": "Utility-scale power plants",
           "tag": "GENERATION FOUNDATION"
         },
         {
@@ -63,7 +63,7 @@
         },
         {
           "value": "Sovereign",
-          "label": "Infrastructure built for Burkina Faso",
+          "label": "Infrastructure built for Africa",
           "tag": "LONG-TERM VALUE"
         }
       ]
@@ -81,7 +81,7 @@
         },
         {
           "title": "Affordable & clean energy",
-          "body": "Four utility-scale thermal power plants delivering 130 MW of new dispatchable capacity establish the reliable foundation for an integrated energy ecosystem.",
+          "body": "Four utility-scale power plants delivering 130 MW of new dispatchable capacity establish the reliable foundation for an integrated energy ecosystem.",
           "tag": "GOAL 7"
         },
         {
@@ -104,7 +104,7 @@
       "items": [
         {
           "title": "Advance generation development",
-          "body": "Advance the development of four thermal power plants totaling 130 MW of new capacity."
+          "body": "Advance the development of four power plants totaling 130 MW of new capacity."
         },
         {
           "title": "Secure strategic partnerships",
@@ -124,6 +124,6 @@
       "type": "cta",
       "eyebrow": "FOR INFRASTRUCTURE FUNDS & CLIMATE PARTNERS",
       "heading": "Build dependable power and inclusive economic growth",
-      "body": "BaSuka welcomes infrastructure funds and partners who share its commitment to reliable power, responsible development, local capability, and a sovereign energy future for Burkina Faso."}
+      "body": "BaSuka welcomes infrastructure funds and partners who share its commitment to reliable power, responsible development, local capability, and a sovereign energy future for Africa."}
   ]
 }
