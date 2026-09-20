@@ -157,7 +157,8 @@
           "value": "1 200 t",
           "label": "Tonnes de CO₂ évitées"
         }
-      ]
+      ],
+      "backgroundImage": "/assets/impact-4.webp"
     },
     {
       "type": "cards",
