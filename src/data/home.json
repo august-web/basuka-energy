@@ -210,10 +210,21 @@
       ]
     },
     {
-      "type": "image",
+      "type": "cards",
       "heading": "Our Mission & Vision",
-      "body": "Building a Sovereign Energy Future for Burkina Faso\n\nBaSuka Energy delivers reliable, affordable electricity — starting with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes. We are building an integrated, customer-driven energy ecosystem that supports industrialization, energy sovereignty, and inclusive growth where grid access fails.",
-      "image": "/assets/our-mission.jpg",
+      "intro": "Building a Sovereign Energy Future for Burkina Faso",
+      "items": [
+        {
+          "iconImage": "/assets/icon-mission.svg",
+          "title": "Mission",
+          "body": "BaSuka Energy delivers reliable, affordable electricity — starting with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes."
+        },
+        {
+          "iconImage": "/assets/icon-vision.svg",
+          "title": "Vision",
+          "body": "A sovereign energy future for Burkina Faso — an integrated, customer-driven energy ecosystem that supports industrialization, energy sovereignty, and inclusive growth where grid access fails."
+        }
+      ],
       "ctas": [
         {
           "label": "How It Works →",
