@@ -286,6 +286,29 @@
   }
 }
 
+/* Network map hub pulse — decorative, so it is disabled for reduced motion */
+@keyframes map-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  70% {
+    transform: scale(2.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2.1);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .map-pulse {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: map-pulse 2.4s ease-out infinite;
+  }
+}
+
 /* CSS-only scroll reveal — content stays visible without JS
    (the inline script in Base.astro sets .js on <html>) */
 @media (prefers-reduced-motion: no-preference) {
