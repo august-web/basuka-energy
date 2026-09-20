@@ -1,6 +1,6 @@
 {
   "title": "Impact - BaSuka Energy",
-  "metaDescription": "L'impact vérifié de BaSuka Energy : fondation de production de 130 MW, 1 200 t de CO2 évitées, 500+ foyers alimentés, opérations dirigées par des femmes. Métriques ESG suivies par IoT sur les piliers économiques, environnementaux et sociaux au Burkina Faso.",
+  "metaDescription": "L'impact vérifié de BaSuka Energy : fondation de production de 130 MW, 1 200 t de CO2 évitées, 500+ foyers alimentés, opérations dirigées par des femmes. Métriques ESG suivies par IoT sur les piliers économiques, environnementaux et sociaux en Afrique.",
   "sections": [
     {
       "type": "hero",
@@ -23,7 +23,7 @@
       "items": [
         {
           "value": "4",
-          "label": "Centrales thermiques de grande échelle",
+          "label": "Centrales électriques de grande échelle",
           "tag": "FONDATION DE PRODUCTION"
         },
         {
@@ -63,7 +63,7 @@
         },
         {
           "value": "Souverain",
-          "label": "Une infrastructure bâtie pour le Burkina Faso",
+          "label": "Une infrastructure bâtie pour l'Afrique",
           "tag": "VALEUR DURABLE"
         }
       ]
@@ -81,7 +81,7 @@
         },
         {
           "title": "Énergie abordable & propre",
-          "body": "Quatre centrales thermiques de grande échelle fournissant 130 MW de nouvelle capacité pilotable établissent la fondation fiable d'un écosystème énergétique intégré.",
+          "body": "Quatre centrales électriques de grande échelle fournissant 130 MW de nouvelle capacité pilotable établissent la fondation fiable d'un écosystème énergétique intégré.",
           "tag": "ODD 7"
         },
         {
@@ -104,7 +104,7 @@
       "items": [
         {
           "title": "Faire avancer le développement de la production",
-          "body": "Faire avancer le développement de quatre centrales thermiques totalisant 130 MW de nouvelle capacité."
+          "body": "Faire avancer le développement de quatre centrales électriques totalisant 130 MW de nouvelle capacité."
         },
         {
           "title": "Sécuriser des partenariats stratégiques",
@@ -124,6 +124,6 @@
       "type": "cta",
       "eyebrow": "POUR LES FONDS D'INFRASTRUCTURE & PARTENAIRES CLIMAT",
       "heading": "Bâtir une énergie fiable et une croissance économique inclusive",
-      "body": "BaSuka accueille les fonds d'infrastructure et les partenaires qui partagent son engagement pour une énergie fiable, un développement responsable, des capacités locales et un avenir énergétique souverain pour le Burkina Faso."}
+      "body": "BaSuka accueille les fonds d'infrastructure et les partenaires qui partagent son engagement pour une énergie fiable, un développement responsable, des capacités locales et un avenir énergétique souverain pour l'Afrique."}
   ]
 }
