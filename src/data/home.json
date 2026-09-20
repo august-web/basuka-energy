@@ -1,18 +1,18 @@
 {
   "title": "Home - BaSuka Energy",
-  "metaDescription": "BaSuka Energy is building Burkina Faso's sovereign energy future through four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable capacity and an integrated energy ecosystem.",
+  "metaDescription": "BaSuka Energy is building Africa's sovereign energy future through four utility-scale power plants delivering 130 MW of reliable, dispatchable capacity and an integrated energy ecosystem.",
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "Powering Burkina Faso. Building a Sovereign Energy Future.",
+      "eyebrow": "Powering Africa. Building a Sovereign Energy Future.",
       "heading": "We Build. We Power. We *Transform*.",
-      "body": "BaSuka Energy is a women-led energy and infrastructure company developing four utility-scale thermal power plants that will deliver 130 MW of reliable, dispatchable electricity for Burkina Faso.",
+      "body": "BaSuka Energy is a women-led energy and infrastructure company developing four utility-scale power plants that will deliver 130 MW of reliable, dispatchable electricity for Africa.",
       "backgroundImage": "/assets/homepage-hero.webp",
       "chips": [
-        "4 thermal power plants",
+        "4 power plants",
         "130 MW of new capacity",
         "Women-led workforce solutions",
-        "Built for Burkina Faso"
+        "Built for Africa"
       ],
       "ctas": [
         {
@@ -23,30 +23,12 @@
           "label": "Our Approach",
           "href": "/about-us-2/"
         }
-      ],
-      "stats": [
-        {
-          "value": "130 MW",
-          "label": "New dispatchable capacity"
-        },
-        {
-          "value": "4",
-          "label": "Thermal power plants"
-        },
-        {
-          "value": "15,000+",
-          "label": "Riders served"
-        },
-        {
-          "value": "100%",
-          "label": "Women-led workforce"
-        }
       ]
     },
     {
       "type": "marquee",
       "items": [
-        "4 utility-scale thermal power plants",
+        "4 utility-scale power plants",
         "130 MW of new dispatchable capacity",
         "Reliable power for every sector",
         "Women-led workforce solutions",
@@ -59,7 +41,7 @@
       "type": "generation",
       "eyebrow": "The Generation Foundation",
       "heading": "130 MW of new dispatchable power — the *foundation* of the network",
-      "intro": "Before the smart network comes the power base. BaSuka's generation-first strategy begins with four utility-scale thermal power plants delivering 130 MW of reliable, dispatchable electricity for the national grid, industry, mining, agriculture, businesses, and homes.",
+      "intro": "Before the smart network comes the power base. BaSuka's generation-first strategy begins with four utility-scale power plants delivering 130 MW of reliable, dispatchable electricity for the national grid, industry, mining, agriculture, businesses, and homes.",
       "items": [
         {
           "value": "130 MW",
@@ -82,7 +64,7 @@
         {
           "iconImage": "/assets/icon-network-house.webp",
           "title": "Generation-First Strategy",
-          "body": "Four thermal plants form the dependable base that unlocks smart-grid distribution, storage, swappable batteries, and clean mobility — sequenced so every advanced service is enabled by firm capacity."
+          "body": "Four power plants form the dependable base that unlocks smart-grid distribution, storage, swappable batteries, and clean mobility — sequenced so every advanced service is enabled by firm capacity."
         },
         {
           "iconImage": "/assets/icon-energy.webp",
@@ -92,7 +74,7 @@
         {
           "iconImage": "/assets/icon-green-energy.webp",
           "title": "Energy Sovereignty",
-          "body": "Reliable national power drives industrialization, job creation, and long-term economic resilience — an end-to-end platform built for Burkina Faso, owned in purpose by its people."
+          "body": "Reliable national power drives industrialization, job creation, and long-term economic resilience — an end-to-end platform built for Africa, owned in purpose by its people."
         },
         {
           "iconImage": "/assets/icon-care.webp",
@@ -100,7 +82,7 @@
           "body": "International-standard operations and a professional, women-led workforce keep the network reliable, safe, and bankable from day one."
         }
       ],
-      "body": "This sequencing is deliberate: dependable generation first, then the integrated energy ecosystem it powers. BaSuka's thermal foundation strengthens grid reliability and unlocks the industrial and commercial activity that clean-energy services build on.",
+      "body": "This sequencing is deliberate: dependable generation first, then the integrated energy ecosystem it powers. BaSuka's generation foundation strengthens grid reliability and unlocks the industrial and commercial activity that clean-energy services build on.",
       "ctas": [
         {
           "label": "Partner With Us",
@@ -111,8 +93,9 @@
     {
       "type": "map",
       "eyebrow": "The Network",
-      "heading": "Built for *all of Burkina Faso*",
+      "heading": "Built for *all of Africa*",
       "intro": "A national headquarters and pilot launch in Ouagadougou — the first node of a smart network that will extend swappable power across the country.",
+      "image": "/assets/network-map.webp",
       "points": [
         {
           "name": "Ouagadougou",
@@ -122,7 +105,7 @@
           "label": "National HQ · Pilot Swap & Glow™ launch"
         },
         {
-          "name": "4 thermal plants · 130 MW",
+          "name": "4 power plants · 130 MW",
           "status": "pipeline",
           "lon": 0.1,
           "lat": 12.7,
@@ -157,18 +140,17 @@
           "value": "1,200t",
           "label": "Tonnes CO₂ Avoided"
         }
-      ],
-      "backgroundImage": "/assets/impact-4.webp"
+      ]
     },
     {
       "type": "cards",
       "eyebrow": "The Problem",
-      "heading": "Why Burkina Faso Needs a *Smart Electricity Network*",
+      "heading": "Why Africa Needs a *Smart Electricity Network*",
       "intro": "The energy gap in West Africa is real and urgent. BaSuka solves the three interconnected barriers which prevent electric mobility adoption — making clean electricity accessible where it matters most.",
       "items": [
         {
           "title": "The Grid-Access Gap",
-          "body": "81% of Burkina Faso lacks reliable electricity access.\n\nBaSuka Solution: Solar-powered stations provide energy independence."
+          "body": "Over 80% of the region lacks reliable electricity access.\n\nBaSuka Solution: Solar-powered stations provide energy independence."
         },
         {
           "title": "Professional Swap Stations",
@@ -188,7 +170,7 @@
       "items": [
         {
           "title": "Data Management System",
-          "body": "Real-time network optimization using IoT data to monitor battery health, location, and station demand across Burkina Faso."
+          "body": "Real-time network optimization using IoT data to monitor battery health, location, and station demand across Africa."
         },
         {
           "title": "BaSuka Academy",
@@ -239,32 +221,9 @@
       ]
     },
     {
-      "type": "cards",
-      "heading": "Our Mission & Vision",
-      "intro": "Building a Sovereign Energy Future for Burkina Faso",
-      "items": [
-        {
-          "iconImage": "/assets/icon-mission.svg",
-          "title": "Mission",
-          "body": "BaSuka Energy delivers reliable, affordable electricity — starting with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes."
-        },
-        {
-          "iconImage": "/assets/icon-vision.svg",
-          "title": "Vision",
-          "body": "A sovereign energy future for Burkina Faso — an integrated, customer-driven energy ecosystem that supports industrialization, energy sovereignty, and inclusive growth where grid access fails."
-        }
-      ],
-      "ctas": [
-        {
-          "label": "How It Works →",
-          "href": "/how-it-works/"
-        }
-      ]
-    },
-    {
       "type": "steps",
       "eyebrow": "How It Works",
-      "heading": "Burkina Faso's *Smart Electricity Network*",
+      "heading": "Africa's *Smart Electricity Network*",
       "intro": "BaSuka Energy delivers reliable, affordable power through a generation-first platform of 130 MW of dispatchable capacity, extending through smart, swappable SIRA™ batteries. Our solar-first stations are built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
       "items": [
         {
@@ -293,12 +252,12 @@
       "type": "timeline",
       "eyebrow": "The Road Ahead",
       "heading": "From *foundation* to *full network*",
-      "intro": "A generation-first roadmap: firm power first, then a smart network delivered and run by Burkinabè professionals.",
+      "intro": "A generation-first roadmap: firm power first, then a smart network delivered and run by African professionals.",
       "items": [
         {
           "label": "Now",
           "title": "Generation first",
-          "body": "Development of four thermal power plants — 130 MW of new dispatchable capacity for the national grid."
+          "body": "Development of four power plants — 130 MW of new dispatchable capacity for the national grid."
         },
         {
           "label": "Next",
@@ -314,7 +273,7 @@
     },
     {
       "type": "quote",
-      "body": "Positioning women as professional energy leaders to build deep community trust and operational excellence across Burkina Faso's first smart electricity network.",
+      "body": "Positioning women as professional energy leaders to build deep community trust and operational excellence across Africa's first smart electricity network.",
       "citation": "The Yennenga Vision — BaSuka Energy"
     },
     {
