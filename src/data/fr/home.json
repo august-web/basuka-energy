@@ -1,18 +1,18 @@
 {
   "title": "Accueil - BaSuka Energy",
-  "metaDescription": "BaSuka Energy bâtit l'avenir énergétique souverain du Burkina Faso grâce à quatre centrales thermiques de grande échelle fournissant 130 MW de capacité fiable et pilotable, puis à un écosystème énergétique intégré.",
+  "metaDescription": "BaSuka Energy bâtit l'avenir énergétique souverain de l'Afrique grâce à quatre centrales électriques de grande échelle fournissant 130 MW de capacité fiable et pilotable, puis à un écosystème énergétique intégré.",
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "Éclairer le Burkina Faso. Bâtir un avenir énergétique souverain.",
+      "eyebrow": "Éclairer l'Afrique. Bâtir un avenir énergétique souverain.",
       "heading": "Nous bâtissons. Nous alimentons. Nous *transformons*.",
-      "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales thermiques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable au Burkina Faso.",
+      "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales électriques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable à l'Afrique.",
       "backgroundImage": "/assets/homepage-hero.webp",
       "chips": [
-        "4 centrales thermiques",
+        "4 centrales électriques",
         "130 MW de nouvelle capacité",
         "Solutions de main-d'œuvre dirigées par des femmes",
-        "Construit pour le Burkina Faso"
+        "Construit pour l'Afrique"
       ],
       "ctas": [
         {
@@ -23,30 +23,12 @@
           "label": "Notre approche",
           "href": "/about-us-2/"
         }
-      ],
-      "stats": [
-        {
-          "value": "130 MW",
-          "label": "Nouvelle capacité pilotable"
-        },
-        {
-          "value": "4",
-          "label": "Centrales thermiques"
-        },
-        {
-          "value": "15 000+",
-          "label": "Utilisateurs servis"
-        },
-        {
-          "value": "100%",
-          "label": "Main-d'œuvre féminine"
-        }
       ]
     },
     {
       "type": "marquee",
       "items": [
-        "4 centrales thermiques de grande échelle",
+        "4 centrales électriques de grande échelle",
         "130 MW de nouvelle capacité pilotable",
         "Énergie fiable pour tous les secteurs",
         "Solutions de main-d'œuvre dirigées par des femmes",
@@ -59,7 +41,7 @@
       "type": "generation",
       "eyebrow": "La fondation de production",
       "heading": "130 MW de nouvelle puissance pilotable — la *fondation* du réseau",
-      "intro": "Avant le réseau intelligent vient la base de production. La stratégie de BaSuka, axée d'abord sur la production, débute avec quatre centrales thermiques à grande échelle fournissant 130 MW d'électricité fiable et pilotable pour le réseau national, l'industrie, les mines, l'agriculture, les entreprises et les ménages.",
+      "intro": "Avant le réseau intelligent vient la base de production. La stratégie de BaSuka, axée d'abord sur la production, débute avec quatre centrales électriques à grande échelle fournissant 130 MW d'électricité fiable et pilotable pour le réseau national, l'industrie, les mines, l'agriculture, les entreprises et les ménages.",
       "items": [
         {
           "value": "130 MW",
@@ -67,7 +49,7 @@
         },
         {
           "value": "4",
-          "label": "Centrales thermiques à grande échelle"
+          "label": "Centrales électriques à grande échelle"
         },
         {
           "value": "Fiable",
@@ -82,7 +64,7 @@
         {
           "iconImage": "/assets/icon-network-house.webp",
           "title": "Stratégie production d'abord",
-          "body": "Quatre centrales thermiques forment la base fiable qui débloque la distribution par réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre — séquencés pour que chaque service avancé s'appuie sur une capacité ferme."
+          "body": "Quatre centrales électriques forment la base fiable qui débloque la distribution par réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre — séquencés pour que chaque service avancé s'appuie sur une capacité ferme."
         },
         {
           "iconImage": "/assets/icon-energy.webp",
@@ -92,7 +74,7 @@
         {
           "iconImage": "/assets/icon-green-energy.webp",
           "title": "Souveraineté énergétique",
-          "body": "Une puissance nationale fiable stimule l'industrialisation, la création d'emplois et la résilience économique à long terme — une plateforme de bout en bout construite pour le Burkina Faso."
+          "body": "Une puissance nationale fiable stimule l'industrialisation, la création d'emplois et la résilience économique à long terme — une plateforme de bout en bout construite pour l'Afrique."
         },
         {
           "iconImage": "/assets/icon-care.webp",
@@ -100,7 +82,7 @@
           "body": "Des opérations aux normes internationales et une main-d'œuvre professionnelle dirigée par des femmes maintiennent le réseau fiable, sûr et bancable dès le premier jour."
         }
       ],
-      "body": "Ce séquençage est délibéré : d'abord une production fiable, puis l'écosystème énergétique intégré qu'elle alimente. La fondation thermique de BaSuka renforce la fiabilité du réseau et débloque l'activité industrielle et commerciale sur laquelle s'appuient les services d'énergie propre.",
+      "body": "Ce séquençage est délibéré : d'abord une production fiable, puis l'écosystème énergétique intégré qu'elle alimente. La fondation de production de BaSuka renforce la fiabilité du réseau et débloque l'activité industrielle et commerciale sur laquelle s'appuient les services d'énergie propre.",
       "ctas": [
         {
           "label": "Partenaires",
@@ -111,8 +93,9 @@
     {
       "type": "map",
       "eyebrow": "Le réseau",
-      "heading": "Conçu pour *tout le Burkina Faso*",
+      "heading": "Conçu pour *toute l'Afrique*",
       "intro": "Un siège national et un lancement pilote à Ouagadougou — le premier nœud d'un réseau intelligent qui étendra l'énergie échangeable à tout le pays.",
+      "image": "/assets/network-map.webp",
       "points": [
         {
           "name": "Ouagadougou",
@@ -122,7 +105,7 @@
           "label": "Siège national · Lancement pilote des stations Swap & Glow™"
         },
         {
-          "name": "4 centrales thermiques · 130 MW",
+          "name": "4 centrales électriques · 130 MW",
           "status": "pipeline",
           "lon": 0.1,
           "lat": 12.7,
@@ -157,18 +140,17 @@
           "value": "1 200 t",
           "label": "Tonnes de CO₂ évitées"
         }
-      ],
-      "backgroundImage": "/assets/impact-4.webp"
+      ]
     },
     {
       "type": "cards",
       "eyebrow": "Le problème",
-      "heading": "Pourquoi le Burkina Faso a besoin d'un *réseau électrique intelligent*",
+      "heading": "Pourquoi l'Afrique a besoin d'un *réseau électrique intelligent*",
       "intro": "Le déficit énergétique en Afrique de l'Ouest est réel et urgent. BaSuka résout les trois obstacles interconnectés qui freinent l'adoption de la mobilité électrique — rendant l'électricité propre accessible là où cela compte le plus.",
       "items": [
         {
           "title": "Accès limité au réseau",
-          "body": "81% du Burkina Faso n'a pas d'accès fiable à l'électricité.\n\nSolution BaSuka : des stations solaires garantissent l'indépendance énergétique."
+          "body": "Plus de 80% de la région n'a pas d'accès fiable à l'électricité.\n\nSolution BaSuka : des stations solaires garantissent l'indépendance énergétique."
         },
         {
           "title": "Stations d'échange professionnelles",
@@ -188,7 +170,7 @@
       "items": [
         {
           "title": "Système de gestion des données",
-          "body": "Optimisation du réseau en temps réel grâce aux données IoT pour surveiller la santé des batteries, leur localisation et la demande des stations à travers le Burkina Faso."
+          "body": "Optimisation du réseau en temps réel grâce aux données IoT pour surveiller la santé des batteries, leur localisation et la demande des stations à travers l'Afrique."
         },
         {
           "title": "Académie BaSuka",
@@ -239,32 +221,9 @@
       ]
     },
     {
-      "type": "cards",
-      "heading": "Notre mission & vision",
-      "intro": "Bâtir un avenir énergétique souverain pour le Burkina Faso",
-      "items": [
-        {
-          "iconImage": "/assets/icon-mission.svg",
-          "title": "Mission",
-          "body": "BaSuka Energy fournit une électricité fiable et abordable — en commençant par une fondation de production de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
-        },
-        {
-          "iconImage": "/assets/icon-vision.svg",
-          "title": "Vision",
-          "body": "Un avenir énergétique souverain pour le Burkina Faso — un écosystème énergétique intégré, piloté par le client, qui soutient l'industrialisation, la souveraineté énergétique et la croissance inclusive là où l'accès au réseau échoue."
-        }
-      ],
-      "ctas": [
-        {
-          "label": "Comment ça marche →",
-          "href": "/how-it-works/"
-        }
-      ]
-    },
-    {
       "type": "steps",
       "eyebrow": "Comment ça marche",
-      "heading": "Le *réseau électrique intelligent* du Burkina Faso",
+      "heading": "Le *réseau électrique intelligent* d'Afrique",
       "intro": "BaSuka Energy fournit une énergie fiable et abordable grâce à une plateforme production d'abord de 130 MW de capacité pilotable, étendue par des batteries SIRA™ intelligentes et échangeables. Nos stations solaires d'abord sont conçues pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
       "items": [
         {
@@ -293,12 +252,12 @@
       "type": "timeline",
       "eyebrow": "La feuille de route",
       "heading": "De la *fondation* au *réseau complet*",
-      "intro": "Une feuille de route « génération d'abord » : une puissance pilotable, puis un réseau intelligent livré et opéré par des professionnels burkinabè.",
+      "intro": "Une feuille de route « génération d'abord » : une puissance pilotable, puis un réseau intelligent livré et opéré par des professionnels africains.",
       "items": [
         {
           "label": "Maintenant",
           "title": "La génération d'abord",
-          "body": "Développement de quatre centrales thermiques — 130 MW de nouvelle capacité pilotable pour le réseau national."
+          "body": "Développement de quatre centrales électriques — 130 MW de nouvelle capacité pilotable pour le réseau national."
         },
         {
           "label": "Prochainement",
@@ -314,7 +273,7 @@
     },
     {
       "type": "quote",
-      "body": "Positionner les femmes comme leaders professionnels du secteur de l'énergie afin de bâtir une profonde confiance communautaire et l'excellence opérationnelle à travers le premier réseau électrique intelligent du Burkina Faso.",
+      "body": "Positionner les femmes comme leaders professionnels du secteur de l'énergie afin de bâtir une profonde confiance communautaire et l'excellence opérationnelle à travers le premier réseau électrique intelligent d'Afrique.",
       "citation": "La Vision Yennenga — BaSuka Energy"
     },
     {
