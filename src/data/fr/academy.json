@@ -1,6 +1,6 @@
 {
   "title": "Académie - BaSuka Energy",
-  "metaDescription": "L'Académie BaSuka forme des femmes comme Yennenga Warriors certifiées — un pipeline professionnel de développement de la main-d'œuvre à travers l'écosystème énergétique du Burkina Faso : solaire PV, systèmes de batteries, opérations de site, santé & sécurité et services d'énergie intelligente.",
+  "metaDescription": "L'Académie BaSuka forme des femmes comme Yennenga Warriors certifiées — un pipeline professionnel de développement de la main-d'œuvre à travers l'écosystème énergétique de l'Afrique : solaire PV, systèmes de batteries, opérations de site, santé & sécurité et services d'énergie intelligente.",
   "sections": [
     {
       "type": "hero",
@@ -16,7 +16,7 @@
       "eyebrow": "Notre raison d'être",
       "heading": "Former les Yennenga Warriors",
       "body": "L'Académie BaSuka est le pilier de développement des compétences et d'autonomisation des communautés de BaSuka. Elle prépare un vivier professionnel dirigé par des femmes pour la santé et la sécurité, les opérations de site et de terrain, l'engagement client et communautaire, les services énergétiques intelligents, le soutien aux batteries et au stockage, et les futures activités de mobilité propre.",
-      "image": "/assets/academy-3.webp"
+      "image": "/assets/yennenga.jpg"
     },
     {
       "type": "cards",
@@ -121,7 +121,7 @@
       "items": [
         {
           "q": "Qui peut postuler à l'Académie ?",
-          "a": "Toute femme motivée basée au Burkina Faso intéressée par la technologie, la durabilité et le service communautaire. Aucune expérience préalable en génie électrique n'est requise — nous formons de A à Z."
+          "a": "Toute femme motivée basée en Afrique intéressée par la technologie, la durabilité et le service communautaire. Aucune expérience préalable en génie électrique n'est requise — nous formons de A à Z."
         },
         {
           "q": "La participation est-elle payante ?",
