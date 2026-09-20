@@ -43,16 +43,15 @@ import img35 from '../assets/impact-swap.webp';
 import img36 from '../assets/logo11.webp';
 import img37 from '../assets/logo3.webp';
 import img38 from '../assets/logo51-1.webp';
-import img39 from '../assets/our-mission.jpg';
-import img40 from '../assets/partner-1.webp';
-import img41 from '../assets/partner-herobg.webp';
-import img42 from '../assets/partners-diagram.webp';
-import img43 from '../assets/partners-hero.webp';
-import img44 from '../assets/services-image.jpg';
-import img45 from '../assets/solar-panels.jpeg';
-import img46 from '../assets/solarhub.webp';
-import img47 from '../assets/swappables-burkina.webp';
-import img48 from '../assets/swappables.webp';
+import img39 from '../assets/partner-1.webp';
+import img40 from '../assets/partner-herobg.webp';
+import img41 from '../assets/partners-diagram.webp';
+import img42 from '../assets/partners-hero.webp';
+import img43 from '../assets/services-image.jpg';
+import img44 from '../assets/solar-panels.jpeg';
+import img45 from '../assets/solarhub.webp';
+import img46 from '../assets/swappables-burkina.webp';
+import img47 from '../assets/swappables.webp';
 
 export const imageMap: Record<string, ImageMetadata> = {
   'about-hero.webp': img0,
@@ -94,14 +93,13 @@ export const imageMap: Record<string, ImageMetadata> = {
   'logo11.webp': img36,
   'logo3.webp': img37,
   'logo51-1.webp': img38,
-  'our-mission.jpg': img39,
-  'partner-1.webp': img40,
-  'partner-herobg.webp': img41,
-  'partners-diagram.webp': img42,
-  'partners-hero.webp': img43,
-  'services-image.jpg': img44,
-  'solar-panels.jpeg': img45,
-  'solarhub.webp': img46,
-  'swappables-burkina.webp': img47,
-  'swappables.webp': img48,
+  'partner-1.webp': img39,
+  'partner-herobg.webp': img40,
+  'partners-diagram.webp': img41,
+  'partners-hero.webp': img42,
+  'services-image.jpg': img43,
+  'solar-panels.jpeg': img44,
+  'solarhub.webp': img45,
+  'swappables-burkina.webp': img46,
+  'swappables.webp': img47,
 };
