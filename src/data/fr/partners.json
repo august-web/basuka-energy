@@ -1,6 +1,6 @@
 {
   "title": "Partenaires - BaSuka Energy",
-  "metaDescription": "Devenez partenaire de BaSuka Energy pour bâtir l'avenir énergétique souverain du Burkina Faso : 130 MW de nouvelle capacité de production plus l'infrastructure énergétique propre de l'Afrique. Partenariats pour investisseurs, fournisseurs de carburant, sociétés d'ingénierie, fabricants de VE et fournisseurs de technologie.",
+  "metaDescription": "Devenez partenaire de BaSuka Energy pour bâtir l'avenir énergétique souverain de l'Afrique : 130 MW de nouvelle capacité de production plus l'infrastructure énergétique propre. Partenariats pour investisseurs, fournisseurs de carburant, sociétés d'ingénierie, fabricants de VE et fournisseurs de technologie.",
   "sections": [
     {
       "type": "hero",
@@ -10,14 +10,14 @@
         "Accueil",
         "Partenaires"
       ],
-      "body": "Nous sélectionnons des partenaires stratégiques pour bâtir l'avenir énergétique souverain du Burkina Faso — fournisseurs de carburant, sociétés d'ingénierie et d'EPC, fonds d'infrastructure et climat, fabricants de VE, fournisseurs de technologie et alliés du secteur public souhaitant co-construire 130 MW de nouvelle capacité de production et le premier réseau professionnel intelligent de batteries échangeables du Sahel.",
+      "body": "Nous sélectionnons des partenaires stratégiques pour bâtir l'avenir énergétique souverain de l'Afrique — fournisseurs de carburant, sociétés d'ingénierie et d'EPC, fonds d'infrastructure et climat, fabricants de VE, fournisseurs de technologie et alliés du secteur public souhaitant co-construire 130 MW de nouvelle capacité de production et le premier réseau professionnel intelligent de batteries échangeables du Sahel.",
       "backgroundImage": "/assets/partner-herobg.webp"
     },
     {
       "type": "generation",
       "eyebrow": "PARTENARIATS PRODUCTION D'ABORD",
       "heading": "Alimentez la fondation : 130 MW de *nouvelle capacité pilotable*",
-      "intro": "La stratégie production d'abord de BaSuka débute avec quatre centrales thermiques à grande échelle fournissant 130 MW d'électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
+      "intro": "La stratégie production d'abord de BaSuka débute avec quatre centrales électriques à grande échelle fournissant 130 MW d'électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
       "items": [
         {
           "value": "130 MW",
@@ -25,7 +25,7 @@
         },
         {
           "value": "4",
-          "label": "Centrales thermiques à grande échelle"
+          "label": "Centrales électriques à grande échelle"
         },
         {
           "value": "5",
@@ -66,7 +66,7 @@
       "type": "cards",
       "eyebrow": "TROIS PILIERS DE PARTENARIAT",
       "heading": "Où nous avons besoin de votre expertise",
-      "intro": "Notre modèle de partenariat s'articule autour de trois piliers stratégiques. Chacun offre une voie d'intégration distincte dans le premier réseau d'infrastructure énergétique solaire activé par IoT du Burkina Faso.",
+      "intro": "Notre modèle de partenariat s'articule autour de trois piliers stratégiques. Chacun offre une voie d'intégration distincte dans le premier réseau d'infrastructure énergétique solaire activé par IoT en Afrique.",
       "items": [
         {
           "title": "FABRICANTS DE VE",
@@ -77,7 +77,7 @@
             "Dimensions de batteries optimisées pour l'IoT & protocoles BMS",
             "Co-ingénierie adaptée à la chaleur et à la poussière du Sahel",
             "Accès au réseau croissant de pilotes BaSuka",
-            "Stratégie conjointe de mise sur le marché pour le Burkina Faso et au-delà"
+            "Stratégie conjointe de mise sur le marché pour l'Afrique et au-delà"
           ]
         },
         {
@@ -114,7 +114,7 @@
       "items": [
         {
           "title": "Avantage du premier entrant",
-          "body": "BaSuka construit le premier réseau professionnel de batteries intelligentes échangeables au Burkina Faso. Les partenaires bénéficient de conditions d'intégration préférentielles et d'une position de pionnier sur un marché des VE en forte croissance."
+          "body": "BaSuka construit le premier réseau professionnel de batteries intelligentes échangeables en Afrique. Les partenaires bénéficient de conditions d'intégration préférentielles et d'une position de pionnier sur un marché des VE en forte croissance."
         },
         {
           "title": "Opérations professionnelles Yennenga",
@@ -122,7 +122,7 @@
         },
         {
           "title": "Fiabilité indépendante du réseau",
-          "body": "Les stations Swap & Glow™ solaires d’abord fonctionnent de manière résiliente hors réseau — notre réseau reste actif même pendant les fréquentes défaillances du réseau national burkinabè. Objectif de disponibilité de 99%+ dès le premier jour."
+          "body": "Les stations Swap & Glow™ solaires d’abord fonctionnent de manière résiliente hors réseau — notre réseau reste actif même pendant les fréquentes défaillances des réseaux nationaux en Afrique. Objectif de disponibilité de 99%+ dès le premier jour."
         },
         {
           "title": "Écosystème multi-usage SIRA™",
@@ -147,7 +147,7 @@
         },
         {
           "title": "Données de disponibilité opérationnelle",
-          "body": "Nous fournissons une redondance des données en direct et des métriques de disponibilité de 99%+ qui donnent à vos clients l'assurance de passer des véhicules thermiques aux véhicules électriques."
+          "body": "Nous fournissons une redondance des données en direct et des métriques de disponibilité de 99%+ qui donnent à vos clients l'assurance de passer des véhicules conventionnels aux véhicules électriques."
         }
       ]
     },
