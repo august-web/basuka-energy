@@ -583,6 +583,14 @@ const sectionId = (section: Section, idx: number): string | undefined => {
       case 'stats':
         return (
           <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-navy py-16 lg:py-20">
+            {section.backgroundImage && (
+              <OptimizedImage
+                src={section.backgroundImage}
+                alt=""
+                class="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-25 mix-blend-screen"
+                loading="lazy"
+              />
+            )}
             <div class="pointer-events-none absolute inset-0 opacity-[0.05]" style="background-image: radial-gradient(#fcde9e 1px, transparent 1px); background-size: 26px 26px;" aria-hidden="true" />
             <div class="pointer-events-none absolute -top-20 left-1/2 h-60 w-96 -translate-x-1/2 rounded-full bg-brand-green/10 blur-3xl" aria-hidden="true" />
             <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
