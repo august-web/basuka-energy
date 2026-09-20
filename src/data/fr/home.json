@@ -210,10 +210,21 @@
       ]
     },
     {
-      "type": "image",
+      "type": "cards",
       "heading": "Notre mission & vision",
-      "body": "Bâtir un avenir énergétique souverain pour le Burkina Faso\n\nBaSuka Energy fournit une électricité fiable et abordable — en commençant par une fondation de production de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Nous construisons un écosystème énergétique intégré, piloté par le client, qui soutient l'industrialisation, la souveraineté énergétique et la croissance inclusive là où l'accès au réseau échoue.",
-      "image": "/assets/our-mission.jpg",
+      "intro": "Bâtir un avenir énergétique souverain pour le Burkina Faso",
+      "items": [
+        {
+          "iconImage": "/assets/icon-mission.svg",
+          "title": "Mission",
+          "body": "BaSuka Energy fournit une électricité fiable et abordable — en commençant par une fondation de production de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
+        },
+        {
+          "iconImage": "/assets/icon-vision.svg",
+          "title": "Vision",
+          "body": "Un avenir énergétique souverain pour le Burkina Faso — un écosystème énergétique intégré, piloté par le client, qui soutient l'industrialisation, la souveraineté énergétique et la croissance inclusive là où l'accès au réseau échoue."
+        }
+      ],
       "ctas": [
         {
           "label": "Comment ça marche →",
