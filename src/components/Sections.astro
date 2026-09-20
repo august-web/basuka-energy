@@ -157,6 +157,18 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   )}
                 </div>
               </div>
+              {section.stats && section.stats.length > 0 && (
+                <div class="relative border-t border-white/10 bg-brand-navy/50 backdrop-blur-sm">
+                  <div class="mx-auto grid max-w-7xl grid-cols-2 gap-y-5 px-4 py-6 sm:px-6 md:grid-cols-4 lg:px-8">
+                    {section.stats.map((s: any) => (
+                      <div class="text-center">
+                        <p class="font-display text-2xl font-bold text-white sm:text-3xl">{s.value}</p>
+                        <p class="mt-1 text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-300">{s.label}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </section>
           );
         }
@@ -260,6 +272,18 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   </div>
                 </div>
               )}
+              {section.stats && section.stats.length > 0 && (
+                <div class="relative mt-12 border-t border-white/10 pt-10">
+                  <div class="grid grid-cols-2 gap-y-5 md:grid-cols-4">
+                    {section.stats.map((s: any) => (
+                      <div class="text-center">
+                        <p class="font-display text-2xl font-bold text-white sm:text-3xl">{s.value}</p>
+                        <p class="mt-1 text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-300">{s.label}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </section>
         );
@@ -301,6 +325,111 @@ const sectionId = (section: Section, idx: number): string | undefined => {
               {section.citation && (
                 <p class="mt-6 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">{section.citation}</p>
               )}
+            </div>
+          </section>
+        );
+
+      case 'map':
+        // Stylized Burkina Faso network map. Point coordinates are data-driven
+        // (lon/lat projected into the viewBox); pipeline markers are explicitly
+        // labeled as illustrative until the client confirms plant sites.
+        const project = (lon: number, lat: number): [number, number] => [
+          (lon + 5.6) * 50,
+          (15.2 - lat) * 75.86,
+        ];
+        return (
+          <section id={sectionId(section, idx)} class="py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              {section.eyebrow && (
+                <p class="eyebrow-rule mb-3 justify-center">
+                  <span class="ghost-numeral text-xl">{nextEyebrowNumber()}</span>
+                  {section.eyebrow}
+                </p>
+              )}
+              {section.heading && (
+                <h2 class="mx-auto max-w-3xl text-center text-4xl font-bold sm:text-5xl">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-brand-green-dark">{part.text}</span> : part.text
+                  )}
+                </h2>
+              )}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-600">{section.intro}</p>}
+              <div class="mt-12 grid items-center gap-12 lg:grid-cols-2">
+                <div class="fade-in relative mx-auto w-full max-w-md">
+                  <svg viewBox="0 0 400 440" class="w-full drop-shadow-sm" role="img" aria-label={section.heading ?? 'Map of the BaSuka network in Burkina Faso'}>
+                    <path
+                      d="M5 425 L65 414 L140 425 L205 418 L290 432 L330 401 L390 348 L400 288 L360 220 L315 167 L280 106 L250 23 L180 23 L75 15 L5 23 L10 129 L35 197 L5 250 L10 311 L40 371 Z"
+                      class="fill-brand-green/5 stroke-brand-green/50"
+                      stroke-width="2.5"
+                      stroke-linejoin="round"
+                    />
+                    <circle cx="204" cy="215" r="70" class="stroke-brand-green/25" stroke-width="1.5" stroke-dasharray="4 6" fill="none" />
+                    <circle cx="204" cy="215" r="120" class="stroke-brand-green/15" stroke-width="1.5" stroke-dasharray="4 6" fill="none" />
+                    {section.points?.map((p: any) => {
+                      const [x, y] = project(p.lon, p.lat);
+                      return p.status === 'pipeline' ? (
+                        <circle cx={x} cy={y} r="7" class="fill-white stroke-brand-green" stroke-width="3" stroke-dasharray="3 3">
+                          <title>{p.name}</title>
+                        </circle>
+                      ) : (
+                        <g>
+                          <circle cx={x} cy={y} r="16" class="map-pulse fill-brand-green/20" />
+                          <circle cx={x} cy={y} r="8" class="fill-brand-green" />
+                          <title>{p.name}</title>
+                        </g>
+                      );
+                    })}
+                  </svg>
+                </div>
+                <div class="space-y-4">
+                  {section.points?.map((p: any) => (
+                    <div class="flex items-start gap-4 rounded-2xl border border-brand-navy/8 bg-white p-5 shadow-sm transition hover:border-brand-green/30 hover:shadow-md">
+                      <span
+                        class:list={[
+                          'mt-1.5 h-3.5 w-3.5 shrink-0 rounded-full',
+                          p.status === 'pipeline' ? 'border-2 border-dashed border-brand-green bg-white' : 'bg-brand-green',
+                        ]}
+                        aria-hidden="true"
+                      />
+                      <div>
+                        <p class="font-bold text-brand-navy">{p.name}</p>
+                        <p class="mt-0.5 text-sm leading-6 text-slate-600">{p.label}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+
+      case 'timeline':
+        return (
+          <section id={sectionId(section, idx)} class="relative overflow-hidden bg-brand-navy py-20 lg:py-24">
+            <div class="pointer-events-none absolute -top-24 left-1/4 h-72 w-72 rounded-full bg-brand-green/10 blur-3xl" aria-hidden="true" />
+            <div class="pointer-events-none absolute -bottom-24 right-1/4 h-72 w-72 rounded-full bg-brand-cream/10 blur-3xl" aria-hidden="true" />
+            <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              {section.eyebrow && <p class="mb-3 text-center text-xs font-bold uppercase tracking-[0.2em] text-white/80">{section.eyebrow}</p>}
+              {section.heading && (
+                <h2 class="mx-auto max-w-3xl text-center text-4xl font-bold text-white sm:text-5xl">
+                  {accentify(section.heading).map((part) =>
+                    part.accent ? <span class="accent-serif text-white">{part.text}</span> : part.text
+                  )}
+                </h2>
+              )}
+              {section.intro && <p class="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-slate-300">{section.intro}</p>}
+              <ol class="relative mt-14 grid gap-12 md:grid-cols-3 md:gap-8">
+                <div class="absolute left-[16.66%] right-[16.66%] top-6 hidden h-px bg-gradient-to-r from-brand-green/10 via-brand-green/60 to-brand-cream/40 md:block" aria-hidden="true" />
+                {section.items?.map((item: any) => (
+                  <li class="relative text-center">
+                    <span class="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full border-2 border-brand-green bg-brand-navy font-display text-sm font-bold text-white ring-4 ring-brand-navy">
+                      {item.label}
+                    </span>
+                    <h3 class="mt-5 text-lg font-bold text-white">{item.title}</h3>
+                    <p class="mx-auto mt-2 max-w-xs text-sm leading-6 text-slate-400">{item.body}</p>
+                  </li>
+                ))}
+              </ol>
             </div>
           </section>
         );
