@@ -12,10 +12,11 @@
 
     },
     {
-      "type": "text",
+      "type": "image",
       "eyebrow": "Notre raison d'être",
       "heading": "Former les Yennenga Warriors",
-      "body": "L'Académie BaSuka est le pilier de développement des compétences et d'autonomisation des communautés de BaSuka. Elle prépare un vivier professionnel dirigé par des femmes pour la santé et la sécurité, les opérations de site et de terrain, l'engagement client et communautaire, les services énergétiques intelligents, le soutien aux batteries et au stockage, et les futures activités de mobilité propre."
+      "body": "L'Académie BaSuka est le pilier de développement des compétences et d'autonomisation des communautés de BaSuka. Elle prépare un vivier professionnel dirigé par des femmes pour la santé et la sécurité, les opérations de site et de terrain, l'engagement client et communautaire, les services énergétiques intelligents, le soutien aux batteries et au stockage, et les futures activités de mobilité propre.",
+      "image": "/assets/yennenga.jpg"
     },
     {
       "type": "cards",
