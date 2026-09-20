@@ -53,6 +53,7 @@ import img45 from '../assets/solar-panels.jpeg';
 import img46 from '../assets/solarhub.webp';
 import img47 from '../assets/swappables-burkina.webp';
 import img48 from '../assets/swappables.webp';
+import img49 from '../assets/yennenga.jpg';
 
 export const imageMap: Record<string, ImageMetadata> = {
   'about-hero.webp': img0,
@@ -104,4 +105,5 @@ export const imageMap: Record<string, ImageMetadata> = {
   'solarhub.webp': img46,
   'swappables-burkina.webp': img47,
   'swappables.webp': img48,
+  'yennenga.jpg': img49,
 };
