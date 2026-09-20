@@ -23,6 +23,24 @@
           "label": "Our Approach",
           "href": "/about-us-2/"
         }
+      ],
+      "stats": [
+        {
+          "value": "130 MW",
+          "label": "New dispatchable capacity"
+        },
+        {
+          "value": "4",
+          "label": "Thermal power plants"
+        },
+        {
+          "value": "15,000+",
+          "label": "Riders served"
+        },
+        {
+          "value": "100%",
+          "label": "Women-led workforce"
+        }
       ]
     },
     {
@@ -91,21 +109,31 @@
       ]
     },
     {
-      "type": "cards",
-      "heading": "The BaSuka Advantage",
-      "intro": "Six unmatched advantages that power Africa's clean energy transition",
-      "items": [
+      "type": "map",
+      "eyebrow": "The Network",
+      "heading": "Built for *all of Burkina Faso*",
+      "intro": "A national headquarters and pilot launch in Ouagadougou — the first node of a smart network that will extend swappable power across the country.",
+      "points": [
         {
-          "title": "Smart Electricity Network",
-          "body": "SIRA™ batteries provide reliable power for mobility and business backup, optimized by IoT tracking for maximum efficiency."
+          "name": "Ouagadougou",
+          "status": "hub",
+          "lon": -1.52,
+          "lat": 12.37,
+          "label": "National HQ · Pilot Swap & Glow™ launch"
         },
         {
-          "title": "Swap & Glow™ Stations",
-          "body": "Solar-first, vertical swap stations designed for the Sahel. Rugged, professional infrastructure that works even when the grid fails."
+          "name": "4 thermal plants · 130 MW",
+          "status": "pipeline",
+          "lon": 0.1,
+          "lat": 12.7,
+          "label": "Development pipeline — site selection underway"
         },
         {
-          "title": "Women-Led Infrastructure",
-          "body": "Managed by our Yennenga Warriors, our network builds deep community trust and operational excellence through professional female leadership."
+          "name": "SIRA™ smart network",
+          "status": "pipeline",
+          "lon": -2.6,
+          "lat": 13.2,
+          "label": "Swappable power for mobility, businesses & homes"
         }
       ]
     },
@@ -257,6 +285,29 @@
           "number": "04",
           "title": "Solar-First Charging",
           "body": "Ride with clean energy. Our solar-first stations keep you powered during national grid failures or blackouts."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "eyebrow": "The Road Ahead",
+      "heading": "From *foundation* to *full network*",
+      "intro": "A generation-first roadmap: firm power first, then a smart network delivered and run by Burkinabè professionals.",
+      "items": [
+        {
+          "label": "Now",
+          "title": "Generation first",
+          "body": "Development of four thermal power plants — 130 MW of new dispatchable capacity for the national grid."
+        },
+        {
+          "label": "Next",
+          "title": "Pilot launch — Ouagadougou",
+          "body": "First Swap & Glow™ stations go live with SIRA™ smart batteries, run by trained Yennenga Warriors."
+        },
+        {
+          "label": "Year 3",
+          "title": "Network at scale",
+          "body": "50+ stations deployed, 15,000+ riders served, 1,000+ women trained — the targets that define success."
         }
       ]
     },
