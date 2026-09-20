@@ -23,6 +23,24 @@
           "label": "Notre approche",
           "href": "/about-us-2/"
         }
+      ],
+      "stats": [
+        {
+          "value": "130 MW",
+          "label": "Nouvelle capacité pilotable"
+        },
+        {
+          "value": "4",
+          "label": "Centrales thermiques"
+        },
+        {
+          "value": "15 000+",
+          "label": "Utilisateurs servis"
+        },
+        {
+          "value": "100%",
+          "label": "Main-d'œuvre féminine"
+        }
       ]
     },
     {
@@ -91,21 +109,31 @@
       ]
     },
     {
-      "type": "cards",
-      "heading": "L'avantage BaSuka",
-      "intro": "Six avantages inégalés qui propulsent la transition énergétique propre de l'Afrique",
-      "items": [
+      "type": "map",
+      "eyebrow": "Le réseau",
+      "heading": "Conçu pour *tout le Burkina Faso*",
+      "intro": "Un siège national et un lancement pilote à Ouagadougou — le premier nœud d'un réseau intelligent qui étendra l'énergie échangeable à tout le pays.",
+      "points": [
         {
-          "title": "Réseau électrique intelligent",
-          "body": "Les batteries SIRA™ fournissent une énergie fiable pour la mobilité et l'alimentation de secours des entreprises, optimisées par le suivi IoT pour une efficacité maximale."
+          "name": "Ouagadougou",
+          "status": "hub",
+          "lon": -1.52,
+          "lat": 12.37,
+          "label": "Siège national · Lancement pilote des stations Swap & Glow™"
         },
         {
-          "title": "Stations Swap & Glow™",
-          "body": "Stations d'échange verticales solaires d'abord, conçues pour le Sahel. Une infrastructure robuste et professionnelle qui fonctionne même en cas de défaillance du réseau."
+          "name": "4 centrales thermiques · 130 MW",
+          "status": "pipeline",
+          "lon": 0.1,
+          "lat": 12.7,
+          "label": "Pipeline de développement — sélection des sites en cours"
         },
         {
-          "title": "Infrastructure dirigée par des femmes",
-          "body": "Géré par nos Yennenga Warriors, notre réseau bâtit une profonde confiance communautaire et l'excellence opérationnelle grâce à un leadership féminin professionnel."
+          "name": "Réseau intelligent SIRA™",
+          "status": "pipeline",
+          "lon": -2.6,
+          "lat": 13.2,
+          "label": "Énergie échangeable pour la mobilité, les entreprises et les foyers"
         }
       ]
     },
@@ -257,6 +285,29 @@
           "number": "04",
           "title": "Charge solaire d'abord",
           "body": "Roulez avec une énergie propre. Nos stations solaires d'abord vous garantissent de l'énergie même pendant les défaillances ou coupures nationales."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "eyebrow": "La feuille de route",
+      "heading": "De la *fondation* au *réseau complet*",
+      "intro": "Une feuille de route « génération d'abord » : une puissance pilotable, puis un réseau intelligent livré et opéré par des professionnels burkinabè.",
+      "items": [
+        {
+          "label": "Maintenant",
+          "title": "La génération d'abord",
+          "body": "Développement de quatre centrales thermiques — 130 MW de nouvelle capacité pilotable pour le réseau national."
+        },
+        {
+          "label": "Prochainement",
+          "title": "Lancement pilote — Ouagadougou",
+          "body": "Premières stations Swap & Glow™ avec batteries intelligentes SIRA™, opérées par des Yennenga Warriors formées."
+        },
+        {
+          "label": "Année 3",
+          "title": "Le réseau à l'échelle",
+          "body": "50+ stations déployées, 15 000+ utilisateurs servis, 1 000+ femmes formées — les objectifs qui définissent le succès."
         }
       ]
     },
