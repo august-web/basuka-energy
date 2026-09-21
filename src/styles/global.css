@@ -89,6 +89,14 @@
     @apply h-px w-10 bg-brand-green;
   }
 
+  /* cream variant of the eyebrow rule for photo heroes */
+  .eyebrow-rule-cream {
+    @apply text-brand-cream;
+  }
+  .eyebrow-rule-cream::before {
+    @apply bg-brand-cream/80;
+  }
+
   /* sweeping underline for inline links */
   .link-sweep {
     background-image: linear-gradient(currentColor, currentColor);
