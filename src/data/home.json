@@ -94,7 +94,7 @@
       "type": "map",
       "eyebrow": "The Network",
       "heading": "Built for *all of Africa*",
-      "intro": "A national headquarters and pilot launch in Ouagadougou — the first node of a smart network that will extend swappable power across the country.",
+      "intro": "A national headquarters and pilot launch in Ouagadougou — the first node of a smart network that will extend swappable power across the continent.",
       "image": "/assets/network-map.webp",
       "points": [
         {
@@ -150,7 +150,7 @@
       "items": [
         {
           "title": "The Grid-Access Gap",
-          "body": "Over 80% of the region lacks reliable electricity access.\n\nBaSuka Solution: Solar-powered stations provide energy independence."
+          "body": "Over 80% of Burkina Faso lacks reliable electricity access.\n\nBaSuka Solution: Solar-powered stations provide energy independence."
         },
         {
           "title": "Professional Swap Stations",
