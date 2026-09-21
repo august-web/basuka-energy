@@ -114,10 +114,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
               <div class="relative mx-auto flex min-h-[36rem] max-w-7xl items-center px-4 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
                 <div class="max-w-2xl">
                   {section.eyebrow && (
-                    <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-brand-cream/30 bg-brand-navy/50 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-cream backdrop-blur-sm">
-                      <span class="inline-block h-1.5 w-1.5 rounded-full bg-brand-cream" aria-hidden="true" />
-                      {section.eyebrow}
-                    </p>
+                    <p class="eyebrow-rule eyebrow-rule-cream mb-5">{section.eyebrow}</p>
                   )}
                   <h1 class="text-4xl font-bold leading-[1.05] tracking-tight text-white drop-shadow-md sm:text-6xl lg:text-[5rem]">
                     {accentify(section.heading).map((part) =>
@@ -201,10 +198,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                   </nav>
                 )}
                 {section.eyebrow && (
-                  <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-brand-cream/30 bg-brand-green/15 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-cream">
-                    <span class="inline-block h-1.5 w-1.5 rounded-full bg-brand-cream" aria-hidden="true" />
-                    {section.eyebrow}
-                  </p>
+                  <p class="eyebrow-rule eyebrow-rule-cream mb-5">{section.eyebrow}</p>
                 )}
                 <h1 class="text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-[5rem]">
                   {accentify(section.heading).map((part) =>
