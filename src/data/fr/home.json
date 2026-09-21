@@ -6,7 +6,7 @@
       "type": "hero",
       "eyebrow": "Éclairer l'Afrique. Bâtir un avenir énergétique souverain.",
       "heading": "Nous bâtissons. Nous alimentons. Nous *transformons*.",
-      "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales électriques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable à l'Afrique.",
+      "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales électriques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable pour l'Afrique.",
       "backgroundImage": "/assets/homepage-hero.webp",
       "chips": [
         "4 centrales électriques",
@@ -94,7 +94,7 @@
       "type": "map",
       "eyebrow": "Le réseau",
       "heading": "Conçu pour *toute l'Afrique*",
-      "intro": "Un siège national et un lancement pilote à Ouagadougou — le premier nœud d'un réseau intelligent qui étendra l'énergie échangeable à tout le pays.",
+      "intro": "Un siège national et un lancement pilote à Ouagadougou — le premier nœud d'un réseau intelligent qui étendra l'énergie échangeable à tout le continent.",
       "image": "/assets/network-map.webp",
       "points": [
         {
@@ -150,7 +150,7 @@
       "items": [
         {
           "title": "Accès limité au réseau",
-          "body": "Plus de 80% de la région n'a pas d'accès fiable à l'électricité.\n\nSolution BaSuka : des stations solaires garantissent l'indépendance énergétique."
+          "body": "Plus de 80 % du Burkina Faso n'a pas d'accès fiable à l'électricité.\n\nSolution BaSuka : des stations solaires garantissent l'indépendance énergétique."
         },
         {
           "title": "Stations d'échange professionnelles",
@@ -223,7 +223,7 @@
     {
       "type": "steps",
       "eyebrow": "Comment ça marche",
-      "heading": "Le *réseau électrique intelligent* d'Afrique",
+      "heading": "Le *réseau électrique intelligent* de l'Afrique",
       "intro": "BaSuka Energy fournit une énergie fiable et abordable grâce à une plateforme production d'abord de 130 MW de capacité pilotable, étendue par des batteries SIRA™ intelligentes et échangeables. Nos stations solaires d'abord sont conçues pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
       "items": [
         {
