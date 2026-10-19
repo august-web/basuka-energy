@@ -106,8 +106,27 @@ const sectionId = (section: Section, idx: number): string | undefined => {
               : { src: s.src, mobileSrc: s.mobileSrc, position: s.position }
           );
           const slideshow = slides.length > 1;
+          // Crossfade loop length scales with slide count (6s per slide);
+          // keyframe percentages are computed so fades stay ~0.72s regardless.
+          const cycle = slides.length * 6;
+          const pct = (sec: number) => ((sec / cycle) * 100).toFixed(3);
+          const slideshowCss = slideshow
+            ? `.hero-slide { opacity: 0; animation: hero-slide-fade ${cycle}s linear infinite; }
+               .hero-slideshow:hover .hero-slide, .hero-slideshow:focus-within .hero-slide { animation-play-state: paused; }
+               @keyframes hero-slide-fade {
+                 0% { opacity: 0; }
+                 ${pct(0.72)}% { opacity: 1; }
+                 ${pct(6)}% { opacity: 1; }
+                 ${pct(6.72)}% { opacity: 0; }
+                 100% { opacity: 0; }
+               }`
+            : '';
           return (
-            <section class:list={['relative isolate overflow-hidden bg-brand-navy', slideshow && 'hero-slideshow']}>
+            <section
+              class:list={['relative isolate overflow-hidden bg-brand-navy', slideshow && 'hero-slideshow']}
+              style={slideshow ? `--hero-cycle: ${cycle}s` : undefined}
+            >
+              {slideshow && <style is:global set:html={slideshowCss} />}
               {slides.map((slide, i) => (
                 <>
                   {slide.mobileSrc ? (
