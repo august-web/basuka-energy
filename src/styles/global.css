@@ -103,21 +103,16 @@
     opacity: 0;
     animation: hero-slide-fade 18s linear infinite;
   }
+  .hero-slideshow:hover .hero-slide,
+  .hero-slideshow:focus-within .hero-slide {
+    animation-play-state: paused;
+  }
   @keyframes hero-slide-fade {
     0% { opacity: 0; }
     4% { opacity: 1; }
     33.333% { opacity: 1; }
     37.333% { opacity: 0; }
     100% { opacity: 0; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .hero-slide {
-      animation: none;
-      opacity: 0;
-    }
-    .hero-slide--first {
-      opacity: 1;
-    }
   }
 
   /* sweeping underline for inline links */
@@ -314,6 +309,12 @@
      re-assert over the universal reduced-motion kill */
   .marquee-track {
     animation: marquee 28s linear infinite !important;
+  }
+  /* hero crossfade is opacity-only (no movement), so it also keeps cycling
+     under reduced motion (owner request); hover-to-pause is the manual control */
+  .hero-slide {
+    animation-duration: 18s !important;
+    animation-iteration-count: infinite !important;
   }
 }
 
