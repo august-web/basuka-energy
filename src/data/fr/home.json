@@ -7,7 +7,11 @@
       "eyebrow": "Éclairer l'Afrique. Bâtir un avenir énergétique souverain.",
       "heading": "Nous bâtissons. Nous alimentons. Nous *transformons*.",
       "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales électriques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable pour l'Afrique.",
-      "backgroundImage": "/assets/homepage-hero.webp",
+      "backgroundImages": [
+        "/assets/homepage-hero.webp",
+        "/assets/impact-2.webp",
+        "/assets/desktop-homepage2.jpg"
+      ],
       "chips": [
         "4 centrales électriques",
         "130 MW de nouvelle capacité",
@@ -202,7 +206,7 @@
       "items": [
         {
           "title": "Économique",
-          "body": "200+ emplois créés\n10 M$+ d'activité économique locale générée\n80%+ de fidélisation des clients et du personnel\n2-3× le salaire moyen local"
+          "body": "200+ emplois créés\n10 M$+ d'activité économique locale générée\n80%+ de fidélisation des clients et du personnel"
         },
         {
           "title": "Environnemental",
