@@ -28,16 +28,12 @@
           "body": "Programme intensif de 8 semaines sans frais pour les participantes"
         },
         {
-          "title": "Placement garanti",
-          "body": "Emploi de cheffe de station — avec des parcours vers les opérations de site, le support batterie et les rôles de mobilité propre à travers l'écosystème"
-        },
-        {
-          "title": "Salaire compétitif",
-          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+          "title": "Parcours de placement",
+          "body": "Les diplômées certifiées rejoignent notre vivier de talents prioritaire pour les rôles de cheffe de station — avec des parcours vers les opérations de site, le support batterie et les rôles de mobilité propre à travers l'écosystème"
         },
         {
           "title": "Évolution vers cheffe régionale, formatrice ou postes de direction",
-          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+          "body": "Évolution vers des rôles de cheffe régionale, formatrice ou de direction à mesure que le réseau se déploie"
         },
         {
           "title": "Certification professionnelle",
@@ -137,8 +133,8 @@
           }
         },
         {
-          "title": "Progression des revenus",
-          "body": "Nous visons à ce que nos diplômées gagnent 2–3× le salaire minimum local grâce à notre modèle de commission lié à la performance",
+          "title": "Modèle lié à la performance",
+          "body": "Les rôles de station fonctionnent selon un modèle de commission lié à la performance — les récompenses évoluent avec la croissance du réseau",
           "button": {
             "label": "Postuler maintenant"
           }
@@ -154,7 +150,7 @@
     },
     {
       "type": "cta",
-      "eyebrow": "opportunité financière",
+      "eyebrow": "opportunité de carrière",
       "heading": "Prête à passer à l'échelle ?Rejoignez la transition",
       "body": "Sécurisez votre place dans l'infrastructure énergétique dirigée par des femmes la plus fiable d'Afrique de l'Ouest",
       "ctas": [
@@ -195,11 +191,11 @@
         },
         {
           "q": "La diplômé garantit-elle un emploi ?",
-          "a": "Notre objectif est d'affecter chaque diplômée certifiée à une station. Bien que l'affectation dépende des stations disponibles dans votre région, toutes les diplômées rejoignent notre vivier de talents prioritaire pour les nouveaux lancements de stations et les postes de supervision."
+          "a": "L'obtention du diplôme ne garantit pas un emploi. Les diplômées certifiées rejoignent notre vivier de talents prioritaire pour les nouveaux lancements de stations et les postes de supervision, selon la disponibilité des stations dans leur région."
         },
         {
-          "q": "Quel est le salaire d'une Cheffe de Station ?",
-          "a": "Nous utilisons un modèle de commission lié à la performance, conçu pour récompenser l'excellence. Notre objectif est que les cheffes certifiées gagnent 2–3× le salaire minimum local."
+          "q": "Comment les rôles de Cheffe de Station sont-ils rémunérés ?",
+          "a": "Les rôles de station fonctionnent selon un modèle de commission lié à la performance. Les revenus varient selon la performance de la station et sont présentés lors de l'intégration."
         },
         {
           "q": "Comment postuler ?",
