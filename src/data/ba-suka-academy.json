@@ -28,16 +28,12 @@
           "body": "8-week intensive program at no cost to participants"
         },
         {
-          "title": "Guaranteed Placement",
-          "body": "Job placement as station manager — with pathways into site operations, battery support, and clean-mobility roles across the ecosystem"
-        },
-        {
-          "title": "Competitive Salary",
-          "body": "2-3× local average wage ($300-500/month)"
+          "title": "Placement Pathways",
+          "body": "Certified graduates join our priority talent pool for station manager roles — with pathways into site operations, battery support, and clean-mobility roles across the ecosystem"
         },
         {
           "title": "Pathway to regional manager, trainer, or leadership roles",
-          "body": "2-3× local average wage ($300-500/month)"
+          "body": "Career growth into regional manager, trainer, or leadership roles as the network expands"
         },
         {
           "title": "Professional Certification",
@@ -138,8 +134,8 @@
           }
         },
         {
-          "title": "Income Advancement",
-          "body": "We aim for our graduates to earn 2–3× the local minimum wage through our performance-linked commission model",
+          "title": "Performance-Linked Model",
+          "body": "Station roles operate on a performance-linked commission model — rewards grow as the network grows",
           "button": {
             "label": "Apply Now"
           }
@@ -155,7 +151,7 @@
     },
     {
       "type": "cta",
-      "eyebrow": "A FINANCIAL OPPORTUNITY",
+      "eyebrow": "A CAREER OPPORTUNITY",
       "heading": "Ready to scale? Join the transition",
       "body": "Secure your place in West Africa's most trusted women-led energy infrastructure",
       "ctas": [
@@ -197,11 +193,11 @@
         },
         {
           "q": "Does graduation guarantee a job?",
-          "a": "Our goal is to assign every certified graduate to a station. While assignment depends on station availability in your area, all graduates are entered into our priority talent pool for new station launches and supervisory roles"
+          "a": "Graduation does not guarantee a job. Certified graduates enter our priority talent pool for new station launches and supervisory roles, subject to station availability in their region."
         },
         {
-          "q": "What are the earnings for a Station Manager?",
-          "a": "We use a performance-linked commission model designed to reward excellence. Our target is for certified managers to earn 2–3× the local minimum wage."
+          "q": "How are Station Manager roles compensated?",
+          "a": "Station roles operate on a performance-linked commission model. Earnings vary with station performance and are discussed during onboarding."
         },
         {
           "q": "How do I apply?",
