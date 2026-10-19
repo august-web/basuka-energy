@@ -17,6 +17,7 @@ interface Props {
   fetchpriority?: 'high' | 'low' | 'auto';
   width?: number;
   height?: number;
+  style?: string;
 }
 
 const {
@@ -29,6 +30,7 @@ const {
   fetchpriority,
   width,
   height,
+  style,
 } = Astro.props;
 
 const resolved = resolveImage(src);
@@ -47,10 +49,11 @@ const isOptimizable = typeof resolved === 'object';
       fetchpriority={fetchpriority}
       width={width}
       height={height}
+      style={style}
       format="webp"
       quality={80}
     />
   ) : (
-    <img src={resolved} alt={alt} class={className} loading={loading} fetchpriority={fetchpriority} width={width} height={height} />
+    <img src={resolved} alt={alt} class={className} loading={loading} fetchpriority={fetchpriority} width={width} height={height} style={style} />
   )
 }
