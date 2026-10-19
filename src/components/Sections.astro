@@ -112,7 +112,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
           const pct = (sec: number) => ((sec / cycle) * 100).toFixed(3);
           const slideshowCss = slideshow
             ? `.hero-slide { opacity: 0; animation: hero-slide-fade ${cycle}s linear infinite; }
-               .hero-slideshow:hover .hero-slide, .hero-slideshow:focus-within .hero-slide { animation-play-state: paused; }
+               .hero-slideshow:focus-within .hero-slide { animation-play-state: paused; }
                @keyframes hero-slide-fade {
                  0% { opacity: 0; }
                  ${pct(0.72)}% { opacity: 1; }
