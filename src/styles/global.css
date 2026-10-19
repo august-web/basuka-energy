@@ -97,23 +97,9 @@
     @apply bg-brand-cream/80;
   }
 
-  /* Hero background slideshow: 3-slide cycle, 6s per slide (18s loop);
-     per-slide animation-delay is set inline in Sections.astro. */
-  .hero-slide {
-    opacity: 0;
-    animation: hero-slide-fade 18s linear infinite;
-  }
-  .hero-slideshow:hover .hero-slide,
-  .hero-slideshow:focus-within .hero-slide {
-    animation-play-state: paused;
-  }
-  @keyframes hero-slide-fade {
-    0% { opacity: 0; }
-    4% { opacity: 1; }
-    33.333% { opacity: 1; }
-    37.333% { opacity: 0; }
-    100% { opacity: 0; }
-  }
+  /* Hero slideshow crossfade rules are injected per-hero from Sections.astro
+     (cycle length depends on slide count); the reduced-motion exemption below
+     relies on the --hero-cycle variable set on the hero section. */
 
   /* sweeping underline for inline links */
   .link-sweep {
@@ -313,7 +299,7 @@
   /* hero crossfade is opacity-only (no movement), so it also keeps cycling
      under reduced motion (owner request); hover-to-pause is the manual control */
   .hero-slide {
-    animation-duration: 18s !important;
+    animation-duration: var(--hero-cycle, 18s) !important;
     animation-iteration-count: infinite !important;
   }
 }
