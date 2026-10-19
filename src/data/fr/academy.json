@@ -28,16 +28,12 @@
           "body": "Programme intensif de 8 semaines sans frais pour les participantes"
         },
         {
-          "title": "Placement garanti",
-          "body": "Emploi de cheffe de station — avec des parcours vers les opérations de site, le support batterie et les rôles de mobilité propre à travers l'écosystème"
-        },
-        {
-          "title": "Salaire compétitif",
-          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+          "title": "Parcours de placement",
+          "body": "Les diplômées certifiées rejoignent notre vivier de talents prioritaire pour les rôles de cheffe de station — avec des parcours vers les opérations de site, le support batterie et les rôles de mobilité propre à travers l'écosystème"
         },
         {
           "title": "Évolution vers cheffe régionale, formatrice ou postes de direction",
-          "body": "2-3× le salaire moyen local (300-500 $/mois)"
+          "body": "Évolution vers des rôles de cheffe régionale, formatrice ou de direction à mesure que le réseau se déploie"
         },
         {
           "title": "Certification professionnelle",
@@ -125,11 +121,11 @@
         },
         {
           "q": "La participation est-elle payante ?",
-          "a": "Les frais de formation sont actuellement pris en charge par BaSuka Energy. De plus amples détails sur la bourse et le soutien au quotidien seront confirmés au moment de la candidature."
+          "a": "Les frais de formation sont actuellement pris en charge par BaSuka Energy. De plus amples détails seront confirmés au moment de la candidature."
         },
         {
           "q": "La diplômé garantit-elle un emploi ?",
-          "a": "Notre objectif est d'affecter chaque diplômée certifiée à une station. L'affectation dépend des stations disponibles dans votre région, mais toutes les diplômées rejoignent notre vivier de talents prioritaire pour les nouveaux lancements et les postes de supervision."
+          "a": "L'obtention du diplôme ne garantit pas un emploi. Les diplômées certifiées rejoignent notre vivier de talents prioritaire pour les nouveaux lancements et les postes de supervision, selon la disponibilité des stations dans leur région."
         },
         {
           "q": "Comment postuler ?",
@@ -139,7 +135,7 @@
     },
     {
       "type": "cta",
-      "eyebrow": "opportunité financière",
+      "eyebrow": "opportunité de carrière",
       "heading": "Prête à mener la révolution énergétique propre",
       "body": [
         "Les candidatures sont ouvertes pour la prochaine cohorte. Rejoignez les femmes qui bâtissent l'infrastructure énergétique la plus fiable d'Afrique de l'Ouest.",
@@ -166,8 +162,8 @@
           }
         },
         {
-          "title": "Progression des revenus",
-          "body": "Nous visons à ce que nos diplômées gagnent 2–3× le salaire minimum local grâce à notre modèle de commission lié à la performance",
+          "title": "Modèle lié à la performance",
+          "body": "Les rôles de station fonctionnent selon un modèle de commission lié à la performance — les récompenses évoluent avec la croissance du réseau",
           "button": {
             "label": "Postuler maintenant"
           }
