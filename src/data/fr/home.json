@@ -11,6 +11,7 @@
         "/assets/heroimage.jpg",
         {
           "src": "/assets/swappable-battery.jpg",
+          "mobileSrc": "/assets/swappable-mobile.png",
           "position": "65% 50%"
         },
         "/assets/desktop-homepage2.jpg"
