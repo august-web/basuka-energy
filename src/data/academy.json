@@ -28,16 +28,12 @@
           "body": "8-week intensive program at no cost to participants"
         },
         {
-          "title": "Guaranteed Placement",
-          "body": "Job placement as station manager — with pathways into site operations, battery support, and clean-mobility roles across the ecosystem"
-        },
-        {
-          "title": "Competitive Salary",
-          "body": "2-3× local average wage ($300-500/month)"
+          "title": "Placement Pathways",
+          "body": "Certified graduates join our priority talent pool for station manager roles — with pathways into site operations, battery support, and clean-mobility roles across the ecosystem"
         },
         {
           "title": "Pathway to regional manager, trainer, or leadership roles",
-          "body": "2-3× local average wage ($300-500/month)"
+          "body": "Career growth into regional manager, trainer, or leadership roles as the network expands"
         },
         {
           "title": "Professional Certification",
@@ -125,11 +121,11 @@
         },
         {
           "q": "Is there a cost to Participate ?",
-          "a": "Training costs are currently covered by BaSuka Energy. Further details on stipend and living support will be confirmed at the application stage."
+          "a": "Training costs are currently covered by BaSuka Energy. Further details will be confirmed at the application stage."
         },
         {
           "q": "Does Graduation Guarantee Employment ?",
-          "a": "Our goal is to assign every certified graduate to a station. Placement depends on station availability in your region, but all graduates enter our priority talent pool for new launches and supervisory roles."
+          "a": "Graduation does not guarantee employment. Certified graduates enter our priority talent pool for new launches and supervisory roles, subject to station availability in their region."
         },
         {
           "q": "How do I apply?",
@@ -139,7 +135,7 @@
     },
     {
       "type": "cta",
-      "eyebrow": "A FINANCIAL OPPORTUNITY",
+      "eyebrow": "A CAREER OPPORTUNITY",
       "heading": "Ready to Lead the Clean-energy revolution",
       "body": [
         "Applications are open for the next cohort. Join the women building West Africa’s most trusted energy infrastructure.",
@@ -166,8 +162,8 @@
           }
         },
         {
-          "title": "Income Advancement",
-          "body": "We aim for our graduates to earn 2–3× the local minimum wage through our performance-linked commission model",
+          "title": "Performance-Linked Model",
+          "body": "Station roles operate on a performance-linked commission model — rewards grow as the network grows",
           "button": {
             "label": "Apply Now"
           }
