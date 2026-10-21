@@ -1,6 +1,6 @@
 {
   "title": "Partners - BaSuka Energy",
-  "metaDescription": "Partner with BaSuka Energy to build Africa's sovereign energy future: 130 MW of new generation capacity plus clean-energy infrastructure. Partnerships for investors, fuel suppliers, EPC firms, EV manufacturers, and technology providers.",
+  "metaDescription": "Partner with BaSuka Energy to build Africa's sovereign energy future: new dispatchable generation capacity plus clean-energy infrastructure. Partnerships for investors, fuel suppliers, EPC firms, EV manufacturers, and technology providers.",
   "sections": [
     {
       "type": "hero",
@@ -10,14 +10,14 @@
         "Home",
         "Partners"
       ],
-      "body": "We are selecting strategic partners to help build Africa’s sovereign energy future — fuel suppliers, engineering and EPC firms, infrastructure and climate funds, EV manufacturers, technology providers, and public-sector allies who want to co-build 130 MW new generation capacity in Africa and the Sahel's first professional smart battery-swap network.",
+      "body": "We are selecting strategic partners to help build Africa’s sovereign energy future — fuel suppliers, engineering and EPC firms, infrastructure and climate funds, EV manufacturers, technology providers, and public-sector allies who want to co-build new dispatchable generation capacity in Africa and the Sahel's first professional smart battery-swap network.",
       "backgroundImage": "/assets/partner-herobg.webp"
     },
     {
       "type": "generation",
       "eyebrow": "GENERATION-FIRST PARTNERSHIPS",
-      "heading": "Power the foundation: 130 MW of *new dispatchable capacity*",
-      "intro": "BaSuka's generation-first strategy begins with four utility-scale power plants delivering 130 MW of reliable, dispatchable electricity. We are securing strategic fuel, technology, engineering, financing, and public-sector partnerships to deliver this foundation.",
+      "heading": "Power the foundation: *new dispatchable generation capacity*",
+      "intro": "BaSuka's generation-first strategy begins with planned utility-scale power plants delivering reliable, dispatchable electricity. We are securing strategic fuel, technology, engineering, financing, and public-sector partnerships to deliver this foundation.",
       "items": [
         {
           "value": "New Generation Capacity"
@@ -181,7 +181,7 @@
       "type": "cta",
       "eyebrow": "READY TO BUILD THE FUTURE OF AFRICAN ENERGY?",
       "heading": "We are selecting partners for our generation foundation and smart network",
-      "body": "BaSuka Energy is opening its 130 MW generation foundation and SIRA™ network to a focused group of strategic partners — fuel suppliers, engineering firms, infrastructure funds, EV manufacturers, technology providers, and public-sector allies. Reach out today to start the conversation."},
+      "body": "BaSuka Energy is opening its generation foundation and SIRA™ network to a focused group of strategic partners — fuel suppliers, engineering firms, infrastructure funds, EV manufacturers, technology providers, and public-sector allies. Reach out today to start the conversation."},
     {
       "type": "form",
       "id": "partner-form",
