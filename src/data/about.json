@@ -1,13 +1,13 @@
 {
   "title": "About Us - BaSuka Energy",
-  "metaDescription": "BaSuka (meaning 'women's home' in Mooré) builds Africa's sovereign energy future: 130 MW of new generation capacity plus a smart, women-led electricity network powered by swappable SIRA™ batteries.",
+  "metaDescription": "BaSuka (meaning 'women's home' in Mooré) builds Africa's sovereign energy future: new dispatchable generation capacity plus a smart, women-led electricity network powered by swappable SIRA™ batteries.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Who We Are | Advanced Electricity Infrastructure",
       "heading": "About Us",
       "breadcrumb": ["Home", "About Us"],
-      "body": "BaSuka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company powering Africa's sovereign energy future. We start with a generation-first foundation — four power plants delivering 130 MW of new dispatchable capacity — then extend through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built specifically for the rugged Sahel environment.",
+      "body": "BaSuka (meaning 'women's home' in Mooré) is a women-led energy and infrastructure company powering Africa's sovereign energy future. We start with a generation-first foundation — planned utility-scale power plants delivering new dispatchable generation capacity — then extend through smart, swappable SIRA™ batteries that power electric mobility, businesses, and homes. Led by Carolyn Wright, our women-managed infrastructure is built specifically for the rugged Sahel environment.",
 
       "backgroundImage": "/assets/about-us.jpg",
       "ctas": [
@@ -47,7 +47,7 @@
         {
           "iconImage": "/assets/icon-mission.svg",
           "title": "Our Mission",
-          "body": "BaSuka Energy delivers reliable, affordable electricity across Africa — beginning with a generation-first foundation of 130 MW of new dispatchable capacity, then extending through smart, portable, swappable batteries that power electric mobility, businesses, and homes."
+          "body": "BaSuka Energy delivers reliable, affordable electricity across Africa — beginning with a generation-first foundation of new dispatchable generation capacity, then extending through smart, portable, swappable batteries that power electric mobility, businesses, and homes."
         },
         {
           "iconImage": "/assets/icon-vision.svg",
@@ -67,7 +67,7 @@
         },
         {
           "title": "Reliable → Generation First",
-          "body": "Four power plants will provide the dependable electricity required by the national grid, industry, mining, agriculture, businesses, homes, and communities.",
+          "body": "Planned utility-scale power plants will provide the dependable electricity required by the national grid, industry, mining, agriculture, businesses, homes, and communities.",
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
