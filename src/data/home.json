@@ -179,8 +179,12 @@
       "type": "cards",
       "eyebrow": "The Solution",
       "heading": "The BaSuka *Advantage*",
-      "intro": "Six unmatched advantages that power Africa's clean energy transition",
+      "intro": "Seven connected advantages supporting Africa's energy infrastructure and mobility transition.",
       "items": [
+        {
+          "title": "Generation-First Infrastructure",
+          "body": "Planned utility-scale power plants and new dispatchable generation capacity form the foundation of BaSuka's strategy—strengthening electricity supply for industry, businesses, and communities while supporting future energy services."
+        },
         {
           "title": "Data Management System",
           "body": "Real-time network optimization using IoT data to monitor battery health, location, and station demand across Africa."
@@ -211,18 +215,32 @@
       "type": "cards",
       "eyebrow": "Year 3 Targets",
       "heading": "Built to Create *Lasting Impact*",
-      "intro": "Three pillars of impact: People, Planet, and Profit",
+      "intro": "Building the foundation for reliable power, economic opportunity, and lasting impact.",
       "items": [
         {
+          "title": "Power Generation & Infrastructure",
+          "subtitle": "Target",
+          "bullets": [
+            "Advance Utility-Scale Power Plant Development",
+            "Progress Technical Studies, Permitting & Grid-Connection Planning",
+            "Develop Fuel, Engineering & Financing Partnerships",
+            "Prepare Local Workforce Training for Infrastructure Operations"
+          ],
+          "note": "These are proposed development milestones, not confirmed Year 3 commitments."
+        },
+        {
           "title": "Economic",
+          "subtitle": "Target",
           "body": "200+ Jobs Created\n$10M+ Local Economic Activity Generated\n80%+ Customer & Staff Retention"
         },
         {
           "title": "Environmental",
-          "body": "1,200 Tonnes CO₂ Avoided Annually\n100% Solar-First Stations\n70%+ Battery Reuse/Recycling\n50+ Stations Deployed"
+          "subtitle": "Target",
+          "body": "1,200 Tonnes CO₂ Avoided Annually (estimated vs. a fossil-grid charging baseline)\n100% Solar-First Stations\n70%+ Battery Reuse/Recycling\n50+ Stations Deployed"
         },
         {
           "title": "Social",
+          "subtitle": "Target",
           "body": "1,000+ Women Trained\n60+ Yennenga Warriors Employed\n100% Women Station Leads\n15,000+ Riders Served"
         }
       ],
@@ -237,25 +255,30 @@
       "type": "steps",
       "eyebrow": "How It Works",
       "heading": "Africa's *Smart Electricity Network*",
-      "intro": "BaSuka Energy delivers reliable, affordable power through a generation-first platform of new dispatchable generation capacity, extending through smart, swappable SIRA™ batteries. Our solar-first stations are built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
+      "intro": "BaSuka Energy's generation-first strategy begins with planned utility-scale power plants to strengthen electricity supply. From this foundation, we aim to expand into smart energy services, solar-first stations, and swappable SIRA™ batteries for mobility, businesses, and homes.",
       "items": [
         {
           "number": "01",
+          "title": "Power Generation & Infrastructure",
+          "body": "BaSuka plans to develop utility-scale power plants and coordinate grid connections to supply dependable electricity—the foundation for its broader energy and mobility platform."
+        },
+        {
+          "number": "02",
           "title": "SIRA™ Smart Swapping",
           "body": "Riders arrive at a Swap & Glow™ station and exchange their depleted SIRA™ battery for a fully charged unit in under 60 seconds — assisted by a Yennenga Warrior."
         },
         {
-          "number": "02",
+          "number": "03",
           "title": "Pay-Per-Swap Access",
           "body": "Simple, affordable energy. Pay via mobile money only for the energy you use. No expensive battery ownership costs for riders or business owners."
         },
         {
-          "number": "03",
+          "number": "04",
           "title": "The BaSuka Academy",
           "body": "Our Yennenga Warriors complete professional training in PV fundamentals, SIRA™ battery diagnostics, and IoT station management to ensure elite service."
         },
         {
-          "number": "04",
+          "number": "05",
           "title": "Solar-First Charging",
           "body": "Ride with clean energy. Our solar-first stations keep you powered during national grid failures or blackouts."
         }
