@@ -13,7 +13,8 @@
           "src": "/assets/swappable-battery.jpg",
           "mobileSrc": "/assets/swappable-mobile.png",
           "position": "65% 50%"
-        }
+        },
+        "/assets/swappables.jpg"
       ],
       "chips": [
         "4 power plants",
