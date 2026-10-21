@@ -1,6 +1,6 @@
 {
   "title": "Accueil - BaSuka Energy",
-  "metaDescription": "BaSuka Energy bâtit l'avenir énergétique souverain de l'Afrique grâce à quatre centrales électriques de grande échelle fournissant 130 MW de capacité fiable et pilotable, puis à un écosystème énergétique intégré.",
+  "metaDescription": "BaSuka Energy bâtit l'avenir énergétique souverain de l'Afrique grâce à des centrales électriques de grande échelle prévues fournissant une capacité fiable et pilotable, puis à un écosystème énergétique intégré.",
   "sections": [
     {
       "type": "hero",
@@ -52,7 +52,7 @@
       "type": "generation",
       "eyebrow": "La fondation de production",
       "heading": "Nouvelle capacité de production pilotable — la *fondation* du réseau.",
-      "intro": "Avant le réseau intelligent vient la base de production. La stratégie de BaSuka, axée d'abord sur la production, débute avec quatre centrales électriques à grande échelle fournissant 130 MW d'électricité fiable et pilotable pour le réseau national, l'industrie, les mines, l'agriculture, les entreprises et les ménages.",
+      "intro": "Avant le réseau intelligent vient l'énergie qui le soutient. La stratégie production d'abord de BaSuka Energy débute avec des centrales électriques à grande échelle prévues pour renforcer l'offre d'électricité — la fondation de futurs pôles électriques, de services énergétiques intelligents et de l'e-mobilité. En commençant au Burkina Faso, notre vision relie l'infrastructure à l'opportunité : alimenter les entreprises, développer les talents locaux et faire progresser la sécurité énergétique à travers l'Afrique de l'Ouest.",
       "items": [
         {
           "value": "Nouvelle capacité de production"
@@ -73,7 +73,7 @@
         {
           "iconImage": "/assets/icon-network-house.webp",
           "title": "Stratégie production d'abord",
-          "body": "Quatre centrales électriques forment la base fiable qui débloque la distribution par réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre — séquencés pour que chaque service avancé s'appuie sur une capacité ferme."
+          "body": "Des centrales électriques à grande échelle prévues forment la base fiable qui débloque la distribution par réseau intelligent, le stockage, les batteries interchangeables et la mobilité propre — séquencés pour que chaque service avancé s'appuie sur une capacité ferme."
         },
         {
           "iconImage": "/assets/icon-energy.webp",
@@ -114,7 +114,7 @@
           "label": "Siège national · Lancement pilote des stations Swap & Glow™"
         },
         {
-          "name": "4 centrales électriques · 130 MW",
+          "name": "Développement de centrales · Nouvelle capacité de production",
           "status": "pipeline",
           "lon": 0.1,
           "lat": 12.7,
@@ -155,8 +155,12 @@
       "type": "cards",
       "eyebrow": "Le problème",
       "heading": "Pourquoi l'Afrique a besoin d'un *réseau électrique intelligent*",
-      "intro": "Le déficit énergétique en Afrique de l'Ouest est réel et urgent. BaSuka résout les trois obstacles interconnectés qui freinent l'adoption de la mobilité électrique — rendant l'électricité propre accessible là où cela compte le plus.",
+      "intro": "Le déficit énergétique de l'Afrique de l'Ouest exige d'agir. BaSuka Energy poursuit une stratégie production d'abord afin d'étendre l'offre d'électricité, de soutenir les entreprises et les communautés, et de poser la fondation d'un avenir énergétique plus connecté.",
       "items": [
+        {
+          "title": "Le déficit de production électrique",
+          "body": "L'expansion des services énergétiques exige une électricité fiable et l'infrastructure pour la fournir.\n\nSolution BaSuka : des centrales électriques à grande échelle prévues et une nouvelle capacité de production pilotable pour renforcer l'offre d'électricité et poser la fondation de futurs pôles électriques, de services énergétiques intelligents et de l'e-mobilité."
+        },
         {
           "title": "Accès limité au réseau",
           "body": "Plus de 80 % du Burkina Faso n'a pas d'accès fiable à l'électricité.\n\nSolution BaSuka : des stations solaires garantissent l'indépendance énergétique."
@@ -233,7 +237,7 @@
       "type": "steps",
       "eyebrow": "Comment ça marche",
       "heading": "Le *réseau électrique intelligent* de l'Afrique",
-      "intro": "BaSuka Energy fournit une énergie fiable et abordable grâce à une plateforme production d'abord de 130 MW de capacité pilotable, étendue par des batteries SIRA™ intelligentes et échangeables. Nos stations solaires d'abord sont conçues pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
+      "intro": "BaSuka Energy fournit une énergie fiable et abordable grâce à une plateforme production d'abord dotée d'une nouvelle capacité pilotable, étendue par des batteries SIRA™ intelligentes et échangeables. Nos stations solaires d'abord sont conçues pour le Sahel — alimentant la mobilité électrique, les entreprises et les foyers là où le réseau fait défaut.",
       "items": [
         {
           "number": "01",
@@ -266,7 +270,7 @@
         {
           "label": "Maintenant",
           "title": "La génération d'abord",
-          "body": "Développement de quatre centrales électriques — 130 MW de nouvelle capacité pilotable pour le réseau national."
+          "body": "Développement de centrales électriques à grande échelle prévues — nouvelle capacité de production pilotable pour le réseau national."
         },
         {
           "label": "Prochainement",
