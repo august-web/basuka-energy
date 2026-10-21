@@ -91,7 +91,6 @@
           "body": "International-standard operations and a professional, women-led workforce keep the network reliable, safe, and bankable from day one."
         }
       ],
-      "body": "This sequencing is deliberate: dependable generation first, then the integrated energy ecosystem it powers. BaSuka's generation foundation strengthens grid reliability and unlocks the industrial and commercial activity that clean-energy services build on.",
       "ctas": [
         {
           "label": "Partner With Us",
@@ -288,54 +287,71 @@
       "type": "timeline",
       "eyebrow": "The Road Ahead",
       "heading": "From *foundation* to *full network*",
-      "intro": "A generation-first roadmap: firm power first, then a smart network delivered and run by African professionals.",
+      "intro": "A generation-first roadmap: develop dependable power infrastructure, build local expertise, then expand smart energy services and electric mobility.",
       "items": [
         {
           "label": "Now",
-          "title": "Generation first",
-          "body": "Development of planned utility-scale power plants — new dispatchable generation capacity for the national grid."
+          "title": "Power Plant & Infrastructure Development",
+          "body": "Advance planned utility-scale power plants, technical studies, permitting, grid-connection planning, and engineering and financing partnerships."
         },
         {
           "label": "Next",
-          "title": "Pilot launch — Ouagadougou",
-          "body": "First Swap & Glow™ stations go live with SIRA™ smart batteries, run by trained Yennenga Warriors."
+          "title": "Workforce Development & Pilot Preparation",
+          "body": "Prepare local talent through BaSuka Academy and the Yennenga Warriors initiative while advancing the planned Ouagadougou pilot for Swap & Glow™ stations and SIRA™ smart batteries."
         },
         {
           "label": "Year 3",
-          "title": "Network at scale",
-          "body": "50+ stations deployed, 15,000+ riders served, 1,000+ women trained — the targets that define success."
+          "title": "Infrastructure Progress & Network Expansion",
+          "body": "Target progress toward investment-ready generation projects alongside 50+ stations, 15,000+ riders served, and 1,000+ women trained—subject to financing, approvals, and deployment readiness."
         }
       ]
     },
     {
       "type": "quote",
-      "body": "Positioning women as professional energy leaders to build deep community trust and operational excellence across Africa's first smart electricity network.",
+      "body": "Positioning women as professional energy leaders—from site and field support to smart-station management—through training, technical development, and leadership opportunities across BaSuka's growing infrastructure platform.",
       "citation": "The Yennenga Vision — BaSuka Energy"
     },
     {
       "type": "cta",
-      "eyebrow": "Ready to Power the Infrastructure Network?",
-      "heading": "Join us in building *Africa's first* smart electricity network",
+      "eyebrow": "Ready to Build Africa's Energy Future?",
+      "heading": "Join Us in Developing *Power Infrastructure*, Local Talent, and a Connected Energy Network",
+      "numbered": true,
       "items": [
         {
-          "title": "Riders",
-          "body": "Get early access to JOLA™ bikes and SIRA™ swaps",
+          "title": "Power Generation & Infrastructure Partners",
+          "body": "Help develop planned power plants through engineering, equipment supply, construction, fuel supply, and grid-integration expertise.",
           "button": {
-            "label": "Join Waitlist",
+            "label": "Collaborate",
+            "href": "/partners/"
+          }
+        },
+        {
+          "title": "Public-Sector & Utility Partners",
+          "body": "Explore collaboration on generation planning, electricity supply, grid connections, and infrastructure development.",
+          "button": {
+            "label": "Start a Conversation",
             "href": "/contact-us/"
           }
         },
         {
-          "title": "Managers",
-          "body": "Train as a Yennenga Warrior",
+          "title": "Energy Professionals & Future Managers",
+          "body": "Explore training and career pathways in site support, energy services, station operations, and infrastructure management.",
           "button": {
             "label": "Academy Info",
             "href": "/academy/"
           }
         },
         {
+          "title": "Riders",
+          "body": "Register your interest in future JOLA™ bikes and SIRA™ battery-swapping services.",
+          "button": {
+            "label": "Join Waitlist",
+            "href": "/contact-us/"
+          }
+        },
+        {
           "title": "Fleet Operators",
-          "body": "Deploy SIRA™ across your fleet",
+          "body": "Explore planned electric-mobility and battery-swapping solutions for your fleet.",
           "button": {
             "label": "Request Info",
             "href": "/contact-us/"
@@ -343,15 +359,15 @@
         },
         {
           "title": "Investors",
-          "body": "Access financial projections",
+          "body": "Discuss investment opportunities across planned generation assets, energy infrastructure, and future network expansion.",
           "button": {
-            "label": "Pitch Deck",
+            "label": "Request Investor Materials",
             "href": "/contact-us/"
           }
         },
         {
-          "title": "Partners",
-          "body": "Technology and development partnerships",
+          "title": "Technology & Development Partners",
+          "body": "Collaborate on solar, storage, monitoring systems, battery technology, and electric-mobility infrastructure.",
           "button": {
             "label": "Collaborate",
             "href": "/partners/"

@@ -91,7 +91,6 @@
           "body": "Des opérations aux normes internationales et une main-d'œuvre professionnelle dirigée par des femmes maintiennent le réseau fiable, sûr et bancable dès le premier jour."
         }
       ],
-      "body": "Ce séquençage est délibéré : d'abord une production fiable, puis l'écosystème énergétique intégré qu'elle alimente. La fondation de production de BaSuka renforce la fiabilité du réseau et débloque l'activité industrielle et commerciale sur laquelle s'appuient les services d'énergie propre.",
       "ctas": [
         {
           "label": "Partenaires",
@@ -288,70 +287,87 @@
       "type": "timeline",
       "eyebrow": "La feuille de route",
       "heading": "De la *fondation* au *réseau complet*",
-      "intro": "Une feuille de route « génération d'abord » : une puissance pilotable, puis un réseau intelligent livré et opéré par des professionnels africains.",
+      "intro": "Une feuille de route « génération d'abord » : développer une infrastructure électrique fiable, bâtir l'expertise locale, puis étendre les services énergétiques intelligents et la mobilité électrique.",
       "items": [
         {
           "label": "Maintenant",
-          "title": "La génération d'abord",
-          "body": "Développement de centrales électriques à grande échelle prévues — nouvelle capacité de production pilotable pour le réseau national."
+          "title": "Développement des centrales et des infrastructures",
+          "body": "Faire progresser les centrales électriques à grande échelle prévues, les études techniques, les autorisations, la planification du raccordement au réseau et les partenariats d'ingénierie et de financement."
         },
         {
           "label": "Prochainement",
-          "title": "Lancement pilote — Ouagadougou",
-          "body": "Premières stations Swap & Glow™ avec batteries intelligentes SIRA™, opérées par des Yennenga Warriors formées."
+          "title": "Développement de la main-d'œuvre et préparation du pilote",
+          "body": "Préparer les talents locaux grâce à l'Académie BaSuka et à l'initiative Yennenga Warriors, tout en faisant avancer le pilote prévu de Ouagadougou pour les stations Swap & Glow™ et les batteries intelligentes SIRA™."
         },
         {
           "label": "Année 3",
-          "title": "Le réseau à l'échelle",
-          "body": "50+ stations déployées, 15 000+ utilisateurs servis, 1 000+ femmes formées — les objectifs qui définissent le succès."
+          "title": "Progrès des infrastructures et expansion du réseau",
+          "body": "Viser des progrès vers des projets de production prêts pour l'investissement, aux côtés de 50+ stations, 15 000+ pilotes servis et 1 000+ femmes formées — sous réserve de financement, d'approbations et de préparation au déploiement."
         }
       ]
     },
     {
       "type": "quote",
-      "body": "Positionner les femmes comme leaders professionnels du secteur de l'énergie afin de bâtir une profonde confiance communautaire et l'excellence opérationnelle à travers le premier réseau électrique intelligent d'Afrique.",
+      "body": "Positionner les femmes comme leaders professionnelles de l'énergie — du soutien sur site et sur le terrain à la gestion des stations intelligentes — grâce à la formation, au développement technique et aux opportunités de leadership sur la plateforme d'infrastructure en croissance de BaSuka.",
       "citation": "La Vision Yennenga — BaSuka Energy"
     },
     {
       "type": "cta",
-      "eyebrow": "Prêt à alimenter le réseau d'infrastructures ?",
-      "heading": "Rejoignez-nous pour bâtir *le premier réseau* électrique intelligent d'Afrique",
+      "eyebrow": "Prêt à bâtir l'avenir énergétique de l'Afrique ?",
+      "heading": "Rejoignez-nous pour développer *les infrastructures électriques*, les talents locaux et un réseau énergétique connecté",
+      "numbered": true,
       "items": [
         {
+          "title": "Partenaires de production & d'infrastructure",
+          "body": "Contribuez au développement des centrales prévues : ingénierie, fourniture d'équipements, construction, approvisionnement en carburant et intégration au réseau.",
+          "button": {
+            "label": "Collaborer",
+            "href": "/partners/"
+          }
+        },
+        {
+          "title": "Secteur public & services d'électricité",
+          "body": "Explorez la collaboration sur la planification de la production, l'offre d'électricité, les raccordements au réseau et le développement des infrastructures.",
+          "button": {
+            "label": "Engager la conversation",
+            "href": "/contact-us/"
+          }
+        },
+        {
+          "title": "Professionnels de l'énergie & futurs managers",
+          "body": "Découvrez les parcours de formation et de carrière : soutien sur site, services énergétiques, opérations de station et gestion des infrastructures.",
+          "button": {
+            "label": "Infos Académie",
+            "href": "/academy/"
+          }
+        },
+        {
           "title": "Pilotes",
-          "body": "Accédez en avant-première aux motos électriques JOLA™ et aux échanges SIRA™",
+          "body": "Manifestez votre intérêt pour les futures motos JOLA™ et les services d'échange de batteries SIRA™.",
           "button": {
             "label": "Rejoindre la liste d'attente",
             "href": "/contact-us/"
           }
         },
         {
-          "title": "Cheffes de station",
-          "body": "Formez-vous comme Yennenga Warrior",
-          "button": {
-            "label": "Info Académie",
-            "href": "/academy/"
-          }
-        },
-        {
           "title": "Opérateurs de flottes",
-          "body": "Déployez SIRA™ sur toute votre flotte",
+          "body": "Découvrez les solutions prévues de mobilité électrique et d'échange de batteries pour votre flotte.",
           "button": {
-            "label": "Demander une info",
+            "label": "Demander des infos",
             "href": "/contact-us/"
           }
         },
         {
           "title": "Investisseurs",
-          "body": "Accédez aux projections financières",
+          "body": "Discutez des opportunités d'investissement dans les actifs de production prévus, les infrastructures énergétiques et la future expansion du réseau.",
           "button": {
-            "label": "Dossier d'investissement",
+            "label": "Demander le dossier investisseur",
             "href": "/contact-us/"
           }
         },
         {
-          "title": "Partenaires",
-          "body": "Partenariats technologiques et de développement",
+          "title": "Partenaires technologiques & de développement",
+          "body": "Collaborez sur le solaire, le stockage, les systèmes de supervision, la technologie des batteries et l'infrastructure de mobilité électrique.",
           "button": {
             "label": "Collaborer",
             "href": "/partners/"
