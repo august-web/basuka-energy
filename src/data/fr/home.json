@@ -6,7 +6,7 @@
       "type": "hero",
       "eyebrow": "Éclairer l'Afrique. Bâtir un avenir énergétique souverain.",
       "heading": "Nous bâtissons. Nous alimentons. Nous *transformons*.",
-      "body": "BaSuka Energy est une entreprise d'énergie et d'infrastructure dirigée par des femmes qui développe quatre centrales électriques de grande échelle afin de fournir 130 MW d'électricité fiable et pilotable pour l'Afrique.",
+      "body": "BaSuka Energy est une entreprise de production d'électricité et d'infrastructure dirigée par des femmes qui développe des centrales électriques à grande échelle afin de fournir une électricité fiable et pilotable et de soutenir l'avenir énergétique de l'Afrique.",
       "backgroundImages": [
         "/assets/heroimage.jpg",
         {
@@ -20,8 +20,8 @@
         }
       ],
       "chips": [
-        "4 centrales électriques",
-        "130 MW de nouvelle capacité",
+        "Développement de centrales électriques",
+        "Nouvelle capacité de production",
         "Solutions de main-d'œuvre dirigées par des femmes",
         "Construit pour l'Afrique"
       ],
@@ -39,8 +39,8 @@
     {
       "type": "marquee",
       "items": [
-        "4 centrales électriques de grande échelle",
-        "130 MW de nouvelle capacité pilotable",
+        "Développement de centrales électriques",
+        "Nouvelle capacité de production",
         "Énergie fiable pour tous les secteurs",
         "Solutions de main-d'œuvre dirigées par des femmes",
         "Conçu pour le Sahel",
@@ -51,16 +51,14 @@
     {
       "type": "generation",
       "eyebrow": "La fondation de production",
-      "heading": "130 MW de nouvelle puissance pilotable — la *fondation* du réseau",
+      "heading": "Nouvelle capacité de production pilotable — la *fondation* du réseau.",
       "intro": "Avant le réseau intelligent vient la base de production. La stratégie de BaSuka, axée d'abord sur la production, débute avec quatre centrales électriques à grande échelle fournissant 130 MW d'électricité fiable et pilotable pour le réseau national, l'industrie, les mines, l'agriculture, les entreprises et les ménages.",
       "items": [
         {
-          "value": "130 MW",
-          "label": "Nouvelle capacité de production"
+          "value": "Nouvelle capacité de production"
         },
         {
-          "value": "4",
-          "label": "Centrales électriques à grande échelle"
+          "value": "Développement de centrales électriques à grande échelle"
         },
         {
           "value": "Fiable",
