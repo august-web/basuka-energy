@@ -1,6 +1,6 @@
 {
   "title": "Services - BaSuka Energy",
-  "metaDescription": "Services BaSuka Energy : fondation de production de 130 MW, échange de batteries SIRA, stations Swap & Glow solaires d'abord, infrastructure de mobilité électrique et énergie domestique — dirigé par des femmes en Afrique.",
+  "metaDescription": "Services BaSuka Energy : une fondation de production solide, échange de batteries SIRA, stations Swap & Glow solaires d'abord, infrastructure de mobilité électrique et énergie domestique — dirigé par des femmes en Afrique.",
   "sections": [
     {
       "type": "hero",
@@ -10,7 +10,7 @@
         "Accueil",
         "Services"
       ],
-      "body": "BaSuka développe une plateforme énergétique professionnelle dirigée par des femmes, bâtie sur quatre centrales électriques de grande échelle fournissant 130 MW de nouvelle capacité pilotable. Cette fondation de production fiable soutiendra le réseau national, l'industrie, les mines, l'agriculture, les infrastructures hydrauliques, les entreprises, les foyers et les futurs services énergétiques.",
+      "body": "BaSuka développe une plateforme énergétique professionnelle dirigée par des femmes, bâtie sur des centrales électriques à grande échelle prévues fournissant une nouvelle capacité de production pilotable. Cette fondation de production fiable soutiendra le réseau national, l'industrie, les mines, l'agriculture, les infrastructures hydrauliques, les entreprises, les foyers et les futurs services énergétiques.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
@@ -113,7 +113,7 @@
     {
       "type": "cards",
       "heading": "Énergie pour l'infrastructure, l'eau et l'agriculture",
-      "intro": "Notre fondation de production de 130 MW alimente bien plus que la mobilité — elle permet l'infrastructure critique qui alimente le développement national.",
+      "intro": "Notre fondation de production alimente bien plus que la mobilité — elle permet l'infrastructure critique qui alimente le développement national.",
       "items": [
         {
           "title": "Fiabilité du réseau et industrie",
