@@ -1,0 +1,23 @@
+---
+import Page from '../../layouts/Page.astro';
+---
+
+<Page
+  lang="fr"
+  data={{
+    title: '404 — Page introuvable | BaSuka Energy',
+    metaDescription: "La page que vous recherchez est introuvable.",
+    sections: [
+      {
+        type: 'hero',
+        eyebrow: '404',
+        heading: 'Page *introuvable*',
+        body: "La page que vous recherchez a peut-être été déplacée ou n'existe plus. Revenons sur le bon chemin.",
+        ctas: [
+          { label: "Retour à l'accueil", href: '/' },
+          { label: 'Nous contacter', href: '/contact-us/' },
+        ],
+      },
+    ],
+  }}
+/>
