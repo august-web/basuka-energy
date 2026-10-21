@@ -1,13 +1,13 @@
 {
   "title": "À propos - BaSuka Energy",
-  "metaDescription": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, bâtissant l'avenir énergétique souverain de l'Afrique : 130 MW de nouvelle capacité de production plus un réseau électrique intelligent alimenté par des batteries SIRA™ échangeables.",
+  "metaDescription": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, bâtissant l'avenir énergétique souverain de l'Afrique : nouvelle capacité de production plus un réseau électrique intelligent alimenté par des batteries SIRA™ échangeables.",
   "sections": [
     {
       "type": "hero",
       "eyebrow": "Qui sommes-nous | Infrastructure électrique avancée",
       "heading": "À propos de nous",
       "breadcrumb": ["Accueil", "À propos"],
-      "body": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, au service de l'avenir énergétique souverain de l'Afrique. Nous commençons par une fondation production d'abord — quatre centrales électriques fournissant 130 MW de nouvelle capacité pilotable — puis nous nous étendons via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue spécifiquement pour l'environnement rude du Sahel.",
+      "body": "BaSuka (« la maison des femmes » en mooré) est une entreprise énergétique et d'infrastructure dirigée par des femmes, au service de l'avenir énergétique souverain de l'Afrique. Nous commençons par une fondation production d'abord — des centrales électriques à grande échelle prévues fournissant une nouvelle capacité de production pilotable — puis nous nous étendons via des batteries SIRA™ intelligentes et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers. Dirigée par Carolyn Wright, notre infrastructure gérée par des femmes est conçue spécifiquement pour l'environnement rude du Sahel.",
 
       "backgroundImage": "/assets/about-us.jpg",
       "ctas": [
@@ -47,7 +47,7 @@
         {
           "iconImage": "/assets/icon-mission.svg",
           "title": "Notre mission",
-          "body": "BaSuka Energy fournit une électricité fiable et abordable à travers l'Afrique — en commençant par une fondation production d'abord de 130 MW de nouvelle capacité pilotable, puis en s'étendant via des batteries intelligentes, portables et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
+          "body": "BaSuka Energy fournit une électricité fiable et abordable à travers l'Afrique — en commençant par une fondation production d'abord dotée d'une nouvelle capacité de production pilotable, puis en s'étendant via des batteries intelligentes, portables et échangeables qui alimentent la mobilité électrique, les entreprises et les foyers."
         },
         {
           "iconImage": "/assets/icon-vision.svg",
@@ -67,7 +67,7 @@
         },
         {
           "title": "Fiable → Production d'abord",
-          "body": "Quatre centrales électriques fourniront l'électricité fiable nécessaire au réseau national, à l'industrie, aux mines, à l'agriculture, aux entreprises, aux foyers et aux communautés.",
+          "body": "Des centrales électriques à grande échelle prévues fourniront l'électricité fiable nécessaire au réseau national, à l'industrie, aux mines, à l'agriculture, aux entreprises, aux foyers et aux communautés.",
           "iconImage": "/assets/icon-network-house.webp"
         },
         {
