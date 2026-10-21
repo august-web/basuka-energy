@@ -1,6 +1,6 @@
 {
   "title": "Home - BaSuka Energy",
-  "metaDescription": "BaSuka Energy is building Africa's sovereign energy future through four utility-scale power plants delivering 130 MW of reliable, dispatchable capacity and an integrated energy ecosystem.",
+  "metaDescription": "BaSuka Energy is building Africa's sovereign energy future through planned utility-scale power plants delivering reliable, dispatchable capacity and an integrated energy ecosystem.",
   "sections": [
     {
       "type": "hero",
@@ -52,7 +52,7 @@
       "type": "generation",
       "eyebrow": "The Generation Foundation",
       "heading": "New dispatchable generation capacity — the *foundation* of the network.",
-      "intro": "Before the smart network comes the power base. BaSuka's generation-first strategy begins with four utility-scale power plants delivering 130 MW of reliable, dispatchable electricity for the national grid, industry, mining, agriculture, businesses, and homes.",
+      "intro": "Before the smart network comes the power to support it. BaSuka Energy’s generation-first strategy begins with planned utility-scale power plants to strengthen electricity supply—the foundation for future electric hubs, smart energy services, and e-mobility. Beginning in Burkina Faso, our vision connects infrastructure with opportunity: powering businesses, developing local talent, and advancing energy security across West Africa.",
       "items": [
         {
           "value": "New Generation Capacity"
@@ -73,7 +73,7 @@
         {
           "iconImage": "/assets/icon-network-house.webp",
           "title": "Generation-First Strategy",
-          "body": "Four power plants form the dependable base that unlocks smart-grid distribution, storage, swappable batteries, and clean mobility — sequenced so every advanced service is enabled by firm capacity."
+          "body": "Planned utility-scale power plants form the dependable base that unlocks smart-grid distribution, storage, swappable batteries, and clean mobility — sequenced so every advanced service is enabled by firm capacity."
         },
         {
           "iconImage": "/assets/icon-energy.webp",
@@ -114,7 +114,7 @@
           "label": "National HQ · Pilot Swap & Glow™ launch"
         },
         {
-          "name": "4 power plants · 130 MW",
+          "name": "Power Plant Development · New Generation Capacity",
           "status": "pipeline",
           "lon": 0.1,
           "lat": 12.7,
@@ -155,8 +155,12 @@
       "type": "cards",
       "eyebrow": "The Problem",
       "heading": "Why Africa Needs a *Smart Electricity Network*",
-      "intro": "The energy gap in West Africa is real and urgent. BaSuka solves the three interconnected barriers which prevent electric mobility adoption — making clean electricity accessible where it matters most.",
+      "intro": "West Africa’s energy gap demands action. BaSuka Energy is pursuing a generation-first strategy to expand electricity supply, support businesses and communities, and lay the foundation for a more connected energy future.",
       "items": [
+        {
+          "title": "The Power Generation Gap",
+          "body": "Expanding energy services requires dependable electricity and the infrastructure to deliver it.\n\nBaSuka Solution: Planned utility-scale power plants and new dispatchable generation capacity to strengthen electricity supply and lay the foundation for future electric hubs, smart energy services, and e-mobility."
+        },
         {
           "title": "The Grid-Access Gap",
           "body": "Over 80% of Burkina Faso lacks reliable electricity access.\n\nBaSuka Solution: Solar-powered stations provide energy independence."
@@ -233,7 +237,7 @@
       "type": "steps",
       "eyebrow": "How It Works",
       "heading": "Africa's *Smart Electricity Network*",
-      "intro": "BaSuka Energy delivers reliable, affordable power through a generation-first platform of 130 MW of dispatchable capacity, extending through smart, swappable SIRA™ batteries. Our solar-first stations are built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
+      "intro": "BaSuka Energy delivers reliable, affordable power through a generation-first platform of new dispatchable generation capacity, extending through smart, swappable SIRA™ batteries. Our solar-first stations are built for the Sahel — powering electric mobility, businesses, and homes where the grid fails.",
       "items": [
         {
           "number": "01",
@@ -266,7 +270,7 @@
         {
           "label": "Now",
           "title": "Generation first",
-          "body": "Development of four power plants — 130 MW of new dispatchable capacity for the national grid."
+          "body": "Development of planned utility-scale power plants — new dispatchable generation capacity for the national grid."
         },
         {
           "label": "Next",
