@@ -14,7 +14,10 @@
           "mobileSrc": "/assets/swappable-mobile.png",
           "position": "65% 50%"
         },
-        "/assets/swappables.jpg"
+        {
+          "src": "/assets/swappables.png",
+          "position": "50% 42%"
+        }
       ],
       "chips": [
         "4 centrales électriques",
