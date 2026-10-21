@@ -570,6 +570,7 @@ const sectionId = (section: Section, idx: number): string | undefined => {
                           ))}
                         </div>
                       )}
+                      {item.note && <p class="mt-3 text-xs italic leading-5 text-slate-500">{item.note}</p>}
                       {item.button && (
                         <a
                           href={item.button.href ?? '/contact-us/'}
