@@ -1,6 +1,6 @@
 {
   "title": "Services - BaSuka Energy",
-  "metaDescription": "BaSuka Energy services: 130 MW generation foundation, SIRA battery swapping, solar-first Swap & Glow stations, EV mobility infrastructure, and household power — women-led in Africa.",
+  "metaDescription": "BaSuka Energy services: a firm generation foundation, SIRA battery swapping, solar-first Swap & Glow stations, EV mobility infrastructure, and household power — women-led in Africa.",
   "sections": [
     {
       "type": "hero",
@@ -10,7 +10,7 @@
         "Home",
         "Services"
       ],
-      "body": "BaSuka is developing a professional, women-led energy platform built on four utility-scale power plants delivering 130 MW of new dispatchable capacity. This reliable generation foundation will support the national grid, industry, mining, agriculture, water infrastructure, businesses, homes, and future energy services.",
+      "body": "BaSuka is developing a professional, women-led energy platform built on planned utility-scale power plants delivering new dispatchable generation capacity. This reliable generation foundation will support the national grid, industry, mining, agriculture, water infrastructure, businesses, homes, and future energy services.",
       "backgroundImage": "/assets/services-image.jpg"
     },
     {
@@ -113,7 +113,7 @@
     {
       "type": "cards",
       "heading": "Energy for Infrastructure, Water & Agriculture",
-      "intro": "Our 130 MW generation foundation powers more than mobility — it enables the critical infrastructure that drives national development.",
+      "intro": "Our generation foundation powers more than mobility — it enables the critical infrastructure that drives national development.",
       "items": [
         {
           "title": "Grid Reliability & Industry",
