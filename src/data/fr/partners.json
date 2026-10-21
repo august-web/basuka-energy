@@ -20,12 +20,10 @@
       "intro": "La stratégie production d'abord de BaSuka débute avec quatre centrales électriques à grande échelle fournissant 130 MW d'électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
       "items": [
         {
-          "value": "130 MW",
-          "label": "Nouvelle capacité de production"
+          "value": "Nouvelle capacité de production"
         },
         {
-          "value": "4",
-          "label": "Centrales électriques à grande échelle"
+          "value": "Développement de centrales électriques à grande échelle"
         },
         {
           "value": "5",
