@@ -22,10 +22,12 @@
       "heading": "Notre fondation",
       "items": [
         {
-          "value": "Développement de centrales électriques à grande échelle"
+          "value": "Grande Échelle",
+          "label": "Développement de centrales électriques prévues"
         },
         {
-          "value": "Nouvelle capacité de production"
+          "value": "Nouvelle Capacité",
+          "label": "Production pilotable pour le réseau et l'industrie"
         },
         {
           "value": "Dirigée par des femmes",
