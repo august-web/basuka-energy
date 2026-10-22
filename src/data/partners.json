@@ -20,10 +20,16 @@
       "intro": "BaSuka's generation-first strategy begins with planned utility-scale power plants delivering reliable, dispatchable electricity. We are securing strategic fuel, technology, engineering, financing, and public-sector partnerships to deliver this foundation.",
       "items": [
         {
-          "value": "New Generation Capacity"
+          "value": "New Capacity",
+          "label": "Generation for the grid and industry"
         },
         {
-          "value": "Utility-Scale Power Plant Development"
+          "value": "Utility-Scale",
+          "label": "Planned power plant development"
+        },
+        {
+          "value": "Reliable",
+          "label": "Dispatchable power for the national grid and industry"
         },
         {
           "value": "5",
