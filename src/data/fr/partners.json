@@ -20,10 +20,16 @@
       "intro": "La stratégie production d'abord de BaSuka débute avec des centrales électriques à grande échelle prévues fournissant une électricité fiable et pilotable. Nous sécurisons des partenariats stratégiques en carburant, technologie, ingénierie, financement et secteur public pour livrer cette fondation.",
       "items": [
         {
-          "value": "Nouvelle capacité de production"
+          "value": "Nouvelle Capacité",
+          "label": "Production pour le réseau et l'industrie"
         },
         {
-          "value": "Développement de centrales électriques à grande échelle"
+          "value": "Grande Échelle",
+          "label": "Développement de centrales électriques prévues"
+        },
+        {
+          "value": "Fiable",
+          "label": "Électricité pilotable pour le réseau national et l'industrie"
         },
         {
           "value": "5",
