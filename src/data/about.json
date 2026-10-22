@@ -22,10 +22,12 @@
       "heading": "Our Foundation",
       "items": [
         {
-          "value": "Utility-Scale Power Plant Development"
+          "value": "Utility-Scale",
+          "label": "Planned power plant development"
         },
         {
-          "value": "New Generation Capacity"
+          "value": "New Capacity",
+          "label": "Dispatchable generation for the grid and industry"
         },
         {
           "value": "Women-led",
