@@ -55,10 +55,12 @@
       "intro": "Avant le réseau intelligent vient l'énergie qui le soutient. La stratégie production d'abord de BaSuka Energy débute avec des centrales électriques à grande échelle prévues pour renforcer l'offre d'électricité — la fondation de futurs pôles électriques, de services énergétiques intelligents et de l'e-mobilité. En commençant au Burkina Faso, notre vision relie l'infrastructure à l'opportunité : alimenter les entreprises, développer les talents locaux et faire progresser la sécurité énergétique à travers l'Afrique de l'Ouest.",
       "items": [
         {
-          "value": "Nouvelle capacité de production"
+          "value": "Nouvelle Capacité",
+          "label": "Production pour le réseau et l'industrie"
         },
         {
-          "value": "Développement de centrales électriques à grande échelle"
+          "value": "Grande Échelle",
+          "label": "Développement de centrales électriques prévues"
         },
         {
           "value": "Fiable",

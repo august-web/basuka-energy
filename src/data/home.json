@@ -55,10 +55,12 @@
       "intro": "Before the smart network comes the power to support it. BaSuka Energy’s generation-first strategy begins with planned utility-scale power plants to strengthen electricity supply—the foundation for future electric hubs, smart energy services, and e-mobility. Beginning in Burkina Faso, our vision connects infrastructure with opportunity: powering businesses, developing local talent, and advancing energy security across West Africa.",
       "items": [
         {
-          "value": "New Generation Capacity"
+          "value": "New Capacity",
+          "label": "Generation for the grid and industry"
         },
         {
-          "value": "Utility-Scale Power Plant Development"
+          "value": "Utility-Scale",
+          "label": "Planned power plant development"
         },
         {
           "value": "Reliable",
