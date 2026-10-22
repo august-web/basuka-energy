@@ -16,17 +16,19 @@
       "heading": "Reliable power. Inclusive growth. Long-term value.",
       "intro": "BaSuka's approach combines dependable generation, workforce development, smart infrastructure, storage, and clean mobility to create durable national value.",
       "pillars": [
-        "Economic",
+        "ECONOMIC",
         "ENVIRONMENTAL",
         "SOCIAL"
       ],
       "items": [
         {
-          "value": "Utility-Scale Power Plant Development",
+          "value": "Utility-Scale",
+          "label": "Planned power plant development",
           "tag": "GENERATION FOUNDATION"
         },
         {
-          "value": "New Generation Capacity",
+          "value": "New Capacity",
+          "label": "Dispatchable generation for the grid and industry",
           "tag": "GENERATION FOUNDATION"
         },
         {
