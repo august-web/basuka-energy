@@ -16,17 +16,19 @@
       "heading": "Une énergie fiable. Une croissance inclusive. Une valeur durable.",
       "intro": "L'approche de BaSuka associe une production fiable, le développement des compétences, les infrastructures intelligentes, le stockage et la mobilité propre afin de créer une valeur nationale durable.",
       "pillars": [
-        "Économique",
+        "ÉCONOMIQUE",
         "ENVIRONNEMENTAL",
         "SOCIAL"
       ],
       "items": [
         {
-          "value": "Développement de centrales électriques à grande échelle",
+          "value": "Grande Échelle",
+          "label": "Développement de centrales électriques prévues",
           "tag": "FONDATION DE PRODUCTION"
         },
         {
-          "value": "Nouvelle capacité de production",
+          "value": "Nouvelle Capacité",
+          "label": "Production pilotable pour le réseau et l'industrie",
           "tag": "FONDATION DE PRODUCTION"
         },
         {
